@@ -67,11 +67,10 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             <div className="flex items-center gap-1.5 shrink-0">
               <button
                 onClick={() => onToggleCompare(club)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${
-                  isCompared
+                className={`px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${isCompared
                     ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
                     : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-                }`}
+                  }`}
               >
                 {isCompared ? <Check className="w-3.5 h-3.5 stroke-[3]" /> : <Plus className="w-3.5 h-3.5" />}
                 <span>{isCompared ? '비교중' : '조건 비교'}</span>
@@ -140,9 +139,8 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               {/* 4. 야간 3부 */}
               <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
                 <span className="text-[10px] text-slate-400 block font-medium">야간 3부 라운드</span>
-                <span className={`font-bold mt-1 block flex items-center gap-1 ${
-                  isNightLed ? 'text-indigo-800' : club.playOptions.nightPlay ? 'text-indigo-600' : 'text-slate-400'
-                }`}>
+                <span className={`font-bold mt-1 block flex items-center gap-1 ${isNightLed ? 'text-indigo-800' : club.playOptions.nightPlay ? 'text-indigo-600' : 'text-slate-400'
+                  }`}>
                   {club.playOptions.nightPlay ? (
                     <>
                       <Moon className="w-3 h-3 text-indigo-500 fill-indigo-500" />
@@ -203,26 +201,26 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             </div>
           </div>
 
-          {/* Section 2: USGA 공인 코스 난이도 & 맞춤 스코어 예측 */}
-          <div className="p-4 rounded-xl border border-slate-200 bg-slate-900 text-white space-y-3.5">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-2.5">
+          {/* Section 2: USGA 공인 코스 난이도 & 맞춤 스코어 예측 (Harmonious Light Theme) */}
+          <div className="p-4 rounded-xl border border-slate-200 bg-slate-50/80 space-y-3.5">
+            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-2.5">
               <div className="flex items-center space-x-2">
-                <Target className="w-4 h-4 text-emerald-400" />
-                <h3 className="text-xs sm:text-sm font-bold text-white tracking-tight">
+                <Target className="w-4 h-4 text-emerald-800" />
+                <h3 className="text-xs sm:text-sm font-bold text-slate-900 tracking-tight">
                   USGA 공인 코스 난이도 & 내 맞춤 예상 스코어
                 </h3>
               </div>
               <div className="flex items-center space-x-1 text-xs">
-                <span className="text-slate-400 text-[11px]">내 평소 타수:</span>
+                <span className="text-slate-500 text-[11px] font-medium">내 평소 타수:</span>
                 <div className="flex items-center gap-1">
                   {[80, 85, 90, 95, 100].map((score) => (
                     <button
                       key={score}
                       onClick={() => setMyAvgScore(score)}
-                      className={`px-2 py-0.5 rounded text-[11px] font-bold transition-all ${
+                      className={`px-2 py-0.5 rounded text-[11px] font-bold transition-all border ${
                         myAvgScore === score
-                          ? 'bg-emerald-500 text-slate-900'
-                          : 'bg-slate-800 text-slate-400 hover:text-white'
+                          ? 'bg-slate-900 text-white border-slate-900 shadow-2xs'
+                          : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-100'
                       }`}
                     >
                       {score}타
@@ -234,46 +232,46 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
 
             {/* 4-Metric Grid */}
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center">
-              <div className="bg-slate-800/80 p-2.5 rounded-lg border border-slate-700/60">
-                <span className="text-[10px] text-slate-400 block">슬로프 레이팅 (SR)</span>
-                <span className="text-lg font-black text-rose-400 block mt-0.5">
+              <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
+                <span className="text-[10px] text-slate-400 block font-medium">슬로프 레이팅 (SR)</span>
+                <span className="text-xl font-black text-rose-600 block mt-0.5">
                   {club.difficultyIndex.slopeRating}
                 </span>
-                <span className="text-[10px] text-slate-400">표준 113 기준</span>
+                <span className="text-[10px] text-slate-400 mt-0.5 block">표준 113 기준</span>
               </div>
 
-              <div className="bg-slate-800/80 p-2.5 rounded-lg border border-slate-700/60">
-                <span className="text-[10px] text-slate-400 block">코스 레이팅 (CR)</span>
-                <span className="text-lg font-black text-amber-400 block mt-0.5">
+              <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
+                <span className="text-[10px] text-slate-400 block font-medium">코스 레이팅 (CR)</span>
+                <span className="text-xl font-black text-amber-600 block mt-0.5">
                   {club.difficultyIndex.courseRating}
                 </span>
-                <span className="text-[10px] text-slate-400">스크래치 기준</span>
+                <span className="text-[10px] text-slate-400 mt-0.5 block">스크래치 기준</span>
               </div>
 
-              <div className="bg-slate-800/80 p-2.5 rounded-lg border border-slate-700/60">
-                <span className="text-[10px] text-slate-400 block">빅데이터 평균 타수</span>
-                <span className="text-lg font-black text-emerald-400 block mt-0.5">
+              <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
+                <span className="text-[10px] text-slate-400 block font-medium">빅데이터 평균 타수</span>
+                <span className="text-xl font-black text-emerald-800 block mt-0.5">
                   {club.difficultyIndex.avgFieldScore}타
                 </span>
-                <span className="text-[10px] text-slate-400">스마트스코어 실기록</span>
+                <span className="text-[10px] text-slate-400 mt-0.5 block">스마트스코어 실기록</span>
               </div>
 
-              <div className="bg-slate-800/80 p-2.5 rounded-lg border border-slate-700/60">
-                <span className="text-[10px] text-slate-400 block">내 체감 예상 타수</span>
+              <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
+                <span className="text-[10px] text-slate-400 block font-medium">내 체감 예상 타수</span>
                 <div className="flex items-baseline justify-center space-x-1 mt-0.5">
-                  <span className="text-lg font-black text-emerald-300">
+                  <span className="text-xl font-black text-slate-900">
                     {scorePred.expectedScore}타
                   </span>
-                  <span className={`text-[11px] font-bold ${scorePred.diffFromAverage > 0 ? 'text-rose-400' : 'text-emerald-400'}`}>
+                  <span className={`text-[11px] font-bold ${scorePred.diffFromAverage > 0 ? 'text-rose-600' : 'text-emerald-700'}`}>
                     ({scorePred.diffFromAverage > 0 ? `+${scorePred.diffFromAverage}` : scorePred.diffFromAverage})
                   </span>
                 </div>
-                <span className="text-[10px] text-slate-400">{scorePred.levelAssessment.split(' ')[0]}</span>
+                <span className="text-[10px] text-slate-500 mt-0.5 block font-medium">{scorePred.levelAssessment.split(' ')[0]}</span>
               </div>
             </div>
 
-            <div className="text-[11px] text-slate-300 bg-slate-800/50 p-2.5 rounded-lg border border-slate-700/50">
-              <span className="font-bold text-emerald-400">💡 코스 공략 가이드:</span> {scorePred.advice}
+            <div className="text-[11px] text-slate-700 bg-white p-3 rounded-xl border border-emerald-200/70 shadow-2xs leading-relaxed">
+              <span className="font-bold text-emerald-800">💡 코스 실전 공략 가이드:</span> {scorePred.advice}
             </div>
           </div>
 
@@ -342,11 +340,10 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
         <div className="p-3.5 sm:p-4 border-t border-slate-200 bg-white flex items-center justify-between gap-3">
           <button
             onClick={() => onToggleCompare(club)}
-            className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all border ${
-              isCompared
+            className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all border ${isCompared
                 ? 'border-emerald-700 bg-emerald-50 text-emerald-800'
                 : 'border-slate-300 bg-white text-slate-700 hover:bg-slate-50'
-            }`}
+              }`}
           >
             {isCompared ? '비교함에서 빼기' : '+ 1:1 조건 비교함 담기'}
           </button>

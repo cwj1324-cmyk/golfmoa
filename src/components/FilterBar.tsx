@@ -95,11 +95,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <button
               key={reg}
               onClick={() => setFilter((prev) => ({ ...prev, region: reg }))}
-              className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${
-                filter.region === reg
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${filter.region === reg
                   ? 'bg-slate-900 text-white shadow-2xs'
                   : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-              }`}
+                }`}
             >
               {reg}
             </button>
@@ -130,11 +129,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Condition: 100% 잔디티 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, noMatOnly: !prev.noMatOnly }))}
-            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
-              filter.noMatOnly
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${filter.noMatOnly
                 ? 'bg-emerald-800 text-white border-emerald-800 shadow-2xs'
                 : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-            }`}
+              }`}
           >
             🌱 잔디티만
           </button>
@@ -147,11 +145,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 fairwayGrass: prev.fairwayGrass === '양잔디' ? '전체' : '양잔디',
               }))
             }
-            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
-              filter.fairwayGrass === '양잔디'
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${filter.fairwayGrass === '양잔디'
                 ? 'bg-teal-800 text-white border-teal-800 shadow-2xs'
                 : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-            }`}
+              }`}
           >
             🌿 양잔디
           </button>
@@ -159,11 +156,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Condition: 평지·시야 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, flatTerrainOnly: !prev.flatTerrainOnly }))}
-            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
-              filter.flatTerrainOnly
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${filter.flatTerrainOnly
                 ? 'bg-sky-800 text-white border-sky-800 shadow-2xs'
                 : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-            }`}
+              }`}
           >
             ⛰️ 평지형
           </button>
@@ -171,11 +167,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Condition: 야간 3부 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, nightPlayOnly: !prev.nightPlayOnly }))}
-            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border flex items-center gap-1 ${
-              filter.nightPlayOnly
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border flex items-center gap-1 ${filter.nightPlayOnly
                 ? 'bg-indigo-800 text-white border-indigo-800 shadow-2xs'
                 : 'bg-white text-indigo-900 border-slate-200 hover:bg-indigo-50/50'
-            }`}
+              }`}
           >
             <Moon className="w-3 h-3 text-indigo-500 fill-indigo-500" />
             <span>야간 3부</span>
@@ -184,11 +179,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Condition: 빠른 그린 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, fastGreenOnly: !prev.fastGreenOnly }))}
-            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
-              filter.fastGreenOnly
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${filter.fastGreenOnly
                 ? 'bg-purple-800 text-white border-purple-800 shadow-2xs'
                 : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-            }`}
+              }`}
           >
             ⛳ 빠른 그린 (2.8m+)
           </button>
@@ -196,11 +190,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Condition: 노캐디 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, noCaddieOnly: !prev.noCaddieOnly }))}
-            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
-              filter.noCaddieOnly
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${filter.noCaddieOnly
                 ? 'bg-slate-900 text-white border-slate-900 shadow-2xs'
                 : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-            }`}
+              }`}
           >
             🚶 노캐디
           </button>
@@ -208,11 +201,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Drawer trigger */}
           <button
             onClick={() => setIsDetailOpen(!isDetailOpen)}
-            className={`px-2.5 py-1 rounded-lg text-xs font-medium flex items-center gap-1 transition-all border ${
-              isDetailOpen || advancedCount > 0
+            className={`px-2.5 py-1 rounded-lg text-xs font-medium flex items-center gap-1 transition-all border ${isDetailOpen || advancedCount > 0
                 ? 'bg-slate-900 text-white border-slate-900'
                 : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-            }`}
+              }`}
           >
             <SlidersHorizontal className="w-3 h-3" />
             <span>상세 조건</span>

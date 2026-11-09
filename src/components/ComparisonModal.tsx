@@ -138,17 +138,15 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
             <div className="inline-flex rounded-lg bg-slate-200/80 p-0.5 text-xs font-semibold">
               <button
                 onClick={() => setIsWeekend(false)}
-                className={`px-2.5 py-1 rounded-md transition-all ${
-                  !isWeekend ? 'bg-white text-slate-900 shadow-2xs font-bold' : 'text-slate-600'
-                }`}
+                className={`px-2.5 py-1 rounded-md transition-all ${!isWeekend ? 'bg-white text-slate-900 shadow-2xs font-bold' : 'text-slate-600'
+                  }`}
               >
                 주중
               </button>
               <button
                 onClick={() => setIsWeekend(true)}
-                className={`px-2.5 py-1 rounded-md transition-all ${
-                  isWeekend ? 'bg-white text-slate-900 shadow-2xs font-bold' : 'text-slate-600'
-                }`}
+                className={`px-2.5 py-1 rounded-md transition-all ${isWeekend ? 'bg-white text-slate-900 shadow-2xs font-bold' : 'text-slate-600'
+                  }`}
               >
                 주말
               </button>
@@ -257,11 +255,10 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                       {/* Vote Button */}
                       <button
                         onClick={() => handleVote(club.id)}
-                        className={`mt-2.5 w-full py-1.5 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-all border ${
-                          isMyVote
+                        className={`mt-2.5 w-full py-1.5 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-all border ${isMyVote
                             ? 'bg-emerald-700 text-white border-emerald-700 shadow-xs'
                             : 'bg-white text-slate-700 border-slate-200 hover:border-emerald-600 hover:text-emerald-800'
-                        }`}
+                          }`}
                       >
                         <ThumbsUp className={`w-3.5 h-3.5 ${isMyVote ? 'fill-white' : ''}`} />
                         <span>이 구장 투표 ({voteCount}표)</span>
@@ -316,11 +313,10 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                     return (
                       <div key={club.id}>
                         <span
-                          className={`inline-block px-2 py-0.5 rounded text-xs font-semibold border ${
-                            isYang
+                          className={`inline-block px-2 py-0.5 rounded text-xs font-semibold border ${isYang
                               ? 'bg-teal-50 text-teal-800 border-teal-200'
                               : 'bg-amber-50 text-amber-900 border-amber-200'
-                          }`}
+                            }`}
                         >
                           {club.grass.fairway}
                         </span>
@@ -359,9 +355,8 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                   {comparedClubs.map((club) => (
                     <div key={club.id} className="text-xs">
                       {club.playOptions.nightPlay ? (
-                        <span className={`inline-flex items-center gap-1 font-bold ${
-                          club.playOptions.lightingType.includes('LED') ? 'text-indigo-800' : 'text-slate-700'
-                        }`}>
+                        <span className={`inline-flex items-center gap-1 font-bold ${club.playOptions.lightingType.includes('LED') ? 'text-indigo-800' : 'text-slate-700'
+                          }`}>
                           <Moon className="w-3.5 h-3.5 text-indigo-600" />
                           {club.playOptions.lightingType}
                         </span>

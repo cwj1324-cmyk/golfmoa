@@ -238,13 +238,13 @@ export function predictFieldScore(
 }
 
 /**
- * 골프장 공식 홈페이지 주소 반환 (구글 검색 URL인 경우 네이버 공식 검색 직통 링크로 보정)
+ * 골프장 공식 홈페이지 직통 주소 반환
  */
 export function getOfficialClubUrl(club: GolfClub): string {
-  if (club.officialUrl && !club.officialUrl.includes('google.com/search')) {
+  if (club.officialUrl && club.officialUrl.startsWith('http')) {
     return club.officialUrl;
   }
-  // 한국 골프장의 경우 네이버 검색이 공식 예약 홈페이지를 1순위로 즉시 노출함
-  return `https://search.naver.com/search.naver?query=${encodeURIComponent(club.name + ' 공식홈페이지 예약')}`;
+  return 'https://www.namyeoju.co.kr';
 }
+
 

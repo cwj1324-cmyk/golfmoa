@@ -84,8 +84,8 @@ export const MapView: React.FC<MapViewProps> = ({
                     <button
                       onClick={() => onToggleCompare(club)}
                       className={`py-1 rounded text-[11px] font-bold border transition-all ${isCompared
-                          ? 'bg-emerald-600 text-white border-emerald-600'
-                          : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50'
+                        ? 'bg-emerald-600 text-white border-emerald-600'
+                        : 'bg-white text-slate-700 border-slate-300 hover:bg-slate-50'
                         }`}
                     >
                       {isCompared ? '비교중' : '비교 담기'}

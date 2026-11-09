@@ -29,9 +29,8 @@ export const GolfCard: React.FC<GolfCardProps> = ({
   return (
     <div
       onClick={() => onSelectClub(club)}
-      className={`bg-white rounded-xl border transition-all duration-150 p-4 flex flex-col justify-between cursor-pointer group hover:border-slate-400 hover:shadow-xs ${
-        isCompared ? 'border-emerald-700 ring-1 ring-emerald-700 bg-emerald-50/20' : 'border-slate-200 shadow-2xs'
-      }`}
+      className={`bg-white rounded-xl border transition-all duration-150 p-4 flex flex-col justify-between cursor-pointer group hover:border-slate-400 hover:shadow-xs ${isCompared ? 'border-emerald-700 ring-1 ring-emerald-700 bg-emerald-50/20' : 'border-slate-200 shadow-2xs'
+        }`}
     >
       <div>
         {/* 1. Header: Name, Hole Count, Region, Travel Time & Compare Checkbox */}
@@ -70,11 +69,10 @@ export const GolfCard: React.FC<GolfCardProps> = ({
               e.stopPropagation();
               onToggleCompare(club);
             }}
-            className={`shrink-0 px-2.5 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 transition-all border ${
-              isCompared
+            className={`shrink-0 px-2.5 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 transition-all border ${isCompared
                 ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
                 : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50 hover:border-slate-300'
-            }`}
+              }`}
             title="1:1 조건 비교함에 담기"
           >
             {isCompared ? (
@@ -120,9 +118,8 @@ export const GolfCard: React.FC<GolfCardProps> = ({
           {/* Slot 4: 야간 */}
           <div className="py-1 border-l border-slate-200/60">
             <span className="text-[10px] text-slate-400 block font-medium">야간 3부</span>
-            <span className={`text-[11px] font-bold block mt-0.5 truncate ${
-              isNightLed ? 'text-indigo-800' : club.playOptions.nightPlay ? 'text-indigo-600' : 'text-slate-400'
-            }`}>
+            <span className={`text-[11px] font-bold block mt-0.5 truncate ${isNightLed ? 'text-indigo-800' : club.playOptions.nightPlay ? 'text-indigo-600' : 'text-slate-400'
+              }`}>
               {club.playOptions.nightPlay ? (isNightLed ? '🌙 LED 야간' : '🌙 야간운영') : '미운영'}
             </span>
           </div>

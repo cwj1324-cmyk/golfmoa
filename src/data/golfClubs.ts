@@ -65,7 +65,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=알지골프",
+    "officialUrl": "https://www.alzipgolf.com",
     "phone": "02-777-1000"
   },
   {
@@ -131,7 +131,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아덴힐 리즈트 앤 골프 클럽",
+    "officialUrl": "https://www.ardenhill.co.kr",
     "phone": "03-777-1001"
   },
   {
@@ -197,7 +197,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=레이크힐스 제주 골프클럽",
+    "officialUrl": "https://www.lakehills.co.kr",
     "phone": "04-777-1002"
   },
   {
@@ -263,7 +263,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=태디밸리 골프 리조트",
+    "officialUrl": "https://www.teddyvalley.com",
     "phone": "05-777-1003"
   },
   {
@@ -329,7 +329,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=타미우스 골프클럽",
+    "officialUrl": "https://www.tameuscc.co.kr",
     "phone": "06-777-1004"
   },
   {
@@ -395,7 +395,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=우리들 CC",
+    "officialUrl": "https://www.wooridulcc.com",
     "phone": "07-777-1005"
   },
   {
@@ -461,7 +461,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=라온골프클럽",
+    "officialUrl": "https://www.raon.co.kr",
     "phone": "08-777-1006"
   },
   {
@@ -527,7 +527,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=Everis Golf & ResortCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1008"
   },
   {
@@ -592,7 +592,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=EZIO 골프 연습장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1009"
   },
   {
@@ -658,7 +658,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=플라자CC제주CC",
+    "officialUrl": "https://www.plazacc.co.kr",
     "phone": "04-777-1011"
   },
   {
@@ -722,7 +722,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "서울특별시 통일로85길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=세리골프스쿨",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1013"
   },
   {
@@ -788,7 +788,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=문화골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1014"
   },
   {
@@ -853,7 +853,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "안양시 시민대로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=신세대골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1016"
   },
   {
@@ -919,7 +919,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "천안시 광풍로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=청수골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1018"
   },
   {
@@ -983,7 +983,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=마스터골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1019"
   },
   {
@@ -1049,7 +1049,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=비젼골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1020"
   },
   {
@@ -1113,7 +1113,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=SEASIDEGOLFCLUBCC",
+    "officialUrl": "https://www.seaside.co.kr",
     "phone": "07-777-1023"
   },
   {
@@ -1179,7 +1179,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "충주시 화치3길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=로얄포레CC",
+    "officialUrl": "https://www.royalforet.com",
     "phone": "08-777-1024"
   },
   {
@@ -1244,7 +1244,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=세일골프클럽",
+    "officialUrl": "https://www.salegc.co.kr",
     "phone": "010-777-1026"
   },
   {
@@ -1309,7 +1309,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1028"
   },
   {
@@ -1373,7 +1373,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=용전골프 연습장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1031"
   },
   {
@@ -1437,7 +1437,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=베스타골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1032"
   },
   {
@@ -1502,7 +1502,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=크리스탈밸리 골프클럽",
+    "officialUrl": "https://www.crystalvalley.co.kr",
     "phone": "08-777-1033"
   },
   {
@@ -1567,7 +1567,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그린힐골프",
+    "officialUrl": "https://www.shinanresort.co.kr",
     "phone": "06-777-1040"
   },
   {
@@ -1631,7 +1631,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=굿샷골프존파크",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1043"
   },
   {
@@ -1697,7 +1697,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파주CC",
+    "officialUrl": "https://www.pajucc.co.kr",
     "phone": "02-777-1045"
   },
   {
@@ -1762,7 +1762,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=송원골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1046"
   },
   {
@@ -1827,7 +1827,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": " 상무대로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=광주그린골프",
+    "officialUrl": "https://www.gwangjucc.com",
     "phone": "04-777-1047"
   },
   {
@@ -1893,7 +1893,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=서이천 골프 클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1048"
   },
   {
@@ -1958,7 +1958,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=굿샷 골프존파크",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1050"
   },
   {
@@ -2024,7 +2024,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골프존 나이스",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1051"
   },
   {
@@ -2090,7 +2090,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "서울특별시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=동도센트리움골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1054"
   },
   {
@@ -2155,7 +2155,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "남양주시 진벌로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=광릉골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1057"
   },
   {
@@ -2220,7 +2220,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골프존파크",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1058"
   },
   {
@@ -2285,7 +2285,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "서울특별시 망우로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=매직골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1062"
   },
   {
@@ -2350,7 +2350,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "서울특별시 동일로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1065"
   },
   {
@@ -2416,7 +2416,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "서울특별시 동일로192길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에이스골프크리닉",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1066"
   },
   {
@@ -2480,7 +2480,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=성문안CC",
+    "officialUrl": "https://www.sungmoonan.com",
     "phone": "06-777-1067"
   },
   {
@@ -2545,7 +2545,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오크밸리스골프장 코스구역",
+    "officialUrl": "https://www.oakvalley.co.kr",
     "phone": "07-777-1068"
   },
   {
@@ -2612,7 +2612,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=나룰리얼골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1070"
   },
   {
@@ -2676,7 +2676,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=골프존파크덕풍미사대로점",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1071"
   },
   {
@@ -2742,7 +2742,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=덕풍 골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1072"
   },
   {
@@ -2807,7 +2807,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골프마스터",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1074"
   },
   {
@@ -2872,7 +2872,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=마스타 골프 연습장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1077"
   },
   {
@@ -2936,7 +2936,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=G CourseCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1083"
   },
   {
@@ -3003,7 +3003,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=HILL CourseCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1084"
   },
   {
@@ -3068,7 +3068,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=HUE CourseCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1085"
   },
   {
@@ -3133,7 +3133,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=허니골프 본점",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1086"
   },
   {
@@ -3197,7 +3197,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=골프존파크 신장타워점",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1089"
   },
   {
@@ -3264,7 +3264,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "이천시 향교로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=시작CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1090"
   },
   {
@@ -3329,7 +3329,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=더 드림골프 스튜디오",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1092"
   },
   {
@@ -3394,7 +3394,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=골프존파크 덕풍레이크점",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1095"
   },
   {
@@ -3459,7 +3459,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=동아골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1096"
   },
   {
@@ -3525,7 +3525,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=예미지 실내골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1098"
   },
   {
@@ -3589,7 +3589,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=골프상담소",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1101"
   },
   {
@@ -3655,7 +3655,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=국제골프여수",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1108"
   },
   {
@@ -3720,7 +3720,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=민철스윙골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1110"
   },
   {
@@ -3785,7 +3785,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그린골프클리닉연습장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1121"
   },
   {
@@ -3850,7 +3850,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=금오도코스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1124"
   },
   {
@@ -3915,7 +3915,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=돌산도코스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1125"
   },
   {
@@ -3981,7 +3981,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=성남골프장(미군 반환공여지)",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "06-777-1130"
   },
   {
@@ -4045,7 +4045,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=애드핏골프피팅",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1131"
   },
   {
@@ -4111,7 +4111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=캐슬렉스 이성대CC",
+    "officialUrl": "https://www.castlex.co.kr",
     "phone": "08-777-1132"
   },
   {
@@ -4176,7 +4176,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=캐슬렉스서울GC",
+    "officialUrl": "https://www.castlex.co.kr",
     "phone": "010-777-1134"
   },
   {
@@ -4242,7 +4242,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=골프존파크 노고산 신촌역점",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1138"
   },
   {
@@ -4306,7 +4306,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=신촌마샹스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1139"
   },
   {
@@ -4372,7 +4372,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "보령시 작은오랏6길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=골프충전소",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1144"
   },
   {
@@ -4437,7 +4437,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "보령시 한내로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=신협골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1145"
   },
   {
@@ -4502,7 +4502,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=덕소골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1148"
   },
   {
@@ -4566,7 +4566,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=아델스코트CC",
+    "officialUrl": "https://www.adelscott.co.kr",
     "phone": "07-777-1149"
   },
   {
@@ -4632,7 +4632,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대전광역시 유성구 현충원로 200 (덕명동)에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 회원제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=유성CC",
+    "officialUrl": "https://www.yuseongcc.co.kr",
     "phone": "(042)822-7103"
   },
   {
@@ -4697,7 +4697,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=군산CC",
+    "officialUrl": "https://www.gunsancc.net",
     "phone": "09-777-1151"
   },
   {
@@ -4762,7 +4762,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "충남 서산시 대산읍 삼길포7로 6 (화곡리)에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=서산수CC",
+    "officialUrl": "https://www.seosansoo.com",
     "phone": "(041)689-7700"
   },
   {
@@ -4828,7 +4828,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=전주샹그릴라CC",
+    "officialUrl": "https://www.shangrila.co.kr",
     "phone": "02-777-1153"
   },
   {
@@ -4894,7 +4894,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=웅포골프클럽",
+    "officialUrl": "https://www.clubd.co.kr",
     "phone": "03-777-1154"
   },
   {
@@ -4959,7 +4959,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=더힐CC",
+    "officialUrl": "https://www.thehillcc.co.kr",
     "phone": "04-777-1155"
   },
   {
@@ -5024,7 +5024,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=알펜시아 트룬CC",
+    "officialUrl": "https://www.alpensia.com",
     "phone": "05-777-1156"
   },
   {
@@ -5089,7 +5089,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=김제스파힐스CC",
+    "officialUrl": "https://www.spahills.co.kr",
     "phone": "06-777-1157"
   },
   {
@@ -5153,7 +5153,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=문경GC",
+    "officialUrl": "https://www.mungyeonggc.co.kr",
     "phone": "07-777-1158"
   },
   {
@@ -5217,7 +5217,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대구시 동구 팔공산로 237길 186에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=팔공CC",
+    "officialUrl": "https://www.palgongcc.co.kr",
     "phone": "(053)982-8080~5"
   },
   {
@@ -5282,7 +5282,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=가야CC",
+    "officialUrl": "https://www.gayacc.com",
     "phone": "09-777-1160"
   },
   {
@@ -5347,7 +5347,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 122의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 122 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=마우나오션CC",
+    "officialUrl": "https://www.mauna.co.kr",
     "phone": "010-777-1161"
   },
   {
@@ -5413,7 +5413,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=여수시티파크리조트",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1162"
   },
   {
@@ -5477,7 +5477,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=경희골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1163"
   },
   {
@@ -5544,7 +5544,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 141의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 141 (지옥(상급자전용)) & 그린 스피드 3.0m",
-    "officialUrl": "https://www.google.com/search?q=우정힐스CC",
+    "officialUrl": "https://www.whcc.co.kr",
     "phone": "05-777-1165"
   },
   {
@@ -5610,7 +5610,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=라헨느골프리조트",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1166"
   },
   {
@@ -5675,7 +5675,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=스카이뷰CC",
+    "officialUrl": "https://www.skyviewcc.co.kr",
     "phone": "07-777-1167"
   },
   {
@@ -5741,7 +5741,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파크밸리GC",
+    "officialUrl": "https://www.parkvalley.co.kr",
     "phone": "08-777-1168"
   },
   {
@@ -5807,7 +5807,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=중문골프클럽 (Joong-Moon Country Club)",
+    "officialUrl": "https://golf.visitkorea.or.kr",
     "phone": "09-777-1169"
   },
   {
@@ -5872,7 +5872,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "부산광역시 기장군 정관면 병산2로 265에 위치한 27홀 규모의 회원제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=해운대CC",
+    "officialUrl": "https://www.haeundaecc.co.kr",
     "phone": "(051)726-8000"
   },
   {
@@ -5938,7 +5938,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=롯데스카이힐 제주C.C. (Lotte Sky Hill jeju)CC",
+    "officialUrl": "https://www.lotteskyhill.com",
     "phone": "02-777-1171"
   },
   {
@@ -6003,7 +6003,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "경기 안산시 상록구 태마당로 28 (부곡동)에 위치한 36홀 규모의 대중제+회원제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제+회원제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=제일CC",
+    "officialUrl": "https://www.jaeil-cc.co.kr",
     "phone": "(031)400-2500"
   },
   {
@@ -6067,7 +6067,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=대구 (Daegue Country Club)CC",
+    "officialUrl": "https://www.daegucc.co.kr",
     "phone": "04-777-1173"
   },
   {
@@ -6132,7 +6132,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=해림골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1174"
   },
   {
@@ -6198,7 +6198,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "영천시 청통로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=시엘GC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1175"
   },
   {
@@ -6262,7 +6262,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=구니CC",
+    "officialUrl": "https://www.goonicc.co.kr",
     "phone": "07-777-1176"
   },
   {
@@ -6327,7 +6327,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오펠골프클럽 (O'phell Golf Club)",
+    "officialUrl": "https://www.ophelgolf.com",
     "phone": "08-777-1177"
   },
   {
@@ -6392,7 +6392,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=제이원골프(J-Won Golf)",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1178"
   },
   {
@@ -6456,7 +6456,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=조광컨트리(Jogwang Country)CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1179"
   },
   {
@@ -6523,7 +6523,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=화이트그린랜드(White Green Land)CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1180"
   },
   {
@@ -6589,7 +6589,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=리버휠 골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1182"
   },
   {
@@ -6655,7 +6655,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=한라산CC",
+    "officialUrl": "https://www.hallasancc.co.kr",
     "phone": "05-777-1183"
   },
   {
@@ -6720,7 +6720,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=지산CC",
+    "officialUrl": "https://www.jisanresort.co.kr",
     "phone": "06-777-1184"
   },
   {
@@ -6785,7 +6785,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=에이치원클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1185"
   },
   {
@@ -6851,7 +6851,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=뉴스프링빌CC 이천CC",
+    "officialUrl": "https://www.newspringville.com",
     "phone": "08-777-1186"
   },
   {
@@ -6915,7 +6915,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에덴벨리CC",
+    "officialUrl": "https://www.edenvalley.co.kr",
     "phone": "09-777-1187"
   },
   {
@@ -6980,7 +6980,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=광명 골프 클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1188"
   },
   {
@@ -7046,7 +7046,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=YJC골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1189"
   },
   {
@@ -7112,7 +7112,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=금강CC",
+    "officialUrl": "https://www.kccgolf.co.kr",
     "phone": "03-777-1190"
   },
   {
@@ -7176,7 +7176,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=솔트베이GC",
+    "officialUrl": "https://www.saltbay.co.kr",
     "phone": "04-777-1191"
   },
   {
@@ -7240,7 +7240,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "부산광역시 금정구 중앙대로2327번길 112 (노포동)에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=부산CC",
+    "officialUrl": "https://www.busancc.co.kr",
     "phone": "(051)509-0707"
   },
   {
@@ -7304,7 +7304,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": " 신평남부길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=통도 파인이스트CC",
+    "officialUrl": "https://www.tongdocc.co.kr",
     "phone": "06-777-1193"
   },
   {
@@ -7369,7 +7369,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에스페란사골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1194"
   },
   {
@@ -7435,7 +7435,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아네스빌CC",
+    "officialUrl": "https://www.anesvill.com",
     "phone": "08-777-1195"
   },
   {
@@ -7502,7 +7502,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "인천광역시 아카데미로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=잭니클라우스 골프클럽",
+    "officialUrl": "https://www.jacknicklausgolfclubkorea.com",
     "phone": "09-777-1196"
   },
   {
@@ -7569,7 +7569,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "인천광역시 지식기반로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 114의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 114 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=송도 유니버스 골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1198"
   },
   {
@@ -7634,7 +7634,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 115의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 115 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=태광CC",
+    "officialUrl": "https://www.taekwangcc.co.kr",
     "phone": "03-777-1199"
   },
   {
@@ -7699,7 +7699,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=레이크힐스경남CC",
+    "officialUrl": "https://www.lakehills.co.kr",
     "phone": "04-777-1200"
   },
   {
@@ -7764,7 +7764,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=Beomeo Golf RangeCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1201"
   },
   {
@@ -7831,7 +7831,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 142의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 142 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=신원CC",
+    "officialUrl": "https://www.shinwoncc.co.kr",
     "phone": "06-777-1202"
   },
   {
@@ -7896,7 +7896,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=양지파인CC",
+    "officialUrl": "https://www.pineresort.com",
     "phone": "07-777-1203"
   },
   {
@@ -7962,7 +7962,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=The Lakes at OsanCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1204"
   },
   {
@@ -8027,7 +8027,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남수원CC",
+    "officialUrl": "https://www.suwoncc.co.kr",
     "phone": "09-777-1205"
   },
   {
@@ -8091,7 +8091,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "거제시 거제북로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=드비치GC",
+    "officialUrl": "https://www.debeach.co.kr",
     "phone": "010-777-1206"
   },
   {
@@ -8156,7 +8156,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=킹즈락CC",
+    "officialUrl": "https://www.kingsrockcc.com",
     "phone": "02-777-1207"
   },
   {
@@ -8220,7 +8220,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=설악썬밸리CC",
+    "officialUrl": "https://www.sunvalley.co.kr",
     "phone": "04-777-1209"
   },
   {
@@ -8285,7 +8285,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골프학습장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1211"
   },
   {
@@ -8351,7 +8351,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=스프링데일CC",
+    "officialUrl": "https://www.springdale.co.kr",
     "phone": "07-777-1212"
   },
   {
@@ -8417,7 +8417,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=더클래식CC",
+    "officialUrl": "https://www.theclassiccc.co.kr",
     "phone": "08-777-1213"
   },
   {
@@ -8483,7 +8483,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=제주힐 CC",
+    "officialUrl": "https://www.jejuheal.com",
     "phone": "09-777-1214"
   },
   {
@@ -8549,7 +8549,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=엘리시안제주CC",
+    "officialUrl": "https://www.elysian.co.kr",
     "phone": "010-777-1215"
   },
   {
@@ -8615,7 +8615,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=캐슬렉스 제주CC",
+    "officialUrl": "https://www.castlex.co.kr",
     "phone": "02-777-1216"
   },
   {
@@ -8682,7 +8682,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아덴힐리조트앤골프클럽",
+    "officialUrl": "https://www.ardenhill.co.kr",
     "phone": "03-777-1217"
   },
   {
@@ -8748,7 +8748,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=타미우스GC",
+    "officialUrl": "https://www.tameuscc.co.kr",
     "phone": "04-777-1218"
   },
   {
@@ -8814,7 +8814,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=나인브릿지CC",
+    "officialUrl": "https://www.ninebridges.co.kr",
     "phone": "05-777-1219"
   },
   {
@@ -8880,7 +8880,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=우리들CC",
+    "officialUrl": "https://www.wooridulcc.com",
     "phone": "06-777-1220"
   },
   {
@@ -8946,7 +8946,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=사이프러스CC",
+    "officialUrl": "https://www.cypress.co.kr",
     "phone": "07-777-1221"
   },
   {
@@ -9012,7 +9012,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=크라운 CC",
+    "officialUrl": "https://www.crowncc.co.kr",
     "phone": "08-777-1222"
   },
   {
@@ -9078,7 +9078,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오라CC",
+    "officialUrl": "https://www.oraresort.com",
     "phone": "09-777-1223"
   },
   {
@@ -9145,7 +9145,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=라온GC",
+    "officialUrl": "https://www.raon.co.kr",
     "phone": "010-777-1224"
   },
   {
@@ -9212,7 +9212,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 141의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 141 (지옥(상급자전용)) & 그린 스피드 3.0m",
-    "officialUrl": "https://www.google.com/search?q=블랙스톤CC",
+    "officialUrl": "https://www.blackstonecc.co.kr",
     "phone": "02-777-1225"
   },
   {
@@ -9278,7 +9278,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=샤인빌파크CC-RIVER코스CC",
+    "officialUrl": "https://www.shinevillepark.com",
     "phone": "03-777-1226"
   },
   {
@@ -9344,7 +9344,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=에코랜드 CC",
+    "officialUrl": "https://www.ecolandjeju.co.kr",
     "phone": "04-777-1227"
   },
   {
@@ -9410,7 +9410,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=테디밸리 골프&리조트",
+    "officialUrl": "https://www.teddyvalley.com",
     "phone": "05-777-1228"
   },
   {
@@ -9476,7 +9476,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=세인트포 CC",
+    "officialUrl": "https://www.stfour.com",
     "phone": "06-777-1229"
   },
   {
@@ -9542,7 +9542,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=제주CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1230"
   },
   {
@@ -9608,7 +9608,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=사천체력단련장CC",
+    "officialUrl": "https://welfare.airforce.mil.kr",
     "phone": "08-777-1231"
   },
   {
@@ -9672,7 +9672,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에버그린 골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1232"
   },
   {
@@ -9738,7 +9738,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=샤인빌파크CC-PALM코스CC",
+    "officialUrl": "https://www.shinevillepark.com",
     "phone": "010-777-1233"
   },
   {
@@ -9804,7 +9804,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=그린필드 CC",
+    "officialUrl": "https://www.greenfieldcc.co.kr",
     "phone": "02-777-1234"
   },
   {
@@ -9870,7 +9870,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=라온프라이빗CC",
+    "officialUrl": "https://www.raon.co.kr",
     "phone": "03-777-1235"
   },
   {
@@ -9935,7 +9935,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=레이크사이드CC",
+    "officialUrl": "https://www.lakeside.kr",
     "phone": "04-777-1236"
   },
   {
@@ -10000,7 +10000,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남부CC",
+    "officialUrl": "https://www.nambucc.co.kr",
     "phone": "05-777-1237"
   },
   {
@@ -10066,7 +10066,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "화성시 중리길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=리베라CC",
+    "officialUrl": "https://www.shinwonresort.co.kr",
     "phone": "06-777-1238"
   },
   {
@@ -10131,7 +10131,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 128의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 128 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=인천환경공단골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1239"
   },
   {
@@ -10198,7 +10198,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 114의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 114 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=오렌지듄스 GC",
+    "officialUrl": "https://www.orangedunes.com",
     "phone": "08-777-1240"
   },
   {
@@ -10262,7 +10262,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=센추리21CC",
+    "officialUrl": "https://www.century21cc.co.kr",
     "phone": "09-777-1241"
   },
   {
@@ -10326,7 +10326,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=중원GC",
+    "officialUrl": "https://www.jgc.co.kr",
     "phone": "010-777-1242"
   },
   {
@@ -10391,7 +10391,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "세종특별자치시 전의면 운주산로 1510에 위치한 27홀 규모의 회원제 골프장. 공식 슬로프 레이팅 117의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 회원제 | 슬로프 레이팅 117 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=세종에머슨CC",
+    "officialUrl": "https://www.emersonpacific.co.kr",
     "phone": "(044)862-4004"
   },
   {
@@ -10458,7 +10458,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 142의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 142 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=아난티 중앙 골프클럽",
+    "officialUrl": "https://www.ananti.kr",
     "phone": "03-777-1244"
   },
   {
@@ -10524,7 +10524,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=천룡CC",
+    "officialUrl": "https://www.cheonryong.co.kr",
     "phone": "04-777-1245"
   },
   {
@@ -10590,7 +10590,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=안성베네스트골프클럽",
+    "officialUrl": "https://www.benestgolf.com",
     "phone": "05-777-1246"
   },
   {
@@ -10654,7 +10654,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=블루원 용인CC",
+    "officialUrl": "https://www.blueone.com",
     "phone": "06-777-1247"
   },
   {
@@ -10719,7 +10719,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=안성CC",
+    "officialUrl": "https://www.anseongcc.co.kr",
     "phone": "07-777-1248"
   },
   {
@@ -10784,7 +10784,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=이스트밸리CC",
+    "officialUrl": "https://www.eastvalley.co.kr",
     "phone": "08-777-1249"
   },
   {
@@ -10849,7 +10849,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에콜리안 정선CC",
+    "officialUrl": "https://www.ecolian.or.kr",
     "phone": "09-777-1250"
   },
   {
@@ -10913,7 +10913,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=세레니티CC",
+    "officialUrl": "https://www.serenitycc.co.kr",
     "phone": "010-777-1251"
   },
   {
@@ -10980,7 +10980,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 114의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 114 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 진천",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "02-777-1252"
   },
   {
@@ -11046,7 +11046,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 139의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 139 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=화산CC",
+    "officialUrl": "https://www.hwasan.co.kr",
     "phone": "03-777-1253"
   },
   {
@@ -11111,7 +11111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "경기도 용인시 처인구 남사면 전나무골길2번길 94에 위치한 27홀 규모의 회원제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 회원제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=한원CC",
+    "officialUrl": "https://www.hanwoncc.co.kr",
     "phone": "(031)373-7111/~4"
   },
   {
@@ -11177,7 +11177,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=용인플라자CC",
+    "officialUrl": "https://www.plazacc.co.kr",
     "phone": "05-777-1255"
   },
   {
@@ -11242,7 +11242,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=코리아CC 퍼블릭코스CC",
+    "officialUrl": "https://www.gakorea.com",
     "phone": "06-777-1256"
   },
   {
@@ -11306,7 +11306,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=경기경찰청CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1257"
   },
   {
@@ -11371,7 +11371,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "충남 금산군 진산면 살구정길 167에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 회원제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=에딘버러CC",
+    "officialUrl": "https://www.edinburgh.co.kr",
     "phone": "(041)750-0114"
   },
   {
@@ -11437,7 +11437,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 115의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 115 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=떼제베 골프장(TGV CC)",
+    "officialUrl": "https://www.tgvcc.co.kr",
     "phone": "09-777-1259"
   },
   {
@@ -11503,7 +11503,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=대영베이스CC",
+    "officialUrl": "https://www.daeyoungcc.co.kr",
     "phone": "010-777-1260"
   },
   {
@@ -11568,7 +11568,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=대영힐스CC",
+    "officialUrl": "https://www.daeyoungcc.co.kr",
     "phone": "02-777-1261"
   },
   {
@@ -11633,7 +11633,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=임페리얼레이크CC",
+    "officialUrl": "https://www.imperiallake.co.kr",
     "phone": "03-777-1262"
   },
   {
@@ -11697,7 +11697,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=도고칸트리구락부CC",
+    "officialUrl": "https://www.dogocc.co.kr",
     "phone": "04-777-1263"
   },
   {
@@ -11763,7 +11763,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=IN코스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1264"
   },
   {
@@ -11828,7 +11828,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=스타CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1265"
   },
   {
@@ -11894,7 +11894,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=동촌GC",
+    "officialUrl": "https://www.dongchongc.co.kr",
     "phone": "07-777-1266"
   },
   {
@@ -11959,7 +11959,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=양평TPC골프클럽",
+    "officialUrl": "https://www.tpcgolf.co.kr",
     "phone": "08-777-1267"
   },
   {
@@ -12024,7 +12024,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=블루헤런GC",
+    "officialUrl": "https://www.blueheron.co.kr",
     "phone": "09-777-1268"
   },
   {
@@ -12088,7 +12088,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=남여주GC",
+    "officialUrl": "https://www.namyeoju.co.kr",
     "phone": "010-777-1269"
   },
   {
@@ -12155,7 +12155,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=아리지CC",
+    "officialUrl": "https://www.ariji.co.kr",
     "phone": "02-777-1270"
   },
   {
@@ -12221,7 +12221,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 139의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 139 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=솔모로CC",
+    "officialUrl": "https://www.solmoro.com",
     "phone": "03-777-1271"
   },
   {
@@ -12286,7 +12286,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=이천실크밸리GC",
+    "officialUrl": "https://www.silkvalley.co.kr",
     "phone": "04-777-1272"
   },
   {
@@ -12352,7 +12352,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=이포CC",
+    "officialUrl": "https://www.ipocc.co.kr",
     "phone": "05-777-1273"
   },
   {
@@ -12418,7 +12418,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "경북 구미시 산동면 강동로 953-73에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 118의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 118 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 선산",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "(054)473-6200"
   },
   {
@@ -12483,7 +12483,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=동훈힐마루CC",
+    "officialUrl": "https://www.healmaru.com",
     "phone": "07-777-1275"
   },
   {
@@ -12549,7 +12549,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=클럽디속리산",
+    "officialUrl": "https://www.clubd.co.kr",
     "phone": "08-777-1276"
   },
   {
@@ -12613,7 +12613,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=K밸리CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1277"
   },
   {
@@ -12678,7 +12678,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남성대체력단련장CC",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "010-777-1278"
   },
   {
@@ -12745,7 +12745,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 117의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 117 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 드래곤",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "02-777-1279"
   },
   {
@@ -12812,7 +12812,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=구룡대CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1280"
   },
   {
@@ -12877,7 +12877,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=옥과기안CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1281"
   },
   {
@@ -12943,7 +12943,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=광주CC",
+    "officialUrl": "https://www.gwangjucc.com",
     "phone": "05-777-1282"
   },
   {
@@ -13009,7 +13009,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "진천군 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 115의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 115 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 화랑",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "06-777-1283"
   },
   {
@@ -13074,7 +13074,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=히든밸리골프클럽",
+    "officialUrl": "https://www.hiddenvalley.co.kr",
     "phone": "07-777-1284"
   },
   {
@@ -13140,7 +13140,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=썬밸리CC",
+    "officialUrl": "https://www.sunvalley.co.kr",
     "phone": "08-777-1285"
   },
   {
@@ -13205,7 +13205,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오창에딘버러CC",
+    "officialUrl": "https://www.edinburgh.co.kr",
     "phone": "09-777-1286"
   },
   {
@@ -13270,7 +13270,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=그랜드CC",
+    "officialUrl": "https://www.grandgolf.co.kr",
     "phone": "010-777-1287"
   },
   {
@@ -13336,7 +13336,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": " 정안세종로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=세종필드골프클럽",
+    "officialUrl": "https://www.sejongfield.com",
     "phone": "02-777-1288"
   },
   {
@@ -13400,7 +13400,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=윈체스트GC",
+    "officialUrl": "https://www.winchest.co.kr",
     "phone": "03-777-1289"
   },
   {
@@ -13466,7 +13466,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=레이크힐스용인CC",
+    "officialUrl": "https://www.lakehills.co.kr",
     "phone": "04-777-1290"
   },
   {
@@ -13531,7 +13531,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=신안CC",
+    "officialUrl": "https://www.shinanresort.co.kr",
     "phone": "05-777-1291"
   },
   {
@@ -13596,7 +13596,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파인크리크CC",
+    "officialUrl": "https://www.pinecreek.co.kr",
     "phone": "06-777-1292"
   },
   {
@@ -13660,7 +13660,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=한림안성CC",
+    "officialUrl": "https://www.anseongcc.co.kr",
     "phone": "07-777-1293"
   },
   {
@@ -13727,7 +13727,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 114의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 114 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 안성W",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "08-777-1294"
   },
   {
@@ -13792,7 +13792,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=선봉대 체력단련장CC",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "09-777-1295"
   },
   {
@@ -13857,7 +13857,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아시아나CC",
+    "officialUrl": "https://www.asianacc.co.kr",
     "phone": "010-777-1296"
   },
   {
@@ -13922,7 +13922,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=은화삼CC",
+    "officialUrl": "https://www.ehscc.co.kr",
     "phone": "02-777-1297"
   },
   {
@@ -13987,7 +13987,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=천안상록CC",
+    "officialUrl": "https://www.sangrokresort.co.kr",
     "phone": "03-777-1298"
   },
   {
@@ -14053,7 +14053,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 119의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 119 (쉬움(초보추천)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 천안",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "04-777-1299"
   },
   {
@@ -14120,7 +14120,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=강남300CC",
+    "officialUrl": "https://www.kn300.co.kr",
     "phone": "05-777-1300"
   },
   {
@@ -14185,7 +14185,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=뉴서울CC",
+    "officialUrl": "https://www.newseoulgolf.co.kr",
     "phone": "06-777-1301"
   },
   {
@@ -14250,7 +14250,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=중부CC",
+    "officialUrl": "https://www.jungbucc.co.kr",
     "phone": "07-777-1302"
   },
   {
@@ -14315,7 +14315,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=곤지암GC",
+    "officialUrl": "https://www.konjiamgolfclub.co.kr",
     "phone": "08-777-1303"
   },
   {
@@ -14380,7 +14380,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=해피니스CC",
+    "officialUrl": "https://www.happinesscc.com",
     "phone": "09-777-1304"
   },
   {
@@ -14445,7 +14445,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=골드레이크CC",
+    "officialUrl": "https://www.gakorea.com",
     "phone": "010-777-1305"
   },
   {
@@ -14511,7 +14511,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=담양다이너스티CC",
+    "officialUrl": "https://www.damyangcc.co.kr",
     "phone": "02-777-1306"
   },
   {
@@ -14576,7 +14576,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=무안CC",
+    "officialUrl": "https://www.muancc.co.kr",
     "phone": "03-777-1307"
   },
   {
@@ -14642,7 +14642,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=함평엘리체CC",
+    "officialUrl": "https://www.eliche.co.kr",
     "phone": "04-777-1308"
   },
   {
@@ -14708,7 +14708,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=나주CC",
+    "officialUrl": "https://www.najucc.co.kr",
     "phone": "05-777-1309"
   },
   {
@@ -14773,7 +14773,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=조아밸리 CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1310"
   },
   {
@@ -14838,7 +14838,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=엘리체CC",
+    "officialUrl": "https://www.eliche.co.kr",
     "phone": "07-777-1311"
   },
   {
@@ -14904,7 +14904,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=화순CC",
+    "officialUrl": "https://www.hwasuncc.co.kr",
     "phone": "08-777-1312"
   },
   {
@@ -14969,7 +14969,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=푸른솔GC 장성CC",
+    "officialUrl": "https://www.pureunsolgc.com",
     "phone": "09-777-1313"
   },
   {
@@ -15034,7 +15034,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=상무대체력단련장CC",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "010-777-1314"
   },
   {
@@ -15101,7 +15101,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=고창칸트리클럽",
+    "officialUrl": "https://www.gochangcc.co.kr",
     "phone": "02-777-1315"
   },
   {
@@ -15166,7 +15166,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=백제CC",
+    "officialUrl": "https://www.baekjecc.com",
     "phone": "03-777-1316"
   },
   {
@@ -15231,7 +15231,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=보성CC",
+    "officialUrl": "https://www.bosungcc.co.kr",
     "phone": "04-777-1317"
   },
   {
@@ -15296,7 +15296,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=아시아드CC",
+    "officialUrl": "https://www.asiadcc.co.kr",
     "phone": "05-777-1318"
   },
   {
@@ -15363,7 +15363,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 139의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 139 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=파인비치골프링크스",
+    "officialUrl": "https://www.pinebeachcc.co.kr",
     "phone": "06-777-1319"
   },
   {
@@ -15429,7 +15429,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=스톤비치CC",
+    "officialUrl": "https://www.stonebeach.co.kr",
     "phone": "07-777-1320"
   },
   {
@@ -15494,7 +15494,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=한탄강CC",
+    "officialUrl": "https://www.hantancc.co.kr",
     "phone": "08-777-1321"
   },
   {
@@ -15560,7 +15560,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=몽베르CC",
+    "officialUrl": "https://www.montvertcc.com",
     "phone": "09-777-1322"
   },
   {
@@ -15624,7 +15624,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=포천 아도니스CC",
+    "officialUrl": "https://www.adoniscc.co.kr",
     "phone": "010-777-1323"
   },
   {
@@ -15690,7 +15690,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=티클라우드CC",
+    "officialUrl": "https://www.tcloudcc.co.kr",
     "phone": "02-777-1324"
   },
   {
@@ -15755,7 +15755,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "경기도 양주시 만송로 244에 위치한 36홀 규모의 대중제+회원제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제+회원제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=레이크우드CC",
+    "officialUrl": "https://www.lakewood.co.kr",
     "phone": "(031)820-1500"
   },
   {
@@ -15820,7 +15820,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=노스팜CC",
+    "officialUrl": "https://www.northpalmcc.co.kr",
     "phone": "04-777-1326"
   },
   {
@@ -15885,7 +15885,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=송추CC",
+    "officialUrl": "https://www.songchoocc.co.kr",
     "phone": "05-777-1327"
   },
   {
@@ -15950,7 +15950,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=스마트 KU골프파빌리온",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1328"
   },
   {
@@ -16015,7 +16015,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=베스트밸리GC",
+    "officialUrl": "https://www.bestvalleygc.com",
     "phone": "07-777-1329"
   },
   {
@@ -16082,7 +16082,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=올림픽CC",
+    "officialUrl": "https://www.olympiccc.co.kr",
     "phone": "08-777-1330"
   },
   {
@@ -16146,7 +16146,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=서서울CC",
+    "officialUrl": "https://www.seoseoul.co.kr",
     "phone": "09-777-1331"
   },
   {
@@ -16211,7 +16211,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=한양 CC",
+    "officialUrl": "https://www.hycc.co.kr",
     "phone": "010-777-1332"
   },
   {
@@ -16276,7 +16276,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=뉴코리아 CC",
+    "officialUrl": "https://www.gakorea.com",
     "phone": "02-777-1333"
   },
   {
@@ -16343,7 +16343,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 118의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 118 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 무주",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "03-777-1334"
   },
   {
@@ -16408,7 +16408,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=순창CC",
+    "officialUrl": "https://www.sunchangcc.co.kr",
     "phone": "04-777-1335"
   },
   {
@@ -16475,7 +16475,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=포라이즌CC",
+    "officialUrl": "https://www.fourhorizon.com",
     "phone": "05-777-1336"
   },
   {
@@ -16540,7 +16540,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=순천CC",
+    "officialUrl": "https://www.suncheoncc.co.kr",
     "phone": "06-777-1337"
   },
   {
@@ -16605,7 +16605,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": " 효덕로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=빛고을CC",
+    "officialUrl": "https://www.bitgoulcc.co.kr",
     "phone": "07-777-1338"
   },
   {
@@ -16670,7 +16670,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=샌드파인GC",
+    "officialUrl": "https://www.sandpine.co.kr",
     "phone": "08-777-1339"
   },
   {
@@ -16736,7 +16736,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=라데나 골프 클럽",
+    "officialUrl": "https://www.ladena.co.kr",
     "phone": "09-777-1340"
   },
   {
@@ -16801,7 +16801,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=금과골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1341"
   },
   {
@@ -16867,7 +16867,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=일산스프링힐스 CC",
+    "officialUrl": "https://www.springhills.co.kr",
     "phone": "02-777-1342"
   },
   {
@@ -16932,7 +16932,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=제이퍼블릭골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1343"
   },
   {
@@ -16997,7 +16997,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그린힐CC",
+    "officialUrl": "https://www.shinanresort.co.kr",
     "phone": "04-777-1344"
   },
   {
@@ -17063,7 +17063,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=창평CC(골프장)",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1345"
   },
   {
@@ -17130,7 +17130,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 142의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 142 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=레인보우힐스CC",
+    "officialUrl": "https://www.rainbowhills.co.kr",
     "phone": "06-777-1346"
   },
   {
@@ -17194,7 +17194,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=세일CC",
+    "officialUrl": "https://www.salegc.co.kr",
     "phone": "07-777-1347"
   },
   {
@@ -17260,7 +17260,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=킹스데일CC",
+    "officialUrl": "https://www.kingsdale.co.kr",
     "phone": "08-777-1348"
   },
   {
@@ -17324,7 +17324,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "충북 충주시 노은면 솔고개로 750 (신효리)에 위치한 27홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=센테리움CC",
+    "officialUrl": "https://www.centeriumcc.com",
     "phone": "(043)849-7000"
   },
   {
@@ -17390,7 +17390,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "경남 김해시 주촌면 서부로1637번길 299-194 (덕암리)에 위치한 27홀 규모의 회원제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=정산CC",
+    "officialUrl": "https://www.jeongsancc.co.kr",
     "phone": "(055)338-8300"
   },
   {
@@ -17455,7 +17455,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=포웰CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1351"
   },
   {
@@ -17519,7 +17519,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "경상남도 창녕군 부곡면 온천로 445에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=부곡CC",
+    "officialUrl": "https://www.bugokcc.co.kr",
     "phone": "(055)521-0707/10"
   },
   {
@@ -17583,7 +17583,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=위례골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1353"
   },
   {
@@ -17649,7 +17649,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=파스텔 골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1354"
   },
   {
@@ -17714,7 +17714,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=발리오스CC",
+    "officialUrl": "https://www.balios.co.kr",
     "phone": "06-777-1355"
   },
   {
@@ -17778,7 +17778,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=서라벌골프클럽",
+    "officialUrl": "https://www.seorabeolcc.co.kr",
     "phone": "07-777-1356"
   },
   {
@@ -17845,7 +17845,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 117의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 117 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=오렌지듄스영종GC",
+    "officialUrl": "https://www.orangedunes.com",
     "phone": "08-777-1357"
   },
   {
@@ -17911,7 +17911,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=스카이72 골프장 바다코스 (제5활주로 건설 예정지)",
+    "officialUrl": "https://www.onetheclub.com",
     "phone": "09-777-1358"
   },
   {
@@ -17975,7 +17975,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=스카이21CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1359"
   },
   {
@@ -18039,7 +18039,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=서창퍼블릭골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1361"
   },
   {
@@ -18103,7 +18103,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=블랙밸리CC",
+    "officialUrl": "https://www.blackvalley.co.kr",
     "phone": "04-777-1362"
   },
   {
@@ -18168,7 +18168,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파인밸리CC",
+    "officialUrl": "https://www.pinevalleycc.co.kr",
     "phone": "05-777-1363"
   },
   {
@@ -18234,7 +18234,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=부영CC순천CC",
+    "officialUrl": "https://www.booyoung.co.kr",
     "phone": "06-777-1364"
   },
   {
@@ -18299,7 +18299,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=엠투골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1365"
   },
   {
@@ -18364,7 +18364,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=인터불고GC(퍼블릭)CC",
+    "officialUrl": "https://www.ibcc.co.kr",
     "phone": "08-777-1366"
   },
   {
@@ -18428,7 +18428,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=사이언스 대덕 CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1367"
   },
   {
@@ -18493,7 +18493,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=게이트볼장CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1368"
   },
   {
@@ -18558,7 +18558,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=봉곡마스터골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1369"
   },
   {
@@ -18624,7 +18624,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "서울특별시 시흥대로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=위너스골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1370"
   },
   {
@@ -18689,7 +18689,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=성저 파크 골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1371"
   },
   {
@@ -18755,7 +18755,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=목동골프타운",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1372"
   },
   {
@@ -18819,7 +18819,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=기산골프존파크",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1373"
   },
   {
@@ -18883,7 +18883,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=메이플비치CC",
+    "officialUrl": "https://www.maplebeach.co.kr",
     "phone": "07-777-1374"
   },
   {
@@ -18949,7 +18949,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "서울특별시 증산로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=The royal golf clubCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1375"
   },
   {
@@ -19014,7 +19014,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그린골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1376"
   },
   {
@@ -19078,7 +19078,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=용인CC",
+    "officialUrl": "https://www.yongincc.co.kr",
     "phone": "010-777-1377"
   },
   {
@@ -19145,7 +19145,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=해솔리아CC",
+    "officialUrl": "https://www.haesoliacc.co.kr",
     "phone": "02-777-1378"
   },
   {
@@ -19209,7 +19209,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골프존조이마루",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1379"
   },
   {
@@ -19275,7 +19275,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=대한골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1380"
   },
   {
@@ -19340,7 +19340,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=링크나인 골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1381"
   },
   {
@@ -19406,7 +19406,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=송도GC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1382"
   },
   {
@@ -19472,7 +19472,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오션힐스 포항CC",
+    "officialUrl": "https://www.oceanhills.com",
     "phone": "09-777-1385"
   },
   {
@@ -19536,7 +19536,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=포항CC",
+    "officialUrl": "https://www.pohangcc.co.kr",
     "phone": "010-777-1386"
   },
   {
@@ -19601,7 +19601,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=화성골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1387"
   },
   {
@@ -19665,7 +19665,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=구평골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1388"
   },
   {
@@ -19732,7 +19732,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=파인힐클럽하우스",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1390"
   },
   {
@@ -19796,7 +19796,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=더 골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1391"
   },
   {
@@ -19862,7 +19862,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "광주광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=명성 골프 연습장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1393"
   },
   {
@@ -19926,7 +19926,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대구광역시 청호로57길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=프릭스골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1394"
   },
   {
@@ -19991,7 +19991,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=JNJ골프리조트",
+    "officialUrl": "https://www.jnjgolfresort.com",
     "phone": "010-777-1395"
   },
   {
@@ -20057,7 +20057,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=수원CC",
+    "officialUrl": "https://www.suwoncc.co.kr",
     "phone": "02-777-1396"
   },
   {
@@ -20121,7 +20121,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "거제시 옥포대첩로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=덕포골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1398"
   },
   {
@@ -20187,7 +20187,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=인터불고 CC",
+    "officialUrl": "https://www.ibcc.co.kr",
     "phone": "05-777-1399"
   },
   {
@@ -20252,7 +20252,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아트피아 골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1400"
   },
   {
@@ -20316,7 +20316,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=휘닉스평창 CC",
+    "officialUrl": "https://phoenixhnr.co.kr",
     "phone": "07-777-1401"
   },
   {
@@ -20381,7 +20381,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=태기산CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1402"
   },
   {
@@ -20445,7 +20445,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=라데나 골프 클럽 클럽하우스",
+    "officialUrl": "https://www.ladena.co.kr",
     "phone": "09-777-1403"
   },
   {
@@ -20510,7 +20510,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=육림골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1404"
   },
   {
@@ -20576,7 +20576,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=금당골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1406"
   },
   {
@@ -20640,7 +20640,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "강원도 양양군 손양면 공항로 230에 위치한 45홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=설해원CC",
+    "officialUrl": "https://www.seolhaeone.com",
     "phone": "(033)670-7700"
   },
   {
@@ -20704,7 +20704,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "강원 속초시 미시령로2983번길 56-20 (장사동)에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 회원제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=플라자CC 설악CC",
+    "officialUrl": "https://www.plazacc.co.kr",
     "phone": "(033)630-5511"
   },
   {
@@ -20769,7 +20769,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=스카이72 골프장 하늘코스",
+    "officialUrl": "https://www.onetheclub.com",
     "phone": "06-777-1409"
   },
   {
@@ -20835,7 +20835,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "경기 성남시 분당구 판교백현로 161 (백현동, 클럽하우스)에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 회원제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남서울CC",
+    "officialUrl": "https://www.seoulcc.co.kr",
     "phone": "(031)709-6000"
   },
   {
@@ -20900,7 +20900,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=양산CC",
+    "officialUrl": "https://www.yangsancc.co.kr",
     "phone": "08-777-1411"
   },
   {
@@ -20965,7 +20965,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=중흥레포츠클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1412"
   },
   {
@@ -21030,7 +21030,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=리더스골프 구미본점",
+    "officialUrl": "https://www.gumicc.co.kr",
     "phone": "010-777-1413"
   },
   {
@@ -21096,7 +21096,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "광주광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=명가 골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1414"
   },
   {
@@ -21161,7 +21161,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=이글골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1415"
   },
   {
@@ -21226,7 +21226,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=이븐데일CC",
+    "officialUrl": "https://www.evendale.co.kr",
     "phone": "04-777-1416"
   },
   {
@@ -21291,7 +21291,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골드나인CC",
+    "officialUrl": "https://www.gakorea.com",
     "phone": "05-777-1417"
   },
   {
@@ -21358,7 +21358,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 142의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 142 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=뉴스프링빌2CC 백화산CC",
+    "officialUrl": "https://www.hwasan.co.kr",
     "phone": "06-777-1418"
   },
   {
@@ -21422,7 +21422,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=구미CC",
+    "officialUrl": "https://www.gumicc.co.kr",
     "phone": "07-777-1419"
   },
   {
@@ -21489,7 +21489,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=더 그레이스CC",
+    "officialUrl": "https://www.gracecc.co.kr",
     "phone": "08-777-1420"
   },
   {
@@ -21554,7 +21554,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=웨스트오션CC",
+    "officialUrl": "https://www.westocean.co.kr",
     "phone": "09-777-1421"
   },
   {
@@ -21619,7 +21619,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=함평천지CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1422"
   },
   {
@@ -21684,7 +21684,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "경주시 보불로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=블루원 디아너스 C.C.CC",
+    "officialUrl": "https://www.blueone.com",
     "phone": "02-777-1423"
   },
   {
@@ -21749,7 +21749,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남촌CC",
+    "officialUrl": "https://www.namchoncc.co.kr",
     "phone": "03-777-1424"
   },
   {
@@ -21814,7 +21814,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=스카이밸리CC",
+    "officialUrl": "https://www.skyvalley.co.kr",
     "phone": "04-777-1425"
   },
   {
@@ -21880,7 +21880,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=가평베네스트GC",
+    "officialUrl": "https://www.benestgolf.com",
     "phone": "05-777-1426"
   },
   {
@@ -21947,7 +21947,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 139의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 139 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=베어크리크G.CCC",
+    "officialUrl": "https://www.bearcreek.co.kr",
     "phone": "06-777-1427"
   },
   {
@@ -22012,7 +22012,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=일동레이크GC",
+    "officialUrl": "https://www.ildonglakes.co.kr",
     "phone": "07-777-1428"
   },
   {
@@ -22077,7 +22077,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=썬힐GC",
+    "officialUrl": "https://www.sunhillgolf.co.kr",
     "phone": "08-777-1429"
   },
   {
@@ -22144,7 +22144,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 142의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 142 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=아난티클럽 서울",
+    "officialUrl": "https://www.ananti.kr",
     "phone": "09-777-1430"
   },
   {
@@ -22208,7 +22208,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "가평군 유명로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=프리스턴벨리 CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1431"
   },
   {
@@ -22274,7 +22274,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "남양주시 마치로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=클럽비전힐스CC",
+    "officialUrl": "https://www.visionhills.co.kr",
     "phone": "02-777-1432"
   },
   {
@@ -22338,7 +22338,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=시그너스CC",
+    "officialUrl": "https://www.cygnuscc.co.kr",
     "phone": "03-777-1433"
   },
   {
@@ -22404,7 +22404,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=렉스필드CC",
+    "officialUrl": "https://www.rexfield.com",
     "phone": "04-777-1434"
   },
   {
@@ -22470,7 +22470,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=이스트힐CC",
+    "officialUrl": "https://www.easthillcc.co.kr",
     "phone": "05-777-1435"
   },
   {
@@ -22536,7 +22536,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 118의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 118 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티감포",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "06-777-1436"
   },
   {
@@ -22602,7 +22602,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 143의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 143 (지옥(상급자전용)) & 그린 스피드 3.2m",
-    "officialUrl": "https://www.google.com/search?q=해슬리나인브릿지CC",
+    "officialUrl": "https://www.haesley.com",
     "phone": "07-777-1437"
   },
   {
@@ -22666,7 +22666,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "울산광역시 울주군 삼동면 삼동로 404에 위치한 27홀 규모의 회원제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=보라CC",
+    "officialUrl": "https://www.boracc.com",
     "phone": "(052)255-1000"
   },
   {
@@ -22730,7 +22730,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "울산 울주군 웅촌면 웅촌로 1 (대대리)에 위치한 27홀 규모의 회원제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=울산CC",
+    "officialUrl": "https://www.ulsancc.co.kr",
     "phone": "(052)225-0707"
   },
   {
@@ -22795,7 +22795,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=포도CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1440"
   },
   {
@@ -22859,7 +22859,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오션힐스 영천CC",
+    "officialUrl": "https://www.oceanhills.com",
     "phone": "03-777-1442"
   },
   {
@@ -22923,7 +22923,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=피플레이 골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1443"
   },
   {
@@ -22988,7 +22988,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=에이원 CC",
+    "officialUrl": "https://www.aonecc.co.kr",
     "phone": "05-777-1444"
   },
   {
@@ -23052,7 +23052,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=오투리조트 CC",
+    "officialUrl": "https://www.o2resort.com",
     "phone": "07-777-1446"
   },
   {
@@ -23118,7 +23118,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=벌교파3골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1447"
   },
   {
@@ -23184,7 +23184,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=가산골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1448"
   },
   {
@@ -23249,7 +23249,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=광양CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1449"
   },
   {
@@ -23316,7 +23316,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=글렌로스CC",
+    "officialUrl": "https://www.benestgolf.com",
     "phone": "02-777-1450"
   },
   {
@@ -23380,7 +23380,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남양주CC",
+    "officialUrl": "https://www.yangjucc.co.kr",
     "phone": "03-777-1451"
   },
   {
@@ -23445,7 +23445,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=해병대체력단련장CC",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "04-777-1452"
   },
   {
@@ -23510,7 +23510,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=라비돌CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1453"
   },
   {
@@ -23575,7 +23575,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=블루버드CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1454"
   },
   {
@@ -23641,7 +23641,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=대호단양CC",
+    "officialUrl": "https://www.daehocc.co.kr",
     "phone": "07-777-1455"
   },
   {
@@ -23707,7 +23707,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=파인힐스CC",
+    "officialUrl": "https://www.pinehills.co.kr",
     "phone": "08-777-1456"
   },
   {
@@ -23771,7 +23771,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=알프스대영CC",
+    "officialUrl": "https://www.alpsdy.com",
     "phone": "09-777-1457"
   },
   {
@@ -23838,7 +23838,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 116의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 116 (쉬움(초보추천)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 순천",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "010-777-1458"
   },
   {
@@ -23903,7 +23903,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=소노펠리체CC 비발디파크 WESTCC",
+    "officialUrl": "https://www.sonofelicecc.com",
     "phone": "02-777-1459"
   },
   {
@@ -23969,7 +23969,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=소노펠리체CC 비발디파크 EASTCC",
+    "officialUrl": "https://www.sonofelicecc.com",
     "phone": "03-777-1460"
   },
   {
@@ -24033,7 +24033,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=신라CC",
+    "officialUrl": "https://www.shillacc.co.kr",
     "phone": "04-777-1461"
   },
   {
@@ -24100,7 +24100,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=360도CC",
+    "officialUrl": "https://www.360cc.co.kr",
     "phone": "05-777-1462"
   },
   {
@@ -24164,7 +24164,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=캐슬파인GC",
+    "officialUrl": "https://www.castlepine.co.kr",
     "phone": "06-777-1463"
   },
   {
@@ -24229,7 +24229,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=여주썬밸리CC",
+    "officialUrl": "https://www.sunvalley.co.kr",
     "phone": "07-777-1464"
   },
   {
@@ -24295,7 +24295,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=마론뉴데이CC",
+    "officialUrl": "https://www.maronnewday.co.kr",
     "phone": "08-777-1465"
   },
   {
@@ -24360,7 +24360,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에콜리안광산CC",
+    "officialUrl": "https://www.ecolian.or.kr",
     "phone": "09-777-1466"
   },
   {
@@ -24424,7 +24424,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=엠스클럽의성",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1467"
   },
   {
@@ -24489,7 +24489,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=안동리버힐CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1468"
   },
   {
@@ -24554,7 +24554,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=한양파인 CC",
+    "officialUrl": "https://www.hycc.co.kr",
     "phone": "03-777-1469"
   },
   {
@@ -24620,7 +24620,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=고양 CC",
+    "officialUrl": "https://www.goyangcc.com",
     "phone": "04-777-1470"
   },
   {
@@ -24685,7 +24685,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=123 GC",
+    "officialUrl": "https://www.123golf.co.kr",
     "phone": "05-777-1471"
   },
   {
@@ -24750,7 +24750,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "인천광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 122의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 122 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=드림파크CC",
+    "officialUrl": "https://www.dreamparkcc.or.kr",
     "phone": "07-777-1473"
   },
   {
@@ -24816,7 +24816,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "인천광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=베어즈베스트청라GC",
+    "officialUrl": "https://www.bearsbestcheongnagc.com",
     "phone": "09-777-1475"
   },
   {
@@ -24883,7 +24883,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "인천광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=인천국제CC",
+    "officialUrl": "https://www.incheoncc.co.kr",
     "phone": "010-777-1476"
   },
   {
@@ -24948,7 +24948,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=마에스트로CC",
+    "officialUrl": "https://www.maestrocc.co.kr",
     "phone": "02-777-1477"
   },
   {
@@ -25013,7 +25013,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=처인CC",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "03-777-1478"
   },
   {
@@ -25077,7 +25077,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=제이골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1479"
   },
   {
@@ -25144,7 +25144,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=왕성드림센터CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1480"
   },
   {
@@ -25208,7 +25208,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=로얄힐스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1481"
   },
   {
@@ -25273,7 +25273,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=솔라고CC",
+    "officialUrl": "https://www.solago.co.kr",
     "phone": "07-777-1482"
   },
   {
@@ -25340,7 +25340,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 117의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 117 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=오션비치CC",
+    "officialUrl": "https://www.oceanbeach.net",
     "phone": "08-777-1483"
   },
   {
@@ -25405,7 +25405,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=한림광릉CC(회원제)CC",
+    "officialUrl": "https://www.hanlimgolf.com",
     "phone": "09-777-1484"
   },
   {
@@ -25469,7 +25469,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=고성CC",
+    "officialUrl": "https://www.goseongcc.co.kr",
     "phone": "03-777-1487"
   },
   {
@@ -25533,7 +25533,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=고성노벨CC",
+    "officialUrl": "https://www.nobelcc.co.kr",
     "phone": "04-777-1488"
   },
   {
@@ -25598,7 +25598,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=다이아몬드CC",
+    "officialUrl": "https://www.diamondcc.co.kr",
     "phone": "05-777-1489"
   },
   {
@@ -25664,7 +25664,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아라미르 골프앤리조트",
+    "officialUrl": "https://www.aramircc.co.kr",
     "phone": "06-777-1490"
   },
   {
@@ -25730,7 +25730,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=부영CC",
+    "officialUrl": "https://www.booyoung.co.kr",
     "phone": "07-777-1491"
   },
   {
@@ -25796,7 +25796,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=로드힐스CC",
+    "officialUrl": "https://www.lordhills.co.kr",
     "phone": "08-777-1492"
   },
   {
@@ -25860,7 +25860,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=라비에벨CC",
+    "officialUrl": "https://www.lavieestbellegolfnresort.com",
     "phone": "09-777-1493"
   },
   {
@@ -25925,7 +25925,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그린필드 골프",
+    "officialUrl": "https://www.greenfieldcc.co.kr",
     "phone": "010-777-1494"
   },
   {
@@ -25991,7 +25991,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=포레스트CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1495"
   },
   {
@@ -26055,7 +26055,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=칠원골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1496"
   },
   {
@@ -26120,7 +26120,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "가평군 다락재로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=청평마이다스CC",
+    "officialUrl": "https://www.midasgolf.co.kr",
     "phone": "04-777-1497"
   },
   {
@@ -26186,7 +26186,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=리앤리CC",
+    "officialUrl": "https://www.reanleecc.com",
     "phone": "05-777-1498"
   },
   {
@@ -26250,7 +26250,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=포천GC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1499"
   },
   {
@@ -26316,7 +26316,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=양주CC",
+    "officialUrl": "https://www.yangjucc.co.kr",
     "phone": "07-777-1500"
   },
   {
@@ -26381,7 +26381,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=샤인데일골프리조트",
+    "officialUrl": "https://www.shinedale.com",
     "phone": "08-777-1501"
   },
   {
@@ -26446,7 +26446,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=클럽모우CC",
+    "officialUrl": "https://www.clubmow.com",
     "phone": "09-777-1502"
   },
   {
@@ -26510,7 +26510,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=원더클럽 파가니카CC",
+    "officialUrl": "https://www.paganica.co.kr",
     "phone": "010-777-1503"
   },
   {
@@ -26577,7 +26577,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=타이거CC",
+    "officialUrl": "https://www.tigercc.co.kr",
     "phone": "02-777-1504"
   },
   {
@@ -26642,7 +26642,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=코스카CC",
+    "officialUrl": "https://www.koscacc.kr",
     "phone": "03-777-1505"
   },
   {
@@ -26708,7 +26708,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에버리스CC",
+    "officialUrl": "https://www.shinanresort.co.kr",
     "phone": "04-777-1506"
   },
   {
@@ -26773,7 +26773,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골드그린GC",
+    "officialUrl": "https://www.gakorea.com",
     "phone": "05-777-1507"
   },
   {
@@ -26837,7 +26837,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=영남알프스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1508"
   },
   {
@@ -26902,7 +26902,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "광주광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=하남골프존플러스",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1509"
   },
   {
@@ -26969,7 +26969,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 138의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 138 (지옥(상급자전용)) & 그린 스피드 3.0m",
-    "officialUrl": "https://www.google.com/search?q=블랙스톤이천GC",
+    "officialUrl": "https://www.blackstonecc.co.kr",
     "phone": "08-777-1510"
   },
   {
@@ -27034,7 +27034,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=빅토리아CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1511"
   },
   {
@@ -27099,7 +27099,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=소피아그린CC",
+    "officialUrl": "https://www.sophiagreen.co.kr",
     "phone": "010-777-1512"
   },
   {
@@ -27164,7 +27164,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=진양밸리GC",
+    "officialUrl": "https://www.jinyangvalley.co.kr",
     "phone": "02-777-1513"
   },
   {
@@ -27229,7 +27229,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에덴블루CC",
+    "officialUrl": "https://www.edenblue.co.kr",
     "phone": "03-777-1514"
   },
   {
@@ -27294,7 +27294,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=프린세스GC",
+    "officialUrl": "https://www.princesscc.co.kr",
     "phone": "04-777-1515"
   },
   {
@@ -27359,7 +27359,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=리더스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1516"
   },
   {
@@ -27424,7 +27424,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=동래배네스트CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1518"
   },
   {
@@ -27489,7 +27489,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=마스터피스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1519"
   },
   {
@@ -27554,7 +27554,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=나주힐스CC",
+    "officialUrl": "https://www.najucc.co.kr",
     "phone": "09-777-1520"
   },
   {
@@ -27619,7 +27619,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=남원상록GC",
+    "officialUrl": "https://www.sangrokresort.co.kr",
     "phone": "010-777-1521"
   },
   {
@@ -27685,7 +27685,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=포천힐스 CC",
+    "officialUrl": "https://www.fortunehills.co.kr",
     "phone": "02-777-1522"
   },
   {
@@ -27749,7 +27749,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "포천시 삼육사로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=코브스윙CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1523"
   },
   {
@@ -27813,7 +27813,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=애플밸리CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1524"
   },
   {
@@ -27880,7 +27880,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파미힐스CC",
+    "officialUrl": "https://www.palgongcc.co.kr",
     "phone": "05-777-1525"
   },
   {
@@ -27945,7 +27945,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=화성상록GC",
+    "officialUrl": "https://www.sangrokresort.co.kr",
     "phone": "06-777-1526"
   },
   {
@@ -28010,7 +28010,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 119의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 119 (쉬움(초보추천)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=기흥CC",
+    "officialUrl": "https://www.kheung.co.kr",
     "phone": "07-777-1527"
   },
   {
@@ -28074,7 +28074,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "경남 양산시 매곡외산로 282 (매곡동, 동부산컨트리클럽)에 위치한 27홀 규모의 회원제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=동부산CC",
+    "officialUrl": "https://www.busancc.co.kr",
     "phone": "(055)388-1315/7"
   },
   {
@@ -28138,7 +28138,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=해운대비치골프&리조트",
+    "officialUrl": "https://www.haeundaecc.co.kr",
     "phone": "09-777-1529"
   },
   {
@@ -28205,7 +28205,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 116의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 116 (쉬움(초보추천)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 청통",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "010-777-1530"
   },
   {
@@ -28270,7 +28270,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=선리치GC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1531"
   },
   {
@@ -28337,7 +28337,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 118의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 118 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=써닝포인트CC",
+    "officialUrl": "https://www.sunningpoint.com",
     "phone": "03-777-1532"
   },
   {
@@ -28403,7 +28403,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 143의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 143 (지옥(상급자전용)) & 그린 스피드 3.2m",
-    "officialUrl": "https://www.google.com/search?q=사우스스프링스CC",
+    "officialUrl": "https://www.southsprings.com",
     "phone": "04-777-1533"
   },
   {
@@ -28470,7 +28470,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "경기 안성시 보개면 보삼로 302 (북가현리)에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 114의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 114 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 안성H",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "(031)8056-0700"
   },
   {
@@ -28535,7 +28535,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=동여주CC",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "06-777-1535"
   },
   {
@@ -28602,7 +28602,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 140의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 140 (지옥(상급자전용)) & 그린 스피드 3.2m",
-    "officialUrl": "https://www.google.com/search?q=트리니티클럽",
+    "officialUrl": "https://www.trinityclub.co.kr",
     "phone": "07-777-1536"
   },
   {
@@ -28667,7 +28667,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=동원썬밸리CC",
+    "officialUrl": "https://www.sunvalley.co.kr",
     "phone": "08-777-1537"
   },
   {
@@ -28732,7 +28732,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=김포 씨사이드 CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1538"
   },
   {
@@ -28798,7 +28798,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=OK CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1539"
   },
   {
@@ -28865,7 +28865,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=SG아름다운CC",
+    "officialUrl": "https://www.sgresort.co.kr",
     "phone": "02-777-1540"
   },
   {
@@ -28929,7 +28929,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파나시아골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1541"
   },
   {
@@ -28994,7 +28994,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=태인CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1542"
   },
   {
@@ -29059,7 +29059,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=롯데스카이힐CC",
+    "officialUrl": "https://www.lotteskyhill.com",
     "phone": "05-777-1543"
   },
   {
@@ -29123,7 +29123,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=충성대체력단련장CC",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "06-777-1544"
   },
   {
@@ -29188,7 +29188,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=안동레이크골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1545"
   },
   {
@@ -29255,7 +29255,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=마이다스레이크이천 골프앤리조트",
+    "officialUrl": "https://www.midasgolf.co.kr",
     "phone": "08-777-1546"
   },
   {
@@ -29319,7 +29319,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=탑스텐리조트 동강시스타CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1547"
   },
   {
@@ -29384,7 +29384,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파인허스트골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1548"
   },
   {
@@ -29449,7 +29449,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아산CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1549"
   },
   {
@@ -29515,7 +29515,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남양골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1550"
   },
   {
@@ -29579,7 +29579,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 128의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 128 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=해비치CC",
+    "officialUrl": "https://www.haevichi.com",
     "phone": "04-777-1551"
   },
   {
@@ -29644,7 +29644,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=이스턴CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1552"
   },
   {
@@ -29709,7 +29709,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=김해상록GC",
+    "officialUrl": "https://www.sangrokresort.co.kr",
     "phone": "06-777-1553"
   },
   {
@@ -29774,7 +29774,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=백양우리CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1554"
   },
   {
@@ -29840,7 +29840,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=석정힐CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1555"
   },
   {
@@ -29905,7 +29905,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=더나인골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1556"
   },
   {
@@ -29970,7 +29970,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=상떼힐익산CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1557"
   },
   {
@@ -30036,7 +30036,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=무등산CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1558"
   },
   {
@@ -30100,7 +30100,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=의령친환경골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1559"
   },
   {
@@ -30166,7 +30166,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=육군체력단련장CC",
+    "officialUrl": "https://armywelfare.mil.kr",
     "phone": "04-777-1560"
   },
   {
@@ -30231,7 +30231,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=클럽디보은CC",
+    "officialUrl": "https://www.clubd.co.kr",
     "phone": "05-777-1561"
   },
   {
@@ -30296,7 +30296,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아세코밸리골프클럽클럽하우스",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1562"
   },
   {
@@ -30360,7 +30360,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=서원힐스CC South CourseCC",
+    "officialUrl": "https://www.seowongolf.co.kr",
     "phone": "07-777-1563"
   },
   {
@@ -30426,7 +30426,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=내장산골프&리조트",
+    "officialUrl": "https://www.naejangsanresort.com",
     "phone": "08-777-1564"
   },
   {
@@ -30491,7 +30491,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파라지오CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1565"
   },
   {
@@ -30556,7 +30556,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=보령베이스CC",
+    "officialUrl": "https://www.boryeongbase.co.kr",
     "phone": "010-777-1566"
   },
   {
@@ -30623,7 +30623,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 117의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 117 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=오션힐스 청도GC",
+    "officialUrl": "https://www.oceanhills.com",
     "phone": "02-777-1567"
   },
   {
@@ -30687,7 +30687,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=유니밸리CC",
+    "officialUrl": "https://www.univalley.co.kr",
     "phone": "03-777-1568"
   },
   {
@@ -30751,7 +30751,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=세븐밸리CC",
+    "officialUrl": "https://www.sevenvalley.co.kr",
     "phone": "04-777-1569"
   },
   {
@@ -30817,7 +30817,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=보성에덴CC",
+    "officialUrl": "https://www.bosungcc.co.kr",
     "phone": "05-777-1570"
   },
   {
@@ -30881,7 +30881,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=양산동원로얄CC",
+    "officialUrl": "https://www.dongwonroyal.co.kr",
     "phone": "06-777-1571"
   },
   {
@@ -30945,7 +30945,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=안강레전드골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1572"
   },
   {
@@ -31011,7 +31011,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=무주덕유산CC",
+    "officialUrl": "https://www.mdysresort.com",
     "phone": "08-777-1573"
   },
   {
@@ -31076,7 +31076,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=세이지우드CC 홍천CC",
+    "officialUrl": "https://www.sagewood.co.kr",
     "phone": "09-777-1574"
   },
   {
@@ -31141,7 +31141,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=하이원CC",
+    "officialUrl": "https://www.high1.com",
     "phone": "010-777-1575"
   },
   {
@@ -31207,7 +31207,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=장수골프리조트",
+    "officialUrl": "https://www.jangsugolf.com",
     "phone": "02-777-1576"
   },
   {
@@ -31271,7 +31271,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에버힐골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1577"
   },
   {
@@ -31336,7 +31336,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오동도코스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1578"
   },
   {
@@ -31401,7 +31401,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그레이스 골프 연습장",
+    "officialUrl": "https://www.gracecc.co.kr",
     "phone": "05-777-1579"
   },
   {
@@ -31466,7 +31466,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=금곡골프프라자",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1581"
   },
   {
@@ -31531,7 +31531,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=에콜리안CC 거창CC",
+    "officialUrl": "https://www.ecolian.or.kr",
     "phone": "08-777-1582"
   },
   {
@@ -31596,7 +31596,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "인천광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=인천그랜드CC",
+    "officialUrl": "https://www.grandgolf.co.kr",
     "phone": "09-777-1583"
   },
   {
@@ -31660,7 +31660,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=의령리온CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1584"
   },
   {
@@ -31727,7 +31727,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 141의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 141 (지옥(상급자전용)) & 그린 스피드 3.0m",
-    "officialUrl": "https://www.google.com/search?q=베어크리크GC 춘천CC",
+    "officialUrl": "https://www.bearcreek.co.kr",
     "phone": "02-777-1585"
   },
   {
@@ -31792,7 +31792,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남춘천CC",
+    "officialUrl": "https://www.namchuncheon.co.kr",
     "phone": "03-777-1586"
   },
   {
@@ -31856,7 +31856,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=오너스GC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1587"
   },
   {
@@ -31923,7 +31923,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그린힐골프클럽",
+    "officialUrl": "https://www.shinanresort.co.kr",
     "phone": "05-777-1588"
   },
   {
@@ -31987,7 +31987,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=론볼장CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1589"
   },
   {
@@ -32053,7 +32053,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=힐드로사이CC",
+    "officialUrl": "https://www.hildrosai.co.kr",
     "phone": "07-777-1590"
   },
   {
@@ -32118,7 +32118,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그라운드 골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1591"
   },
   {
@@ -32182,7 +32182,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=진주CC",
+    "officialUrl": "https://www.jinjocc.co.kr",
     "phone": "09-777-1592"
   },
   {
@@ -32246,7 +32246,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=젠스필드CC",
+    "officialUrl": "https://www.gensfield.com",
     "phone": "010-777-1593"
   },
   {
@@ -32312,7 +32312,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=조일프라자골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1594"
   },
   {
@@ -32378,7 +32378,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=더플레이어스GC",
+    "officialUrl": "https://www.theplayersgc.com",
     "phone": "03-777-1595"
   },
   {
@@ -32442,7 +32442,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=동서울레스피아 골프&리조트",
+    "officialUrl": "https://www.seoulcc.co.kr",
     "phone": "04-777-1596"
   },
   {
@@ -32508,7 +32508,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 141의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 141 (지옥(상급자전용)) & 그린 스피드 3.0m",
-    "officialUrl": "https://www.google.com/search?q=페럼클럽",
+    "officialUrl": "https://www.ferrumclub.com",
     "phone": "05-777-1597"
   },
   {
@@ -32573,7 +32573,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=더스테이힐링파크 링스파3골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1598"
   },
   {
@@ -32640,7 +32640,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대전광역시 테크노중앙로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=한미르대덕CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1600"
   },
   {
@@ -32704,7 +32704,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=명밀양CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1601"
   },
   {
@@ -32770,7 +32770,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=세라지오CC",
+    "officialUrl": "https://www.ceragio.com",
     "phone": "010-777-1602"
   },
   {
@@ -32835,7 +32835,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=무안클린밸리CC",
+    "officialUrl": "https://www.muancc.co.kr",
     "phone": "03-777-1604"
   },
   {
@@ -32900,7 +32900,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=스톤게이트CC",
+    "officialUrl": "https://www.stonegatecc.co.kr",
     "phone": "04-777-1605"
   },
   {
@@ -32964,7 +32964,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "세종특별자치시 행복3길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=SG골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1607"
   },
   {
@@ -33029,7 +33029,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=코리아CC",
+    "officialUrl": "https://www.gakorea.com",
     "phone": "07-777-1608"
   },
   {
@@ -33093,7 +33093,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": " 포승향남로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=서평택골프클럽 파3골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1611"
   },
   {
@@ -33158,7 +33158,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "아산시 휴대길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=남일밸리CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1614"
   },
   {
@@ -33224,7 +33224,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=레이크 골프 클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1615"
   },
   {
@@ -33289,7 +33289,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=정선군 파크 골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1618"
   },
   {
@@ -33354,7 +33354,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": " 용암로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그린골프존",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1619"
   },
   {
@@ -33419,7 +33419,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=스카이골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1622"
   },
   {
@@ -33484,7 +33484,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=River Bend Golf CourseCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1625"
   },
   {
@@ -33549,7 +33549,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=하이망 CC점CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1627"
   },
   {
@@ -33613,7 +33613,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골프 연습장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1628"
   },
   {
@@ -33679,7 +33679,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=사우스링스 영암CC",
+    "officialUrl": "https://www.southlinks.co.kr",
     "phone": "010-777-1629"
   },
   {
@@ -33746,7 +33746,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=사우스링스영암CC",
+    "officialUrl": "https://www.southlinks.co.kr",
     "phone": "02-777-1630"
   },
   {
@@ -33812,7 +33812,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 139의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 139 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=블랙스톤 벨포레CC",
+    "officialUrl": "https://www.blackstonecc.co.kr",
     "phone": "03-777-1631"
   },
   {
@@ -33877,7 +33877,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=18홀 파크 골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1634"
   },
   {
@@ -33942,7 +33942,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=에콜리안영광CC",
+    "officialUrl": "https://www.ecolian.or.kr",
     "phone": "07-777-1635"
   },
   {
@@ -34008,7 +34008,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=퍼팅연습장CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1636"
   },
   {
@@ -34073,7 +34073,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=동서울골프클럽",
+    "officialUrl": "https://www.seoulcc.co.kr",
     "phone": "09-777-1637"
   },
   {
@@ -34137,7 +34137,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=미성PGA골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1638"
   },
   {
@@ -34202,7 +34202,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=세현CC",
+    "officialUrl": "https://www.sehyeoncc.co.kr",
     "phone": "02-777-1639"
   },
   {
@@ -34268,7 +34268,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=더크로스비 골프클럽",
+    "officialUrl": "https://www.thecrosby.co.kr",
     "phone": "03-777-1640"
   },
   {
@@ -34332,7 +34332,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=서안성골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1641"
   },
   {
@@ -34398,7 +34398,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "포항시 희망대로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에스골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1645"
   },
   {
@@ -34463,7 +34463,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=루나힐스안성CC",
+    "officialUrl": "https://www.lunahills.co.kr",
     "phone": "09-777-1646"
   },
   {
@@ -34527,7 +34527,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "경주시 보문로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=보문골프클럽",
+    "officialUrl": "https://golf.gtc.co.kr",
     "phone": "010-777-1647"
   },
   {
@@ -34592,7 +34592,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "경주시 보문로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=경주CC",
+    "officialUrl": "https://www.gyeongjucc.co.kr",
     "phone": "02-777-1648"
   },
   {
@@ -34656,7 +34656,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "포항시 새마을로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=대련골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1649"
   },
   {
@@ -34721,7 +34721,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "포항시 새천년대로1173번길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=창포스카이골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1650"
   },
   {
@@ -34787,7 +34787,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "창원시 원이대로773번길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=그랜드 골프클럽",
+    "officialUrl": "https://www.grandgolf.co.kr",
     "phone": "05-777-1651"
   },
   {
@@ -34853,7 +34853,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "인천광역시 어류정길 177번길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=유니아일랜드 골프&스파 리조트",
+    "officialUrl": "https://www.islandresort.co.kr",
     "phone": "06-777-1652"
   },
   {
@@ -34917,7 +34917,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "남해군 흥선로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=사우스케이프오너스클럽",
+    "officialUrl": "https://www.southcape.co.kr",
     "phone": "07-777-1653"
   },
   {
@@ -34982,7 +34982,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=동락파크 골프장",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1654"
   },
   {
@@ -35047,7 +35047,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에스앤골프리조트",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1655"
   },
   {
@@ -35112,7 +35112,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=샴발라CC",
+    "officialUrl": "https://www.shambhalacc.co.kr",
     "phone": "010-777-1656"
   },
   {
@@ -35177,7 +35177,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=동원로얄CC 통영CC",
+    "officialUrl": "https://www.dongwonroyal.co.kr",
     "phone": "02-777-1657"
   },
   {
@@ -35241,7 +35241,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=루나엑스골프장",
+    "officialUrl": "https://www.lunax.co.kr",
     "phone": "04-777-1659"
   },
   {
@@ -35306,7 +35306,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오크힐스CC",
+    "officialUrl": "https://www.oakvalley.co.kr",
     "phone": "07-777-1662"
   },
   {
@@ -35371,7 +35371,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=인그레인골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1664"
   },
   {
@@ -35437,7 +35437,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=창평골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1665"
   },
   {
@@ -35502,7 +35502,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=죽향CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1667"
   },
   {
@@ -35567,7 +35567,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=서울공항 체력단련장CC",
+    "officialUrl": "https://www.seoulcc.co.kr",
     "phone": "04-777-1668"
   },
   {
@@ -35632,7 +35632,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=세종레이캐슬CC",
+    "officialUrl": "https://www.raycastle.com",
     "phone": "05-777-1669"
   },
   {
@@ -35698,7 +35698,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=필그린GC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1670"
   },
   {
@@ -35762,7 +35762,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=이글몬트CC",
+    "officialUrl": "https://www.eaglemont.co.kr",
     "phone": "07-777-1671"
   },
   {
@@ -35829,7 +35829,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": " 대명항로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=휴리스골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1672"
   },
   {
@@ -35893,7 +35893,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=펜타뷰골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1673"
   },
   {
@@ -35958,7 +35958,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=더스타휴 골프앤리조트",
+    "officialUrl": "https://www.thestarhue.com",
     "phone": "010-777-1674"
   },
   {
@@ -36024,7 +36024,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=베뉴지CC",
+    "officialUrl": "https://www.venuegcc.com",
     "phone": "02-777-1675"
   },
   {
@@ -36089,7 +36089,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=거창골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1676"
   },
   {
@@ -36153,7 +36153,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=옥스필드CC",
+    "officialUrl": "https://www.oxfield.com",
     "phone": "04-777-1677"
   },
   {
@@ -36219,7 +36219,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "경기도 안성시 죽산면 장계길 20-229에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=골프클럽Q",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "(031)8046-7000"
   },
   {
@@ -36284,7 +36284,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=영재 파3골프랜드",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1679"
   },
   {
@@ -36350,7 +36350,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=감곡CC",
+    "officialUrl": "https://www.gamgokcc.co.kr",
     "phone": "07-777-1680"
   },
   {
@@ -36415,7 +36415,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=일레븐CC",
+    "officialUrl": "https://www.11cc.co.kr",
     "phone": "08-777-1681"
   },
   {
@@ -36482,7 +36482,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 142의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 142 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=웰링턴CC",
+    "officialUrl": "https://www.wellingtoncc.co.kr",
     "phone": "09-777-1682"
   },
   {
@@ -36547,7 +36547,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 124의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 124 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=정원골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1683"
   },
   {
@@ -36613,7 +36613,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=장현그린골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1684"
   },
   {
@@ -36679,7 +36679,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=모나크CC",
+    "officialUrl": "https://www.monarchcc.co.kr",
     "phone": "04-777-1686"
   },
   {
@@ -36745,7 +36745,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=르오네트CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1687"
   },
   {
@@ -36810,7 +36810,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아리스타CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1688"
   },
   {
@@ -36874,7 +36874,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=울진마린CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1689"
   },
   {
@@ -36940,7 +36940,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=밀양노벨CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1690"
   },
   {
@@ -37004,7 +37004,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=신동그린힐스CC",
+    "officialUrl": "https://www.shinanresort.co.kr",
     "phone": "09-777-1691"
   },
   {
@@ -37069,7 +37069,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "양평군 중앙로111번길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에스앤제이스포츠CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1692"
   },
   {
@@ -37135,7 +37135,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=루트52CC",
+    "officialUrl": "https://www.route52.co.kr",
     "phone": "02-777-1693"
   },
   {
@@ -37200,7 +37200,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=일라이트CC",
+    "officialUrl": "https://www.illitecc.co.kr",
     "phone": "03-777-1694"
   },
   {
@@ -37265,7 +37265,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=골든베이골프&리조트",
+    "officialUrl": "https://www.goldenbay.co.kr",
     "phone": "04-777-1695"
   },
   {
@@ -37331,7 +37331,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=성문안CC",
+    "officialUrl": "https://www.sungmoonan.com",
     "phone": "05-777-1696"
   },
   {
@@ -37395,7 +37395,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=에콜리안제천CC",
+    "officialUrl": "https://www.ecolian.or.kr",
     "phone": "06-777-1697"
   },
   {
@@ -37459,7 +37459,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "홍천군 내린천로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=파크 골프",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1698"
   },
   {
@@ -37524,7 +37524,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=클럽디거창CC",
+    "officialUrl": "https://www.clubd.co.kr",
     "phone": "08-777-1699"
   },
   {
@@ -37590,7 +37590,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=베스트 골프스쿨",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1700"
   },
   {
@@ -37656,7 +37656,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=써미트CC",
+    "officialUrl": "https://www.summitcc.co.kr",
     "phone": "02-777-1702"
   },
   {
@@ -37720,7 +37720,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "고양시 덕산로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=프라자골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1703"
   },
   {
@@ -37784,7 +37784,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=이지스카이CC",
+    "officialUrl": "https://www.easysky.co.kr",
     "phone": "04-777-1704"
   },
   {
@@ -37849,7 +37849,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=다산베아채CC",
+    "officialUrl": "https://www.beachegolf.com",
     "phone": "06-777-1706"
   },
   {
@@ -37914,7 +37914,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=월드CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1708"
   },
   {
@@ -37980,7 +37980,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오산체력단련장CC",
+    "officialUrl": "https://welfare.airforce.mil.kr",
     "phone": "010-777-1710"
   },
   {
@@ -38046,7 +38046,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=갤럭시골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1711"
   },
   {
@@ -38110,7 +38110,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=베이스타즈CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1712"
   },
   {
@@ -38175,7 +38175,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=여수경도골프앤리조트CC",
+    "officialUrl": "https://www.sagewood.co.kr",
     "phone": "04-777-1713"
   },
   {
@@ -38241,7 +38241,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=베르힐CC 함평CC",
+    "officialUrl": "https://www.verthill.co.kr",
     "phone": "08-777-1717"
   },
   {
@@ -38306,7 +38306,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=파인코스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1718"
   },
   {
@@ -38370,7 +38370,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=메이플코스CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1719"
   },
   {
@@ -38436,7 +38436,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=목포골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1721"
   },
   {
@@ -38501,7 +38501,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=선그린골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1722"
   },
   {
@@ -38566,7 +38566,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=W5NFCC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1724"
   },
   {
@@ -38633,7 +38633,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 114의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 114 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 사천",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "08-777-1726"
   },
   {
@@ -38698,7 +38698,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=디오션CC",
+    "officialUrl": "https://www.theoceanresort.co.kr",
     "phone": "09-777-1727"
   },
   {
@@ -38763,7 +38763,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=고령오펠GC",
+    "officialUrl": "https://www.ophelgolf.com",
     "phone": "010-777-1728"
   },
   {
@@ -38828,7 +38828,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=칠곡아이위시CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1729"
   },
   {
@@ -38892,7 +38892,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=칼레이트CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "04-777-1731"
   },
   {
@@ -38957,7 +38957,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "밀양시 관광단지로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=밀양에스파크CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "05-777-1732"
   },
   {
@@ -39021,7 +39021,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오르비스GC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1733"
   },
   {
@@ -39087,7 +39087,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=인피션 골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "07-777-1734"
   },
   {
@@ -39154,7 +39154,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 117의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "인천 대중제 | 슬로프 레이팅 117 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.google.com/search?q=베르힐CC 영종CC",
+    "officialUrl": "https://www.verthill.co.kr",
     "phone": "08-777-1735"
   },
   {
@@ -39219,7 +39219,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=제이유제이골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "09-777-1736"
   },
   {
@@ -39283,7 +39283,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=골프존파크 장성 침촌점",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "03-777-1739"
   },
   {
@@ -39349,7 +39349,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=유명골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "06-777-1742"
   },
   {
@@ -39414,7 +39414,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=서원힐스CC WEST COURSECC",
+    "officialUrl": "https://www.seowongolf.co.kr",
     "phone": "09-777-1745"
   },
   {
@@ -39479,7 +39479,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=서원힐스CC 동코스 Seowon Hills CC East CourseCC",
+    "officialUrl": "https://www.seowongolf.co.kr",
     "phone": "010-777-1746"
   },
   {
@@ -39544,7 +39544,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "세종특별자치시 월성로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=마임골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1747"
   },
   {
@@ -39608,7 +39608,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "사천시 흥신로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=서경타니CC",
+    "officialUrl": "https://www.tanicc.co.kr",
     "phone": "03-777-1748"
   },
   {
@@ -39675,7 +39675,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "전라북도 고창군 아산면 운곡로 418에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 119의 쉬움(초보추천) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 119 (쉬움(초보추천)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=골프존카운티 선운",
+    "officialUrl": "https://www.golfzoncounty.com",
     "phone": "(063)560-2000"
   },
   {
@@ -39741,7 +39741,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=용평CC",
+    "officialUrl": "https://www.yongpyong.co.kr",
     "phone": "05-777-1750"
   },
   {
@@ -39805,7 +39805,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=용평나인GC",
+    "officialUrl": "https://www.yongpyong.co.kr",
     "phone": "06-777-1751"
   },
   {
@@ -39869,7 +39869,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=알펜시아700GC",
+    "officialUrl": "https://www.alpensia.com",
     "phone": "07-777-1752"
   },
   {
@@ -39933,7 +39933,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "경기 군포시 군포로 364에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 회원제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=안양CC",
+    "officialUrl": "https://www.benestgolf.com",
     "phone": "(031)460-3301"
   },
   {
@@ -39998,7 +39998,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=어등산CC",
+    "officialUrl": "https://www.eodeungsancc.com",
     "phone": "09-777-1754"
   },
   {
@@ -40063,7 +40063,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "거제시 두동로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=거제뷰CC",
+    "officialUrl": "https://www.geojeview.co.kr",
     "phone": "010-777-1755"
   },
   {
@@ -40129,7 +40129,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=남안동CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "02-777-1756"
   },
   {
@@ -40195,7 +40195,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "남해군 남서대로1179번길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 139의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 139 (지옥(상급자전용)) & 그린 스피드 3.1m",
-    "officialUrl": "https://www.google.com/search?q=아난티 남해 골프클럽",
+    "officialUrl": "https://www.ananti.kr",
     "phone": "03-777-1757"
   },
   {
@@ -40259,7 +40259,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=파인리즈CC",
+    "officialUrl": "https://www.pineridge.co.kr",
     "phone": "04-777-1758"
   },
   {
@@ -40325,7 +40325,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아크로CC",
+    "officialUrl": "https://www.acrogolf.co.kr",
     "phone": "05-777-1759"
   },
   {
@@ -40391,7 +40391,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "Gyeonggi-do Seowon-gil에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=서원밸리CC 밸리코스 Seowon ValleyCC",
+    "officialUrl": "https://www.seowongolf.co.kr",
     "phone": "06-777-1760"
   },
   {
@@ -40455,7 +40455,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "경주시 보문로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=경주신라CC",
+    "officialUrl": "https://www.gyeongjucc.co.kr",
     "phone": "07-777-1761"
   },
   {
@@ -40522,7 +40522,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 138의 지옥(상급자전용) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "제주 대중제 | 슬로프 레이팅 138 (지옥(상급자전용)) & 그린 스피드 3.0m",
-    "officialUrl": "https://www.google.com/search?q=핀크스 GC",
+    "officialUrl": "https://www.thepinx.co.kr",
     "phone": "08-777-1762"
   },
   {
@@ -40587,7 +40587,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=블루원상주CC",
+    "officialUrl": "https://www.blueone.com",
     "phone": "09-777-1763"
   },
   {
@@ -40652,7 +40652,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=진산골프클럽",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "010-777-1764"
   },
   {
@@ -40718,7 +40718,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=대가야CC",
+    "officialUrl": "https://www.gayacc.com",
     "phone": "02-777-1765"
   },
   {
@@ -40782,7 +40782,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=기장동원로얄CC",
+    "officialUrl": "https://www.dongwonroyal.co.kr",
     "phone": "03-777-1766"
   },
   {
@@ -40848,7 +40848,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=한성CC",
+    "officialUrl": "https://www.hansung-cc.co.kr",
     "phone": "05-777-1768"
   },
   {
@@ -40912,7 +40912,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=인서울27골프클럽",
+    "officialUrl": "https://www.seoulcc.co.kr",
     "phone": "06-777-1769"
   },
   {
@@ -40978,7 +40978,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "경남 창원시 의창구 대봉로 137 (봉림동, (주)창원컨트리클럽)에 위치한 18홀 규모의 회원제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 회원제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=창원CC",
+    "officialUrl": "https://www.changwoncc.co.kr",
     "phone": "(055)288-4112"
   },
   {
@@ -41043,7 +41043,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=웰리힐리CC",
+    "officialUrl": "https://www.wellihillipark.com",
     "phone": "08-777-1771"
   },
   {
@@ -41108,7 +41108,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=자유CC",
+    "officialUrl": "https://www.jayu.co.kr",
     "phone": "09-777-1772"
   },
   {
@@ -41172,7 +41172,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=비에이비스타CC",
+    "officialUrl": "https://www.bavista.co.kr",
     "phone": "010-777-1773"
   },
   {
@@ -41238,7 +41238,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=필로스CC",
+    "officialUrl": "https://www.philoscc.com",
     "phone": "02-777-1774"
   },
   {
@@ -41303,7 +41303,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=오크밸리CC",
+    "officialUrl": "https://www.oakvalley.co.kr",
     "phone": "03-777-1775"
   },
   {
@@ -41367,7 +41367,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=버치힐CC",
+    "officialUrl": "https://www.yongpyong.co.kr",
     "phone": "04-777-1776"
   },
   {
@@ -41433,7 +41433,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=휘슬링락CC",
+    "officialUrl": "https://www.whistlingrockcc.com",
     "phone": "05-777-1777"
   },
   {
@@ -41497,7 +41497,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=비콘힐스골프클럽",
+    "officialUrl": "https://www.beaconhills.co.kr",
     "phone": "06-777-1778"
   },
   {
@@ -41561,7 +41561,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=군위오펠GC",
+    "officialUrl": "https://www.ophelgolf.com",
     "phone": "07-777-1779"
   },
   {
@@ -41627,7 +41627,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
     "highlight": "경상 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.google.com/search?q=삼삼CC",
+    "officialUrl": "https://www.kgba.co.kr",
     "phone": "08-777-1780"
   },
   {
@@ -41691,7 +41691,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.google.com/search?q=아일랜드CC",
+    "officialUrl": "https://www.islandresort.co.kr",
     "phone": "09-777-1781"
   },
   {
@@ -41755,7 +41755,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
     "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
     "highlight": "강원 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.google.com/search?q=소노펠리체CC 델피노CC",
+    "officialUrl": "https://www.sonofelicecc.com",
     "phone": "010-777-1782"
   }
 ];
