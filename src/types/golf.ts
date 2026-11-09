@@ -11,12 +11,15 @@ export type Region =
 
 export type GrassType =
   | '조선잔디(한국잔디)'
+  | '조선잔디(중지)'
+  | '조선잔디(안양중지)'
   | '양잔디(켄터키블루)'
   | '양잔디(벤트그라스/켄터키)'
   | '양잔디(벤트그라스)'
   | '양잔디(버뮤다/켄터키)'
   | '중지'
-  | '벤트그라스 혼합';
+  | '벤트그라스 혼합'
+  | '미확인';
 
 export type CourseStyle = '산악형' | '구릉형(힐)' | '링크스형(평지/해변)' | '곶자왈(평지)';
 export type FairwayWidth = '넓음' | '보통' | '좁음';
@@ -24,12 +27,12 @@ export type Undulation = '심함' | '보통' | '평탄';
 export type CourseType = '대중제' | '회원제' | '대중제+회원제';
 
 export interface DifficultyIndex {
-  slopeRating: number;        // USGA/KGA 슬로프 레이팅 (113이 세계 표준, 110~145: 보기플레이어 체감 난이도)
-  courseRating: number;       // USGA/KGA 코스 레이팅 (스크래치 골퍼 예상 타수, 예: 72.8)
-  golfzonCourseLevel: number; // 골프존 코스 난이도 (1.0 ~ 5.0 별점)
-  golfzonGreenLevel: number;  // 골프존 그린 난이도 (1.0 ~ 5.0 별점)
-  avgFieldScore: number;      // 스마트스코어 필드 아마추어 평균 타수 (예: 92.4)
-  relativeDifficulty: '쉬움(초보추천)' | '보통(표준)' | '어려움(중상급)' | '지옥(상급자전용)';
+  slopeRating?: number | null;        // USGA/KGA 슬로프 레이팅 (113이 세계 표준, 미측정 시 null)
+  courseRating?: number | null;       // USGA/KGA 코스 레이팅 (미측정 시 null)
+  golfzonCourseLevel?: number | null; // 골프존 코스 난이도 (1.0 ~ 5.0 별점)
+  golfzonGreenLevel?: number | null;  // 골프존 그린 난이도 (1.0 ~ 5.0 별점)
+  avgFieldScore?: number | null;      // 스마트스코어 필드 아마추어 평균 타수
+  relativeDifficulty?: '쉬움(초보추천)' | '보통(표준)' | '어려움(중상급)' | '지옥(상급자전용)' | '미측정';
 }
 
 export interface GolfClub {
@@ -56,8 +59,8 @@ export interface GolfClub {
   totalLengthMeters: number; // 18홀 기준 전장 (m)
   courseDifficulty: number; // 1 ~ 5 (코스 레이아웃/벙커/해저드 난이도)
   greenDifficulty: number;  // 1 ~ 5 (언듈레이션 난이도)
-  greenSpeedAvg: number;    // 평균 그린 스피드 (m)
-  teeBoxMatRatio: '매트 없음(100% 잔디)' | '일부 매트' | '매트 비율 높음';
+  greenSpeedAvg?: number | null;    // 평균 그린 스피드 (m) (미측정 시 null)
+  teeBoxMatRatio?: '매트 없음(100% 잔디)' | '일부 매트' | '매트 비율 높음' | '미확인' | null;
 
   // 골프장 공인 및 체감 난이도 지수
   difficultyIndex: DifficultyIndex;
@@ -76,7 +79,7 @@ export interface GolfClub {
     threePlayerAllowed: boolean; // 3인 플레이 가능
     noCaddieAllowed: boolean;    // 노캐디(자율주행/수동)
     nightPlay: boolean;          // 3부 야간 라운드
-    lightingType: 'LED 초고광량' | '일반 메탈' | '야간 미운영';
+    lightingType: 'LED 초고광량' | '최신 고광량 LED' | '일반 메탈' | '야간 미운영';
   };
 
   // 부대시설
@@ -85,7 +88,7 @@ export interface GolfClub {
     drivingRangeNote?: string | null; // 예: "300m 비거리 천연잔디 타석"
     practiceGreen: boolean;      // 어프로치/벙커 연습 그린
     hotel: boolean;              // 골프텔/숙박
-    saunaRating: '최상' | '우수' | '보통';
+    saunaRating: '최상' | '최우수' | '우수' | '보통';
   };
 
   rating: number; // 5.0 만점

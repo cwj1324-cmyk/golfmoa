@@ -141,9 +141,10 @@ export function App() {
         return false;
       }
 
-      // 6. 난이도 지수 필터 ('쉬움' | '보통' | '어려움' | '지옥')
+      // 6. 난이도 지수 필터 ('쉬움' | '보통' | '어려움' | '지옥' | '미측정')
       if (filter.difficultyFilter !== '전체') {
-        if (!club.difficultyIndex.relativeDifficulty.startsWith(filter.difficultyFilter)) {
+        const rel = club.difficultyIndex?.relativeDifficulty;
+        if (!rel || !rel.startsWith(filter.difficultyFilter)) {
           return false;
         }
       }
@@ -153,10 +154,10 @@ export function App() {
       if (filter.twoPlayerOnly && !club.playOptions.twoPlayerAllowed) return false;
       if (filter.nightPlayOnly && !club.playOptions.nightPlay) return false;
       if (filter.nightLedOnly && (!club.playOptions.nightPlay || !club.playOptions.lightingType.includes('LED'))) return false;
-      if (filter.noMatOnly && !club.teeBoxMatRatio.includes('매트 없음')) return false;
+      if (filter.noMatOnly && (!club.teeBoxMatRatio || !club.teeBoxMatRatio.includes('매트 없음'))) return false;
       if (filter.flatTerrainOnly && !(club.courseStyle.includes('구릉') || club.courseStyle.includes('링크스') || club.courseStyle.includes('평지'))) return false;
       if (filter.wideFairwayOnly && club.fairwayWidth !== '넓음') return false;
-      if (filter.fastGreenOnly && club.greenSpeedAvg < 2.8) return false;
+      if (filter.fastGreenOnly && (!club.greenSpeedAvg || club.greenSpeedAvg < 2.8)) return false;
       if (filter.drivingRangeOnly && !club.facilities.drivingRange) return false;
 
       // 8. Theme Preset
@@ -181,10 +182,10 @@ export function App() {
         return b.rating - a.rating;
       }
       if (sortBy === 'slopeHigh') {
-        return b.difficultyIndex.slopeRating - a.difficultyIndex.slopeRating;
+        return (b.difficultyIndex?.slopeRating ?? 0) - (a.difficultyIndex?.slopeRating ?? 0);
       }
       if (sortBy === 'slopeLow') {
-        return a.difficultyIndex.slopeRating - b.difficultyIndex.slopeRating;
+        return (a.difficultyIndex?.slopeRating ?? 999) - (b.difficultyIndex?.slopeRating ?? 999);
       }
       if (sortBy === 'difficultyDesc') {
         return b.courseDifficulty - a.courseDifficulty;

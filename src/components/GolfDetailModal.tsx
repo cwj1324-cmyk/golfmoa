@@ -32,7 +32,8 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
   const weekendCost = calculateCostPerPerson(club, true, 4, true);
   const officialUrl = getOfficialClubUrl(club);
 
-  const isNoMat = club.teeBoxMatRatio.includes('매트 없음');
+  const isNoMat = club.teeBoxMatRatio?.includes('매트 없음');
+  const isMixedMat = club.teeBoxMatRatio?.includes('일부 매트') || club.teeBoxMatRatio?.includes('매트 비율 높음');
   const isYangGrass = club.grass.fairway.includes('양잔디');
   const isFlat = club.courseStyle.includes('구릉') || club.courseStyle.includes('링크스') || club.courseStyle.includes('평지');
   const isNightLed = club.playOptions.nightPlay && club.playOptions.lightingType.includes('LED');
@@ -112,10 +113,10 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               {/* 1. 티박스 */}
               <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
                 <span className="text-[10px] text-slate-400 block font-medium">티박스 컨디션</span>
-                <span className={`font-bold mt-1 block ${isNoMat ? 'text-emerald-800' : 'text-slate-700'}`}>
-                  {isNoMat ? '🌱 100% 잔디티' : '매트 혼용'}
+                <span className={`font-bold mt-1 block ${isNoMat ? 'text-emerald-800' : isMixedMat ? 'text-slate-700' : 'text-slate-400'}`}>
+                  {isNoMat ? '🌱 100% 잔디티' : isMixedMat ? '매트 혼용' : '티박스 -'}
                 </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">{club.teeBoxMatRatio}</span>
+                <span className="text-[10px] text-slate-400 mt-0.5 block">{club.teeBoxMatRatio || '미확인'}</span>
               </div>
 
               {/* 2. 페어웨이 잔디 */}
@@ -158,10 +159,16 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 <span className="text-[10px] text-slate-400 block font-medium">평균 그린 스피드</span>
                 <span className="font-bold text-slate-900 mt-1 flex items-center gap-1">
                   <Gauge className="w-3.5 h-3.5 text-purple-600" />
-                  <span>{club.greenSpeedAvg.toFixed(1)}m</span>
-                  <span className="text-[11px] font-normal text-slate-500">
-                    ({club.greenSpeedAvg >= 2.8 ? '빠름' : '보통'})
-                  </span>
+                  {club.greenSpeedAvg ? (
+                    <>
+                      <span>{club.greenSpeedAvg.toFixed(1)}m</span>
+                      <span className="text-[11px] font-normal text-slate-500">
+                        ({club.greenSpeedAvg >= 2.8 ? '빠름' : '보통'})
+                      </span>
+                    </>
+                  ) : (
+                    <span className="text-slate-400 font-normal text-xs">미확인</span>
+                  )}
                 </span>
                 <span className="text-[10px] text-slate-400 mt-0.5 block">그린잔디: {club.grass.green}</span>
               </div>
@@ -235,38 +242,51 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
                 <span className="text-[10px] text-slate-400 block font-medium">슬로프 레이팅 (SR)</span>
                 <span className="text-xl font-black text-rose-600 block mt-0.5">
-                  {club.difficultyIndex.slopeRating}
+                  {club.difficultyIndex?.slopeRating ?? '미측정'}
                 </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">표준 113 기준</span>
+                <span className="text-[10px] text-slate-400 mt-0.5 block">
+                  {club.difficultyIndex?.slopeRating ? '표준 113 기준' : '공인 데이터 없음'}
+                </span>
               </div>
 
               <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
                 <span className="text-[10px] text-slate-400 block font-medium">코스 레이팅 (CR)</span>
                 <span className="text-xl font-black text-amber-600 block mt-0.5">
-                  {club.difficultyIndex.courseRating}
+                  {club.difficultyIndex?.courseRating ?? '미측정'}
                 </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">스크래치 기준</span>
+                <span className="text-[10px] text-slate-400 mt-0.5 block">
+                  {club.difficultyIndex?.courseRating ? '스크래치 기준' : '공인 데이터 없음'}
+                </span>
               </div>
 
               <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
                 <span className="text-[10px] text-slate-400 block font-medium">빅데이터 평균 타수</span>
                 <span className="text-xl font-black text-emerald-800 block mt-0.5">
-                  {club.difficultyIndex.avgFieldScore}타
+                  {club.difficultyIndex?.avgFieldScore ? `${club.difficultyIndex.avgFieldScore}타` : '미집계'}
                 </span>
                 <span className="text-[10px] text-slate-400 mt-0.5 block">스마트스코어 실기록</span>
               </div>
 
               <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
                 <span className="text-[10px] text-slate-400 block font-medium">내 체감 예상 타수</span>
-                <div className="flex items-baseline justify-center space-x-1 mt-0.5">
-                  <span className="text-xl font-black text-slate-900">
-                    {scorePred.expectedScore}타
-                  </span>
-                  <span className={`text-[11px] font-bold ${scorePred.diffFromAverage > 0 ? 'text-rose-600' : 'text-emerald-700'}`}>
-                    ({scorePred.diffFromAverage > 0 ? `+${scorePred.diffFromAverage}` : scorePred.diffFromAverage})
-                  </span>
-                </div>
-                <span className="text-[10px] text-slate-500 mt-0.5 block font-medium">{scorePred.levelAssessment.split(' ')[0]}</span>
+                {scorePred.isUnrated ? (
+                  <div className="mt-1">
+                    <span className="text-sm font-bold text-slate-600">공인 레이팅 미측정</span>
+                    <span className="text-[10px] text-slate-400 block mt-0.5">평소 {myAvgScore}타 기준</span>
+                  </div>
+                ) : (
+                  <>
+                    <div className="flex items-baseline justify-center space-x-1 mt-0.5">
+                      <span className="text-xl font-black text-slate-900">
+                        {scorePred.expectedScore}타
+                      </span>
+                      <span className={`text-[11px] font-bold ${scorePred.diffFromAverage > 0 ? 'text-rose-600' : 'text-emerald-700'}`}>
+                        ({scorePred.diffFromAverage > 0 ? `+${scorePred.diffFromAverage}` : scorePred.diffFromAverage})
+                      </span>
+                    </div>
+                    <span className="text-[10px] text-slate-500 mt-0.5 block font-medium">{scorePred.levelAssessment.split(' ')[0]}</span>
+                  </>
+                )}
               </div>
             </div>
 

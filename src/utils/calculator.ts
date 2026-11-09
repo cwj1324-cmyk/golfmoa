@@ -193,14 +193,30 @@ export interface ScorePrediction {
  * Formula: Course Handicap = Handicap Index * (Slope Rating / 113) + (Course Rating - Par)
  */
 export function predictFieldScore(
-  slopeRating: number,
-  courseRating: number,
+  slopeRating?: number | null,
+  courseRating?: number | null,
   userAverageScore: number = 90
-): ScorePrediction {
+): ScorePrediction & { isUnrated?: boolean } {
   const par = 72;
+
+  // 공인 슬로프/코스 레이팅이 없는 경우 솔직하게 미측정 상태 반환
+  if (!slopeRating || !courseRating || slopeRating <= 0 || courseRating <= 0) {
+    return {
+      userAverageScore,
+      expectedScore: userAverageScore,
+      diffFromAverage: 0,
+      handicapIndex: Math.max(0, userAverageScore - par),
+      courseHandicap: Math.max(0, userAverageScore - par),
+      levelAssessment: '공인 코스 레이팅 미측정 구장',
+      advice: '해당 구장은 KGA/USGA 공인 슬로프 레이팅 측정 데이터가 등록되지 않았습니다.',
+      ballLossRisk: '보통',
+      isUnrated: true,
+    };
+  }
+
   // 핸디캡 인덱스 역산 (평균 타수 - 파 72)
   const handicapIndex = Math.max(0, userAverageScore - par);
-  
+
   // USGA 공식 코스 핸디캡
   const courseHandicap = handicapIndex * (slopeRating / 113) + (courseRating - par);
   const expectedScoreRaw = par + courseHandicap;
@@ -234,6 +250,7 @@ export function predictFieldScore(
     levelAssessment,
     advice,
     ballLossRisk,
+    isUnrated: false,
   };
 }
 

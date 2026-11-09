@@ -87,15 +87,17 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
     comparedClubs.forEach((club, idx) => {
       const cost = calculateCostPerPerson(club, isWeekend, playerCount, true);
-      const prediction = predictFieldScore(club.difficultyIndex.slopeRating, club.difficultyIndex.courseRating, userAvgScore);
-      const isNoMat = club.teeBoxMatRatio.includes('매트 없음') ? '🌱 100% 잔디티' : '매트 혼용';
+      const prediction = predictFieldScore(club.difficultyIndex?.slopeRating, club.difficultyIndex?.courseRating, userAvgScore);
+      const isNoMat = club.teeBoxMatRatio?.includes('매트 없음') ? '🌱 100% 잔디티' : club.teeBoxMatRatio?.includes('매트') ? '매트 혼용' : '티박스 -';
       const isNight = club.playOptions.nightPlay ? `🌙 ${club.playOptions.lightingType}` : '야간 미운영';
+      const greenText = club.greenSpeedAvg ? `그린 ${club.greenSpeedAvg}m` : '그린 스피드 -';
+      const slopeText = prediction.isUnrated ? '공인 레이팅 미측정' : `${prediction.expectedScore}타 (슬로프 ${club.difficultyIndex?.slopeRating})`;
 
       lines.push(
         `${idx + 1}. ${club.name} (${club.region} / 서울 ${club.drivingTimeFromSeoul}분)`,
         `   • 핵심 조건: ${isNoMat} | ${club.grass.fairway} | ${isNight}`,
-        `   • 지형/그린: ${club.courseStyle} | 그린 ${club.greenSpeedAvg}m`,
-        `   • 예상 스코어: ${prediction.expectedScore}타 (슬로프 ${club.difficultyIndex.slopeRating})`,
+        `   • 지형/그린: ${club.courseStyle} | ${greenText}`,
+        `   • 예상 스코어: ${slopeText}`,
         `   • 1인 실부담: ${formatPrice(cost.totalPerPerson)} (팀: ${formatPrice(cost.totalTeamCost)})`,
         `   • 득표수: ${votes[club.id] || 0}표`,
         ''
@@ -289,13 +291,17 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                   </div>
                   {comparedClubs.map((club) => (
                     <div key={club.id}>
-                      {club.teeBoxMatRatio.includes('매트 없음') ? (
+                      {club.teeBoxMatRatio?.includes('매트 없음') ? (
                         <span className="px-2 py-0.5 rounded text-xs font-bold bg-emerald-100 text-emerald-900 border border-emerald-200">
                           100% 잔디 티박스
                         </span>
-                      ) : (
+                      ) : club.teeBoxMatRatio?.includes('매트') ? (
                         <span className="px-2 py-0.5 rounded text-xs font-medium bg-slate-100 text-slate-600">
                           인조 매트 혼용
+                        </span>
+                      ) : (
+                        <span className="px-2 py-0.5 rounded text-xs text-slate-400">
+                          미확인
                         </span>
                       )}
                     </div>
@@ -376,10 +382,16 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                   {comparedClubs.map((club) => (
                     <div key={club.id} className="font-bold text-slate-800 flex items-center gap-1">
                       <Gauge className="w-3.5 h-3.5 text-purple-600" />
-                      <span>{club.greenSpeedAvg.toFixed(1)}m</span>
-                      <span className="text-[11px] font-normal text-slate-500">
-                        ({club.greenSpeedAvg >= 2.8 ? '빠름' : '보통'})
-                      </span>
+                      {club.greenSpeedAvg ? (
+                        <>
+                          <span>{club.greenSpeedAvg.toFixed(1)}m</span>
+                          <span className="text-[11px] font-normal text-slate-500">
+                            ({club.greenSpeedAvg >= 2.8 ? '빠름' : '보통'})
+                          </span>
+                        </>
+                      ) : (
+                        <span className="text-slate-400 font-normal text-xs">미확인</span>
+                      )}
                     </div>
                   ))}
                 </div>

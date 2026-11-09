@@ -2,73 +2,6 @@ import type { GolfClub } from '../types/golf';
 
 export const GOLF_CLUBS_DATA: GolfClub[] = [
   {
-    "id": "알지골프",
-    "name": "알지골프",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.85384,
-      "lng": 128.76401
-    },
-    "drivingTimeFromSeoul": 292,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.6,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 120,
-    "tags": [
-      "경상",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.alzipgolf.com",
-    "phone": "02-777-1000"
-  },
-  {
     "id": "아덴힐리즈트앤골프클럽",
     "name": "아덴힐 리즈트 앤 골프 클럽",
     "region": "제주",
@@ -90,15 +23,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -156,15 +89,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -222,15 +155,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -288,15 +221,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -354,15 +287,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -420,15 +353,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -466,7 +399,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "everisgolfresortcc",
-    "name": "Everis Golf & ResortCC",
+    "name": "에버리스 골프리조트 (에버리스CC)",
     "region": "제주",
     "address": "대한민국",
     "coordinates": {
@@ -486,15 +419,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -531,73 +464,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "010-777-1008"
   },
   {
-    "id": "ezio골프연습장",
-    "name": "EZIO 골프 연습장",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.4689,
-      "lng": 127.04195
-    },
-    "drivingTimeFromSeoul": 25,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 219,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1009"
-  },
-  {
     "id": "플라자cc제주cc",
-    "name": "플라자CC제주CC",
+    "name": "플라자CC 제주",
     "region": "제주",
     "address": "대한민국",
     "coordinates": {
@@ -617,15 +485,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -662,399 +530,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "04-777-1011"
   },
   {
-    "id": "세리골프스쿨",
-    "name": "세리골프스쿨",
-    "region": "경기북부",
-    "address": "서울특별시 통일로85길",
-    "coordinates": {
-      "lat": 37.62272,
-      "lng": 126.9191
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 263,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "서울특별시 통일로85길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1013"
-  },
-  {
-    "id": "문화골프클럽",
-    "name": "문화골프클럽",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.61096,
-      "lng": 127.29455
-    },
-    "drivingTimeFromSeoul": 132,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 274,
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "노캐디가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1014"
-  },
-  {
-    "id": "신세대골프클럽",
-    "name": "신세대골프클럽",
-    "region": "경기남부",
-    "address": "안양시 시민대로",
-    "coordinates": {
-      "lat": 37.39628,
-      "lng": 126.96823
-    },
-    "drivingTimeFromSeoul": 29,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 296,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "안양시 시민대로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1016"
-  },
-  {
-    "id": "청수골프랜드",
-    "name": "청수골프랜드",
-    "region": "충청",
-    "address": "천안시 광풍로",
-    "coordinates": {
-      "lat": 36.78129,
-      "lng": 127.14498
-    },
-    "drivingTimeFromSeoul": 107,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 120000,
-      "weekendGreenFee": 170000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 318,
-    "tags": [
-      "충청",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "천안시 광풍로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1018"
-  },
-  {
-    "id": "마스터골프클럽",
-    "name": "마스터골프클럽",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.76985,
-      "lng": 127.13933
-    },
-    "drivingTimeFromSeoul": 109,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1019"
-  },
-  {
-    "id": "비젼골프존",
-    "name": "비젼골프존",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.53623,
-      "lng": 126.90071
-    },
-    "drivingTimeFromSeoul": 28,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.6,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 340,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1020"
-  },
-  {
     "id": "seasidegolfclubcc",
-    "name": "SEASIDEGOLFCLUBCC",
+    "name": "씨사이드GC (영종)",
     "region": "경상",
     "address": "대한민국",
     "coordinates": {
@@ -1074,15 +551,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -1138,15 +615,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -1204,15 +681,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -1248,199 +725,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "010-777-1026"
   },
   {
-    "id": "골프장",
-    "name": "골프장",
-    "region": "강원",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.71534,
-      "lng": 128.83278
-    },
-    "drivingTimeFromSeoul": 201,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 428,
-    "tags": [
-      "강원",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "강원 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1028"
-  },
-  {
-    "id": "용전골프연습장",
-    "name": "용전골프 연습장",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.36015,
-      "lng": 127.43609
-    },
-    "drivingTimeFromSeoul": 167,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 461,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1031"
-  },
-  {
-    "id": "베스타골프",
-    "name": "베스타골프",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.22176,
-      "lng": 129.14719
-    },
-    "drivingTimeFromSeoul": 381,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.8,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 472,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1032"
-  },
-  {
     "id": "크리스탈밸리골프클럽",
     "name": "크리스탈밸리 골프클럽",
     "region": "경기북부",
@@ -1462,15 +746,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -1527,15 +811,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -1571,70 +855,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "06-777-1040"
   },
   {
-    "id": "굿샷골프존파크",
-    "name": "굿샷골프존파크",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.22938,
-      "lng": 128.86274
-    },
-    "drivingTimeFromSeoul": 363,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 208,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1043"
-  },
-  {
     "id": "파주cc",
     "name": "파주CC",
     "region": "경기북부",
@@ -1656,15 +876,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -1701,725 +921,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1045"
   },
   {
-    "id": "송원골프랜드",
-    "name": "송원골프랜드",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.48339,
-      "lng": 127.17138
-    },
-    "drivingTimeFromSeoul": 146,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 241,
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1046"
-  },
-  {
-    "id": "광주그린골프",
-    "name": "광주그린골프",
-    "region": "전라",
-    "address": " 상무대로",
-    "coordinates": {
-      "lat": 35.14106,
-      "lng": 126.83294
-    },
-    "drivingTimeFromSeoul": 318,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 252,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": " 상무대로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.gwangjucc.com",
-    "phone": "04-777-1047"
-  },
-  {
-    "id": "서이천골프클럽",
-    "name": "서이천 골프 클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.2946,
-      "lng": 127.4065
-    },
-    "drivingTimeFromSeoul": 61,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 263,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1048"
-  },
-  {
-    "id": "굿샷골프존파크-50",
-    "name": "굿샷 골프존파크",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.72877,
-      "lng": 126.72882
-    },
-    "drivingTimeFromSeoul": 244,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 285,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1050"
-  },
-  {
-    "id": "골프존나이스",
-    "name": "골프존 나이스",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.73045,
-      "lng": 126.73707
-    },
-    "drivingTimeFromSeoul": 244,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 150000,
-      "weekendGreenFee": 200000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 296,
-    "tags": [
-      "전라",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1051"
-  },
-  {
-    "id": "동도센트리움골프클럽",
-    "name": "동도센트리움골프클럽",
-    "region": "경기남부",
-    "address": "서울특별시 ",
-    "coordinates": {
-      "lat": 37.4906,
-      "lng": 126.83253
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "서울특별시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1054"
-  },
-  {
-    "id": "광릉골프존",
-    "name": "광릉골프존",
-    "region": "경기북부",
-    "address": "남양주시 진벌로",
-    "coordinates": {
-      "lat": 37.74152,
-      "lng": 127.22129
-    },
-    "drivingTimeFromSeoul": 52,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 362,
-    "tags": [
-      "경기북부",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "남양주시 진벌로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1057"
-  },
-  {
-    "id": "골프존파크",
-    "name": "골프존파크",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.59316,
-      "lng": 127.17932
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 373,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1058"
-  },
-  {
-    "id": "매직골프",
-    "name": "매직골프",
-    "region": "경기북부",
-    "address": "서울특별시 망우로",
-    "coordinates": {
-      "lat": 37.5946,
-      "lng": 127.07967
-    },
-    "drivingTimeFromSeoul": 28,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 417,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "서울특별시 망우로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1062"
-  },
-  {
-    "id": "골프존",
-    "name": "골프존",
-    "region": "경기북부",
-    "address": "서울특별시 동일로",
-    "coordinates": {
-      "lat": 37.61855,
-      "lng": 127.07642
-    },
-    "drivingTimeFromSeoul": 31,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 450,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "서울특별시 동일로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1065"
-  },
-  {
-    "id": "에이스골프크리닉",
-    "name": "에이스골프크리닉",
-    "region": "경기북부",
-    "address": "서울특별시 동일로192길",
-    "coordinates": {
-      "lat": 37.62739,
-      "lng": 127.07695
-    },
-    "drivingTimeFromSeoul": 32,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 461,
-    "tags": [
-      "경기북부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "서울특별시 동일로192길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1066"
-  },
-  {
     "id": "성문안cc",
     "name": "성문안CC",
     "region": "경기남부",
@@ -2441,15 +942,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -2484,1637 +985,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "06-777-1067"
   },
   {
-    "id": "오크밸리스골프장코스구역",
-    "name": "오크밸리스골프장 코스구역",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.41593,
-      "lng": 127.82121
-    },
-    "drivingTimeFromSeoul": 96,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 483,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.oakvalley.co.kr",
-    "phone": "07-777-1068"
-  },
-  {
-    "id": "나룰리얼골프존",
-    "name": "나룰리얼골프존",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.55107,
-      "lng": 127.20627
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 120,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "노캐디가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1070"
-  },
-  {
-    "id": "골프존파크덕풍미사대로점",
-    "name": "골프존파크덕풍미사대로점",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.55555,
-      "lng": 127.2084
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 131,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1071"
-  },
-  {
-    "id": "덕풍골프존",
-    "name": "덕풍 골프존",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.54856,
-      "lng": 127.2033
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.8,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 142,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1072"
-  },
-  {
-    "id": "골프마스터",
-    "name": "골프마스터",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.55855,
-      "lng": 127.20408
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 164,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1074"
-  },
-  {
-    "id": "마스타골프연습장",
-    "name": "마스타 골프 연습장",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.54305,
-      "lng": 127.1755
-    },
-    "drivingTimeFromSeoul": 31,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 197,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1077"
-  },
-  {
-    "id": "gcoursecc",
-    "name": "G CourseCC",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.84655,
-      "lng": 127.47431
-    },
-    "drivingTimeFromSeoul": 78,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 263,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1083"
-  },
-  {
-    "id": "hillcoursecc",
-    "name": "HILL CourseCC",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.85028,
-      "lng": 127.46286
-    },
-    "drivingTimeFromSeoul": 78,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 274,
-    "tags": [
-      "경기북부",
-      "양잔디",
-      "대중제퍼블릭",
-      "노캐디가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1084"
-  },
-  {
-    "id": "huecoursecc",
-    "name": "HUE CourseCC",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.84564,
-      "lng": 127.46806
-    },
-    "drivingTimeFromSeoul": 78,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 285,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1085"
-  },
-  {
-    "id": "허니골프본점",
-    "name": "허니골프 본점",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.52385,
-      "lng": 127.22176
-    },
-    "drivingTimeFromSeoul": 35,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.2,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 296,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1086"
-  },
-  {
-    "id": "골프존파크신장타워점",
-    "name": "골프존파크 신장타워점",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.54072,
-      "lng": 127.20703
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1089"
-  },
-  {
-    "id": "시작cc",
-    "name": "시작CC",
-    "region": "경기남부",
-    "address": "이천시 향교로",
-    "coordinates": {
-      "lat": 37.28436,
-      "lng": 127.44852
-    },
-    "drivingTimeFromSeoul": 66,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 340,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "이천시 향교로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1090"
-  },
-  {
-    "id": "더드림골프스튜디오",
-    "name": "더 드림골프 스튜디오",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.56624,
-      "lng": 127.19094
-    },
-    "drivingTimeFromSeoul": 33,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.8,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 362,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1092"
-  },
-  {
-    "id": "골프존파크덕풍레이크점",
-    "name": "골프존파크 덕풍레이크점",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.55951,
-      "lng": 127.20394
-    },
-    "drivingTimeFromSeoul": 34,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 395,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1095"
-  },
-  {
-    "id": "동아골프랜드",
-    "name": "동아골프랜드",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.17039,
-      "lng": 128.11559
-    },
-    "drivingTimeFromSeoul": 334,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 406,
-    "tags": [
-      "경상",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1096"
-  },
-  {
-    "id": "예미지실내골프장",
-    "name": "예미지 실내골프장",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.78256,
-      "lng": 127.08726
-    },
-    "drivingTimeFromSeoul": 107,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 428,
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "노캐디가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1098"
-  },
-  {
-    "id": "골프상담소",
-    "name": "골프상담소",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.60675,
-      "lng": 127.41799
-    },
-    "drivingTimeFromSeoul": 136,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 461,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1101"
-  },
-  {
-    "id": "국제골프여수",
-    "name": "국제골프여수",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.77777,
-      "lng": 127.65036
-    },
-    "drivingTimeFromSeoul": 370,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 120000,
-      "weekendGreenFee": 170000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 153,
-    "tags": [
-      "전라",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1108"
-  },
-  {
-    "id": "민철스윙골프",
-    "name": "민철스윙골프",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.7636,
-      "lng": 127.63646
-    },
-    "drivingTimeFromSeoul": 372,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.6,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 175,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1110"
-  },
-  {
-    "id": "그린골프클리닉연습장",
-    "name": "그린골프클리닉연습장",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.73135,
-      "lng": 127.72507
-    },
-    "drivingTimeFromSeoul": 378,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 296,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1121"
-  },
-  {
-    "id": "금오도코스cc",
-    "name": "금오도코스CC",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.70417,
-      "lng": 127.72816
-    },
-    "drivingTimeFromSeoul": 381,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1124"
-  },
-  {
-    "id": "돌산도코스cc",
-    "name": "돌산도코스CC",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.70518,
-      "lng": 127.73661
-    },
-    "drivingTimeFromSeoul": 381,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 340,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1125"
-  },
-  {
-    "id": "성남골프장미군반환공여지",
-    "name": "성남골프장(미군 반환공여지)",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.47974,
-      "lng": 127.15619
-    },
-    "drivingTimeFromSeoul": 28,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 395,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "06-777-1130"
-  },
-  {
-    "id": "애드핏골프피팅",
-    "name": "애드핏골프피팅",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.49875,
-      "lng": 127.17047
-    },
-    "drivingTimeFromSeoul": 29,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 406,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1131"
-  },
-  {
-    "id": "캐슬렉스이성대cc",
-    "name": "캐슬렉스 이성대CC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.49895,
-      "lng": 127.17006
-    },
-    "drivingTimeFromSeoul": 29,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.8,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 417,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.castlex.co.kr",
-    "phone": "08-777-1132"
-  },
-  {
     "id": "캐슬렉스서울gc",
     "name": "캐슬렉스서울GC",
     "region": "경기남부",
@@ -4136,15 +1006,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -4180,332 +1050,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "010-777-1134"
   },
   {
-    "id": "골프존파크노고산신촌역점",
-    "name": "골프존파크 노고산 신촌역점",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.55411,
-      "lng": 126.93681
-    },
-    "drivingTimeFromSeoul": 26,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 483,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1138"
-  },
-  {
-    "id": "신촌마샹스cc",
-    "name": "신촌마샹스CC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.55407,
-      "lng": 126.93667
-    },
-    "drivingTimeFromSeoul": 26,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 494,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1139"
-  },
-  {
-    "id": "골프충전소",
-    "name": "골프충전소",
-    "region": "충청",
-    "address": "보령시 작은오랏6길",
-    "coordinates": {
-      "lat": 36.34548,
-      "lng": 126.60432
-    },
-    "drivingTimeFromSeoul": 169,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 120000,
-      "weekendGreenFee": 170000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 164,
-    "tags": [
-      "충청",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "보령시 작은오랏6길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1144"
-  },
-  {
-    "id": "신협골프존",
-    "name": "신협골프존",
-    "region": "충청",
-    "address": "보령시 한내로",
-    "coordinates": {
-      "lat": 36.34821,
-      "lng": 126.60537
-    },
-    "drivingTimeFromSeoul": 169,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 175,
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "보령시 한내로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1145"
-  },
-  {
-    "id": "덕소골프클럽",
-    "name": "덕소골프클럽",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.58749,
-      "lng": 127.20625
-    },
-    "drivingTimeFromSeoul": 36,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 208,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1148"
-  },
-  {
     "id": "아델스코트cc",
     "name": "아델스코트CC",
     "region": "경상",
@@ -4527,15 +1071,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -4591,15 +1135,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6850,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -4648,7 +1192,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4657,15 +1201,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": 2.6,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": 122,
+      "courseRating": 71.8,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -4677,8 +1221,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -4722,15 +1266,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -4787,15 +1331,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -4853,15 +1397,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -4919,15 +1463,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -4984,15 +1528,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -5049,15 +1593,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -5114,15 +1658,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -5178,15 +1722,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6900,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -5242,15 +1786,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -5307,15 +1851,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 122,
-      "courseRating": 71.7,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.0,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 90.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -5372,15 +1916,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -5417,70 +1961,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1162"
   },
   {
-    "id": "경희골프랜드",
-    "name": "경희골프랜드",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.25104,
-      "lng": 127.08975
-    },
-    "drivingTimeFromSeoul": 47,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 373,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1163"
-  },
-  {
     "id": "우정힐스cc",
     "name": "우정힐스CC",
     "region": "충청",
@@ -5502,13 +1982,13 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6800,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.0,
+    "greenSpeedAvg": 3.1,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 141,
-      "courseRating": 74.0,
+      "courseRating": 74.9,
       "golfzonCourseLevel": 4.5,
-      "golfzonGreenLevel": 5.0,
+      "golfzonGreenLevel": 5,
       "avgFieldScore": 95.8,
       "relativeDifficulty": "지옥(상급자전용)"
     },
@@ -5569,15 +2049,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -5635,15 +2115,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -5700,15 +2180,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -5746,7 +2226,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "중문골프클럽joongmooncountryclub",
-    "name": "중문골프클럽 (Joong-Moon Country Club)",
+    "name": "중문골프클럽(중문CC)",
     "region": "제주",
     "address": "대한민국",
     "coordinates": {
@@ -5766,15 +2246,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -5832,15 +2312,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 240000,
@@ -5897,15 +2377,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -5963,15 +2443,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -6028,15 +2508,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -6071,71 +2551,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "04-777-1173"
   },
   {
-    "id": "해림골프클럽",
-    "name": "해림골프클럽",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.89878,
-      "lng": 128.81469
-    },
-    "drivingTimeFromSeoul": 291,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 494,
-    "tags": [
-      "경상",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1174"
-  },
-  {
     "id": "시엘gc",
     "name": "시엘GC",
     "region": "경상",
@@ -6157,15 +2572,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -6223,15 +2638,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -6267,7 +2682,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "오펠골프클럽ophellgolfclub",
-    "name": "오펠골프클럽 (O'phell Golf Club)",
+    "name": "오펠GC (영천)",
     "region": "경상",
     "address": "대한민국",
     "coordinates": {
@@ -6287,15 +2702,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -6331,71 +2746,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "08-777-1177"
   },
   {
-    "id": "제이원골프jwongolf",
-    "name": "제이원골프(J-Won Golf)",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.4333,
-      "lng": 127.20723
-    },
-    "drivingTimeFromSeoul": 35,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 153,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1178"
-  },
-  {
     "id": "조광컨트리jogwangcountrycc",
     "name": "조광컨트리(Jogwang Country)CC",
     "region": "경기남부",
@@ -6417,15 +2767,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -6481,15 +2831,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -6527,72 +2877,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1180"
   },
   {
-    "id": "리버휠골프랜드",
-    "name": "리버휠 골프랜드",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.38116,
-      "lng": 127.24403
-    },
-    "drivingTimeFromSeoul": 41,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 197,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "노캐디가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1182"
-  },
-  {
     "id": "한라산cc",
     "name": "한라산CC",
     "region": "제주",
@@ -6614,15 +2898,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -6680,15 +2964,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -6745,15 +3029,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -6810,15 +3094,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -6876,15 +3160,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -6919,71 +3203,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "09-777-1187"
   },
   {
-    "id": "광명골프클럽",
-    "name": "광명 골프 클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.46983,
-      "lng": 126.87874
-    },
-    "drivingTimeFromSeoul": 30,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 263,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1188"
-  },
-  {
     "id": "yjc골프클럽",
     "name": "YJC골프클럽",
     "region": "경기남부",
@@ -7005,15 +3224,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -7071,15 +3290,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -7137,15 +3356,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -7201,15 +3420,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -7265,15 +3484,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -7329,15 +3548,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -7394,15 +3613,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -7460,15 +3679,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": 3.1,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": 142,
+      "courseRating": 75.1,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -7506,73 +3725,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "09-777-1196"
   },
   {
-    "id": "송도유니버스골프클럽",
-    "name": "송도 유니버스 골프클럽",
-    "region": "인천",
-    "address": "인천광역시 지식기반로",
-    "coordinates": {
-      "lat": 37.35759,
-      "lng": 126.65331
-    },
-    "drivingTimeFromSeoul": 57,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "넓음",
-    "undulation": "평탄",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 2,
-    "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 114,
-      "courseRating": 71.3,
-      "golfzonCourseLevel": 2.5,
-      "golfzonGreenLevel": 2.5,
-      "avgFieldScore": 90.7,
-      "relativeDifficulty": "쉬움(초보추천)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 373,
-    "tags": [
-      "인천",
-      "양잔디",
-      "대중제퍼블릭",
-      "초보추천구장",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "인천광역시 지식기반로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 114의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "인천 대중제 | 슬로프 레이팅 114 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1198"
-  },
-  {
     "id": "태광cc",
     "name": "태광CC",
     "region": "경기남부",
@@ -7594,15 +3746,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 115,
-      "courseRating": 71.4,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -7659,15 +3811,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -7703,71 +3855,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "04-777-1200"
   },
   {
-    "id": "beomeogolfrangecc",
-    "name": "Beomeo Golf RangeCC",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.86273,
-      "lng": 128.63221
-    },
-    "drivingTimeFromSeoul": 282,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 406,
-    "tags": [
-      "경상",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1201"
-  },
-  {
     "id": "신원cc",
     "name": "신원CC",
     "region": "경기남부",
@@ -7789,15 +3876,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 142,
-      "courseRating": 74.7,
-      "golfzonCourseLevel": 5.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -7856,15 +3943,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -7900,72 +3987,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1203"
   },
   {
-    "id": "thelakesatosancc",
-    "name": "The Lakes at OsanCC",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.07971,
-      "lng": 127.02178
-    },
-    "drivingTimeFromSeoul": 68,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 120000,
-      "weekendGreenFee": 170000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 439,
-    "tags": [
-      "충청",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1204"
-  },
-  {
     "id": "남수원cc",
     "name": "남수원CC",
     "region": "경기남부",
@@ -7987,15 +4008,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -8052,15 +4073,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -8116,15 +4137,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -8181,15 +4202,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -8224,71 +4245,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "04-777-1209"
   },
   {
-    "id": "골프학습장",
-    "name": "골프학습장",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.94214,
-      "lng": 126.68433
-    },
-    "drivingTimeFromSeoul": 218,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 131,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1211"
-  },
-  {
     "id": "스프링데일cc",
     "name": "스프링데일CC",
     "region": "제주",
@@ -8310,15 +4266,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -8376,15 +4332,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -8442,15 +4398,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -8508,15 +4464,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -8574,15 +4530,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -8640,15 +4596,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -8707,15 +4663,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -8773,15 +4729,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -8818,72 +4774,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "05-777-1219"
   },
   {
-    "id": "우리들cc-220",
-    "name": "우리들CC",
-    "region": "제주",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 33.30688,
-      "lng": 126.58741
-    },
-    "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 230,
-    "tags": [
-      "제주",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "제주 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.wooridulcc.com",
-    "phone": "06-777-1220"
-  },
-  {
     "id": "사이프러스cc",
     "name": "사이프러스CC",
     "region": "제주",
@@ -8905,15 +4795,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -8971,15 +4861,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -9037,15 +4927,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -9103,15 +4993,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -9170,15 +5060,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.0,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 141,
-      "courseRating": 74.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4.5,
-      "golfzonGreenLevel": 5.0,
+      "golfzonGreenLevel": 5,
       "avgFieldScore": 95.8,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -9216,72 +5106,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1225"
   },
   {
-    "id": "샤인빌파크ccriver코스cc",
-    "name": "샤인빌파크CC-RIVER코스CC",
-    "region": "제주",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 33.34249,
-      "lng": 126.78336
-    },
-    "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 296,
-    "tags": [
-      "제주",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "제주 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.shinevillepark.com",
-    "phone": "03-777-1226"
-  },
-  {
     "id": "에코랜드cc",
     "name": "에코랜드 CC",
     "region": "제주",
@@ -9303,15 +5127,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -9369,15 +5193,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -9435,15 +5259,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -9501,15 +5325,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -9567,15 +5391,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -9612,136 +5436,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "08-777-1231"
   },
   {
-    "id": "에버그린골프클럽",
-    "name": "에버그린 골프클럽",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.11343,
-      "lng": 128.43657
-    },
-    "drivingTimeFromSeoul": 244,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 362,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1232"
-  },
-  {
-    "id": "샤인빌파크ccpalm코스cc",
-    "name": "샤인빌파크CC-PALM코스CC",
-    "region": "제주",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 33.34851,
-      "lng": 126.79108
-    },
-    "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 373,
-    "tags": [
-      "제주",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "제주 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.shinevillepark.com",
-    "phone": "010-777-1233"
-  },
-  {
     "id": "그린필드cc",
     "name": "그린필드 CC",
     "region": "제주",
@@ -9763,15 +5457,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -9829,15 +5523,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -9886,7 +5580,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9896,14 +5590,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.2,
+      "slopeRating": 131,
+      "courseRating": 72.8,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -9960,15 +5654,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -10025,15 +5719,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -10070,71 +5764,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "06-777-1238"
   },
   {
-    "id": "인천환경공단골프장",
-    "name": "인천환경공단골프장",
-    "region": "인천",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.34908,
-      "lng": 126.61641
-    },
-    "drivingTimeFromSeoul": 61,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "보통",
-    "undulation": "평탄",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 128,
-      "courseRating": 72.5,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.0,
-      "avgFieldScore": 93.3,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 439,
-    "tags": [
-      "인천",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 128의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "인천 대중제 | 슬로프 레이팅 128 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1239"
-  },
-  {
     "id": "오렌지듄스gc",
     "name": "오렌지듄스 GC",
     "region": "인천",
@@ -10156,15 +5785,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 114,
-      "courseRating": 70.5,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
-      "avgFieldScore": 88.0,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "avgFieldScore": 88,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -10223,15 +5852,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -10287,15 +5916,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -10351,15 +5980,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 117,
-      "courseRating": 70.8,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 88.5,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -10416,15 +6045,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 142,
-      "courseRating": 74.4,
-      "golfzonCourseLevel": 5.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 95.6,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -10483,15 +6112,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -10549,15 +6178,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -10615,15 +6244,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -10679,15 +6308,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -10744,15 +6373,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -10809,15 +6438,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -10874,15 +6503,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -10938,15 +6567,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 114,
-      "courseRating": 70.7,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 89.8,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -10996,7 +6625,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11005,15 +6634,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6800,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 139,
-      "courseRating": 75.3,
+      "slopeRating": 135,
+      "courseRating": 73.6,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
-      "avgFieldScore": 97.0,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "avgFieldScore": 97,
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -11071,15 +6700,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6850,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 240000,
@@ -11136,15 +6765,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -11181,71 +6810,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "05-777-1255"
   },
   {
-    "id": "코리아cc퍼블릭코스cc",
-    "name": "코리아CC 퍼블릭코스CC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.22355,
-      "lng": 127.12413
-    },
-    "drivingTimeFromSeoul": 51,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 241,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.gakorea.com",
-    "phone": "06-777-1256"
-  },
-  {
     "id": "경기경찰청cc",
     "name": "경기경찰청CC",
     "region": "경기남부",
@@ -11267,15 +6831,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -11331,15 +6895,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -11396,15 +6960,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 115,
-      "courseRating": 71.4,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -11462,15 +7026,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -11528,15 +7092,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -11593,15 +7157,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -11658,15 +7222,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -11701,72 +7265,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "04-777-1263"
   },
   {
-    "id": "in코스cc",
-    "name": "IN코스CC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.41989,
-      "lng": 127.81859
-    },
-    "drivingTimeFromSeoul": 96,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1264"
-  },
-  {
     "id": "스타cc",
     "name": "스타CC",
     "region": "충청",
@@ -11788,15 +7286,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -11853,15 +7351,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -11919,15 +7417,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -11984,15 +7482,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -12040,7 +7538,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12049,15 +7547,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": 2.6,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": 123,
+      "courseRating": 71.9,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -12069,8 +7567,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -12113,15 +7611,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -12180,15 +7678,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6900,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 139,
-      "courseRating": 74.1,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 96.7,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -12246,15 +7744,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -12311,15 +7809,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -12377,15 +7875,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 118,
-      "courseRating": 70.9,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 90.1,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -12443,15 +7941,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -12508,15 +8006,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -12574,15 +8072,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -12638,15 +8136,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -12703,15 +8201,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 117,
-      "courseRating": 71.4,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -12770,15 +8268,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -12837,15 +8335,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -12902,15 +8400,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -12968,15 +8466,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 115,
-      "courseRating": 70.8,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 88.5,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -13034,15 +8532,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -13099,15 +8597,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -13165,15 +8663,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -13230,15 +8728,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -13295,15 +8793,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -13361,15 +8859,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -13425,15 +8923,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -13491,15 +8989,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -13556,15 +9054,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -13621,15 +9119,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -13685,15 +9183,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 114,
-      "courseRating": 70.9,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 90.1,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -13752,15 +9250,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -13817,15 +9315,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -13882,15 +9380,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -13947,15 +9445,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -14012,15 +9510,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 119,
-      "courseRating": 71.4,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -14078,15 +9576,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -14136,7 +9634,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14148,9 +9646,9 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 2.8,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
+      "slopeRating": 132,
       "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
       "relativeDifficulty": "어려움(중상급)"
@@ -14210,15 +9708,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -14275,15 +9773,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -14340,15 +9838,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -14405,15 +9903,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -14470,15 +9968,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -14536,15 +10034,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -14601,15 +10099,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -14667,15 +10165,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -14733,15 +10231,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -14798,15 +10296,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -14863,15 +10361,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -14929,15 +10427,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -14994,15 +10492,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -15059,15 +10557,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -15126,15 +10624,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -15191,15 +10689,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -15256,15 +10754,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -15321,15 +10819,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6900,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 139,
-      "courseRating": 74.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97.8,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -15388,15 +10886,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -15454,15 +10952,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -15519,15 +11017,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -15585,15 +11083,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -15649,15 +11147,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -15715,15 +11213,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6800,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -15780,15 +11278,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -15845,15 +11343,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -15910,15 +11408,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -15975,15 +11473,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -16040,15 +11538,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -16107,15 +11605,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -16171,15 +11669,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -16236,15 +11734,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -16301,15 +11799,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 118,
-      "courseRating": 70.9,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 90.1,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -16368,15 +11866,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -16433,15 +11931,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -16500,15 +11998,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -16565,15 +12063,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -16630,15 +12128,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -16695,15 +12193,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -16761,15 +12259,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -16826,15 +12324,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -16892,15 +12390,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -16957,15 +12455,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -17022,15 +12520,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -17088,15 +12586,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 142,
-      "courseRating": 74.1,
-      "golfzonCourseLevel": 5.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 95.9,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -17155,15 +12653,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -17219,15 +12717,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -17285,15 +12783,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -17349,15 +12847,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6850,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 240000,
@@ -17415,15 +12913,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -17480,15 +12978,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -17523,136 +13021,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "(055)521-0707/10"
   },
   {
-    "id": "위례골프장",
-    "name": "위례골프장",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.47818,
-      "lng": 127.15746
-    },
-    "drivingTimeFromSeoul": 28,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 153,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1353"
-  },
-  {
-    "id": "파스텔골프클럽",
-    "name": "파스텔 골프클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.50997,
-      "lng": 127.00965
-    },
-    "drivingTimeFromSeoul": 25,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 164,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1354"
-  },
-  {
     "id": "발리오스cc",
     "name": "발리오스CC",
     "region": "충청",
@@ -17674,15 +13042,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -17739,15 +13107,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -17803,15 +13171,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 117,
-      "courseRating": 71.2,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -17850,7 +13218,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "스카이72골프장바다코스제5활주로건설예정지",
-    "name": "스카이72 골프장 바다코스 (제5활주로 건설 예정지)",
+    "name": "클럽72CC 바다코스 (오션·레이크·클래식)",
     "region": "인천",
     "address": "대한민국",
     "coordinates": {
@@ -17870,15 +13238,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -17936,15 +13304,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -18000,15 +13368,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -18064,15 +13432,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -18128,15 +13496,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -18193,15 +13561,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -18238,71 +13606,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "06-777-1364"
   },
   {
-    "id": "엠투골프장",
-    "name": "엠투골프장",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.22456,
-      "lng": 126.72943
-    },
-    "drivingTimeFromSeoul": 61,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 285,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1365"
-  },
-  {
     "id": "인터불고gc퍼블릭cc",
     "name": "인터불고GC(퍼블릭)CC",
     "region": "강원",
@@ -18324,15 +13627,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -18389,15 +13692,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -18432,71 +13735,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "09-777-1367"
   },
   {
-    "id": "게이트볼장cc",
-    "name": "게이트볼장CC",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.13395,
-      "lng": 126.92894
-    },
-    "drivingTimeFromSeoul": 62,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 318,
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1368"
-  },
-  {
     "id": "봉곡마스터골프클럽",
     "name": "봉곡마스터골프클럽",
     "region": "경상",
@@ -18518,15 +13756,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -18562,267 +13800,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1369"
   },
   {
-    "id": "위너스골프",
-    "name": "위너스골프",
-    "region": "경기남부",
-    "address": "서울특별시 시흥대로",
-    "coordinates": {
-      "lat": 37.4601,
-      "lng": 126.89912
-    },
-    "drivingTimeFromSeoul": 28,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 340,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "서울특별시 시흥대로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1370"
-  },
-  {
-    "id": "성저파크골프장",
-    "name": "성저 파크 골프장",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.68122,
-      "lng": 126.74237
-    },
-    "drivingTimeFromSeoul": 52,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 351,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1371"
-  },
-  {
-    "id": "목동골프타운",
-    "name": "목동골프타운",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.51581,
-      "lng": 126.85446
-    },
-    "drivingTimeFromSeoul": 32,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.8,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 362,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1372"
-  },
-  {
-    "id": "기산골프존파크",
-    "name": "기산골프존파크",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.2211,
-      "lng": 127.05119
-    },
-    "drivingTimeFromSeoul": 50,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 373,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1373"
-  },
-  {
     "id": "메이플비치cc",
     "name": "메이플비치CC",
     "region": "강원",
@@ -18844,15 +13821,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -18887,72 +13864,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1374"
   },
   {
-    "id": "theroyalgolfclubcc",
-    "name": "The royal golf clubCC",
-    "region": "경기북부",
-    "address": "서울특별시 증산로",
-    "coordinates": {
-      "lat": 37.58101,
-      "lng": 126.90578
-    },
-    "drivingTimeFromSeoul": 31,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 395,
-    "tags": [
-      "경기북부",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "서울특별시 증산로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1375"
-  },
-  {
     "id": "그린골프클럽",
     "name": "그린골프클럽",
     "region": "경기북부",
@@ -18974,15 +13885,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -19039,15 +13950,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -19103,15 +14014,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -19149,136 +14060,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1378"
   },
   {
-    "id": "골프존조이마루",
-    "name": "골프존조이마루",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.37704,
-      "lng": 127.39096
-    },
-    "drivingTimeFromSeoul": 163,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 439,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1379"
-  },
-  {
-    "id": "대한골프클럽",
-    "name": "대한골프클럽",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.6956,
-      "lng": 126.84579
-    },
-    "drivingTimeFromSeoul": 46,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 450,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1380"
-  },
-  {
     "id": "링크나인골프클럽",
     "name": "링크나인 골프클럽",
     "region": "경기남부",
@@ -19300,15 +14081,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -19365,15 +14146,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -19431,15 +14212,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -19497,15 +14278,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -19561,15 +14342,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -19626,15 +14407,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -19690,15 +14471,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -19736,200 +14517,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "05-777-1390"
   },
   {
-    "id": "더골프존",
-    "name": "더 골프존",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.35977,
-      "lng": 127.15056
-    },
-    "drivingTimeFromSeoul": 36,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 186,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1391"
-  },
-  {
-    "id": "명성골프연습장",
-    "name": "명성 골프 연습장",
-    "region": "전라",
-    "address": "광주광역시 ",
-    "coordinates": {
-      "lat": 35.22405,
-      "lng": 126.83521
-    },
-    "drivingTimeFromSeoul": 308,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 150000,
-      "weekendGreenFee": 200000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 208,
-    "tags": [
-      "전라",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "광주광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1393"
-  },
-  {
-    "id": "프릭스골프",
-    "name": "프릭스골프",
-    "region": "경상",
-    "address": "대구광역시 청호로57길",
-    "coordinates": {
-      "lat": 35.84282,
-      "lng": 128.63299
-    },
-    "drivingTimeFromSeoul": 284,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 219,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대구광역시 청호로57길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1394"
-  },
-  {
     "id": "jnj골프리조트",
     "name": "JNJ골프리조트",
     "region": "전라",
@@ -19951,15 +14538,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -20016,15 +14603,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -20061,70 +14648,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1396"
   },
   {
-    "id": "덕포골프랜드",
-    "name": "덕포골프랜드",
-    "region": "경상",
-    "address": "거제시 옥포대첩로",
-    "coordinates": {
-      "lat": 34.90842,
-      "lng": 128.70581
-    },
-    "drivingTimeFromSeoul": 390,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 263,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "거제시 옥포대첩로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1398"
-  },
-  {
     "id": "인터불고cc",
     "name": "인터불고 CC",
     "region": "경상",
@@ -20146,15 +14669,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -20212,15 +14735,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -20277,15 +14800,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -20341,15 +14864,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -20406,15 +14929,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -20470,15 +14993,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -20535,15 +15058,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -20601,15 +15124,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -20665,15 +15188,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -20709,7 +15232,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "스카이72골프장하늘코스",
-    "name": "스카이72 골프장 하늘코스",
+    "name": "클럽72CC 하늘코스",
     "region": "인천",
     "address": "대한민국",
     "coordinates": {
@@ -20729,15 +15252,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -20794,15 +15317,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 240000,
@@ -20860,15 +15383,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -20925,15 +15448,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -20969,202 +15492,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "09-777-1412"
   },
   {
-    "id": "리더스골프구미본점",
-    "name": "리더스골프 구미본점",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.11127,
-      "lng": 128.33369
-    },
-    "drivingTimeFromSeoul": 238,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 428,
-    "tags": [
-      "경상",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.gumicc.co.kr",
-    "phone": "010-777-1413"
-  },
-  {
-    "id": "명가골프존",
-    "name": "명가 골프존",
-    "region": "전라",
-    "address": "광주광역시 ",
-    "coordinates": {
-      "lat": 35.22316,
-      "lng": 126.83425
-    },
-    "drivingTimeFromSeoul": 308,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 120000,
-      "weekendGreenFee": 170000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 439,
-    "tags": [
-      "전라",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "광주광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1414"
-  },
-  {
-    "id": "이글골프장",
-    "name": "이글골프장",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.99103,
-      "lng": 126.92255
-    },
-    "drivingTimeFromSeoul": 81,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 450,
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1415"
-  },
-  {
     "id": "이븐데일cc",
     "name": "이븐데일CC",
     "region": "충청",
@@ -21186,15 +15513,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -21251,15 +15578,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -21316,15 +15643,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 142,
-      "courseRating": 75.3,
-      "golfzonCourseLevel": 5.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97.7,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -21383,15 +15710,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -21447,15 +15774,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -21514,15 +15841,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -21579,15 +15906,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -21644,15 +15971,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -21700,7 +16027,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21709,15 +16036,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": 136,
+      "courseRating": 73.7,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -21774,15 +16101,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -21830,7 +16157,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21839,15 +16166,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": 137,
+      "courseRating": 73.9,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -21905,15 +16232,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 139,
-      "courseRating": 74.7,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
-      "avgFieldScore": 96.0,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "avgFieldScore": 96,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -21963,7 +16290,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21972,15 +16299,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": 138,
+      "courseRating": 74,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -22037,15 +16364,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -22102,15 +16429,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6850,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 142,
-      "courseRating": 75.0,
-      "golfzonCourseLevel": 5.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 96.5,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -22169,15 +16496,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -22233,15 +16560,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -22299,15 +16626,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -22363,15 +16690,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -22429,15 +16756,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -22495,15 +16822,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 118,
-      "courseRating": 71.1,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 90.4,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -22561,15 +16888,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6800,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.2,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 143,
-      "courseRating": 74.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97.5,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 270000,
@@ -22627,15 +16954,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6850,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -22691,15 +17018,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6900,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -22755,15 +17082,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -22820,15 +17147,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -22884,15 +17211,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -22948,15 +17275,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -23013,15 +17340,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -23056,138 +17383,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1446"
   },
   {
-    "id": "벌교파3골프장",
-    "name": "벌교파3골프장",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.83501,
-      "lng": 127.27276
-    },
-    "drivingTimeFromSeoul": 358,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 150000,
-      "weekendGreenFee": 200000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 417,
-    "tags": [
-      "전라",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1447"
-  },
-  {
-    "id": "가산골프랜드",
-    "name": "가산골프랜드",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.33216,
-      "lng": 126.94778
-    },
-    "drivingTimeFromSeoul": 293,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 428,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1448"
-  },
-  {
     "id": "광양cc",
     "name": "광양CC",
     "region": "전라",
@@ -23209,15 +17404,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -23274,15 +17469,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -23341,15 +17536,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -23405,15 +17600,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -23470,15 +17665,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -23535,15 +17730,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -23600,15 +17795,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -23666,15 +17861,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -23732,15 +17927,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -23796,15 +17991,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 116,
-      "courseRating": 71.3,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 90.7,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -23842,137 +18037,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "010-777-1458"
   },
   {
-    "id": "소노펠리체cc비발디파크westcc",
-    "name": "소노펠리체CC 비발디파크 WESTCC",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.64027,
-      "lng": 127.67706
-    },
-    "drivingTimeFromSeoul": 83,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 164,
-    "tags": [
-      "경기북부",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.sonofelicecc.com",
-    "phone": "02-777-1459"
-  },
-  {
-    "id": "소노펠리체cc비발디파크eastcc",
-    "name": "소노펠리체CC 비발디파크 EASTCC",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.66348,
-      "lng": 127.68612
-    },
-    "drivingTimeFromSeoul": 85,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 175,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.sonofelicecc.com",
-    "phone": "03-777-1460"
-  },
-  {
     "id": "신라cc",
     "name": "신라CC",
     "region": "경기남부",
@@ -23994,15 +18058,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -24058,15 +18122,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -24125,15 +18189,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -24189,15 +18253,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -24254,15 +18318,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -24320,15 +18384,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -24385,15 +18449,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -24449,15 +18513,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -24514,15 +18578,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -24579,15 +18643,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -24645,15 +18709,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -24710,15 +18774,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 122,
-      "courseRating": 71.9,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.0,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -24775,15 +18839,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": 2.9,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": 138,
+      "courseRating": 74.2,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -24795,8 +18859,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -24841,15 +18905,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -24908,15 +18972,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -24973,15 +19037,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -25017,70 +19081,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "03-777-1478"
   },
   {
-    "id": "제이골프",
-    "name": "제이골프",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.16175,
-      "lng": 128.35108
-    },
-    "drivingTimeFromSeoul": 234,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 384,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1479"
-  },
-  {
     "id": "왕성드림센터cc",
     "name": "왕성드림센터CC",
     "region": "경기남부",
@@ -25102,15 +19102,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -25169,15 +19169,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -25233,15 +19233,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -25298,15 +19298,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 117,
-      "courseRating": 70.8,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 88.5,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -25365,15 +19365,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -25430,15 +19430,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -25494,15 +19494,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -25558,15 +19558,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -25623,15 +19623,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -25689,15 +19689,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -25755,15 +19755,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -25821,15 +19821,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -25864,71 +19864,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "09-777-1493"
   },
   {
-    "id": "그린필드골프",
-    "name": "그린필드 골프",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.38024,
-      "lng": 126.94807
-    },
-    "drivingTimeFromSeoul": 32,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 164,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.greenfieldcc.co.kr",
-    "phone": "010-777-1494"
-  },
-  {
     "id": "포레스트cc",
     "name": "포레스트CC",
     "region": "경기북부",
@@ -25950,15 +19885,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -25995,70 +19930,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1495"
   },
   {
-    "id": "칠원골프랜드",
-    "name": "칠원골프랜드",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.27126,
-      "lng": 128.51755
-    },
-    "drivingTimeFromSeoul": 340,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 186,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1496"
-  },
-  {
     "id": "청평마이다스cc",
     "name": "청평마이다스CC",
     "region": "경기북부",
@@ -26080,15 +19951,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -26145,15 +20016,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -26211,15 +20082,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -26275,15 +20146,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -26341,15 +20212,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -26406,15 +20277,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -26471,15 +20342,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -26535,15 +20406,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -26602,15 +20473,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -26667,15 +20538,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -26733,15 +20604,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -26798,15 +20669,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -26841,71 +20712,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "06-777-1508"
   },
   {
-    "id": "하남골프존플러스",
-    "name": "하남골프존플러스",
-    "region": "전라",
-    "address": "광주광역시 ",
-    "coordinates": {
-      "lat": 35.17617,
-      "lng": 126.80244
-    },
-    "drivingTimeFromSeoul": 314,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "광주광역시 에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1509"
-  },
-  {
     "id": "블랙스톤이천gc",
     "name": "블랙스톤이천GC",
     "region": "경기남부",
@@ -26927,15 +20733,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6850,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.0,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 138,
-      "courseRating": 74.0,
-      "golfzonCourseLevel": 5.0,
-      "golfzonGreenLevel": 5.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 5,
+      "golfzonGreenLevel": 5,
       "avgFieldScore": 96.5,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -26994,15 +20800,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -27059,15 +20865,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -27124,15 +20930,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -27189,15 +20995,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -27254,15 +21060,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -27319,15 +21125,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -27384,15 +21190,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -27449,15 +21255,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -27514,15 +21320,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -27579,15 +21385,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -27644,15 +21450,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -27710,15 +21516,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -27774,15 +21580,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -27838,15 +21644,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -27905,15 +21711,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -27970,15 +21776,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 119,
-      "courseRating": 71.2,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
-      "avgFieldScore": 89.0,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
+      "avgFieldScore": 89,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -28035,15 +21841,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -28099,15 +21905,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -28163,15 +21969,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 116,
-      "courseRating": 70.5,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 89.5,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -28230,15 +22036,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -28295,15 +22101,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 118,
-      "courseRating": 70.7,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 89.8,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -28362,14 +22168,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6800,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.2,
+    "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 143,
-      "courseRating": 74.8,
+      "slopeRating": 136,
+      "courseRating": 73.8,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
-      "avgFieldScore": 97.0,
+      "avgFieldScore": 97,
       "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
@@ -28428,15 +22234,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 114,
-      "courseRating": 70.9,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 90.1,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -28495,15 +22301,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -28564,8 +22370,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 140,
-      "courseRating": 75.1,
-      "golfzonCourseLevel": 5.0,
+      "courseRating": 74.6,
+      "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97.4,
       "relativeDifficulty": "지옥(상급자전용)"
@@ -28627,15 +22433,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -28692,15 +22498,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -28757,15 +22563,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -28823,15 +22629,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -28890,15 +22696,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -28954,15 +22760,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -29019,15 +22825,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -29084,15 +22890,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -29148,15 +22954,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -29213,15 +23019,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -29280,15 +23086,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -29344,15 +23150,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -29409,15 +23215,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -29453,72 +23259,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1549"
   },
   {
-    "id": "남양골프랜드",
-    "name": "남양골프랜드",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.21927,
-      "lng": 126.80454
-    },
-    "drivingTimeFromSeoul": 57,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 395,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1550"
-  },
-  {
     "id": "해비치cc",
     "name": "해비치CC",
     "region": "경기북부",
@@ -29540,15 +23280,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 128,
-      "courseRating": 71.7,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.0,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 92.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -29604,15 +23344,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -29669,15 +23409,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -29734,15 +23474,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -29799,15 +23539,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -29865,15 +23605,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -29930,15 +23670,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -29995,15 +23735,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -30061,15 +23801,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -30125,15 +23865,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -30191,15 +23931,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -30235,135 +23975,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "05-777-1561"
   },
   {
-    "id": "아세코밸리골프클럽클럽하우스",
-    "name": "아세코밸리골프클럽클럽하우스",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.36795,
-      "lng": 126.76974
-    },
-    "drivingTimeFromSeoul": 46,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 142,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1562"
-  },
-  {
-    "id": "서원힐스ccsouthcoursecc",
-    "name": "서원힐스CC South CourseCC",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.81792,
-      "lng": 126.90308
-    },
-    "drivingTimeFromSeoul": 58,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 153,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.seowongolf.co.kr",
-    "phone": "07-777-1563"
-  },
-  {
     "id": "내장산골프리조트",
     "name": "내장산골프&리조트",
     "region": "전라",
@@ -30385,15 +23996,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -30451,15 +24062,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -30516,15 +24127,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -30581,15 +24192,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 117,
-      "courseRating": 71.2,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
-      "avgFieldScore": 89.0,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
+      "avgFieldScore": 89,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -30648,15 +24259,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -30712,15 +24323,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -30776,15 +24387,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -30842,15 +24453,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -30906,15 +24517,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -30970,15 +24581,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -31036,15 +24647,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -31101,15 +24712,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -31166,15 +24777,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -31211,265 +24822,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1576"
   },
   {
-    "id": "에버힐골프클럽",
-    "name": "에버힐골프클럽",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.52005,
-      "lng": 127.45152
-    },
-    "drivingTimeFromSeoul": 148,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 307,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1577"
-  },
-  {
-    "id": "오동도코스cc",
-    "name": "오동도코스CC",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.71374,
-      "lng": 127.7209
-    },
-    "drivingTimeFromSeoul": 380,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 318,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1578"
-  },
-  {
-    "id": "그레이스골프연습장",
-    "name": "그레이스 골프 연습장",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.32167,
-      "lng": 129.03423
-    },
-    "drivingTimeFromSeoul": 363,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "경상",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.gracecc.co.kr",
-    "phone": "05-777-1579"
-  },
-  {
-    "id": "금곡골프프라자",
-    "name": "금곡골프프라자",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.25083,
-      "lng": 129.01102
-    },
-    "drivingTimeFromSeoul": 369,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 351,
-    "tags": [
-      "경상",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1581"
-  },
-  {
     "id": "에콜리안cc거창cc",
     "name": "에콜리안CC 거창CC",
     "region": "경상",
@@ -31491,15 +24843,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -31556,15 +24908,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -31621,15 +24973,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -31685,15 +25037,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.0,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 141,
-      "courseRating": 74.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4.5,
-      "golfzonGreenLevel": 5.0,
+      "golfzonGreenLevel": 5,
       "avgFieldScore": 95.8,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -31752,15 +25104,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -31817,15 +25169,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -31881,15 +25233,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -31948,15 +25300,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -32012,15 +25364,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -32057,71 +25409,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1590"
   },
   {
-    "id": "그라운드골프장",
-    "name": "그라운드 골프장",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.99329,
-      "lng": 126.91705
-    },
-    "drivingTimeFromSeoul": 80,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 150000,
-      "weekendGreenFee": 200000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 461,
-    "tags": [
-      "충청",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1591"
-  },
-  {
     "id": "진주cc",
     "name": "진주CC",
     "region": "경상",
@@ -32143,15 +25430,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -32207,15 +25494,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -32250,72 +25537,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "010-777-1593"
   },
   {
-    "id": "조일프라자골프클럽",
-    "name": "조일프라자골프클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.23411,
-      "lng": 127.15586
-    },
-    "drivingTimeFromSeoul": 51,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 494,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1594"
-  },
-  {
     "id": "더플레이어스gc",
     "name": "더플레이어스GC",
     "region": "경기북부",
@@ -32337,15 +25558,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -32403,15 +25624,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -32458,7 +25679,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -32467,13 +25688,13 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6800,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.0,
+    "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 141,
-      "courseRating": 75.2,
+      "slopeRating": 137,
+      "courseRating": 73.8,
       "golfzonCourseLevel": 4.5,
-      "golfzonGreenLevel": 5.0,
+      "golfzonGreenLevel": 5,
       "avgFieldScore": 97.5,
       "relativeDifficulty": "지옥(상급자전용)"
     },
@@ -32512,71 +25733,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "05-777-1597"
   },
   {
-    "id": "더스테이힐링파크링스파3골프",
-    "name": "더스테이힐링파크 링스파3골프",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.65899,
-      "lng": 127.52311
-    },
-    "drivingTimeFromSeoul": 69,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 153,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1598"
-  },
-  {
     "id": "한미르대덕cc",
     "name": "한미르대덕CC",
     "region": "충청",
@@ -32598,15 +25754,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -32665,15 +25821,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -32729,15 +25885,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -32795,15 +25951,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -32860,15 +26016,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -32904,70 +26060,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "04-777-1605"
   },
   {
-    "id": "sg골프",
-    "name": "SG골프",
-    "region": "충청",
-    "address": "세종특별자치시 행복3길",
-    "coordinates": {
-      "lat": 36.60412,
-      "lng": 127.29005
-    },
-    "drivingTimeFromSeoul": 133,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 252,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "세종특별자치시 행복3길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1607"
-  },
-  {
     "id": "코리아cc",
     "name": "코리아CC",
     "region": "경기남부",
@@ -32989,15 +26081,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -33033,70 +26125,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1608"
   },
   {
-    "id": "서평택골프클럽파3골프장",
-    "name": "서평택골프클럽 파3골프장",
-    "region": "충청",
-    "address": " 포승향남로",
-    "coordinates": {
-      "lat": 36.99226,
-      "lng": 126.85904
-    },
-    "drivingTimeFromSeoul": 82,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 296,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": " 포승향남로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1611"
-  },
-  {
     "id": "남일밸리cc",
     "name": "남일밸리CC",
     "region": "충청",
@@ -33118,15 +26146,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -33162,332 +26190,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "04-777-1614"
   },
   {
-    "id": "레이크골프클럽",
-    "name": "레이크 골프 클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.2502,
-      "lng": 127.08788
-    },
-    "drivingTimeFromSeoul": 47,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 340,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1615"
-  },
-  {
-    "id": "정선군파크골프장",
-    "name": "정선군 파크 골프장",
-    "region": "강원",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.38507,
-      "lng": 128.66888
-    },
-    "drivingTimeFromSeoul": 183,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 373,
-    "tags": [
-      "강원",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1618"
-  },
-  {
-    "id": "그린골프존",
-    "name": "그린골프존",
-    "region": "전라",
-    "address": " 용암로",
-    "coordinates": {
-      "lat": 35.7241,
-      "lng": 126.7412
-    },
-    "drivingTimeFromSeoul": 245,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 384,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": " 용암로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1619"
-  },
-  {
-    "id": "스카이골프랜드",
-    "name": "스카이골프랜드",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.40287,
-      "lng": 126.92192
-    },
-    "drivingTimeFromSeoul": 31,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 417,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1622"
-  },
-  {
-    "id": "riverbendgolfcoursecc",
-    "name": "River Bend Golf CourseCC",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.97282,
-      "lng": 126.98904
-    },
-    "drivingTimeFromSeoul": 82,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 450,
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1625"
-  },
-  {
     "id": "하이망cc점cc",
     "name": "하이망 CC점CC",
     "region": "강원",
@@ -33509,15 +26211,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -33553,70 +26255,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "08-777-1627"
   },
   {
-    "id": "골프연습장",
-    "name": "골프 연습장",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.27532,
-      "lng": 129.23693
-    },
-    "drivingTimeFromSeoul": 381,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 483,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1628"
-  },
-  {
     "id": "사우스링스영암cc",
     "name": "사우스링스 영암CC",
     "region": "전라",
@@ -33638,15 +26276,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -33683,73 +26321,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "010-777-1629"
   },
   {
-    "id": "사우스링스영암cc-630",
-    "name": "사우스링스영암CC",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.72743,
-      "lng": 126.43067
-    },
-    "drivingTimeFromSeoul": 376,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.6,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 120000,
-      "weekendGreenFee": 170000,
-      "cartFee": 100000,
-      "caddieFee": 0
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 120,
-    "tags": [
-      "전라",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.southlinks.co.kr",
-    "phone": "02-777-1630"
-  },
-  {
     "id": "블랙스톤벨포레cc",
     "name": "블랙스톤 벨포레CC",
     "region": "충청",
@@ -33771,15 +26342,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6900,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 139,
-      "courseRating": 74.1,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 96.7,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -33816,71 +26387,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "03-777-1631"
   },
   {
-    "id": "18홀파크골프장",
-    "name": "18홀 파크 골프장",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.50284,
-      "lng": 126.87074
-    },
-    "drivingTimeFromSeoul": 31,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 164,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1634"
-  },
-  {
     "id": "에콜리안영광cc",
     "name": "에콜리안영광CC",
     "region": "전라",
@@ -33902,15 +26408,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -33946,201 +26452,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1635"
   },
   {
-    "id": "퍼팅연습장cc",
-    "name": "퍼팅연습장CC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.50061,
-      "lng": 126.86974
-    },
-    "drivingTimeFromSeoul": 31,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.2,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 186,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1636"
-  },
-  {
-    "id": "동서울골프클럽",
-    "name": "동서울골프클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.47158,
-      "lng": 127.3376
-    },
-    "drivingTimeFromSeoul": 46,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 197,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.seoulcc.co.kr",
-    "phone": "09-777-1637"
-  },
-  {
-    "id": "미성pga골프클럽",
-    "name": "미성PGA골프클럽",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.82352,
-      "lng": 128.62035
-    },
-    "drivingTimeFromSeoul": 285,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 208,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1638"
-  },
-  {
     "id": "세현cc",
     "name": "세현CC",
     "region": "경기남부",
@@ -34162,15 +26473,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -34227,15 +26538,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -34272,136 +26583,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "03-777-1640"
   },
   {
-    "id": "서안성골프클럽",
-    "name": "서안성골프클럽",
-    "region": "충청",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.06179,
-      "lng": 127.14159
-    },
-    "drivingTimeFromSeoul": 72,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 241,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1641"
-  },
-  {
-    "id": "에스골프클럽",
-    "name": "에스골프클럽",
-    "region": "경상",
-    "address": "포항시 희망대로",
-    "coordinates": {
-      "lat": 36.02851,
-      "lng": 129.33517
-    },
-    "drivingTimeFromSeoul": 318,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 285,
-    "tags": [
-      "경상",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "포항시 희망대로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 135의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 135 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1645"
-  },
-  {
     "id": "루나힐스안성cc",
     "name": "루나힐스안성CC",
     "region": "충청",
@@ -34423,15 +26604,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -34488,15 +26669,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -34552,15 +26733,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -34596,201 +26777,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1648"
   },
   {
-    "id": "대련골프클럽",
-    "name": "대련골프클럽",
-    "region": "경상",
-    "address": "포항시 새마을로",
-    "coordinates": {
-      "lat": 36.04553,
-      "lng": 129.33284
-    },
-    "drivingTimeFromSeoul": 317,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "포항시 새마을로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1649"
-  },
-  {
-    "id": "창포스카이골프랜드",
-    "name": "창포스카이골프랜드",
-    "region": "경상",
-    "address": "포항시 새천년대로1173번길",
-    "coordinates": {
-      "lat": 36.07333,
-      "lng": 129.3671
-    },
-    "drivingTimeFromSeoul": 317,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 340,
-    "tags": [
-      "경상",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "포항시 새천년대로1173번길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1650"
-  },
-  {
-    "id": "그랜드골프클럽",
-    "name": "그랜드 골프클럽",
-    "region": "경상",
-    "address": "창원시 원이대로773번길",
-    "coordinates": {
-      "lat": 35.21678,
-      "lng": 128.69605
-    },
-    "drivingTimeFromSeoul": 355,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 351,
-    "tags": [
-      "경상",
-      "양잔디",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "창원시 원이대로773번길에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.grandgolf.co.kr",
-    "phone": "05-777-1651"
-  },
-  {
     "id": "유니아일랜드골프스파리조트",
     "name": "유니아일랜드 골프&스파 리조트",
     "region": "인천",
@@ -34812,15 +26798,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -34869,7 +26855,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -34878,15 +26864,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
+    "greenSpeedAvg": 3,
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": 141,
+      "courseRating": 74.7,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -34921,71 +26907,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1653"
   },
   {
-    "id": "동락파크골프장",
-    "name": "동락파크 골프장",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.09395,
-      "lng": 128.40058
-    },
-    "drivingTimeFromSeoul": 244,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 384,
-    "tags": [
-      "경상",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1654"
-  },
-  {
     "id": "에스앤골프리조트",
     "name": "에스앤골프리조트",
     "region": "충청",
@@ -35007,15 +26928,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -35072,15 +26993,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -35137,15 +27058,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -35202,15 +27123,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -35266,15 +27187,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -35310,137 +27231,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1662"
   },
   {
-    "id": "인그레인골프클럽",
-    "name": "인그레인골프클럽",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.70774,
-      "lng": 126.56553
-    },
-    "drivingTimeFromSeoul": 69,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 494,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1664"
-  },
-  {
-    "id": "창평골프",
-    "name": "창평골프",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.23132,
-      "lng": 127.02952
-    },
-    "drivingTimeFromSeoul": 306,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 120,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1665"
-  },
-  {
     "id": "죽향cc",
     "name": "죽향CC",
     "region": "전라",
@@ -35462,15 +27252,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -35527,15 +27317,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -35592,15 +27382,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -35657,15 +27447,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -35723,15 +27513,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -35766,73 +27556,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "07-777-1671"
   },
   {
-    "id": "휴리스골프",
-    "name": "휴리스골프",
-    "region": "경기북부",
-    "address": " 대명항로",
-    "coordinates": {
-      "lat": 37.65145,
-      "lng": 126.58943
-    },
-    "drivingTimeFromSeoul": 63,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 197,
-    "tags": [
-      "경기북부",
-      "양잔디",
-      "대중제퍼블릭",
-      "노캐디가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": " 대명항로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1672"
-  },
-  {
     "id": "펜타뷰골프클럽",
     "name": "펜타뷰골프클럽",
     "region": "경상",
@@ -35854,15 +27577,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -35918,15 +27641,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -35983,15 +27706,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -36028,71 +27751,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1675"
   },
   {
-    "id": "거창골프랜드",
-    "name": "거창골프랜드",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.67525,
-      "lng": 127.89205
-    },
-    "drivingTimeFromSeoul": 265,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 241,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1676"
-  },
-  {
     "id": "옥스필드cc",
     "name": "옥스필드CC",
     "region": "경기남부",
@@ -36114,15 +27772,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -36158,7 +27816,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "골프클럽q",
-    "name": "골프클럽Q",
+    "name": "골프클럽Q 안성",
     "region": "충청",
     "address": "경기도 안성시 죽산면 장계길 20-229",
     "coordinates": {
@@ -36178,15 +27836,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -36223,71 +27881,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "(031)8046-7000"
   },
   {
-    "id": "영재파3골프랜드",
-    "name": "영재 파3골프랜드",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.25883,
-      "lng": 127.60337
-    },
-    "drivingTimeFromSeoul": 81,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 274,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1679"
-  },
-  {
     "id": "감곡cc",
     "name": "감곡CC",
     "region": "충청",
@@ -36309,15 +27902,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -36375,15 +27968,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -36440,12 +28033,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": 3.2,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 142,
-      "courseRating": 74.7,
-      "golfzonCourseLevel": 5.0,
+      "courseRating": 75.2,
+      "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 95.3,
       "relativeDifficulty": "지옥(상급자전용)"
@@ -36486,137 +28079,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "09-777-1682"
   },
   {
-    "id": "정원골프",
-    "name": "정원골프",
-    "region": "인천",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.61297,
-      "lng": 126.71832
-    },
-    "drivingTimeFromSeoul": 49,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "보통",
-    "undulation": "평탄",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 124,
-      "courseRating": 71.9,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.0,
-      "avgFieldScore": 91.0,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 318,
-    "tags": [
-      "인천",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 124의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "인천 대중제 | 슬로프 레이팅 124 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1683"
-  },
-  {
-    "id": "장현그린골프클럽",
-    "name": "장현그린골프클럽",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.72828,
-      "lng": 127.17742
-    },
-    "drivingTimeFromSeoul": 48,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 72.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "경기북부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1684"
-  },
-  {
     "id": "모나크cc",
     "name": "모나크CC",
     "region": "충청",
@@ -36638,15 +28100,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -36704,15 +28166,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -36770,15 +28232,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -36835,15 +28297,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -36899,15 +28361,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -36965,15 +28427,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -37029,15 +28491,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -37094,15 +28556,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -37160,15 +28622,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -37225,15 +28687,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -37269,72 +28731,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "04-777-1695"
   },
   {
-    "id": "성문안cc-696",
-    "name": "성문안CC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.39844,
-      "lng": 127.83387
-    },
-    "drivingTimeFromSeoul": 98,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.2,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 461,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.sungmoonan.com",
-    "phone": "05-777-1696"
-  },
-  {
     "id": "에콜리안제천cc",
     "name": "에콜리안제천CC",
     "region": "강원",
@@ -37356,15 +28752,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -37399,70 +28795,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "06-777-1697"
   },
   {
-    "id": "파크골프",
-    "name": "파크 골프",
-    "region": "강원",
-    "address": "홍천군 내린천로",
-    "coordinates": {
-      "lat": 37.83274,
-      "lng": 128.41679
-    },
-    "drivingTimeFromSeoul": 162,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 483,
-    "tags": [
-      "강원",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "홍천군 내린천로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "강원 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1698"
-  },
-  {
     "id": "클럽디거창cc",
     "name": "클럽디거창CC",
     "region": "경기남부",
@@ -37484,15 +28816,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -37528,72 +28860,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "08-777-1699"
   },
   {
-    "id": "베스트골프스쿨",
-    "name": "베스트 골프스쿨",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.18233,
-      "lng": 126.93412
-    },
-    "drivingTimeFromSeoul": 313,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 120,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1700"
-  },
-  {
     "id": "써미트cc",
     "name": "써미트CC",
     "region": "전라",
@@ -37615,15 +28881,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -37660,70 +28926,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "02-777-1702"
   },
   {
-    "id": "프라자골프클럽",
-    "name": "프라자골프클럽",
-    "region": "경기북부",
-    "address": "고양시 덕산로",
-    "coordinates": {
-      "lat": 37.69687,
-      "lng": 126.73496
-    },
-    "drivingTimeFromSeoul": 54,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 153,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "고양시 덕산로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1703"
-  },
-  {
     "id": "이지스카이cc",
     "name": "이지스카이CC",
     "region": "경상",
@@ -37745,15 +28947,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.0,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -37809,15 +29011,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -37874,15 +29076,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -37939,15 +29141,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -37984,72 +29186,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "010-777-1710"
   },
   {
-    "id": "갤럭시골프클럽",
-    "name": "갤럭시골프클럽",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.7904,
-      "lng": 127.64164
-    },
-    "drivingTimeFromSeoul": 369,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 150000,
-      "weekendGreenFee": 200000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 241,
-    "tags": [
-      "전라",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1711"
-  },
-  {
     "id": "베이스타즈cc",
     "name": "베이스타즈CC",
     "region": "경상",
@@ -38071,15 +29207,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -38135,15 +29271,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -38200,15 +29336,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -38245,331 +29381,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "08-777-1717"
   },
   {
-    "id": "파인코스cc",
-    "name": "파인코스CC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.4243,
-      "lng": 127.81868
-    },
-    "drivingTimeFromSeoul": 96,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 318,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1718"
-  },
-  {
-    "id": "메이플코스cc",
-    "name": "메이플코스CC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.43517,
-      "lng": 127.81104
-    },
-    "drivingTimeFromSeoul": 95,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 210000,
-      "weekendGreenFee": 260000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 329,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1719"
-  },
-  {
-    "id": "목포골프클럽",
-    "name": "목포골프클럽",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.82549,
-      "lng": 126.39371
-    },
-    "drivingTimeFromSeoul": 365,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 130000,
-      "weekendGreenFee": 180000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 351,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1721"
-  },
-  {
-    "id": "선그린골프클럽",
-    "name": "선그린골프클럽",
-    "region": "전라",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 34.82325,
-      "lng": 126.39459
-    },
-    "drivingTimeFromSeoul": 365,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.8,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 90.8,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 362,
-    "tags": [
-      "전라",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "전라 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1722"
-  },
-  {
-    "id": "w5nfcc",
-    "name": "W5NFCC",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.25634,
-      "lng": 126.44859
-    },
-    "drivingTimeFromSeoul": 81,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.1,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 384,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1724"
-  },
-  {
     "id": "골프존카운티사천",
     "name": "골프존카운티 사천",
     "region": "경기남부",
@@ -38591,15 +29402,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 2,
     "greenDifficulty": 2,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 114,
-      "courseRating": 71.1,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 88.9,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -38658,15 +29469,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -38723,15 +29534,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -38788,15 +29599,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -38853,15 +29664,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -38917,15 +29728,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.8,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -38982,15 +29793,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -39025,74 +29836,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "06-777-1733"
   },
   {
-    "id": "인피션골프클럽",
-    "name": "인피션 골프클럽",
-    "region": "인천",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.60239,
-      "lng": 126.60525
-    },
-    "drivingTimeFromSeoul": 60,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "보통",
-    "undulation": "평탄",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 127,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 494,
-    "tags": [
-      "인천",
-      "양잔디",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "인천 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1734"
-  },
-  {
     "id": "베르힐cc영종cc",
-    "name": "베르힐CC 영종CC",
+    "name": "오렌지듄스 영종GC",
     "region": "인천",
     "address": "대한민국",
     "coordinates": {
@@ -39112,15 +29857,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.6,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 117,
-      "courseRating": 71.0,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 90.2,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -39158,396 +29903,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "08-777-1735"
   },
   {
-    "id": "제이유제이골프클럽",
-    "name": "제이유제이골프클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.24,
-      "lng": 126.61074
-    },
-    "drivingTimeFromSeoul": 69,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 131,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1736"
-  },
-  {
-    "id": "골프존파크장성침촌점",
-    "name": "골프존파크 장성 침촌점",
-    "region": "경상",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 36.08288,
-      "lng": 129.3764
-    },
-    "drivingTimeFromSeoul": 317,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 164,
-    "tags": [
-      "경상",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경상 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1739"
-  },
-  {
-    "id": "유명골프클럽",
-    "name": "유명골프클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.41728,
-      "lng": 127.10754
-    },
-    "drivingTimeFromSeoul": 28,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 197,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "노캐디가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1742"
-  },
-  {
-    "id": "서원힐스ccwestcoursecc",
-    "name": "서원힐스CC WEST COURSECC",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.81525,
-      "lng": 126.89304
-    },
-    "drivingTimeFromSeoul": 58,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 230,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.seowongolf.co.kr",
-    "phone": "09-777-1745"
-  },
-  {
-    "id": "서원힐스cc동코스seowonhillscceastcoursecc",
-    "name": "서원힐스CC 동코스 Seowon Hills CC East CourseCC",
-    "region": "경기북부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 37.82083,
-      "lng": 126.89742
-    },
-    "drivingTimeFromSeoul": 58,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 241,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 132의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 132 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.seowongolf.co.kr",
-    "phone": "010-777-1746"
-  },
-  {
-    "id": "마임골프클럽",
-    "name": "마임골프클럽",
-    "region": "충청",
-    "address": "세종특별자치시 월성로",
-    "coordinates": {
-      "lat": 36.58865,
-      "lng": 127.27331
-    },
-    "drivingTimeFromSeoul": 134,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 150000,
-      "weekendGreenFee": 200000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 252,
-    "tags": [
-      "충청",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "세종특별자치시 월성로에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1747"
-  },
-  {
     "id": "서경타니cc",
     "name": "서경타니CC",
     "region": "경상",
@@ -39569,15 +29924,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -39633,15 +29988,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 119,
-      "courseRating": 71.4,
-      "golfzonCourseLevel": 3.0,
-      "golfzonGreenLevel": 3.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 3,
+      "golfzonGreenLevel": 3,
       "avgFieldScore": 89.3,
-      "relativeDifficulty": "쉬움(초보추천)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -39700,15 +30055,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 94.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 94,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -39766,15 +30121,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -39830,15 +30185,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -39885,7 +30240,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "조선잔디(안양중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -39894,15 +30249,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": 3.1,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": 141,
+      "courseRating": 74.8,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -39958,15 +30313,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -40023,15 +30378,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -40088,15 +30443,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.2,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -40154,15 +30509,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6800,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.1,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 139,
-      "courseRating": 74.7,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97.5,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -40220,15 +30575,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -40284,15 +30639,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -40329,72 +30684,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "05-777-1759"
   },
   {
-    "id": "서원밸리cc밸리코스seowonvalleycc",
-    "name": "서원밸리CC 밸리코스 Seowon ValleyCC",
-    "region": "경기북부",
-    "address": "Gyeonggi-do Seowon-gil",
-    "coordinates": {
-      "lat": 37.82141,
-      "lng": 126.88956
-    },
-    "drivingTimeFromSeoul": 58,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
-      "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 395,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "Gyeonggi-do Seowon-gil에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 130의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 130 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.seowongolf.co.kr",
-    "phone": "06-777-1760"
-  },
-  {
     "id": "경주신라cc",
     "name": "경주신라CC",
     "region": "경상",
@@ -40416,15 +30705,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -40480,15 +30769,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 5,
     "greenDifficulty": 5,
-    "greenSpeedAvg": 3.0,
+    "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 138,
-      "courseRating": 75.2,
-      "golfzonCourseLevel": 5.0,
-      "golfzonGreenLevel": 5.0,
+      "slopeRating": 134,
+      "courseRating": 73.2,
+      "golfzonCourseLevel": 5,
+      "golfzonGreenLevel": 5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -40547,15 +30836,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 93,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -40591,71 +30880,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "phone": "09-777-1763"
   },
   {
-    "id": "진산골프클럽",
-    "name": "진산골프클럽",
-    "region": "경기남부",
-    "address": "대한민국",
-    "coordinates": {
-      "lat": 35.27515,
-      "lng": 127.91132
-    },
-    "drivingTimeFromSeoul": 315,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 72.0,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.1,
-      "relativeDifficulty": "보통(표준)"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 439,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1764"
-  },
-  {
     "id": "대가야cc",
     "name": "대가야CC",
     "region": "경상",
@@ -40677,15 +30901,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -40743,15 +30967,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -40807,15 +31031,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 121,
-      "courseRating": 72.4,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -40873,15 +31097,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -40937,15 +31161,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.0,
-      "relativeDifficulty": "보통(표준)"
+      "avgFieldScore": 92,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 240000,
@@ -41003,15 +31227,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.1,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -41068,15 +31292,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -41133,15 +31357,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.3,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -41197,15 +31421,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.4,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -41263,15 +31487,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.5,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -41328,15 +31552,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6400,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 130,
-      "courseRating": 73.6,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -41392,15 +31616,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 73.7,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.0,
-      "relativeDifficulty": "어려움(중상급)"
+      "avgFieldScore": 95,
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -41458,15 +31682,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 73.8,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -41522,15 +31746,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -41586,15 +31810,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
-    "greenSpeedAvg": 2.7,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 125,
-      "courseRating": 71.6,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -41652,15 +31876,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.8,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 72.9,
-      "golfzonCourseLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -41696,7 +31920,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "소노펠리체cc델피노cc",
-    "name": "소노펠리체CC 델피노CC",
+    "name": "소노펠리체CC 델피노",
     "region": "강원",
     "address": "대한민국",
     "coordinates": {
@@ -41716,15 +31940,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
-    "greenSpeedAvg": 2.9,
+    "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.0,
-      "golfzonCourseLevel": 4.0,
-      "golfzonGreenLevel": 4.0,
+      "slopeRating": null,
+      "courseRating": null,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -41757,6 +31981,271 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "highlight": "강원 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.9m",
     "officialUrl": "https://www.sonofelicecc.com",
     "phone": "010-777-1782"
+  },
+  {
+    "id": "서원밸리cc",
+    "name": "서원밸리CC",
+    "region": "경기북부",
+    "address": "경기도 파주시 광탄면 서원길 333",
+    "coordinates": {
+      "lat": 37.8012,
+      "lng": 126.8835
+    },
+    "drivingTimeFromSeoul": 45,
+    "courseType": "회원제",
+    "holes": 18,
+    "grass": {
+      "fairway": "조선잔디(중지)",
+      "green": "벤트그라스"
+    },
+    "courseStyle": "구릉형(힐)",
+    "fairwayWidth": "넓음",
+    "undulation": "보통",
+    "totalLengthMeters": 6410,
+    "courseDifficulty": 4,
+    "greenDifficulty": 4,
+    "greenSpeedAvg": 3,
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "difficultyIndex": {
+      "slopeRating": 135,
+      "courseRating": 73.2,
+      "golfzonCourseLevel": 4.5,
+      "golfzonGreenLevel": 4.5,
+      "avgFieldScore": 92.5,
+      "relativeDifficulty": "어려움(중상급)"
+    },
+    "pricing": {
+      "weekdayGreenFee": 220000,
+      "weekendGreenFee": 280000,
+      "cartFee": 100000,
+      "caddieFee": 150000
+    },
+    "playOptions": {
+      "twoPlayerAllowed": false,
+      "threePlayerAllowed": true,
+      "noCaddieAllowed": false,
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
+    },
+    "facilities": {
+      "drivingRange": true,
+      "drivingRangeNote": "천연잔디 드라이빙 레인지",
+      "practiceGreen": true,
+      "hotel": false,
+      "saunaRating": "최우수"
+    },
+    "rating": 4.8,
+    "reviewCount": 950,
+    "tags": [
+      "경기북부",
+      "회원제명문",
+      "100%잔디티",
+      "토너먼트코스"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
+    "description": "KPGA·KLPGA 및 LPGA 대회를 개최한 대한민국 대표 정통 회원제 명문 코스. 최상급 잔디 관리와 아름다운 구릉지 조경을 자랑합니다.",
+    "highlight": "LPGA 대회 개최 명문 코스 | 슬로프 135 (어려움(중상급)) & 100% 천연잔디 티박스",
+    "officialUrl": "https://www.seowongolf.co.kr",
+    "phone": "031-940-9400"
+  },
+  {
+    "id": "서원힐스cc",
+    "name": "서원힐스CC",
+    "region": "경기북부",
+    "address": "경기도 파주시 광탄면 서원길 333",
+    "coordinates": {
+      "lat": 37.8035,
+      "lng": 126.886
+    },
+    "drivingTimeFromSeoul": 45,
+    "courseType": "대중제",
+    "holes": 27,
+    "grass": {
+      "fairway": "양잔디(켄터키블루)",
+      "green": "벤트그라스"
+    },
+    "courseStyle": "구릉형(힐)",
+    "fairwayWidth": "넓음",
+    "undulation": "보통",
+    "totalLengthMeters": 9650,
+    "courseDifficulty": 4,
+    "greenDifficulty": 4,
+    "greenSpeedAvg": 2.9,
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "difficultyIndex": {
+      "slopeRating": 132,
+      "courseRating": 72.8,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 91.8,
+      "relativeDifficulty": "어려움(중상급)"
+    },
+    "pricing": {
+      "weekdayGreenFee": 190000,
+      "weekendGreenFee": 250000,
+      "cartFee": 100000,
+      "caddieFee": 150000
+    },
+    "playOptions": {
+      "twoPlayerAllowed": false,
+      "threePlayerAllowed": true,
+      "noCaddieAllowed": false,
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
+    },
+    "facilities": {
+      "drivingRange": true,
+      "drivingRangeNote": "300야드 초대형 드라이빙 레인지",
+      "practiceGreen": true,
+      "hotel": false,
+      "saunaRating": "최우수"
+    },
+    "rating": 4.7,
+    "reviewCount": 1420,
+    "tags": [
+      "경기북부",
+      "대중제퍼블릭",
+      "양잔디",
+      "야간3부LED",
+      "100%잔디티"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
+    "description": "수도권 최대 규모 27홀 프리미엄 대중제 골프장. 사계절 푸른 양잔디 페어웨이와 눈부심 없는 초고광량 LED 라이트 야간 라운드를 제공합니다.",
+    "highlight": "수도권 명품 27홀 퍼블릭 | 사계절 양잔디 & 최신 LED 야간 3부 운영",
+    "officialUrl": "https://www.seowongolf.co.kr",
+    "phone": "031-940-9500"
+  },
+  {
+    "id": "소노펠리체cc비발디파크",
+    "name": "소노펠리체CC 비발디파크",
+    "region": "강원",
+    "address": "강원도 홍천군 서면 한치골길 262",
+    "coordinates": {
+      "lat": 37.6482,
+      "lng": 127.6835
+    },
+    "drivingTimeFromSeoul": 70,
+    "courseType": "대중제",
+    "holes": 18,
+    "grass": {
+      "fairway": "양잔디(켄터키블루)",
+      "green": "벤트그라스"
+    },
+    "courseStyle": "산악형",
+    "fairwayWidth": "넓음",
+    "undulation": "심함",
+    "totalLengthMeters": 6630,
+    "courseDifficulty": 4,
+    "greenDifficulty": 4,
+    "greenSpeedAvg": 2.8,
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "difficultyIndex": {
+      "slopeRating": 133,
+      "courseRating": 73,
+      "golfzonCourseLevel": 4,
+      "golfzonGreenLevel": 4,
+      "avgFieldScore": 92.8,
+      "relativeDifficulty": "어려움(중상급)"
+    },
+    "pricing": {
+      "weekdayGreenFee": 180000,
+      "weekendGreenFee": 240000,
+      "cartFee": 100000,
+      "caddieFee": 150000
+    },
+    "playOptions": {
+      "twoPlayerAllowed": false,
+      "threePlayerAllowed": true,
+      "noCaddieAllowed": false,
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
+    },
+    "facilities": {
+      "drivingRange": true,
+      "drivingRangeNote": "천연잔디 연습장",
+      "practiceGreen": true,
+      "hotel": true,
+      "saunaRating": "최우수"
+    },
+    "rating": 4.7,
+    "reviewCount": 880,
+    "tags": [
+      "강원",
+      "리조트형",
+      "양잔디",
+      "야간3부LED",
+      "100%잔디티"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
+    "description": "팔봉산과 홍천강의 수려한 자연 경관을 배경으로 조성된 고품격 18홀 대중제 골프장. 사계절 양잔디와 드라마틱한 산악 레이아웃을 자랑합니다.",
+    "highlight": "홍천 비발디 프리미엄 코스 | 슬로프 133 & 사계절 푸른 양잔디",
+    "officialUrl": "https://www.sonofelicecc.com",
+    "phone": "1588-4888"
+  },
+  {
+    "id": "샤인빌파크cc",
+    "name": "샤인빌파크CC",
+    "region": "제주",
+    "address": "제주특별자치도 서귀포시 표선면 가시리 산 62",
+    "coordinates": {
+      "lat": 33.3932,
+      "lng": 126.732
+    },
+    "drivingTimeFromSeoul": 330,
+    "courseType": "대중제",
+    "holes": 18,
+    "grass": {
+      "fairway": "조선잔디(중지)",
+      "green": "벤트그라스"
+    },
+    "courseStyle": "구릉형(힐)",
+    "fairwayWidth": "넓음",
+    "undulation": "보통",
+    "totalLengthMeters": 6450,
+    "courseDifficulty": 3,
+    "greenDifficulty": 3,
+    "greenSpeedAvg": 2.7,
+    "teeBoxMatRatio": "일부 매트",
+    "difficultyIndex": {
+      "slopeRating": 124,
+      "courseRating": 71.8,
+      "golfzonCourseLevel": 3.5,
+      "golfzonGreenLevel": 3.5,
+      "avgFieldScore": 90.2,
+      "relativeDifficulty": "보통(표준)"
+    },
+    "pricing": {
+      "weekdayGreenFee": 120000,
+      "weekendGreenFee": 160000,
+      "cartFee": 100000,
+      "caddieFee": 140000
+    },
+    "playOptions": {
+      "twoPlayerAllowed": true,
+      "threePlayerAllowed": true,
+      "noCaddieAllowed": false,
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
+    },
+    "facilities": {
+      "drivingRange": false,
+      "drivingRangeNote": null,
+      "practiceGreen": true,
+      "hotel": true,
+      "saunaRating": "우수"
+    },
+    "rating": 4.5,
+    "reviewCount": 420,
+    "tags": [
+      "제주",
+      "대중제퍼블릭",
+      "2인플레이가능"
+    ],
+    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
+    "description": "제주 표선 중산간에 위치한 18홀 대중제 골프장. 야자수와 이국적인 정취, 완만한 페어웨이로 누구나 편안하게 즐길 수 있습니다.",
+    "highlight": "제주 표선 가성비 퍼블릭 | 2인 플레이 가능 & 완만한 페어웨이",
+    "officialUrl": "https://www.kgba.co.kr",
+    "phone": "064-780-0001"
   }
 ];
 
@@ -41766,7 +32255,7 @@ export const THEME_PRESETS = [
     title: '입문·초보자 추천 코스 (슬로프 120 이하)',
     description: '공 잃어버릴 염려가 적고 스코어가 잘 나오는 평지형 완만한 코스 모음',
     badge: '초보·골린이 최적',
-    filter: (c: GolfClub) => c.difficultyIndex.relativeDifficulty === '쉬움(초보추천)' || c.difficultyIndex.slopeRating <= 119,
+    filter: (c: GolfClub) => c.difficultyIndex?.relativeDifficulty === '쉬움(초보추천)' || (c.difficultyIndex?.slopeRating != null && c.difficultyIndex.slopeRating <= 119),
   },
   {
     id: 'cool-grass',
@@ -41794,6 +32283,6 @@ export const THEME_PRESETS = [
     title: '토너먼트 챔피언십 고난도 코스',
     description: '유리알 그린(3.0m+)과 전략적 해저드/벙커가 배치된 샷밸류 극상의 도전형 코스',
     badge: '슬로프 135+ 상급',
-    filter: (c: GolfClub) => c.difficultyIndex.slopeRating >= 135 || c.difficultyIndex.relativeDifficulty === '지옥(상급자전용)',
+    filter: (c: GolfClub) => (c.difficultyIndex?.slopeRating != null && c.difficultyIndex.slopeRating >= 135) || c.difficultyIndex?.relativeDifficulty === '지옥(상급자전용)',
   },
 ];

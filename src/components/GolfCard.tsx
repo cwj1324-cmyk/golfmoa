@@ -19,9 +19,10 @@ export const GolfCard: React.FC<GolfCardProps> = ({
   userAvgScore = 90,
 }) => {
   const weekdayCost = calculateCostPerPerson(club, false, 4, true);
-  const pred = predictFieldScore(club.difficultyIndex.slopeRating, club.difficultyIndex.courseRating, userAvgScore);
+  const pred = predictFieldScore(club.difficultyIndex?.slopeRating, club.difficultyIndex?.courseRating, userAvgScore);
 
-  const isNoMat = club.teeBoxMatRatio.includes('매트 없음');
+  const isNoMat = club.teeBoxMatRatio?.includes('매트 없음');
+  const isMixedMat = club.teeBoxMatRatio?.includes('일부 매트') || club.teeBoxMatRatio?.includes('매트 비율 높음');
   const isYangGrass = club.grass.fairway.includes('양잔디');
   const isFlat = club.courseStyle.includes('구릉') || club.courseStyle.includes('링크스') || club.courseStyle.includes('평지');
   const isNightLed = club.playOptions.nightPlay && club.playOptions.lightingType.includes('LED');
@@ -94,8 +95,8 @@ export const GolfCard: React.FC<GolfCardProps> = ({
           {/* Slot 1: 티박스 */}
           <div className="py-1">
             <span className="text-[10px] text-slate-400 block font-medium">티박스</span>
-            <span className={`text-[11px] font-bold block mt-0.5 ${isNoMat ? 'text-emerald-800' : 'text-slate-600'}`}>
-              {isNoMat ? '🌱 100% 잔디' : '매트 혼용'}
+            <span className={`text-[11px] font-bold block mt-0.5 ${isNoMat ? 'text-emerald-800' : isMixedMat ? 'text-slate-600' : 'text-slate-400'}`}>
+              {isNoMat ? '🌱 100% 잔디' : isMixedMat ? '매트 혼용' : '티박스 -'}
             </span>
           </div>
 
@@ -127,7 +128,9 @@ export const GolfCard: React.FC<GolfCardProps> = ({
 
         {/* 3. Secondary Specs 1-liner */}
         <div className="flex items-center gap-1.5 text-xs text-slate-600 truncate pb-1">
-          <span className="font-semibold text-slate-800">그린 {club.greenSpeedAvg.toFixed(1)}m</span>
+          <span className="font-semibold text-slate-800">
+            {club.greenSpeedAvg ? `그린 ${club.greenSpeedAvg.toFixed(1)}m` : '그린 스피드 -'}
+          </span>
           <span className="text-slate-300">·</span>
           <span>{club.fairwayWidth} 페어웨이</span>
           <span className="text-slate-300">·</span>
@@ -146,13 +149,19 @@ export const GolfCard: React.FC<GolfCardProps> = ({
         {/* Left: USGA Score Prediction */}
         <div>
           <span className="text-[10px] text-slate-400 block font-medium">내 예상 스코어 ({userAvgScore}타 기준)</span>
-          <div className="flex items-baseline space-x-1">
-            <span className="text-sm font-black text-slate-900">{pred.expectedScore}타</span>
-            <span className={`text-[11px] font-bold ${pred.diffFromAverage > 0 ? 'text-rose-600' : 'text-emerald-700'}`}>
-              ({pred.diffFromAverage > 0 ? `+${pred.diffFromAverage}` : pred.diffFromAverage})
-            </span>
-            <span className="text-[10px] text-slate-400 ml-1">슬로프 {club.difficultyIndex.slopeRating}</span>
-          </div>
+          {pred.isUnrated ? (
+            <div className="flex items-baseline space-x-1 mt-0.5">
+              <span className="text-xs font-semibold text-slate-500">공인 레이팅 미측정</span>
+            </div>
+          ) : (
+            <div className="flex items-baseline space-x-1">
+              <span className="text-sm font-black text-slate-900">{pred.expectedScore}타</span>
+              <span className={`text-[11px] font-bold ${pred.diffFromAverage > 0 ? 'text-rose-600' : 'text-emerald-700'}`}>
+                ({pred.diffFromAverage > 0 ? `+${pred.diffFromAverage}` : pred.diffFromAverage})
+              </span>
+              <span className="text-[10px] text-slate-400 ml-1">슬로프 {club.difficultyIndex?.slopeRating}</span>
+            </div>
+          )}
         </div>
 
         {/* Right: Estimated Cost & Detail Trigger */}
