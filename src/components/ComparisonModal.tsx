@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import type { GolfClub } from '../types/golf';
-import { calculateCostPerPerson, formatPrice, predictFieldScore } from '../utils/calculator';
+import { calculateCostPerPerson, formatPrice, predictFieldScore, getOfficialClubUrl } from '../utils/calculator';
 import { X, ExternalLink, Gauge, MapPin, Share2, Copy, ThumbsUp, Sparkles, Moon } from 'lucide-react';
 
 interface ComparisonModalProps {
@@ -267,27 +267,16 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                         <span>이 구장 투표 ({voteCount}표)</span>
                       </button>
 
-                      {/* Outlinks */}
-                      <div className="mt-1.5 grid grid-cols-2 gap-1 text-[11px]">
-                        <a
-                          href={`https://golf.kakao.com/search?keyword=${encodeURIComponent(club.name)}`}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="py-1 bg-[#FEE500] hover:bg-[#FADA0A] text-slate-900 rounded font-black flex items-center justify-center gap-0.5"
-                        >
-                          <span>카카오</span>
-                          <ExternalLink className="w-2.5 h-2.5" />
-                        </a>
-                        <a
-                          href={club.officialUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="py-1 bg-slate-900 hover:bg-slate-800 text-white rounded font-bold flex items-center justify-center gap-0.5"
-                        >
-                          <span>공홈</span>
-                          <ExternalLink className="w-2.5 h-2.5" />
-                        </a>
-                      </div>
+                      {/* Official Homepage Link */}
+                      <a
+                        href={getOfficialClubUrl(club)}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1.5 py-1.5 bg-slate-900 hover:bg-slate-800 text-white rounded-lg font-bold flex items-center justify-center gap-1 text-[11px] transition-all"
+                      >
+                        <span>공식 홈페이지 바로가기</span>
+                        <ExternalLink className="w-2.5 h-2.5" />
+                      </a>
                     </div>
                   );
                 })}

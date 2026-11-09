@@ -31,14 +31,9 @@ export const FloatingComparisonBar: React.FC<FloatingComparisonBarProps> = ({
             {comparedClubs.map((club) => (
               <div
                 key={club.id}
-                className="relative flex items-center space-x-2 bg-slate-800/90 rounded-xl px-2.5 py-1.5 pr-6 border border-slate-700/80 group"
+                className="relative flex items-center space-x-1.5 bg-slate-800/90 rounded-lg px-2.5 py-1.5 pr-6 border border-slate-700/80 group"
               >
-                <img
-                  src={club.imageUrl}
-                  alt={club.name}
-                  className="w-6 h-6 rounded-lg object-cover"
-                />
-                <span className="text-xs font-bold text-slate-100 max-w-[100px] truncate">
+                <span className="text-xs font-bold text-slate-100 max-w-[110px] truncate">
                   {club.name}
                 </span>
                 <button

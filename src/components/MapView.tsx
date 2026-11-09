@@ -55,12 +55,7 @@ export const MapView: React.FC<MapViewProps> = ({
               icon={customIcon}
             >
               <Popup className="custom-leaflet-popup">
-                <div className="p-1 min-w-[220px]">
-                  <img
-                    src={club.imageUrl}
-                    alt={club.name}
-                    className="w-full h-24 object-cover rounded-lg mb-2"
-                  />
+                <div className="p-1 min-w-[200px]">
                   <div className="flex items-center justify-between mb-1">
                     <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">
                       {club.region}
