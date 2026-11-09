@@ -1,7 +1,7 @@
 import React from 'react';
 import type { GolfClub } from '../types/golf';
 import { calculateCostPerPerson, formatPrice, predictFieldScore } from '../utils/calculator';
-import { Star, Clock, MapPin, Check, Plus, ChevronRight } from 'lucide-react';
+import { Star, MapPin, Check, Plus, ChevronRight } from 'lucide-react';
 
 interface GolfCardProps {
   club: GolfClub;
@@ -50,11 +50,6 @@ export const GolfCard: React.FC<GolfCardProps> = ({
               <span className="inline-flex items-center gap-1 font-medium text-slate-600 shrink-0">
                 <MapPin className="w-3 h-3 text-slate-400" />
                 {club.region} ({club.address.split(' ')[0] || club.region})
-              </span>
-              <span className="text-slate-300">·</span>
-              <span className="inline-flex items-center gap-1 shrink-0">
-                <Clock className="w-3 h-3 text-slate-400" />
-                서울 {club.drivingTimeFromSeoul}분
               </span>
               <span className="text-slate-300">·</span>
               <span className="inline-flex items-center text-amber-500 font-bold shrink-0">

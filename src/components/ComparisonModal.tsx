@@ -94,7 +94,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
       const slopeText = prediction.isUnrated ? '공인 레이팅 미측정' : `${prediction.expectedScore}타 (슬로프 ${club.difficultyIndex?.slopeRating})`;
 
       lines.push(
-        `${idx + 1}. ${club.name} (${club.region} / 서울 ${club.drivingTimeFromSeoul}분)`,
+        `${idx + 1}. ${club.name} (${club.region})`,
         `   • 핵심 조건: ${isNoMat} | ${club.grass.fairway} | ${isNight}`,
         `   • 지형/그린: ${club.courseStyle} | ${greenText}`,
         `   • 예상 스코어: ${slopeText}`,
@@ -255,7 +255,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                         </h4>
                         <p className="text-[11px] text-slate-500 flex items-center gap-1 mt-0.5">
                           <MapPin className="w-3 h-3 text-emerald-700" />
-                          {club.region} · 서울 {club.drivingTimeFromSeoul}분
+                          {club.region} ({club.address.split(' ')[0] || club.region})
                         </p>
                       </div>
 

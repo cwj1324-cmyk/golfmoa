@@ -51,7 +51,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 </span>
                 <span className="text-[11px] sm:text-xs text-slate-500 flex items-center gap-1 font-medium truncate">
                   <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-slate-400 shrink-0" />
-                  {club.region} ({club.address.split(' ')[0] || club.region}) · 서울 {club.drivingTimeFromSeoul}분
+                  {club.region} ({club.address.split(' ')[0] || club.region})
                 </span>
               </div>
 

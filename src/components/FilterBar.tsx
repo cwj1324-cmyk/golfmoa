@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { FilterState, Region } from '../types/golf';
-import { Search, RotateCcw, SlidersHorizontal, ChevronDown, ChevronUp, DollarSign, Clock, Moon } from 'lucide-react';
+import { Search, RotateCcw, SlidersHorizontal, ChevronDown, ChevronUp, DollarSign, Moon } from 'lucide-react';
 
 interface FilterBarProps {
   filter: FilterState;
@@ -50,7 +50,6 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     filter.region !== '전체' ||
     filter.searchQuery !== '' ||
     filter.maxTotalCostPerPerson < 400000 ||
-    filter.maxDrivingTime < 300 ||
     filter.fairwayGrass !== '전체' ||
     filter.difficultyFilter !== '전체' ||
     filter.noCaddieOnly ||
@@ -67,7 +66,6 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
   const advancedCount = [
     filter.maxTotalCostPerPerson < 400000,
-    filter.maxDrivingTime < 300,
     filter.difficultyFilter !== '전체',
     filter.drivingRangeOnly,
     filter.twoPlayerOnly,
@@ -229,9 +227,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         )}
       </div>
 
-      {/* Row 3: Collapsible Drawer (Cost, Distance, Difficulty) */}
+      {/* Row 3: Collapsible Drawer (Cost & Difficulty) */}
       {isDetailOpen && (
-        <div className="pt-3 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs bg-slate-50/70 p-3 rounded-lg border border-slate-100 animate-fadeIn">
+        <div className="pt-3 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs bg-slate-50/70 p-3 rounded-lg border border-slate-100 animate-fadeIn">
           {/* Cost Slider */}
           <div className="space-y-1">
             <div className="flex items-center justify-between">
@@ -250,28 +248,6 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               step={10000}
               value={filter.maxTotalCostPerPerson}
               onChange={(e) => setFilter((prev) => ({ ...prev, maxTotalCostPerPerson: Number(e.target.value) }))}
-              className="w-full accent-slate-900 cursor-pointer h-1.5 bg-slate-200 rounded"
-            />
-          </div>
-
-          {/* Driving Time Slider */}
-          <div className="space-y-1">
-            <div className="flex items-center justify-between">
-              <span className="font-semibold text-slate-700 flex items-center gap-1">
-                <Clock className="w-3 h-3 text-blue-600" />
-                서울 기준 소요시간
-              </span>
-              <span className="font-bold text-blue-700">
-                {filter.maxDrivingTime >= 300 ? '전국 전체' : `${filter.maxDrivingTime}분 이내`}
-              </span>
-            </div>
-            <input
-              type="range"
-              min={40}
-              max={300}
-              step={10}
-              value={filter.maxDrivingTime}
-              onChange={(e) => setFilter((prev) => ({ ...prev, maxDrivingTime: Number(e.target.value) }))}
               className="w-full accent-slate-900 cursor-pointer h-1.5 bg-slate-200 rounded"
             />
           </div>
@@ -310,7 +286,6 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           >
             <option value="recommended">추천순</option>
             <option value="rating">평점 높은순</option>
-            <option value="distance">서울 가까운순</option>
             <option value="slopeLow">난이도 쉬운순</option>
             <option value="slopeHigh">난이도 높은순</option>
             <option value="costLow">비용 낮은순</option>

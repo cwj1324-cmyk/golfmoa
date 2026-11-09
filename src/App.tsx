@@ -126,13 +126,6 @@ export function App() {
         }
       }
 
-      // 4. 서울 기준 소요시간 (300분 미만 설정 시에만 필터링)
-      if (filter.maxDrivingTime < 300) {
-        if (club.drivingTimeFromSeoul > filter.maxDrivingTime) {
-          return false;
-        }
-      }
-
       // 5. 잔디 종류
       if (filter.fairwayGrass === '양잔디' && !club.grass.fairway.includes('양잔디')) {
         return false;
@@ -174,9 +167,6 @@ export function App() {
         const costA = calculateCostPerPerson(a, false, 4, true).totalPerPerson;
         const costB = calculateCostPerPerson(b, false, 4, true).totalPerPerson;
         return costA - costB;
-      }
-      if (sortBy === 'distance') {
-        return a.drivingTimeFromSeoul - b.drivingTimeFromSeoul;
       }
       if (sortBy === 'rating') {
         return b.rating - a.rating;
