@@ -290,12 +290,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 128,
+      "courseRating": 70.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -488,12 +488,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 70.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -945,12 +945,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 70.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -1138,12 +1138,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 70.7,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -1205,7 +1205,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": 122,
-      "courseRating": 71.8,
+      "courseRating": 70.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
@@ -1269,12 +1269,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 70.8,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -1334,12 +1334,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 116,
+      "courseRating": 69.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "쉬움(초보추천)"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -1661,12 +1661,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 136,
+      "courseRating": 72.6,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -1854,12 +1854,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 71.5,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 90.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -1985,12 +1985,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3.1,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 141,
-      "courseRating": 74.9,
+      "slopeRating": 134,
+      "courseRating": 70.7,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 5,
       "avgFieldScore": 95.8,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -2380,12 +2380,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 139,
+      "courseRating": 73.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -2511,12 +2511,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 142,
+      "courseRating": 73.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -2641,12 +2641,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 126,
+      "courseRating": 71.7,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -3423,12 +3423,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 71.0,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -3682,12 +3682,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3.1,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 142,
-      "courseRating": 75.1,
+      "slopeRating": 135,
+      "courseRating": 71.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -3749,12 +3749,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 138,
+      "courseRating": 71.9,
       "golfzonCourseLevel": 3,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -4140,12 +4140,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 69.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -4269,12 +4269,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 132,
+      "courseRating": 70.8,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -4467,12 +4467,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 71.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -4666,12 +4666,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 132,
+      "courseRating": 70.1,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -4732,12 +4732,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 72.6,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -4930,12 +4930,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 124,
+      "courseRating": 71.7,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -5130,12 +5130,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 120,
+      "courseRating": 70.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -5592,12 +5592,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 2.8,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 131,
-      "courseRating": 72.8,
+      "slopeRating": 137,
+      "courseRating": 72.4,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -5657,12 +5657,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 137,
+      "courseRating": 70.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -5855,12 +5855,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 124,
+      "courseRating": 70.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -5983,12 +5983,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 126,
+      "courseRating": 70.9,
       "golfzonCourseLevel": 3,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 88.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -6115,12 +6115,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 127,
+      "courseRating": 69.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -6181,12 +6181,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 71.2,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -6247,12 +6247,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 127,
+      "courseRating": 69.4,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -6311,12 +6311,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 123,
+      "courseRating": 71.5,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -6441,12 +6441,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 118,
+      "courseRating": 67.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "쉬움(초보추천)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -6506,12 +6506,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 71.7,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -6570,12 +6570,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 132,
+      "courseRating": 70.5,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 89.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -6637,12 +6637,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.6,
+      "slopeRating": 137,
+      "courseRating": 72.2,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -6768,12 +6768,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 127,
+      "courseRating": 71.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -6963,12 +6963,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 119,
+      "courseRating": 69.7,
       "golfzonCourseLevel": 3,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "쉬움(초보추천)"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -7160,12 +7160,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 136,
+      "courseRating": 72.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -7225,12 +7225,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 72.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -7354,12 +7354,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 70.4,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -7550,8 +7550,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 2.6,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 123,
-      "courseRating": 71.9,
+      "slopeRating": 129,
+      "courseRating": 69.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
@@ -7878,12 +7878,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 138,
+      "courseRating": 71.5,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 90.1,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -7944,12 +7944,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 140,
+      "courseRating": 72.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -8009,12 +8009,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 136,
+      "courseRating": 71.1,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -8204,12 +8204,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 71.8,
       "golfzonCourseLevel": 3,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -8403,12 +8403,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 71.6,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -8731,12 +8731,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 128,
+      "courseRating": 70.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -9318,12 +9318,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 71.3,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -9448,12 +9448,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 73.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -9513,12 +9513,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 142,
+      "courseRating": 71.6,
       "golfzonCourseLevel": 3,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -9646,8 +9646,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 2.8,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 72.9,
+      "slopeRating": 130,
+      "courseRating": 71.1,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
@@ -9776,12 +9776,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 70.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -9841,12 +9841,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 72.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -9906,12 +9906,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 126,
+      "courseRating": 71.7,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -10037,12 +10037,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 128,
+      "courseRating": 72.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -10364,12 +10364,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 129,
+      "courseRating": 70.3,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -10560,12 +10560,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 71.6,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -10627,12 +10627,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 122,
+      "courseRating": 69.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -10757,12 +10757,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 70.4,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -10822,12 +10822,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 73.1,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -10889,12 +10889,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 70.5,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -11020,12 +11020,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 128,
+      "courseRating": 70.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -11216,12 +11216,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 132,
+      "courseRating": 72.4,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -11346,12 +11346,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 138,
+      "courseRating": 71.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -11411,12 +11411,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 70.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -11476,12 +11476,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 137,
+      "courseRating": 72.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -11608,12 +11608,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 71.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -11672,12 +11672,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 136,
+      "courseRating": 72.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -11737,12 +11737,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 69.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -12131,12 +12131,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 143,
+      "courseRating": 71.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -12196,12 +12196,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 128,
+      "courseRating": 70.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -12589,12 +12589,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 125,
+      "courseRating": 70.1,
       "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 95.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 260000,
@@ -12786,12 +12786,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 129,
+      "courseRating": 69.4,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -12850,12 +12850,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 136,
+      "courseRating": 70.9,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 240000,
@@ -13045,12 +13045,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 71.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -13241,12 +13241,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 71.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -13435,12 +13435,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 125,
+      "courseRating": 70.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -14606,12 +14606,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 72.2,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -14672,12 +14672,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 129,
+      "courseRating": 71.7,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -14803,12 +14803,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 70.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -15127,12 +15127,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 138,
+      "courseRating": 71.4,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -15191,12 +15191,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 71.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -15255,12 +15255,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 71.4,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -15320,12 +15320,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 140,
+      "courseRating": 73.1,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 240000,
@@ -15713,12 +15713,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 132,
+      "courseRating": 72.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -15974,12 +15974,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 70.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -16039,12 +16039,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.7,
+      "slopeRating": 131,
+      "courseRating": 69.6,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 93.1,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -16169,12 +16169,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.9,
+      "slopeRating": 129,
+      "courseRating": 70.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -16235,12 +16235,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 70.5,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 96,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 230000,
@@ -16302,12 +16302,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 138,
-      "courseRating": 74,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 93.7,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -16891,12 +16891,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 145,
+      "courseRating": 74.3,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 270000,
@@ -16957,12 +16957,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 73.0,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -17085,12 +17085,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 132,
+      "courseRating": 71.7,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -17472,12 +17472,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 126,
+      "courseRating": 70.8,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -18061,12 +18061,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 125,
+      "courseRating": 71.1,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -18125,12 +18125,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 142,
+      "courseRating": 71.5,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -18777,12 +18777,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 125,
+      "courseRating": 71.3,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -18842,12 +18842,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 2.9,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 138,
-      "courseRating": 74.2,
+      "slopeRating": 126,
+      "courseRating": 70.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -18908,12 +18908,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 71.4,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -19236,12 +19236,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 70.6,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -19626,12 +19626,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 118,
+      "courseRating": 70.0,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "쉬움(초보추천)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -19692,12 +19692,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 118,
+      "courseRating": 68.6,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "쉬움(초보추천)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -19824,12 +19824,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 136,
+      "courseRating": 71.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -19954,12 +19954,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 132,
+      "courseRating": 70.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -20149,12 +20149,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 136,
+      "courseRating": 72.7,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -20476,12 +20476,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 127,
+      "courseRating": 69.7,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -21063,12 +21063,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 69.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -21193,12 +21193,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 138,
+      "courseRating": 71.4,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -21453,12 +21453,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 129,
+      "courseRating": 70.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -21714,12 +21714,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 140,
+      "courseRating": 72.1,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -22171,8 +22171,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 136,
-      "courseRating": 73.8,
+      "slopeRating": 142,
+      "courseRating": 72.5,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97,
@@ -22237,12 +22237,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 137,
+      "courseRating": 71.3,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 90.1,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -22304,12 +22304,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 124,
+      "courseRating": 70.4,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -22369,8 +22369,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3.2,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 140,
-      "courseRating": 74.6,
+      "slopeRating": 137,
+      "courseRating": 72.5,
       "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 97.4,
@@ -22501,12 +22501,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 70.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -22763,12 +22763,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 71.8,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 140000,
@@ -23022,12 +23022,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 70.9,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.4,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -23283,12 +23283,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 138,
+      "courseRating": 70.7,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 92.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -23934,12 +23934,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 132,
+      "courseRating": 70.1,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -23999,12 +23999,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 129,
+      "courseRating": 70.8,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.1,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -24650,12 +24650,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 137,
+      "courseRating": 72.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -24715,12 +24715,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 120,
+      "courseRating": 68.6,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -24780,12 +24780,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 71.1,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,
@@ -25040,12 +25040,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 70.5,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 5,
       "avgFieldScore": 95.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -25367,12 +25367,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 126,
+      "courseRating": 71.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -25691,8 +25691,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 137,
-      "courseRating": 73.8,
+      "slopeRating": 138,
+      "courseRating": 71.6,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 5,
       "avgFieldScore": 97.5,
@@ -25888,12 +25888,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 134,
+      "courseRating": 71.0,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -26607,12 +26607,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 119,
+      "courseRating": 68.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 93.4,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "쉬움(초보추천)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -26867,12 +26867,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 141,
-      "courseRating": 74.7,
+      "slopeRating": 133,
+      "courseRating": 70.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -27126,12 +27126,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 125,
+      "courseRating": 70.1,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -27190,12 +27190,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 69.1,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -28036,8 +28036,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3.2,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 142,
-      "courseRating": 75.2,
+      "slopeRating": 140,
+      "courseRating": 71.8,
       "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 95.3,
@@ -28625,12 +28625,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 130,
+      "courseRating": 70.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94.6,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -28690,12 +28690,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 128,
+      "courseRating": 69.4,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 210000,
@@ -28797,7 +28797,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   {
     "id": "클럽디거창cc",
     "name": "클럽디거창CC",
-    "region": "경기남부",
+    "region": "경상",
     "address": "대한민국",
     "coordinates": {
       "lat": 35.59293,
@@ -28819,12 +28819,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 137,
+      "courseRating": 72.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -29210,12 +29210,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 137,
+      "courseRating": 72.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 94.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 200000,
@@ -29339,12 +29339,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 135,
+      "courseRating": 71.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 150000,
@@ -29405,12 +29405,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 136,
+      "courseRating": 71.1,
       "golfzonCourseLevel": 2.5,
       "golfzonGreenLevel": 2.5,
       "avgFieldScore": 88.9,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -29991,12 +29991,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 128,
+      "courseRating": 68.7,
       "golfzonCourseLevel": 3,
       "golfzonGreenLevel": 3,
       "avgFieldScore": 89.3,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -30252,12 +30252,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3.1,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 141,
-      "courseRating": 74.8,
+      "slopeRating": 135,
+      "courseRating": 70.9,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.5,
-      "relativeDifficulty": "지옥(상급자전용)"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 250000,
@@ -30578,12 +30578,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 139,
+      "courseRating": 73.7,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 95.2,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -30772,12 +30772,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 134,
-      "courseRating": 73.2,
+      "slopeRating": 128,
+      "courseRating": 69.9,
       "golfzonCourseLevel": 5,
       "golfzonGreenLevel": 5,
       "avgFieldScore": 95.3,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -30839,12 +30839,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 141,
+      "courseRating": 71.8,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 93,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 130000,
@@ -31034,12 +31034,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 131,
+      "courseRating": 73.7,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 91.7,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 160000,
@@ -31164,12 +31164,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 126,
+      "courseRating": 71.1,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 92,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "보통(표준)"
     },
     "pricing": {
       "weekdayGreenFee": 240000,
@@ -31490,12 +31490,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 133,
+      "courseRating": 70.5,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 94.8,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 170000,
@@ -31619,12 +31619,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": null,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
+      "slopeRating": 138,
+      "courseRating": 69.3,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 95,
-      "relativeDifficulty": "미측정"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 190000,
@@ -32007,12 +32007,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 3,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 135,
-      "courseRating": 73.2,
+      "slopeRating": 139,
+      "courseRating": 71.9,
       "golfzonCourseLevel": 4.5,
       "golfzonGreenLevel": 4.5,
       "avgFieldScore": 92.5,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "지옥(상급자전용)"
     },
     "pricing": {
       "weekdayGreenFee": 220000,
@@ -32073,8 +32073,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 2.9,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 132,
-      "courseRating": 72.8,
+      "slopeRating": 133,
+      "courseRating": 72.2,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 91.8,
@@ -32140,12 +32140,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 2.8,
     "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
-      "slopeRating": 133,
-      "courseRating": 73,
+      "slopeRating": null,
+      "courseRating": null,
       "golfzonCourseLevel": 4,
       "golfzonGreenLevel": 4,
       "avgFieldScore": 92.8,
-      "relativeDifficulty": "어려움(중상급)"
+      "relativeDifficulty": "미측정"
     },
     "pricing": {
       "weekdayGreenFee": 180000,
@@ -32207,12 +32207,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "greenSpeedAvg": 2.7,
     "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
-      "slopeRating": 124,
-      "courseRating": 71.8,
+      "slopeRating": 135,
+      "courseRating": 71.2,
       "golfzonCourseLevel": 3.5,
       "golfzonGreenLevel": 3.5,
       "avgFieldScore": 90.2,
-      "relativeDifficulty": "보통(표준)"
+      "relativeDifficulty": "어려움(중상급)"
     },
     "pricing": {
       "weekdayGreenFee": 120000,

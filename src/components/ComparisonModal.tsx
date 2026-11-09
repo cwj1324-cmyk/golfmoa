@@ -263,8 +263,8 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                       <button
                         onClick={() => handleVote(club.id)}
                         className={`mt-2.5 w-full py-1.5 rounded-lg text-xs font-bold flex items-center justify-center gap-1.5 transition-all border ${isMyVote
-                            ? 'bg-emerald-700 text-white border-emerald-700 shadow-xs'
-                            : 'bg-white text-slate-700 border-slate-200 hover:border-emerald-600 hover:text-emerald-800'
+                          ? 'bg-emerald-700 text-white border-emerald-700 shadow-xs'
+                          : 'bg-white text-slate-700 border-slate-200 hover:border-emerald-600 hover:text-emerald-800'
                           }`}
                       >
                         <ThumbsUp className={`w-3.5 h-3.5 ${isMyVote ? 'fill-white' : ''}`} />
@@ -325,8 +325,8 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                       <div key={club.id}>
                         <span
                           className={`inline-block px-2 py-0.5 rounded text-xs font-semibold border ${isYang
-                              ? 'bg-teal-50 text-teal-800 border-teal-200'
-                              : 'bg-amber-50 text-amber-900 border-amber-200'
+                            ? 'bg-teal-50 text-teal-800 border-teal-200'
+                            : 'bg-amber-50 text-amber-900 border-amber-200'
                             }`}
                         >
                           {club.grass.fairway}
