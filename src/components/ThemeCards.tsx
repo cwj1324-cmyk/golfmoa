@@ -26,8 +26,8 @@ export const ThemeCards: React.FC<ThemeCardsProps> = ({
         <button
           onClick={() => onSelectTheme(null)}
           className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 border ${selectedThemeId === null
-              ? 'bg-slate-900 text-white border-slate-900 shadow-2xs'
-              : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300 hover:bg-slate-50'
+            ? 'bg-slate-900 text-white border-slate-900 shadow-2xs'
+            : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300 hover:bg-slate-50'
             }`}
         >
           <Sparkles className="w-3.5 h-3.5" />
@@ -44,8 +44,8 @@ export const ThemeCards: React.FC<ThemeCardsProps> = ({
               key={theme.id}
               onClick={() => onSelectTheme(isSelected ? null : theme.id)}
               className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 border ${isSelected
-                  ? 'bg-emerald-800 text-white border-emerald-800 shadow-2xs'
-                  : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300 hover:bg-slate-50'
+                ? 'bg-emerald-800 text-white border-emerald-800 shadow-2xs'
+                : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300 hover:bg-slate-50'
                 }`}
             >
               <Icon className={`w-3.5 h-3.5 ${isSelected ? 'text-emerald-200' : 'text-slate-500'}`} />

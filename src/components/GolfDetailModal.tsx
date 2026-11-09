@@ -356,29 +356,6 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             )}
           </div>
         </div>
-
-        {/* 3. Modal Bottom Footer (Clean Action Bar with Exact Official Homepage) */}
-        <div className="p-3.5 sm:p-4 border-t border-slate-200 bg-white flex items-center justify-between gap-3">
-          <button
-            onClick={() => onToggleCompare(club)}
-            className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all border ${isCompared
-              ? 'border-emerald-700 bg-emerald-50 text-emerald-800'
-              : 'border-slate-300 bg-white text-slate-700 hover:bg-slate-50'
-              }`}
-          >
-            {isCompared ? '비교함에서 빼기' : '+ 1:1 조건 비교함 담기'}
-          </button>
-
-          <a
-            href={officialUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-5 py-2 bg-slate-900 hover:bg-slate-800 text-white rounded-lg text-xs font-bold flex items-center gap-1.5 shadow-xs transition-all"
-          >
-            <span>공식 홈페이지 예약 바로가기</span>
-            <ExternalLink className="w-3.5 h-3.5" />
-          </a>
-        </div>
       </div>
     </div>
   );
