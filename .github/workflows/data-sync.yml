@@ -1,0 +1,52 @@
+name: Scheduled Golf Data Sync Pipeline
+
+on:
+  schedule:
+    # 매주 월요일 KST 04:00 (UTC 일요일 19:00) 정기 자동 실행
+    - cron: '0 19 * * 0'
+  workflow_dispatch: # 관리자가 원할 때 수동 실행 가능
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install pypdf
+
+      - name: Run Master Sync Pipeline
+        run: |
+          python scripts/pipeline/sync_golf_data.py
+
+      - name: Setup Node.js & Build Test
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Node dependencies
+        run: npm ci
+
+      - name: Verify build with updated data
+        run: npm run build
+
+      - name: Commit and push changes if updated
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GolfMoa Data Sync Bot"
+          if [[ -n $(git status -s) ]]; then
+            git add src/data/golfClubs.ts scripts/pipeline/.last_kga_hash
+            git commit -m "chore(data): 정기 골프장 공식 데이터 자동 갱신 및 무결성 검증 통과 [skip ci]"
+            git push
+          else
+            echo "No data changes detected. Database is up to date."
+          fi

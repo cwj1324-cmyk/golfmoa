@@ -66,8 +66,8 @@ export const GolfCard: React.FC<GolfCardProps> = ({
               onToggleCompare(club);
             }}
             className={`shrink-0 px-2 py-1.5 sm:px-2.5 sm:py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 transition-all border ${isCompared
-                ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
-                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50 hover:border-slate-300'
+              ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
+              : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50 hover:border-slate-300'
               }`}
             title="1:1 조건 비교함에 담기"
           >

@@ -15,3 +15,4 @@ sample_addrs = [c['address'] for c in db_clubs]
 print('Unique addresses sample (first 30):')
 for a in list(set(sample_addrs))[:30]:
     print(f"'{a}'")
+

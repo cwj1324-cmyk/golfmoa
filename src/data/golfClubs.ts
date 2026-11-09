@@ -2,73 +2,6 @@ import type { GolfClub } from '../types/golf';
 
 export const GOLF_CLUBS_DATA: GolfClub[] = [
   {
-    "id": "아덴힐리즈트앤골프클럽",
-    "name": "아덴힐 리즈트 앤 골프 클럽",
-    "region": "제주",
-    "address": "제주특별자치도 제주시",
-    "coordinates": {
-      "lat": 33.3455,
-      "lng": 126.36316
-    },
-    "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.7,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 131,
-    "tags": [
-      "제주",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "제주 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.ardenhill.co.kr",
-    "phone": "03-777-1001",
-    "city": "제주시"
-  },
-  {
     "id": "레이크힐스제주골프클럽",
     "name": "레이크힐스 제주 골프클럽",
     "region": "제주",
@@ -91,7 +24,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -136,140 +69,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "서귀포시"
   },
   {
-    "id": "태디밸리골프리조트",
-    "name": "태디밸리 골프 리조트",
-    "region": "제주",
-    "address": "제주특별자치도 서귀포시",
-    "coordinates": {
-      "lat": 33.28948,
-      "lng": 126.34219
-    },
-    "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 153,
-    "tags": [
-      "제주",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "제주 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.teddyvalley.com",
-    "phone": "05-777-1003",
-    "city": "서귀포시"
-  },
-  {
-    "id": "타미우스골프클럽",
-    "name": "타미우스 골프클럽",
-    "region": "제주",
-    "address": "제주특별자치도 제주시",
-    "coordinates": {
-      "lat": 33.35064,
-      "lng": 126.38728
-    },
-    "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 4,
-      "avgFieldScore": 93.1,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 200000,
-      "weekendGreenFee": 250000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 164,
-    "tags": [
-      "제주",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 134의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "제주 대중제 | 슬로프 레이팅 134 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.tameuscc.co.kr",
-    "phone": "06-777-1004",
-    "city": "제주시"
-  },
-  {
     "id": "우리들cc",
     "name": "우리들 CC",
     "region": "제주",
@@ -292,7 +91,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 128,
       "courseRating": 70.9,
@@ -337,140 +136,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "서귀포시"
   },
   {
-    "id": "라온골프클럽",
-    "name": "라온골프클럽",
-    "region": "제주",
-    "address": "제주특별자치도 제주시",
-    "coordinates": {
-      "lat": 33.33912,
-      "lng": 126.27885
-    },
-    "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.4,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 186,
-    "tags": [
-      "제주",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "제주 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.raon.co.kr",
-    "phone": "08-777-1006",
-    "city": "제주시"
-  },
-  {
-    "id": "everisgolfresortcc",
-    "name": "에버리스 골프리조트 (에버리스CC)",
-    "region": "제주",
-    "address": "제주특별자치도 제주시",
-    "coordinates": {
-      "lat": 33.37507,
-      "lng": 126.36192
-    },
-    "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6400,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.7,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 180000,
-      "weekendGreenFee": 230000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 208,
-    "tags": [
-      "제주",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 121의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "제주 대중제 | 슬로프 레이팅 121 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1008",
-    "city": "제주시"
-  },
-  {
     "id": "플라자cc제주cc",
     "name": "플라자CC 제주",
     "region": "제주",
@@ -493,7 +158,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 70.2,
@@ -550,17 +215,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
+    "courseStyle": "링크스형(평지/해변)",
+    "fairwayWidth": "넓음",
+    "undulation": "평탄",
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -625,7 +290,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -670,72 +335,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "충주시"
   },
   {
-    "id": "세일골프클럽",
-    "name": "세일골프클럽",
-    "region": "충청",
-    "address": "충청북도 충주시",
-    "coordinates": {
-      "lat": 37.02117,
-      "lng": 127.67538
-    },
-    "drivingTimeFromSeoul": 105,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6500,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 91.4,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 406,
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 123의 보통(표준) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 123 (보통(표준)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.salegc.co.kr",
-    "phone": "010-777-1026",
-    "city": "충주시"
-  },
-  {
     "id": "크리스탈밸리골프클럽",
     "name": "크리스탈밸리 골프클럽",
     "region": "경기북부",
@@ -745,7 +344,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.38751
     },
     "drivingTimeFromSeoul": 67,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -758,7 +357,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -814,7 +413,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -824,7 +423,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -909,8 +508,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": true,
@@ -957,7 +556,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 133,
       "courseRating": 70.9,
@@ -1012,7 +611,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1022,7 +621,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -1078,7 +677,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1088,7 +687,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -1172,8 +771,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": true,
@@ -1213,14 +812,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
+    "courseStyle": "링크스형(평지/해변)",
+    "fairwayWidth": "넓음",
+    "undulation": "평탄",
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": 2.6,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 122,
       "courseRating": 70.0,
@@ -1240,7 +839,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
       "nightPlay": true,
-      "lightingType": "최신 고광량 LED"
+      "lightingType": "LED 초고광량"
     },
     "facilities": {
       "drivingRange": false,
@@ -1276,7 +875,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1286,7 +885,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 70.8,
@@ -1352,7 +951,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 116,
       "courseRating": 69.9,
@@ -1409,7 +1008,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1419,7 +1018,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -1476,7 +1075,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1486,7 +1085,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -1552,7 +1151,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -1608,7 +1207,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1618,7 +1217,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -1674,7 +1273,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1684,7 +1283,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 136,
       "courseRating": 72.6,
@@ -1801,10 +1400,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 128.89858
     },
     "drivingTimeFromSeoul": 360,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1814,7 +1413,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -1867,20 +1466,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 129.3743
     },
     "drivingTimeFromSeoul": 351,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6450,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 135,
       "courseRating": 71.5,
@@ -1946,7 +1545,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2000,7 +1599,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.21973
     },
     "drivingTimeFromSeoul": 111,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -2081,7 +1680,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2138,7 +1737,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2148,7 +1747,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2214,7 +1813,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2281,7 +1880,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2414,7 +2013,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 139,
       "courseRating": 73.8,
@@ -2481,7 +2080,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2534,10 +2133,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 128.81126
     },
     "drivingTimeFromSeoul": 294,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2547,7 +2146,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 142,
       "courseRating": 73.5,
@@ -2602,7 +2201,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2612,7 +2211,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2669,7 +2268,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -2679,7 +2278,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 126,
       "courseRating": 71.7,
@@ -2731,7 +2330,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 129.05457
     },
     "drivingTimeFromSeoul": 298,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -2744,7 +2343,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2800,7 +2399,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2810,7 +2409,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2853,74 +2452,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "광주시"
   },
   {
-    "id": "화이트그린랜드whitegreenlandcc",
-    "name": "화이트그린랜드(White Green Land)CC",
-    "region": "경기남부",
-    "address": "경기도 광주시",
-    "coordinates": {
-      "lat": 37.4039,
-      "lng": 127.20987
-    },
-    "drivingTimeFromSeoul": 37,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6600,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 90.5,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 175,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1587174486073-ae5e5cff23aa?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 125의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 125 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1180",
-    "city": "광주시"
-  },
-  {
     "id": "한라산cc",
     "name": "한라산CC",
     "region": "제주",
@@ -2943,7 +2474,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -2997,10 +2528,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.33284
     },
     "drivingTimeFromSeoul": 62,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3010,7 +2541,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3066,7 +2597,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3076,7 +2607,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3142,7 +2673,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3199,7 +2730,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3209,7 +2740,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3274,7 +2805,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3328,10 +2859,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.60094
     },
     "drivingTimeFromSeoul": 82,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3341,7 +2872,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3398,7 +2929,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3408,7 +2939,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3528,7 +3059,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3538,7 +3069,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3593,7 +3124,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3603,7 +3134,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3669,7 +3200,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3723,15 +3254,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.62439
     },
     "drivingTimeFromSeoul": 58,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디(벤트그라스)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
@@ -3755,8 +3286,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -3791,10 +3322,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.08683
     },
     "drivingTimeFromSeoul": 43,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3804,7 +3335,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 138,
       "courseRating": 71.9,
@@ -3860,7 +3391,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3870,7 +3401,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -3923,7 +3454,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.24573
     },
     "drivingTimeFromSeoul": 61,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -3955,8 +3486,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -3994,7 +3525,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4004,7 +3535,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -4057,10 +3588,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.00657
     },
     "drivingTimeFromSeoul": 51,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4070,7 +3601,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -4123,15 +3654,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 128.67399
     },
     "drivingTimeFromSeoul": 377,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
@@ -4201,7 +3732,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 131,
       "courseRating": 69.2,
@@ -4267,7 +3798,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -4332,7 +3863,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 132,
       "courseRating": 70.8,
@@ -4399,7 +3930,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -4466,7 +3997,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -4520,7 +4051,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.37775
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -4533,7 +4064,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 71.8,
@@ -4587,7 +4118,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.3481
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -4600,7 +4131,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -4660,14 +4191,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "산악형",
+    "courseStyle": "곶자왈(평지)",
     "fairwayWidth": "보통",
-    "undulation": "심함",
+    "undulation": "보통",
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -4735,7 +4266,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 132,
       "courseRating": 70.1,
@@ -4789,10 +4320,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.40111
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디(벤트그라스)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4802,7 +4333,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 135,
       "courseRating": 72.6,
@@ -4856,7 +4387,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.74386
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -4869,7 +4400,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -4936,7 +4467,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -5003,7 +4534,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 124,
       "courseRating": 71.7,
@@ -5063,14 +4594,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "구릉형(힐)",
+    "courseStyle": "곶자왈(평지)",
     "fairwayWidth": "보통",
     "undulation": "보통",
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -5125,7 +4656,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.30856
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -5199,14 +4730,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "산악형",
+    "courseStyle": "곶자왈(평지)",
     "fairwayWidth": "보통",
-    "undulation": "심함",
+    "undulation": "보통",
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 120,
       "courseRating": 70.0,
@@ -5260,14 +4791,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.34324
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
+    "courseStyle": "곶자왈(평지)",
+    "fairwayWidth": "보통",
     "undulation": "보통",
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
@@ -5340,7 +4871,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -5407,7 +4938,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -5474,7 +5005,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -5528,7 +5059,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.64513
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -5601,14 +5132,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "산악형",
+    "courseStyle": "곶자왈(평지)",
     "fairwayWidth": "보통",
-    "undulation": "심함",
+    "undulation": "보통",
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -5662,7 +5193,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.17207
     },
     "drivingTimeFromSeoul": 43,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(중지)",
@@ -5675,7 +5206,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 137,
       "courseRating": 72.4,
@@ -5728,7 +5259,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.12529
     },
     "drivingTimeFromSeoul": 46,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -5741,7 +5272,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 137,
       "courseRating": 70.9,
@@ -5794,10 +5325,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.10774
     },
     "drivingTimeFromSeoul": 55,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -5826,8 +5357,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -5874,7 +5405,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -5929,7 +5460,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.85142
     },
     "drivingTimeFromSeoul": 103,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
@@ -5942,7 +5473,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 124,
       "courseRating": 70.0,
@@ -5997,7 +5528,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6007,7 +5538,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -6125,7 +5656,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.33923
     },
     "drivingTimeFromSeoul": 93,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -6157,8 +5688,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -6193,10 +5724,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.38808
     },
     "drivingTimeFromSeoul": 94,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6206,7 +5737,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 127,
       "courseRating": 69.9,
@@ -6260,10 +5791,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.38554
     },
     "drivingTimeFromSeoul": 86,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "조선잔디(안양중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -6327,10 +5858,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.32191
     },
     "drivingTimeFromSeoul": 71,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6340,7 +5871,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 127,
       "courseRating": 69.4,
@@ -6392,10 +5923,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.4054
     },
     "drivingTimeFromSeoul": 85,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -6424,8 +5955,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -6458,7 +5989,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.38477
     },
     "drivingTimeFromSeoul": 53,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -6471,7 +6002,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -6537,7 +6068,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 118,
       "courseRating": 67.2,
@@ -6590,10 +6121,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.3884
     },
     "drivingTimeFromSeoul": 142,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6603,7 +6134,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 71.7,
@@ -6668,7 +6199,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 132,
       "courseRating": 70.5,
@@ -6723,7 +6254,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.23516
     },
     "drivingTimeFromSeoul": 64,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(중지)",
@@ -6822,8 +6353,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -6869,7 +6400,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 127,
       "courseRating": 71.3,
@@ -6926,7 +6457,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6936,7 +6467,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -7020,8 +6551,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": true,
@@ -7057,7 +6588,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7067,7 +6598,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 119,
       "courseRating": 69.7,
@@ -7086,8 +6617,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -7124,7 +6655,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7134,7 +6665,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -7201,7 +6732,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -7257,7 +6788,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7267,7 +6798,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 136,
       "courseRating": 72.3,
@@ -7323,7 +6854,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7333,7 +6864,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 72.8,
@@ -7388,7 +6919,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7398,7 +6929,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -7454,7 +6985,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7464,7 +6995,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 70.4,
@@ -7531,7 +7062,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -7584,10 +7115,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.64652
     },
     "drivingTimeFromSeoul": 79,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7616,8 +7147,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -7683,7 +7214,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
       "nightPlay": true,
-      "lightingType": "최신 고광량 LED"
+      "lightingType": "LED 초고광량"
     },
     "facilities": {
       "drivingRange": false,
@@ -7728,7 +7259,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -7783,7 +7314,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.58868
     },
     "drivingTimeFromSeoul": 84,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -7853,7 +7384,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7863,7 +7394,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -7916,7 +7447,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.49828
     },
     "drivingTimeFromSeoul": 65,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -7929,7 +7460,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8053,7 +7584,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8063,7 +7594,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 140,
       "courseRating": 72.9,
@@ -8129,7 +7660,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 136,
       "courseRating": 71.1,
@@ -8186,7 +7717,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8196,7 +7727,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8251,7 +7782,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8261,7 +7792,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8327,7 +7858,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 71.8,
@@ -8385,7 +7916,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8395,7 +7926,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8453,7 +7984,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8463,7 +7994,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8516,7 +8047,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.17273
     },
     "drivingTimeFromSeoul": 296,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -8586,7 +8117,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8596,7 +8127,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8653,7 +8184,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8663,7 +8194,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8729,7 +8260,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8786,7 +8317,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8796,7 +8327,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8849,10 +8380,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.37926
     },
     "drivingTimeFromSeoul": 121,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8862,7 +8393,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 128,
       "courseRating": 70.5,
@@ -8928,7 +8459,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -8985,7 +8516,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8995,7 +8526,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -9050,7 +8581,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9060,7 +8591,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -9114,7 +8645,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.24803
     },
     "drivingTimeFromSeoul": 71,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -9127,7 +8658,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -9146,8 +8677,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": true,
@@ -9183,7 +8714,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9193,7 +8724,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -9249,7 +8780,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9324,7 +8855,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -9344,7 +8875,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
       "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": true,
@@ -9382,7 +8913,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9392,7 +8923,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -9445,10 +8976,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.28121
     },
     "drivingTimeFromSeoul": 55,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9477,8 +9008,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -9511,7 +9042,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.21976
     },
     "drivingTimeFromSeoul": 56,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -9524,7 +9055,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -9580,7 +9111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9590,7 +9121,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 73.5,
@@ -9646,7 +9177,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9656,7 +9187,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 142,
       "courseRating": 71.6,
@@ -9710,7 +9241,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.18159
     },
     "drivingTimeFromSeoul": 36,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -9742,8 +9273,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": true,
@@ -9778,7 +9309,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.2127
     },
     "drivingTimeFromSeoul": 36,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(중지)",
@@ -9791,7 +9322,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 71.1,
@@ -9847,7 +9378,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9857,7 +9388,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -9910,7 +9441,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.29832
     },
     "drivingTimeFromSeoul": 50,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -9923,7 +9454,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 135,
       "courseRating": 70.3,
@@ -9976,10 +9507,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.8355
     },
     "drivingTimeFromSeoul": 336,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9989,7 +9520,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 72.2,
@@ -10042,10 +9573,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.87408
     },
     "drivingTimeFromSeoul": 342,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10055,7 +9586,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 126,
       "courseRating": 71.7,
@@ -10121,7 +9652,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -10178,7 +9709,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10188,7 +9719,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 128,
       "courseRating": 72.0,
@@ -10244,7 +9775,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -10254,7 +9785,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -10321,7 +9852,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -10378,7 +9909,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -10388,7 +9919,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -10444,7 +9975,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10454,7 +9985,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -10507,7 +10038,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.90897
     },
     "drivingTimeFromSeoul": 340,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -10577,7 +10108,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10587,7 +10118,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -10643,7 +10174,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -10653,7 +10184,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -10719,7 +10250,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 71.6,
@@ -10777,7 +10308,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -10787,7 +10318,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 122,
       "courseRating": 69.3,
@@ -10843,7 +10374,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10853,7 +10384,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -10919,7 +10450,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 70.4,
@@ -10938,8 +10469,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": true,
@@ -10979,7 +10510,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "보통",
+    "fairwayWidth": "넓음",
     "undulation": "평탄",
     "totalLengthMeters": 6900,
     "courseDifficulty": 5,
@@ -11043,17 +10574,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "보통",
+    "fairwayWidth": "넓음",
     "undulation": "평탄",
     "totalLengthMeters": 6400,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 131,
       "courseRating": 70.5,
@@ -11120,7 +10651,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -11173,7 +10704,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.30608
     },
     "drivingTimeFromSeoul": 95,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
@@ -11186,7 +10717,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 128,
       "courseRating": 70.3,
@@ -11240,7 +10771,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.17039
     },
     "drivingTimeFromSeoul": 77,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
@@ -11305,7 +10836,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.08816
     },
     "drivingTimeFromSeoul": 75,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -11337,8 +10868,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": true,
@@ -11385,7 +10916,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 132,
       "courseRating": 72.4,
@@ -11451,7 +10982,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -11504,7 +11035,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.91052
     },
     "drivingTimeFromSeoul": 55,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -11517,7 +11048,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 138,
       "courseRating": 71.5,
@@ -11583,7 +11114,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 131,
       "courseRating": 70.9,
@@ -11649,7 +11180,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 137,
       "courseRating": 72.8,
@@ -11668,8 +11199,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -11715,7 +11246,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -11770,7 +11301,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.89667
     },
     "drivingTimeFromSeoul": 47,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
@@ -11783,7 +11314,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 131,
       "courseRating": 71.0,
@@ -11835,7 +11366,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.85661
     },
     "drivingTimeFromSeoul": 41,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
@@ -11867,8 +11398,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -11901,7 +11432,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.87891
     },
     "drivingTimeFromSeoul": 41,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -11914,7 +11445,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 131,
       "courseRating": 69.8,
@@ -11970,7 +11501,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -11980,7 +11511,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12038,7 +11569,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12048,7 +11579,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12101,7 +11632,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.44875
     },
     "drivingTimeFromSeoul": 352,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -12172,7 +11703,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12182,7 +11713,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12238,7 +11769,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -12248,7 +11779,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12301,7 +11832,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 128.88106
     },
     "drivingTimeFromSeoul": 207,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -12314,7 +11845,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 143,
       "courseRating": 71.3,
@@ -12380,7 +11911,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 128,
       "courseRating": 70.2,
@@ -12437,7 +11968,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12447,7 +11978,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12513,7 +12044,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12558,72 +12089,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "고양시"
   },
   {
-    "id": "제이퍼블릭골프클럽",
-    "name": "제이퍼블릭골프클럽",
-    "region": "경기북부",
-    "address": "경기도 파주시",
-    "coordinates": {
-      "lat": 37.74932,
-      "lng": 126.84703
-    },
-    "drivingTimeFromSeoul": 52,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 428,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1343",
-    "city": "파주시"
-  },
-  {
     "id": "그린힐cc",
     "name": "그린힐CC",
     "region": "경기남부",
@@ -12633,10 +12098,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.43237
     },
     "drivingTimeFromSeoul": 60,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -12665,8 +12130,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -12712,7 +12177,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12779,7 +12244,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 5,
     "greenDifficulty": 5,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 125,
       "courseRating": 70.1,
@@ -12837,7 +12302,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12847,7 +12312,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12912,7 +12377,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -12969,7 +12434,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 27,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12979,7 +12444,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 129,
       "courseRating": 69.4,
@@ -13111,7 +12576,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -13229,10 +12694,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.86055
     },
     "drivingTimeFromSeoul": 66,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13242,7 +12707,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 131,
       "courseRating": 71.3,
@@ -13298,7 +12763,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -13308,7 +12773,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -13351,74 +12816,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "경주시"
   },
   {
-    "id": "오렌지듄스영종gc",
-    "name": "오렌지듄스영종GC",
-    "region": "인천",
-    "address": "인천광역시 중구",
-    "coordinates": {
-      "lat": 37.43423,
-      "lng": 126.46016
-    },
-    "drivingTimeFromSeoul": 73,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "넓음",
-    "undulation": "평탄",
-    "totalLengthMeters": 6650,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 3,
-      "golfzonGreenLevel": 3,
-      "avgFieldScore": 90.5,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": true,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.5,
-    "reviewCount": 197,
-    "tags": [
-      "인천",
-      "양잔디",
-      "대중제퍼블릭",
-      "초보추천구장",
-      "노캐디가능"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 117의 쉬움(초보추천) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "인천 대중제 | 슬로프 레이팅 117 (쉬움(초보추천)) & 그린 스피드 2.6m",
-    "officialUrl": "https://www.orangedunes.com",
-    "phone": "08-777-1357",
-    "city": "중구"
-  },
-  {
     "id": "스카이72골프장바다코스제5활주로건설예정지",
     "name": "클럽72CC 바다코스 (오션·레이크·클래식)",
     "region": "인천",
@@ -13435,13 +12832,13 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "보통",
+    "fairwayWidth": "넓음",
     "undulation": "평탄",
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 71.0,
@@ -13461,7 +12858,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
       "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -13486,136 +12883,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "중구"
   },
   {
-    "id": "스카이21cc",
-    "name": "스카이21CC",
-    "region": "충청",
-    "address": "충청북도 청주시 청원구",
-    "coordinates": {
-      "lat": 36.67481,
-      "lng": 127.4805
-    },
-    "drivingTimeFromSeoul": 130,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 95.3,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.7,
-    "reviewCount": 219,
-    "tags": [
-      "충청",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "충청 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.9m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1359",
-    "city": "청주시"
-  },
-  {
-    "id": "서창퍼블릭골프장",
-    "name": "서창퍼블릭골프장",
-    "region": "경기남부",
-    "address": "경기도 광주시",
-    "coordinates": {
-      "lat": 37.36284,
-      "lng": 127.16592
-    },
-    "drivingTimeFromSeoul": 37,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6450,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.7,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 241,
-    "tags": [
-      "경기남부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1535131749006-b7f58c99034b?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 131의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 131 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1361",
-    "city": "광주시"
-  },
-  {
     "id": "블랙밸리cc",
     "name": "블랙밸리CC",
     "region": "강원",
@@ -13638,7 +12905,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 125,
       "courseRating": 70.2,
@@ -13703,7 +12970,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -13759,7 +13026,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -13769,7 +13036,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -13814,72 +13081,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "순천시"
   },
   {
-    "id": "인터불고gc퍼블릭cc",
-    "name": "인터불고GC(퍼블릭)CC",
-    "region": "강원",
-    "address": "강원특별자치도 원주시",
-    "coordinates": {
-      "lat": 37.33125,
-      "lng": 127.97615
-    },
-    "drivingTimeFromSeoul": 114,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 4,
-      "avgFieldScore": 93.4,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": true,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 296,
-    "tags": [
-      "강원",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 136의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "강원 대중제 | 슬로프 레이팅 136 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.ibcc.co.kr",
-    "phone": "08-777-1366",
-    "city": "원주시"
-  },
-  {
     "id": "사이언스대덕cc",
     "name": "사이언스 대덕 CC",
     "region": "충청",
@@ -13892,7 +13093,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13902,7 +13103,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -13967,7 +13168,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14026,14 +13227,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "조선잔디(한국잔디)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "산악형",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "심함",
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14098,7 +13299,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14154,7 +13355,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14164,7 +13365,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14229,7 +13430,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14297,7 +13498,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14356,14 +13557,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6700,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14420,17 +13621,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14487,7 +13688,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14497,7 +13698,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14562,7 +13763,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14618,7 +13819,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14628,7 +13829,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14671,74 +13872,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "구미시"
   },
   {
-    "id": "파인힐클럽하우스",
-    "name": "파인힐클럽하우스",
-    "region": "경기남부",
-    "address": "경기도 오산시",
-    "coordinates": {
-      "lat": 37.18954,
-      "lng": 127.03832
-    },
-    "drivingTimeFromSeoul": 54,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "넓음",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 160000,
-      "weekendGreenFee": 210000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": true,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.3,
-    "reviewCount": 175,
-    "tags": [
-      "경기남부",
-      "양잔디",
-      "대중제퍼블릭",
-      "2인플레이가능",
-      "야간3부"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1592919505780-303950717480?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 127의 보통(표준) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기남부 대중제 | 슬로프 레이팅 127 (보통(표준)) & 그린 스피드 2.7m",
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1390",
-    "city": "오산시"
-  },
-  {
     "id": "jnj골프리조트",
     "name": "JNJ골프리조트",
     "region": "전라",
@@ -14751,7 +13884,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14761,7 +13894,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -14814,7 +13947,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.1231
     },
     "drivingTimeFromSeoul": 44,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -14846,8 +13979,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": true,
@@ -14894,7 +14027,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 129,
       "courseRating": 71.7,
@@ -14951,7 +14084,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14961,7 +14094,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -15014,7 +14147,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 128.33745
     },
     "drivingTimeFromSeoul": 149,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
@@ -15027,7 +14160,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 70.0,
@@ -15092,7 +14225,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -15136,71 +14269,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "평창군"
   },
   {
-    "id": "라데나골프클럽클럽하우스",
-    "name": "라데나 골프 클럽 클럽하우스",
-    "region": "강원",
-    "address": "강원특별자치도 춘천시",
-    "coordinates": {
-      "lat": 37.84117,
-      "lng": 127.71873
-    },
-    "drivingTimeFromSeoul": 98,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디(한국잔디)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
-    "totalLengthMeters": 6550,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 93,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 170000,
-      "weekendGreenFee": 220000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.6,
-    "reviewCount": 318,
-    "tags": [
-      "경기북부",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 133의 어려움(중상급) 코스이며, 사계절 조선잔디(한국잔디)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 133 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.ladena.co.kr",
-    "phone": "09-777-1403",
-    "city": "춘천시"
-  },
-  {
     "id": "육림골프클럽",
     "name": "육림골프클럽",
     "region": "강원",
@@ -15223,7 +14291,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -15279,7 +14347,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -15289,7 +14357,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -15346,7 +14414,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 45,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15356,7 +14424,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 138,
       "courseRating": 71.4,
@@ -15476,17 +14544,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디(벤트그라스)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 71.4,
@@ -15505,8 +14573,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -15571,8 +14639,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -15619,7 +14687,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -15675,7 +14743,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -15685,7 +14753,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -15741,7 +14809,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -15751,7 +14819,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -15804,7 +14872,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.61891
     },
     "drivingTimeFromSeoul": 143,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -15817,7 +14885,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -15870,7 +14938,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.87101
     },
     "drivingTimeFromSeoul": 193,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -15902,8 +14970,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -15941,7 +15009,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15951,7 +15019,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 132,
       "courseRating": 72.9,
@@ -16016,7 +15084,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -16074,17 +15142,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -16140,7 +15208,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16150,7 +15218,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -16216,7 +15284,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 70.3,
@@ -16269,7 +15337,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.4189
     },
     "drivingTimeFromSeoul": 59,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(중지)",
@@ -16301,8 +15369,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -16335,10 +15403,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.72808
     },
     "drivingTimeFromSeoul": 89,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16348,7 +15416,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -16401,10 +15469,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.30444
     },
     "drivingTimeFromSeoul": 63,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디(안양중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16433,8 +15501,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": true,
@@ -16536,10 +15604,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.31781
     },
     "drivingTimeFromSeoul": 77,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디(한국잔디)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16615,7 +15683,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -16668,7 +15736,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.48174
     },
     "drivingTimeFromSeoul": 63,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -16700,8 +15768,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -16749,7 +15817,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -16814,7 +15882,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -16871,7 +15939,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16881,7 +15949,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -16933,10 +16001,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.42151
     },
     "drivingTimeFromSeoul": 57,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16946,7 +16014,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17013,7 +16081,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17070,7 +16138,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17080,7 +16148,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17134,10 +16202,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.6165
     },
     "drivingTimeFromSeoul": 82,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디(벤트그라스)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17334,7 +16402,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17344,7 +16412,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 132,
       "courseRating": 71.7,
@@ -17400,17 +16468,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17465,7 +16533,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17475,7 +16543,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17527,7 +16595,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 129.17451
     },
     "drivingTimeFromSeoul": 367,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -17606,7 +16674,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17661,7 +16729,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17671,7 +16739,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17727,7 +16795,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "조선잔디(안양중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17737,7 +16805,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 126,
       "courseRating": 70.8,
@@ -17805,7 +16873,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17824,8 +16892,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -17860,7 +16928,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17870,7 +16938,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17936,7 +17004,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -17992,7 +17060,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18002,7 +17070,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18058,7 +17126,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18068,7 +17136,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18135,7 +17203,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18202,7 +17270,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18257,7 +17325,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18267,7 +17335,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18325,7 +17393,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18335,7 +17403,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 125,
       "courseRating": 71.1,
@@ -18354,8 +17422,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -18400,7 +17468,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 142,
       "courseRating": 71.5,
@@ -18458,7 +17526,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18468,7 +17536,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18523,7 +17591,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18533,7 +17601,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18599,7 +17667,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18656,7 +17724,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18666,7 +17734,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18722,7 +17790,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18732,7 +17800,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18797,7 +17865,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18863,7 +17931,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18929,7 +17997,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -18974,72 +18042,6 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "city": "고양시"
   },
   {
-    "id": "123gc",
-    "name": "123 GC",
-    "region": "경기북부",
-    "address": "경기도 고양시 덕양구",
-    "coordinates": {
-      "lat": 37.63964,
-      "lng": 126.90557
-    },
-    "drivingTimeFromSeoul": 37,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "양잔디(켄터키블루)",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "산악형",
-    "fairwayWidth": "넓음",
-    "undulation": "심함",
-    "totalLengthMeters": 6750,
-    "courseDifficulty": 4,
-    "greenDifficulty": 4,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 4,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 94.2,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 190000,
-      "weekendGreenFee": 240000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
-    },
-    "facilities": {
-      "drivingRange": true,
-      "drivingRangeNote": "300야드 천연잔디 드라이빙 레인지 완비",
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "rating": 4.4,
-    "reviewCount": 296,
-    "tags": [
-      "경기북부",
-      "양잔디",
-      "대중제퍼블릭"
-    ],
-    "imageUrl": "https://images.unsplash.com/photo-1593111774642-a1634bda7d34?auto=format&fit=crop&w=800&q=80",
-    "description": "대한민국에 위치한 18홀 규모의 대중제 골프장. 공식 슬로프 레이팅 137의 어려움(중상급) 코스이며, 사계절 양잔디(켄터키블루)로 관리됩니다.",
-    "highlight": "경기북부 대중제 | 슬로프 레이팅 137 (어려움(중상급)) & 그린 스피드 2.8m",
-    "officialUrl": "https://www.123golf.co.kr",
-    "phone": "05-777-1471",
-    "city": "고양시"
-  },
-  {
     "id": "드림파크cc",
     "name": "드림파크CC",
     "region": "인천",
@@ -19056,13 +18058,13 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "보통",
+    "fairwayWidth": "넓음",
     "undulation": "평탄",
     "totalLengthMeters": 6450,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 125,
       "courseRating": 71.3,
@@ -19081,8 +18083,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -19122,13 +18124,13 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
-    "fairwayWidth": "보통",
+    "fairwayWidth": "넓음",
     "undulation": "평탄",
     "totalLengthMeters": 6550,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 126,
       "courseRating": 70.0,
@@ -19148,7 +18150,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
       "nightPlay": true,
-      "lightingType": "최신 고광량 LED"
+      "lightingType": "LED 초고광량"
     },
     "facilities": {
       "drivingRange": false,
@@ -19182,15 +18184,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.65266
     },
     "drivingTimeFromSeoul": 54,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6600,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
@@ -19214,8 +18216,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -19263,7 +18265,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19319,7 +18321,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -19329,7 +18331,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19395,7 +18397,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19453,7 +18455,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19463,7 +18465,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19518,17 +18520,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
+    "courseStyle": "링크스형(평지/해변)",
+    "fairwayWidth": "넓음",
+    "undulation": "평탄",
     "totalLengthMeters": 6500,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 70.6,
@@ -19587,14 +18589,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "넓음",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6550,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19662,7 +18664,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19718,7 +18720,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19728,7 +18730,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19783,7 +18785,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -19793,7 +18795,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19858,7 +18860,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -19914,17 +18916,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
+    "courseStyle": "링크스형(평지/해변)",
+    "fairwayWidth": "넓음",
+    "undulation": "평탄",
     "totalLengthMeters": 6500,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 118,
       "courseRating": 70.0,
@@ -19991,7 +18993,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 118,
       "courseRating": 68.6,
@@ -20058,7 +19060,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20115,7 +19117,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20125,7 +19127,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 136,
       "courseRating": 71.2,
@@ -20190,7 +19192,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20257,7 +19259,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 132,
       "courseRating": 70.5,
@@ -20323,7 +19325,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20442,7 +19444,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.35412
     },
     "drivingTimeFromSeoul": 53,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
@@ -20474,8 +19476,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -20522,7 +19524,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20588,7 +19590,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20654,7 +19656,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20719,7 +19721,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20777,7 +19779,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20787,7 +19789,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 127,
       "courseRating": 69.7,
@@ -20840,7 +19842,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.36149
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -20853,7 +19855,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20907,7 +19909,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 129.07432
     },
     "drivingTimeFromSeoul": 347,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -20920,7 +19922,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -20976,7 +19978,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20986,7 +19988,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21038,7 +20040,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.61816
     },
     "drivingTimeFromSeoul": 88,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -21109,7 +20111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21119,7 +20121,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21175,7 +20177,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21185,7 +20187,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21251,7 +20253,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21307,7 +20309,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21317,7 +20319,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21373,7 +20375,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21383,7 +20385,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 131,
       "courseRating": 69.3,
@@ -21402,8 +20404,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": true,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -21449,7 +20451,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21505,7 +20507,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21515,7 +20517,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 138,
       "courseRating": 71.4,
@@ -21581,7 +20583,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21637,7 +20639,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21647,7 +20649,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21703,7 +20705,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21713,7 +20715,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21779,7 +20781,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": 129,
       "courseRating": 70.8,
@@ -21799,7 +20801,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
       "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": true,
@@ -21846,7 +20848,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21901,7 +20903,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21911,7 +20913,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -21963,7 +20965,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 128.44277
     },
     "drivingTimeFromSeoul": 256,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -21976,7 +20978,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -22034,7 +21036,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22044,7 +21046,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 140,
       "courseRating": 72.1,
@@ -22097,10 +21099,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.1477
     },
     "drivingTimeFromSeoul": 56,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22110,7 +21112,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -22228,20 +21230,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 129.21947
     },
     "drivingTimeFromSeoul": 385,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6450,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -22296,7 +21298,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22306,7 +21308,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -22374,7 +21376,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -22430,7 +21432,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22440,7 +21442,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -22460,7 +21462,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
       "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -22575,7 +21577,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": 137,
       "courseRating": 71.3,
@@ -22595,7 +21597,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
       "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": true,
@@ -22633,7 +21635,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22696,7 +21698,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.57661
     },
     "drivingTimeFromSeoul": 82,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -22728,8 +21730,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -22777,7 +21779,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -22830,10 +21832,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.53427
     },
     "drivingTimeFromSeoul": 71,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22862,8 +21864,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -22899,7 +21901,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22909,7 +21911,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -22976,7 +21978,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23034,7 +22036,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23044,7 +22046,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23099,7 +22101,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23109,7 +22111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 135,
       "courseRating": 71.8,
@@ -23175,7 +22177,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23231,7 +22233,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23241,7 +22243,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23296,7 +22298,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23306,7 +22308,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23372,7 +22374,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": 135,
       "courseRating": 70.9,
@@ -23440,7 +22442,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23495,7 +22497,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23505,7 +22507,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23571,7 +22573,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23624,20 +22626,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.2977
     },
     "drivingTimeFromSeoul": 46,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "산악형",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "심함",
     "totalLengthMeters": 6750,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 138,
       "courseRating": 70.7,
@@ -23702,7 +22704,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23758,7 +22760,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23768,7 +22770,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23824,7 +22826,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23834,7 +22836,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23900,7 +22902,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -23957,7 +22959,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23967,7 +22969,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24023,7 +23025,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24033,7 +23035,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24099,7 +23101,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24156,7 +23158,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24166,7 +23168,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24221,7 +23223,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24231,7 +23233,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24298,7 +23300,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 132,
       "courseRating": 70.1,
@@ -24364,7 +23366,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 129,
       "courseRating": 70.8,
@@ -24421,7 +23423,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24431,7 +23433,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24487,7 +23489,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24497,7 +23499,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24556,14 +23558,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "넓음",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6750,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24621,7 +23623,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24631,7 +23633,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24686,7 +23688,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24696,7 +23698,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24761,7 +23763,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24818,7 +23820,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24828,7 +23830,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24883,7 +23885,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24893,7 +23895,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -24945,7 +23947,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.72407
     },
     "drivingTimeFromSeoul": 234,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -24958,7 +23960,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25015,7 +24017,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25091,7 +24093,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 120,
       "courseRating": 68.6,
@@ -25157,7 +24159,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 135,
       "courseRating": 71.1,
@@ -25224,7 +24226,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25283,14 +24285,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25346,7 +24348,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -25356,7 +24358,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25489,7 +24491,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25555,7 +24557,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25607,7 +24609,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.31094
     },
     "drivingTimeFromSeoul": 47,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -25639,8 +24641,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": true,
@@ -25678,7 +24680,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25688,7 +24690,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25753,7 +24755,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 126,
       "courseRating": 71.5,
@@ -25810,7 +24812,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -25820,7 +24822,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25875,7 +24877,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25885,7 +24887,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -25940,7 +24942,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25950,7 +24952,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26017,7 +25019,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26072,7 +25074,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26149,7 +25151,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26207,7 +25209,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26217,7 +25219,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26272,7 +25274,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26282,7 +25284,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 134,
       "courseRating": 71.0,
@@ -26302,7 +25304,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": true,
       "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -26339,7 +25341,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26349,7 +25351,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26405,7 +25407,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26415,7 +25417,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26468,10 +25470,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.15445
     },
     "drivingTimeFromSeoul": 53,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26481,7 +25483,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26537,7 +25539,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26547,7 +25549,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26613,7 +25615,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26669,7 +25671,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26679,7 +25681,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26733,7 +25735,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.58732
     },
     "drivingTimeFromSeoul": 116,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -26803,7 +25805,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26813,7 +25815,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26879,7 +25881,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -26935,7 +25937,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26945,7 +25947,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27002,7 +26004,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27012,7 +26014,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": 119,
       "courseRating": 68.5,
@@ -27032,7 +26034,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
       "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -27068,7 +26070,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27078,7 +26080,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27143,7 +26145,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27202,14 +26204,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6600,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27269,9 +26271,9 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
+    "courseStyle": "링크스형(평지/해변)",
+    "fairwayWidth": "넓음",
+    "undulation": "평탄",
     "totalLengthMeters": 6650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
@@ -27331,7 +26333,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27341,7 +26343,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27407,7 +26409,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27473,7 +26475,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27529,7 +26531,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27539,7 +26541,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 125,
       "courseRating": 70.1,
@@ -27591,15 +26593,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.81191
     },
     "drivingTimeFromSeoul": 95,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
       "green": "벤트그라스"
     },
-    "courseStyle": "구릉형(힐)",
+    "courseStyle": "산악형",
     "fairwayWidth": "보통",
-    "undulation": "보통",
+    "undulation": "심함",
     "totalLengthMeters": 6700,
     "courseDifficulty": 3,
     "greenDifficulty": 3,
@@ -27623,8 +26625,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -27660,7 +26662,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27670,7 +26672,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27726,7 +26728,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27736,7 +26738,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27802,7 +26804,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27858,7 +26860,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27868,7 +26870,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27925,7 +26927,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27935,7 +26937,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -27954,8 +26956,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -27990,7 +26992,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -28000,7 +27002,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28052,10 +27054,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.70046
     },
     "drivingTimeFromSeoul": 83,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28084,8 +27086,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -28131,7 +27133,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28198,7 +27200,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28263,7 +27265,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": "일부 매트",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28320,7 +27322,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28330,7 +27332,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28397,7 +27399,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28450,7 +27452,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.42421
     },
     "drivingTimeFromSeoul": 73,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -28482,8 +27484,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -28521,7 +27523,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28531,7 +27533,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28598,7 +27600,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28655,7 +27657,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28665,7 +27667,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28721,7 +27723,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -28731,7 +27733,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28796,7 +27798,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28853,7 +27855,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -28863,7 +27865,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28918,7 +27920,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28928,7 +27930,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -28994,7 +27996,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29051,7 +28053,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29061,7 +28063,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 130,
       "courseRating": 70.3,
@@ -29117,17 +28119,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "산악형",
-    "fairwayWidth": "보통",
-    "undulation": "심함",
+    "courseStyle": "링크스형(평지/해변)",
+    "fairwayWidth": "넓음",
+    "undulation": "평탄",
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 128,
       "courseRating": 69.4,
@@ -29183,7 +28185,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29193,7 +28195,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29258,7 +28260,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 137,
       "courseRating": 72.3,
@@ -29324,7 +28326,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29381,7 +28383,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29391,7 +28393,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29446,7 +28448,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29456,7 +28458,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29522,7 +28524,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29578,7 +28580,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29588,7 +28590,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29645,7 +28647,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29655,7 +28657,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 137,
       "courseRating": 72.8,
@@ -29710,7 +28712,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29720,7 +28722,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29786,7 +28788,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 135,
       "courseRating": 71.5,
@@ -29853,7 +28855,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 2,
     "greenDifficulty": 2,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 136,
       "courseRating": 71.1,
@@ -29911,17 +28913,17 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
-    "courseStyle": "링크스형(평지/해변)",
+    "courseStyle": "구릉형(힐)",
     "fairwayWidth": "보통",
-    "undulation": "평탄",
+    "undulation": "보통",
     "totalLengthMeters": 6750,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -29977,7 +28979,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29987,7 +28989,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30053,7 +29055,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30109,7 +29111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30119,7 +29121,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30184,7 +29186,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30240,7 +29242,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30250,7 +29252,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30315,7 +29317,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30373,7 +29375,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -30383,7 +29385,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30438,7 +29440,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30448,7 +29450,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 128,
       "courseRating": 68.7,
@@ -30503,7 +29505,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 128.70431
     },
     "drivingTimeFromSeoul": 187,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -30516,7 +29518,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30583,7 +29585,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30648,7 +29650,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30768,7 +29770,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -30778,7 +29780,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30834,7 +29836,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30844,7 +29846,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30910,7 +29912,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -30977,7 +29979,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 5,
     "greenDifficulty": 5,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31044,7 +30046,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 139,
       "courseRating": 73.7,
@@ -31109,7 +30111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31163,10 +30165,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 129.28574
     },
     "drivingTimeFromSeoul": 329,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31176,7 +30178,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31228,7 +30230,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.38913
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -31299,7 +30301,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31309,7 +30311,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 141,
       "courseRating": 71.8,
@@ -31375,7 +30377,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31432,7 +30434,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -31442,7 +30444,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31494,7 +30496,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.11774
     },
     "drivingTimeFromSeoul": 40,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -31526,8 +30528,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": true,
@@ -31564,7 +30566,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31574,7 +30576,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31693,7 +30695,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 128.23635
     },
     "drivingTimeFromSeoul": 138,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -31706,7 +30708,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31759,10 +30761,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.56786
     },
     "drivingTimeFromSeoul": 81,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -31791,8 +30793,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "nightPlay": false,
+      "lightingType": "야간 미운영"
     },
     "facilities": {
       "drivingRange": false,
@@ -31825,10 +30827,10 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.41768
     },
     "drivingTimeFromSeoul": 72,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31838,7 +30840,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31857,8 +30859,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "twoPlayerAllowed": false,
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
-      "nightPlay": false,
-      "lightingType": "야간 미운영"
+      "nightPlay": true,
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": false,
@@ -31903,7 +30905,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -31923,7 +30925,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
       "nightPlay": true,
-      "lightingType": "LED 초고광량"
+      "lightingType": "최신 고광량 LED"
     },
     "facilities": {
       "drivingRange": true,
@@ -31957,7 +30959,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.82105
     },
     "drivingTimeFromSeoul": 96,
-    "courseType": "대중제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디(한국잔디)",
@@ -31970,7 +30972,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 133,
       "courseRating": 70.5,
@@ -32036,7 +31038,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -32088,7 +31090,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.67445
     },
     "drivingTimeFromSeoul": 89,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디(켄터키블루)",
@@ -32101,7 +31103,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": "매트 없음(100% 잔디)",
     "difficultyIndex": {
       "slopeRating": 138,
       "courseRating": 69.3,
@@ -32168,7 +31170,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -32223,7 +31225,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -32233,7 +31235,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -32298,7 +31300,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -32355,7 +31357,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디(중지)",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -32365,7 +31367,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -32430,7 +31432,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": null,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -32482,15 +31484,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 126.8835
     },
     "drivingTimeFromSeoul": 45,
-    "courseType": "회원제",
+    "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디(한국잔디)",
       "green": "벤트그라스"
     },
-    "courseStyle": "구릉형(힐)",
+    "courseStyle": "산악형",
     "fairwayWidth": "넓음",
-    "undulation": "보통",
+    "undulation": "심함",
     "totalLengthMeters": 6410,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
@@ -32555,14 +31557,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "fairway": "양잔디(켄터키블루)",
       "green": "벤트그라스"
     },
-    "courseStyle": "구릉형(힐)",
+    "courseStyle": "산악형",
     "fairwayWidth": "넓음",
-    "undulation": "보통",
+    "undulation": "심함",
     "totalLengthMeters": 9650,
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": 2.9,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 133,
       "courseRating": 72.2,
@@ -32630,7 +31632,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 4,
     "greenDifficulty": 4,
     "greenSpeedAvg": 2.8,
-    "teeBoxMatRatio": "매트 없음(100% 잔디)",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": null,
       "courseRating": null,
@@ -32650,7 +31652,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "threePlayerAllowed": true,
       "noCaddieAllowed": false,
       "nightPlay": true,
-      "lightingType": "최신 고광량 LED"
+      "lightingType": "LED 초고광량"
     },
     "facilities": {
       "drivingRange": true,
@@ -32698,7 +31700,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseDifficulty": 3,
     "greenDifficulty": 3,
     "greenSpeedAvg": 2.7,
-    "teeBoxMatRatio": "일부 매트",
+    "teeBoxMatRatio": null,
     "difficultyIndex": {
       "slopeRating": 135,
       "courseRating": 71.2,
