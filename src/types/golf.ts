@@ -109,7 +109,11 @@ export interface FilterState {
   noCaddieOnly: boolean;
   twoPlayerOnly: boolean;
   nightPlayOnly: boolean;
-  noMatOnly: boolean; // 티박스 매트 없는 곳만
+  nightLedOnly: boolean; // 초고광량 LED 야간만
+  noMatOnly: boolean; // 티박스 매트 없는 곳만 (100% 잔디)
+  flatTerrainOnly: boolean; // 평지/구릉형만 (산악 고저차 적음)
+  wideFairwayOnly: boolean; // 넓은 페어웨이만
+  fastGreenOnly: boolean; // 그린스피드 2.8m+ 만
   drivingRangeOnly: boolean;
   selectedTheme: string | null;
   userAvgScore: number; // 골퍼 본인의 평소 평균 타수 (기본 90타)

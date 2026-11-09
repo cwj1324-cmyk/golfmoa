@@ -29,7 +29,11 @@ export function App() {
     noCaddieOnly: false,
     twoPlayerOnly: false,
     nightPlayOnly: false,
+    nightLedOnly: false,
     noMatOnly: false,
+    flatTerrainOnly: false,
+    wideFairwayOnly: false,
+    fastGreenOnly: false,
     drivingRangeOnly: false,
     selectedTheme: null,
     userAvgScore: 90,
@@ -144,11 +148,15 @@ export function App() {
         }
       }
 
-      // 7. 특수 토글 옵션
+      // 7. 특수 조건 토글 옵션
       if (filter.noCaddieOnly && !club.playOptions.noCaddieAllowed) return false;
       if (filter.twoPlayerOnly && !club.playOptions.twoPlayerAllowed) return false;
       if (filter.nightPlayOnly && !club.playOptions.nightPlay) return false;
+      if (filter.nightLedOnly && (!club.playOptions.nightPlay || !club.playOptions.lightingType.includes('LED'))) return false;
       if (filter.noMatOnly && !club.teeBoxMatRatio.includes('매트 없음')) return false;
+      if (filter.flatTerrainOnly && !(club.courseStyle.includes('구릉') || club.courseStyle.includes('링크스') || club.courseStyle.includes('평지'))) return false;
+      if (filter.wideFairwayOnly && club.fairwayWidth !== '넓음') return false;
+      if (filter.fastGreenOnly && club.greenSpeedAvg < 2.8) return false;
       if (filter.drivingRangeOnly && !club.facilities.drivingRange) return false;
 
       // 8. Theme Preset
@@ -207,18 +215,18 @@ export function App() {
 
       {/* 2. Main Container */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full pb-28">
-        {/* Simplified Page Header */}
+        {/* Condition-First Page Header */}
         <div className="mb-4 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
           <div>
             <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-              전국 640개 골프장 스펙 & 실시간 요금 비교
+              전국 640개 골프장 코스 조건 & 1:1 대조기
             </h1>
             <p className="text-xs text-slate-500 mt-0.5">
-              카트·캐디피 포함 1인 실부담금과 USGA 슬로프 난이도를 한눈에 비교하세요.
+              티박스 매트 유무 · 잔디 종류 · 야간 LED 조명 · 평지 여부 · USGA 공인 난이도 조건 대조
             </p>
           </div>
           <span className="text-xs text-slate-400 font-medium hidden sm:inline">
-            KGBA 정회원 + 대중제 640개소 전수 등록
+            전국 640개소 코스 스펙 전수 대조
           </span>
         </div>
 
@@ -270,7 +278,11 @@ export function App() {
                       noCaddieOnly: false,
                       twoPlayerOnly: false,
                       nightPlayOnly: false,
+                      nightLedOnly: false,
                       noMatOnly: false,
+                      flatTerrainOnly: false,
+                      wideFairwayOnly: false,
+                      fastGreenOnly: false,
                       drivingRangeOnly: false,
                       selectedTheme: null,
                       userAvgScore: 90,

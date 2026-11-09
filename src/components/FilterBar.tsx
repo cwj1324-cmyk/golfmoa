@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { FilterState, Region } from '../types/golf';
-import { Search, RotateCcw, SlidersHorizontal, ChevronDown, ChevronUp, DollarSign, Clock } from 'lucide-react';
+import { Search, RotateCcw, SlidersHorizontal, ChevronDown, ChevronUp, DollarSign, Clock, Moon } from 'lucide-react';
 
 interface FilterBarProps {
   filter: FilterState;
@@ -35,7 +35,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       noCaddieOnly: false,
       twoPlayerOnly: false,
       nightPlayOnly: false,
+      nightLedOnly: false,
       noMatOnly: false,
+      flatTerrainOnly: false,
+      wideFairwayOnly: false,
+      fastGreenOnly: false,
       drivingRangeOnly: false,
       selectedTheme: null,
       userAvgScore: 90,
@@ -52,7 +56,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     filter.noCaddieOnly ||
     filter.twoPlayerOnly ||
     filter.nightPlayOnly ||
+    filter.nightLedOnly ||
     filter.noMatOnly ||
+    filter.flatTerrainOnly ||
+    filter.wideFairwayOnly ||
+    filter.fastGreenOnly ||
     filter.drivingRangeOnly ||
     filter.selectedTheme !== null ||
     filter.userAvgScore !== 90;
@@ -62,13 +70,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     filter.maxTotalCostPerPerson < 400000,
     filter.maxDrivingTime < 300,
     filter.difficultyFilter !== '전체',
-    filter.twoPlayerOnly,
-    filter.noMatOnly,
     filter.drivingRangeOnly,
   ].filter(Boolean).length;
 
   return (
-    <div className="bg-white rounded-2xl border border-slate-200/90 shadow-2xs p-3.5 sm:p-4 mb-5 space-y-3">
+    <div className="bg-white rounded-xl border border-slate-200/90 shadow-2xs p-3.5 sm:p-4 mb-5 space-y-3">
       {/* 1. Primary Search & Region Tabs */}
       <div className="flex flex-col md:flex-row gap-2.5 items-stretch md:items-center justify-between">
         {/* Search Bar */}
@@ -78,8 +84,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             type="text"
             value={filter.searchQuery}
             onChange={(e) => setFilter((prev) => ({ ...prev, searchQuery: e.target.value }))}
-            placeholder="골프장 이름, 지역 검색 (예: 라비에벨, 용인, 서원힐스, 제주)"
-            className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-xl text-xs sm:text-sm focus:outline-none focus:ring-1 focus:ring-emerald-700 focus:bg-white transition-all placeholder:text-slate-400"
+            placeholder="골프장 이름, 지역 검색 (예: 라비에벨, 남여주, 용인, 서원힐스, 제주)"
+            className="w-full pl-9 pr-4 py-2 bg-slate-50 border border-slate-200 rounded-lg text-xs sm:text-sm focus:outline-none focus:ring-1 focus:ring-emerald-700 focus:bg-white transition-all placeholder:text-slate-400"
           />
         </div>
 
@@ -89,10 +95,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <button
               key={reg}
               onClick={() => setFilter((prev) => ({ ...prev, region: reg }))}
-              className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${filter.region === reg
+              className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all ${
+                filter.region === reg
                   ? 'bg-slate-900 text-white shadow-2xs'
                   : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-                }`}
+              }`}
             >
               {reg}
             </button>
@@ -100,11 +107,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
       </div>
 
-      {/* 2. Quick Filter Chips & Action Bar */}
-      <div className="flex flex-wrap items-center justify-between gap-2 pt-2 border-t border-slate-100">
+      {/* 2. Condition-First Quick Filter Chips */}
+      <div className="pt-2 border-t border-slate-100">
         <div className="flex flex-wrap items-center gap-1.5 text-xs">
           {/* Quick Average Score Dropdown */}
-          <div className="inline-flex items-center bg-slate-100 rounded-lg p-0.5 border border-slate-200/70">
+          <div className="inline-flex items-center bg-slate-100 rounded-lg p-0.5 border border-slate-200/70 mr-1">
             <span className="text-[11px] font-medium text-slate-500 pl-2 pr-1">내 타수:</span>
             <select
               value={filter.userAvgScore || 90}
@@ -120,7 +127,19 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             </select>
           </div>
 
-          {/* Quick Toggle: Yang-grass */}
+          {/* Condition Chip: 100% 잔디티 (매트 없음) */}
+          <button
+            onClick={() => setFilter((prev) => ({ ...prev, noMatOnly: !prev.noMatOnly }))}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
+              filter.noMatOnly
+                ? 'bg-emerald-800 text-white border-emerald-800 shadow-2xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+            }`}
+          >
+            🌱 100% 잔디티
+          </button>
+
+          {/* Condition Chip: 양잔디 */}
           <button
             onClick={() =>
               setFilter((prev) => ({
@@ -128,46 +147,116 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 fairwayGrass: prev.fairwayGrass === '양잔디' ? '전체' : '양잔디',
               }))
             }
-            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${filter.fairwayGrass === '양잔디'
-                ? 'bg-emerald-800 text-white border-emerald-800'
-                : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
-              }`}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
+              filter.fairwayGrass === '양잔디'
+                ? 'bg-teal-800 text-white border-teal-800 shadow-2xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+            }`}
           >
-            양잔디 100%
+            🌿 양잔디
           </button>
 
-          {/* Quick Toggle: No Caddie */}
+          {/* Condition Chip: 조선잔디 */}
           <button
-            onClick={() => setFilter((prev) => ({ ...prev, noCaddieOnly: !prev.noCaddieOnly }))}
-            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${filter.noCaddieOnly
-                ? 'bg-emerald-800 text-white border-emerald-800'
-                : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
-              }`}
+            onClick={() =>
+              setFilter((prev) => ({
+                ...prev,
+                fairwayGrass: prev.fairwayGrass === '조선잔디' ? '전체' : '조선잔디',
+              }))
+            }
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
+              filter.fairwayGrass === '조선잔디'
+                ? 'bg-amber-800 text-white border-amber-800 shadow-2xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+            }`}
           >
-            노캐디
+            🌾 조선잔디
           </button>
 
-          {/* Quick Toggle: Night Play */}
+          {/* Condition Chip: 평지·시야개방 */}
+          <button
+            onClick={() => setFilter((prev) => ({ ...prev, flatTerrainOnly: !prev.flatTerrainOnly }))}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
+              filter.flatTerrainOnly
+                ? 'bg-sky-800 text-white border-sky-800 shadow-2xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+            }`}
+          >
+            ⛰️ 평지·시야개방
+          </button>
+
+          {/* Condition Chip: 🌙 야간 3부 (LED 라이트) */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, nightPlayOnly: !prev.nightPlayOnly }))}
-            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${filter.nightPlayOnly
-                ? 'bg-indigo-800 text-white border-indigo-800'
-                : 'bg-white text-slate-600 border-slate-200 hover:bg-slate-50'
-              }`}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border flex items-center gap-1 ${
+              filter.nightPlayOnly
+                ? 'bg-indigo-800 text-white border-indigo-800 shadow-2xs'
+                : 'bg-white text-indigo-900 border-slate-200 hover:bg-indigo-50/50'
+            }`}
           >
-            야간 3부
+            <Moon className="w-3 h-3 text-indigo-500 fill-indigo-500" />
+            <span>야간 3부 (LED)</span>
           </button>
 
-          {/* Expandable Advanced Filter Trigger */}
+          {/* Condition Chip: 빠른 그린 2.8m+ */}
+          <button
+            onClick={() => setFilter((prev) => ({ ...prev, fastGreenOnly: !prev.fastGreenOnly }))}
+            className={`px-2.5 py-1 rounded-lg text-xs font-semibold transition-all border ${
+              filter.fastGreenOnly
+                ? 'bg-purple-800 text-white border-purple-800 shadow-2xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+            }`}
+          >
+            ⛳ 빠른 그린 (2.8m+)
+          </button>
+
+          {/* Condition Chip: 넓은 페어웨이 */}
+          <button
+            onClick={() => setFilter((prev) => ({ ...prev, wideFairwayOnly: !prev.wideFairwayOnly }))}
+            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${
+              filter.wideFairwayOnly
+                ? 'bg-slate-800 text-white border-slate-800 shadow-2xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+            }`}
+          >
+            📏 넓은 페어웨이
+          </button>
+
+          {/* Condition Chip: 노캐디 */}
+          <button
+            onClick={() => setFilter((prev) => ({ ...prev, noCaddieOnly: !prev.noCaddieOnly }))}
+            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${
+              filter.noCaddieOnly
+                ? 'bg-emerald-800 text-white border-emerald-800 shadow-2xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+            }`}
+          >
+            🚶 노캐디
+          </button>
+
+          {/* Condition Chip: 2인 라운드 */}
+          <button
+            onClick={() => setFilter((prev) => ({ ...prev, twoPlayerOnly: !prev.twoPlayerOnly }))}
+            className={`px-2.5 py-1 rounded-lg text-xs font-medium transition-all border ${
+              filter.twoPlayerOnly
+                ? 'bg-slate-800 text-white border-slate-800 shadow-2xs'
+                : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+            }`}
+          >
+            👥 2인 가능
+          </button>
+
+          {/* Detail Drawer Trigger */}
           <button
             onClick={() => setIsDetailOpen(!isDetailOpen)}
-            className={`px-2.5 py-1 rounded-lg text-xs font-medium flex items-center gap-1 transition-all border ${isDetailOpen || advancedCount > 0
+            className={`px-2.5 py-1 rounded-lg text-xs font-medium flex items-center gap-1 transition-all border ${
+              isDetailOpen || advancedCount > 0
                 ? 'bg-slate-900 text-white border-slate-900'
                 : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-              }`}
+            }`}
           >
             <SlidersHorizontal className="w-3 h-3" />
-            <span>상세 필터</span>
+            <span>비용·거리 필터</span>
             {advancedCount > 0 && (
               <span className="w-4 h-4 rounded-full bg-emerald-500 text-slate-900 text-[10px] font-black flex items-center justify-center ml-0.5">
                 {advancedCount}
@@ -180,38 +269,18 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {hasActiveFilters && (
             <button
               onClick={handleReset}
-              className="text-xs text-rose-600 hover:text-rose-700 font-medium flex items-center gap-1 px-2 py-1 rounded hover:bg-rose-50 transition-all ml-1"
+              className="text-xs text-rose-600 hover:text-rose-700 font-medium flex items-center gap-1 px-2 py-1 rounded hover:bg-rose-50 transition-all ml-auto"
             >
               <RotateCcw className="w-3 h-3" />
               <span>초기화</span>
             </button>
           )}
         </div>
-
-        {/* Count & Sort */}
-        <div className="flex items-center space-x-2 text-xs ml-auto">
-          <span className="text-slate-500">
-            총 <strong className="text-slate-900 font-bold">{filteredCount}</strong>/{totalCount}개
-          </span>
-          <span className="text-slate-300">|</span>
-          <select
-            value={sortBy}
-            onChange={(e) => setSortBy(e.target.value)}
-            className="bg-transparent font-bold text-slate-700 focus:outline-none cursor-pointer"
-          >
-            <option value="recommended">추천순</option>
-            <option value="costLow">비용 낮은순</option>
-            <option value="distance">서울 가까운순</option>
-            <option value="slopeHigh">난이도 높은순</option>
-            <option value="slopeLow">난이도 쉬운순</option>
-            <option value="rating">평점 높은순</option>
-          </select>
-        </div>
       </div>
 
-      {/* 3. Collapsible Advanced Filters Drawer */}
+      {/* 3. Collapsible Advanced Filters (Price, Travel Time, Difficulty) */}
       {isDetailOpen && (
-        <div className="pt-3 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs bg-slate-50/70 p-3 rounded-xl border border-slate-100 animate-fadeIn">
+        <div className="pt-3 border-t border-slate-100 grid grid-cols-1 sm:grid-cols-3 gap-3 text-xs bg-slate-50/70 p-3 rounded-lg border border-slate-100 animate-fadeIn">
           {/* Cost Slider */}
           <div className="space-y-1">
             <div className="flex items-center justify-between">
@@ -256,58 +325,46 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             />
           </div>
 
-          {/* Difficulty Segment */}
+          {/* Difficulty Dropdown */}
           <div className="space-y-1">
-            <span className="font-semibold text-slate-700 block">난이도 구분</span>
-            <div className="grid grid-cols-5 gap-1 bg-white p-1 rounded-lg border border-slate-200">
-              {(['전체', '쉬움', '보통', '어려움', '지옥'] as const).map((diff) => (
-                <button
-                  key={diff}
-                  onClick={() => setFilter((prev) => ({ ...prev, difficultyFilter: diff }))}
-                  className={`py-0.5 rounded text-[11px] font-semibold transition-all ${filter.difficultyFilter === diff
-                      ? 'bg-slate-900 text-white'
-                      : 'text-slate-600 hover:bg-slate-100'
-                    }`}
-                >
-                  {diff}
-                </button>
-              ))}
-            </div>
-          </div>
-
-          {/* Sub Options */}
-          <div className="sm:col-span-3 flex items-center gap-2 pt-1 border-t border-slate-200/60">
-            <span className="text-slate-500 font-medium">추가 조건:</span>
-            <label className="flex items-center gap-1 cursor-pointer">
-              <input
-                type="checkbox"
-                checked={filter.twoPlayerOnly}
-                onChange={(e) => setFilter((prev) => ({ ...prev, twoPlayerOnly: e.target.checked }))}
-                className="rounded accent-emerald-700"
-              />
-              <span>2인 라운드</span>
-            </label>
-            <label className="flex items-center gap-1 cursor-pointer ml-2">
-              <input
-                type="checkbox"
-                checked={filter.noMatOnly}
-                onChange={(e) => setFilter((prev) => ({ ...prev, noMatOnly: e.target.checked }))}
-                className="rounded accent-emerald-700"
-              />
-              <span>티박스 천연잔디 100%</span>
-            </label>
-            <label className="flex items-center gap-1 cursor-pointer ml-2">
-              <input
-                type="checkbox"
-                checked={filter.drivingRangeOnly}
-                onChange={(e) => setFilter((prev) => ({ ...prev, drivingRangeOnly: e.target.checked }))}
-                className="rounded accent-emerald-700"
-              />
-              <span>드라이빙 레인지</span>
-            </label>
+            <span className="font-semibold text-slate-700 block">코스 공인 난이도 체감</span>
+            <select
+              value={filter.difficultyFilter}
+              onChange={(e) => setFilter((prev) => ({ ...prev, difficultyFilter: e.target.value as any }))}
+              className="w-full py-1.5 px-2 bg-white border border-slate-200 rounded-lg text-slate-800 text-xs font-medium focus:outline-none focus:ring-1 focus:ring-emerald-700"
+            >
+              <option value="전체">전체 난이도</option>
+              <option value="쉬움">쉬움 (초보자 추천 · 슬로프 118 이하)</option>
+              <option value="보통">보통 (표준 난이도 · 슬로프 119~127)</option>
+              <option value="어려움">어려움 (중상급자 도전 · 슬로프 128~134)</option>
+              <option value="지옥">지옥 (익스트림 난코스 · 슬로프 135 이상)</option>
+            </select>
           </div>
         </div>
       )}
+
+      {/* 4. Active Count & Sort By */}
+      <div className="flex items-center justify-between pt-1 text-xs text-slate-500">
+        <div>
+          조건 일치 골프장: <strong className="text-slate-900 font-bold">{filteredCount}</strong>개 / 전체 {totalCount}개
+        </div>
+
+        <div className="flex items-center space-x-1">
+          <span className="text-slate-400">정렬:</span>
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value)}
+            className="bg-transparent font-bold text-slate-800 focus:outline-none cursor-pointer"
+          >
+            <option value="recommended">추천순</option>
+            <option value="rating">평점 높은순</option>
+            <option value="distance">서울 가까운순</option>
+            <option value="slopeLow">난이도 쉬운순</option>
+            <option value="slopeHigh">난이도 높은순</option>
+            <option value="costLow">비용 낮은순</option>
+          </select>
+        </div>
+      </div>
     </div>
   );
 };
