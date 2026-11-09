@@ -255,7 +255,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                         </h4>
                         <p className="text-[11px] text-slate-500 flex items-center gap-1 mt-0.5">
                           <MapPin className="w-3 h-3 text-emerald-700" />
-                          {club.region} ({club.address.split(' ')[0] || club.region})
+                          {club.region} · {club.city || club.address.split(' ')[1] || club.region}
                         </p>
                       </div>
 

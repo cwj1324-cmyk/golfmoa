@@ -49,7 +49,7 @@ export const GolfCard: React.FC<GolfCardProps> = ({
             <div className="flex flex-wrap items-center gap-x-2 gap-y-0.5 mt-1 text-[11px] sm:text-xs text-slate-500">
               <span className="inline-flex items-center gap-1 font-medium text-slate-600 shrink-0">
                 <MapPin className="w-3 h-3 text-slate-400" />
-                {club.region} ({club.address.split(' ')[0] || club.region})
+                {club.region} · {club.city || club.address.split(' ')[1] || club.region}
               </span>
               <span className="text-slate-300">·</span>
               <span className="inline-flex items-center text-amber-500 font-bold shrink-0">

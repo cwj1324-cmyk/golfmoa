@@ -21,3 +21,4 @@ targets = [
 for t in targets:
     found = [c['name'] for c in db_clubs if t.lower() in c['name'].lower()]
     print(f"Target '{t}': {found}")
+

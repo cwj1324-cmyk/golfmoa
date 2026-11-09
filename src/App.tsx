@@ -108,9 +108,10 @@ export function App() {
         const query = filter.searchQuery.toLowerCase();
         const matchName = club.name.toLowerCase().includes(query);
         const matchAddress = club.address.toLowerCase().includes(query);
+        const matchCity = club.city ? club.city.toLowerCase().includes(query) : false;
         const matchTags = club.tags.some((t) => t.toLowerCase().includes(query));
         const matchHighlight = club.highlight.toLowerCase().includes(query);
-        if (!matchName && !matchAddress && !matchTags && !matchHighlight) return false;
+        if (!matchName && !matchAddress && !matchCity && !matchTags && !matchHighlight) return false;
       }
 
       // 2. Region

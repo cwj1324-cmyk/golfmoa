@@ -58,7 +58,7 @@ export const MapView: React.FC<MapViewProps> = ({
                 <div className="p-1 min-w-[200px]">
                   <div className="flex items-center justify-between mb-1">
                     <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">
-                      {club.region} ({club.address.split(' ')[0] || club.region})
+                      {club.region} · {club.city || club.address.split(' ')[1] || club.region}
                     </span>
                     <span className="text-[10px] text-amber-500 font-bold flex items-center gap-0.5">
                       <Star className="w-2.5 h-2.5 fill-amber-400 text-amber-400" /> {club.rating.toFixed(1)}

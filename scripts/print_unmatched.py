@@ -12,3 +12,4 @@ print('Remaining unmatched KGA clubs:')
 for u, s in unmatched:
     if u not in matched_kga_names and u != '아난티 클럽 제주':
         print(f"  {u:25} -> CR {s['courseRating']} / SR {s['slopeRating']}")
+

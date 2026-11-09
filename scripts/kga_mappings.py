@@ -47,3 +47,4 @@ KGA_EXTRA_MAPPINGS = {
 # Also special handling for Club 72
 # '클럽 72 - HANUL' -> '클럽72CC 하늘코스'
 # '클럽 72 - OCEAN' -> '클럽72CC 바다코스 (오션·레이크·클래식)'
+

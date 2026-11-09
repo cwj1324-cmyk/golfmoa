@@ -39,6 +39,7 @@ export interface GolfClub {
   id: string;
   name: string;
   region: Exclude<Region, '전체'>;
+  city?: string; // 상세 행정구역 시/군 (예: "남해군", "안성시", "춘천시", "서귀포시")
   address: string;
   coordinates: {
     lat: number;
