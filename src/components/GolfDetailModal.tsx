@@ -43,54 +43,56 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
       <div className="bg-white rounded-2xl max-w-3xl w-full max-h-[92vh] flex flex-col shadow-2xl overflow-hidden border border-slate-200">
         {/* 1. Clean Modal Header (Photo-less, High-Density Spec Profile) */}
         <div className="p-4 sm:p-5 border-b border-slate-200 bg-white">
-          <div className="flex items-start justify-between gap-3">
-            <div className="space-y-1">
-              <div className="flex flex-wrap items-center gap-2">
-                <span className="px-2 py-0.5 rounded text-[11px] font-bold bg-slate-100 text-slate-700">
+          <div className="flex items-start justify-between gap-2 sm:gap-3">
+            <div className="space-y-1 min-w-0 flex-1">
+              <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
+                <span className="px-1.5 sm:px-2 py-0.5 rounded text-[10px] sm:text-[11px] font-bold bg-slate-100 text-slate-700 whitespace-nowrap">
                   {club.courseType} {club.holes}홀
                 </span>
-                <span className="text-xs text-slate-500 flex items-center gap-1 font-medium">
-                  <MapPin className="w-3.5 h-3.5 text-slate-400" />
+                <span className="text-[11px] sm:text-xs text-slate-500 flex items-center gap-1 font-medium truncate">
+                  <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-slate-400 shrink-0" />
                   {club.region} ({club.address.split(' ')[0] || club.region}) · 서울 {club.drivingTimeFromSeoul}분
                 </span>
               </div>
 
-              <h2 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
+              <h2 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight truncate">
                 {club.name}
               </h2>
 
-              <p className="text-xs text-slate-500 line-clamp-1">
+              <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-1">
                 {club.highlight || club.description}
               </p>
             </div>
 
             {/* Header Actions */}
-            <div className="flex items-center gap-1.5 shrink-0">
+            <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
               <button
                 onClick={() => onToggleCompare(club)}
-                className={`px-3 py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${isCompared
-                    ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
-                    : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
+                className={`px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${isCompared
+                  ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
+                  : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
                   }`}
               >
                 {isCompared ? <Check className="w-3.5 h-3.5 stroke-[3]" /> : <Plus className="w-3.5 h-3.5" />}
-                <span>{isCompared ? '비교중' : '조건 비교'}</span>
+                <span className="hidden sm:inline">{isCompared ? '비교중' : '조건 비교'}</span>
+                <span className="sm:hidden text-[11px]">{isCompared ? '비교중' : '비교'}</span>
               </button>
 
               <a
                 href={officialUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-3 py-1.5 rounded-lg text-xs font-bold bg-slate-900 hover:bg-slate-800 text-white flex items-center gap-1 transition-all shadow-2xs"
+                className="px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold bg-slate-900 hover:bg-slate-800 text-white flex items-center gap-1 transition-all shadow-2xs"
                 title="공식 홈페이지 바로가기"
               >
-                <span>공홈 바로가기</span>
+                <span className="hidden sm:inline">공홈 바로가기</span>
+                <span className="sm:hidden text-[11px]">공홈</span>
                 <ExternalLink className="w-3 h-3" />
               </a>
 
               <button
                 onClick={onClose}
-                className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all ml-1"
+                className="p-1 sm:p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all ml-0.5"
               >
                 <X className="w-5 h-5" />
               </button>
@@ -224,11 +226,10 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                     <button
                       key={score}
                       onClick={() => setMyAvgScore(score)}
-                      className={`px-2 py-0.5 rounded text-[11px] font-bold transition-all border ${
-                        myAvgScore === score
+                      className={`px-2 py-0.5 rounded text-[11px] font-bold transition-all border ${myAvgScore === score
                           ? 'bg-slate-900 text-white border-slate-900 shadow-2xs'
                           : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-100'
-                      }`}
+                        }`}
                     >
                       {score}타
                     </button>
@@ -305,19 +306,19 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             </div>
 
             <div className="rounded-xl border border-slate-200 overflow-hidden text-xs">
-              <div className="grid grid-cols-4 bg-slate-50 font-semibold text-slate-600 p-2.5 border-b border-slate-200 text-center">
+              <div className="grid grid-cols-4 bg-slate-50 font-semibold text-slate-600 p-2 sm:p-2.5 border-b border-slate-200 text-center text-[10px] sm:text-xs">
                 <div>주중 그린피</div>
                 <div>주말 그린피</div>
                 <div>팀 카트비</div>
                 <div>팀 캐디피</div>
               </div>
-              <div className="grid grid-cols-4 p-3 text-center font-bold text-slate-900 items-center">
-                <div>{formatPrice(club.pricing.weekdayGreenFee)}~</div>
-                <div>{formatPrice(club.pricing.weekendGreenFee)}~</div>
-                <div>{formatPrice(club.pricing.cartFee)}</div>
-                <div>
+              <div className="grid grid-cols-4 p-2.5 sm:p-3 text-center font-bold text-slate-900 items-center text-[11px] sm:text-xs">
+                <div className="truncate">{formatPrice(club.pricing.weekdayGreenFee)}~</div>
+                <div className="truncate">{formatPrice(club.pricing.weekendGreenFee)}~</div>
+                <div className="truncate">{formatPrice(club.pricing.cartFee)}</div>
+                <div className="truncate">
                   {club.pricing.caddieFee === 0 ? (
-                    <span className="text-emerald-700 font-extrabold">전면 노캐디</span>
+                    <span className="text-emerald-700 font-extrabold">노캐디</span>
                   ) : (
                     formatPrice(club.pricing.caddieFee)
                   )}
@@ -361,8 +362,8 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
           <button
             onClick={() => onToggleCompare(club)}
             className={`px-3.5 py-2 rounded-lg text-xs font-bold transition-all border ${isCompared
-                ? 'border-emerald-700 bg-emerald-50 text-emerald-800'
-                : 'border-slate-300 bg-white text-slate-700 hover:bg-slate-50'
+              ? 'border-emerald-700 bg-emerald-50 text-emerald-800'
+              : 'border-slate-300 bg-white text-slate-700 hover:bg-slate-50'
               }`}
           >
             {isCompared ? '비교함에서 빼기' : '+ 1:1 조건 비교함 담기'}

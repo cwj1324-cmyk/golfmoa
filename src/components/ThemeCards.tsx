@@ -21,7 +21,7 @@ export const ThemeCards: React.FC<ThemeCardsProps> = ({
 }) => {
   return (
     <div className="mb-4">
-      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none">
+      <div className="flex items-center gap-1.5 overflow-x-auto pb-1 scrollbar-none -mx-4 px-4 sm:mx-0 sm:px-0">
         {/* 'All' button */}
         <button
           onClick={() => onSelectTheme(null)}

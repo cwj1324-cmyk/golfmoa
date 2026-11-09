@@ -120,22 +120,26 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
     <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 animate-fadeIn">
       <div className="bg-white rounded-2xl max-w-5xl w-full max-h-[92vh] flex flex-col shadow-2xl overflow-hidden border border-slate-200">
         {/* Header */}
-        <div className="p-4 sm:p-5 border-b border-slate-200 bg-slate-50/90 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
+        <div className="p-3.5 sm:p-5 border-b border-slate-200 bg-slate-50/90 flex flex-col sm:flex-row sm:items-center justify-between gap-2.5 sm:gap-3">
           <div>
             <div className="flex items-center space-x-2">
-              <span className="px-2.5 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold">
+              <span className="px-2 py-0.5 rounded-full bg-emerald-100 text-emerald-800 text-[10px] sm:text-xs font-bold">
                 1:1 코스 조건 대조
               </span>
-              <h3 className="text-lg font-black text-slate-900 tracking-tight">
+              <h3 className="text-base sm:text-lg font-black text-slate-900 tracking-tight">
                 골프장 조건 & 스펙 비교함 ({comparedClubs.length}/3)
               </h3>
             </div>
-            <p className="text-xs text-slate-500 mt-1">
+            <p className="text-[11px] sm:text-xs text-slate-500 mt-0.5">
               티박스 매트 · 잔디 · 야간 조명 · 그린스피드 · 난이도 조건을 나란히 대조합니다.
             </p>
+            <div className="text-[11px] font-medium text-emerald-800 bg-emerald-50/90 px-2.5 py-1 rounded-md sm:hidden flex items-center justify-between border border-emerald-200/60 mt-2">
+              <span>👉 표를 좌우로 밀어서 1:1 비교하세요</span>
+              <span className="font-bold text-emerald-900">스크롤 ↔</span>
+            </div>
           </div>
 
-          <div className="flex items-center gap-2">
+          <div className="flex items-center justify-between sm:justify-end gap-2 shrink-0">
             {/* Weekend Toggle */}
             <div className="inline-flex rounded-lg bg-slate-200/80 p-0.5 text-xs font-semibold">
               <button
@@ -176,10 +180,10 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
         {/* Share & Feedback Bar */}
         {comparedClubs.length > 0 && (
-          <div className="px-4 py-2.5 bg-emerald-950 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
-            <div className="flex items-center gap-1.5 font-medium">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-              <span>동반자들과 공유하고 선호하는 구장에 실시간 투표를 받아보세요.</span>
+          <div className="px-3.5 py-2 sm:px-4 sm:py-2.5 bg-emerald-950 text-white flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-xs">
+            <div className="flex items-center gap-1.5 font-medium text-[11px] sm:text-xs">
+              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse shrink-0" />
+              <span>동반자들과 공유하고 선호 구장 투표를 받아보세요.</span>
               {copyFeedback && (
                 <span className="text-emerald-300 font-bold ml-2 animate-fadeIn">
                   ✓ {copyFeedback}
@@ -187,27 +191,28 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
               )}
             </div>
 
-            <div className="flex items-center gap-2 shrink-0">
+            <div className="flex items-center gap-1.5 sm:gap-2 shrink-0">
               <button
                 onClick={handleCopyLink}
-                className="px-2.5 py-1 bg-white/10 hover:bg-white/20 text-white rounded-lg font-bold flex items-center gap-1 transition-all"
+                className="px-2.5 py-1 bg-white/10 hover:bg-white/20 text-white rounded-lg font-bold flex items-center gap-1 transition-all text-xs"
               >
                 <Copy className="w-3 h-3" />
                 <span>링크 복사</span>
               </button>
               <button
                 onClick={handleCopyKakaoText}
-                className="px-3 py-1 bg-[#FEE500] hover:bg-[#FADA0A] text-slate-900 rounded-lg font-black flex items-center gap-1 transition-all shadow-xs"
+                className="px-3 py-1 bg-[#FEE500] hover:bg-[#FADA0A] text-slate-900 rounded-lg font-black flex items-center gap-1 transition-all shadow-xs text-xs"
               >
                 <Share2 className="w-3 h-3 text-slate-900" />
-                <span>카톡 단톡방 공유 텍스트 복사</span>
+                <span className="hidden sm:inline">카톡 단톡방 공유 텍스트 복사</span>
+                <span className="sm:hidden">카톡 공유 복사</span>
               </button>
             </div>
           </div>
         )}
 
         {/* Content Body (Scrollable Table) */}
-        <div className="flex-1 overflow-x-auto p-4 sm:p-6">
+        <div className="flex-1 overflow-x-auto p-3.5 sm:p-6">
           {comparedClubs.length === 0 ? (
             <div className="text-center py-16 text-slate-400">
               <p className="text-base font-bold mb-2">비교함이 비어 있습니다.</p>

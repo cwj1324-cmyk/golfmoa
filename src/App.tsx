@@ -215,19 +215,19 @@ export function App() {
       />
 
       {/* 2. Main Container */}
-      <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full pb-28">
+      <main className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 flex-1 w-full pb-28">
         {/* Condition-First Page Header */}
-        <div className="mb-4 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
+        <div className="mb-3 sm:mb-4 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
           <div>
-            <h1 className="text-xl sm:text-2xl font-black text-slate-900 tracking-tight">
-              전국 640개 골프장 코스 조건 & 1:1 대조기
+            <h1 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight">
+              전국 {GOLF_CLUBS_DATA.length}개 골프장 코스 조건 & 1:1 대조기
             </h1>
-            <p className="text-xs text-slate-500 mt-0.5">
+            <p className="text-[11px] sm:text-xs text-slate-500 mt-0.5">
               티박스 매트 유무 · 잔디 종류 · 야간 LED 조명 · 평지 여부 · USGA 공인 난이도 조건 대조
             </p>
           </div>
           <span className="text-xs text-slate-400 font-medium hidden sm:inline">
-            전국 640개소 코스 스펙 전수 대조
+            전국 {GOLF_CLUBS_DATA.length}개소 코스 스펙 전수 대조
           </span>
         </div>
 
@@ -258,9 +258,9 @@ export function App() {
         ) : (
           <div>
             {filteredClubs.length === 0 ? (
-              <div className="bg-white rounded-3xl p-12 text-center border border-slate-200">
-                <Info className="w-12 h-12 text-slate-300 mx-auto mb-3" />
-                <h3 className="text-base font-bold text-slate-800 mb-1">
+              <div className="bg-white rounded-2xl p-8 sm:p-12 text-center border border-slate-200">
+                <Info className="w-10 h-10 sm:w-12 sm:h-12 text-slate-300 mx-auto mb-3" />
+                <h3 className="text-sm sm:text-base font-bold text-slate-800 mb-1">
                   조건에 맞는 골프장이 없습니다.
                 </h3>
                 <p className="text-xs text-slate-500 mb-4">
@@ -289,14 +289,14 @@ export function App() {
                       userAvgScore: 90,
                     })
                   }
-                  className="px-4 py-2 bg-emerald-600 text-white rounded-xl text-xs font-bold hover:bg-emerald-700 transition-all"
+                  className="px-4 py-2 bg-emerald-700 text-white rounded-xl text-xs font-bold hover:bg-emerald-800 transition-all shadow-2xs"
                 >
                   필터 전체 초기화
                 </button>
               </div>
             ) : (
               <div>
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3.5 sm:gap-5">
                   {filteredClubs.slice(0, displayCount).map((club) => (
                     <GolfCard
                       key={club.id}
