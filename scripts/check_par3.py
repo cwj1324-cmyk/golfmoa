@@ -20,3 +20,4 @@ for c in clubs:
     h = c.get('holes', 18)
     if h < 18 or h not in (18, 27, 36, 45, 54, 72):
         print(f"ID: {c['id']} | Name: {c['name']} | Holes: {h} | Length: {c.get('totalLengthMeters')}m | Region: {c.get('region')} | City: {c.get('city')}")
+

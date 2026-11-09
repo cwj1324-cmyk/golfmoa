@@ -38,3 +38,4 @@ for c in clubs:
 print(f"Identified par3/duplicate candidates: {len(par3_list)}")
 for c, r in par3_list:
     print(f"[{c['id']}] {c['name']} ({r}) - {c.get('region')} {c.get('city')}")
+

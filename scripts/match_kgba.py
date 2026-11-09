@@ -42,3 +42,4 @@ for k in kgba:
 
 print(f"Matched KGBA clubs: {len(matched)} / {len(kgba)}")
 print(f"Unmatched KGBA clubs: {len(unmatched)}")
+

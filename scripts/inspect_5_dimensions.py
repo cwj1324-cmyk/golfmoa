@@ -38,3 +38,4 @@ print("\n5. Night Play Distribution:")
 print(Counter(c['playOptions']['nightPlay'] for c in clubs))
 print("Lighting Type Distribution:")
 print(Counter(c['playOptions']['lightingType'] for c in clubs))
+

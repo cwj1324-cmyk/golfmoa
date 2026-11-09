@@ -66,3 +66,4 @@ with open('src/data/golfClubs.ts', 'w', encoding='utf-8') as f:
     f.write(new_file_content)
 
 print("Saved cleanly to src/data/golfClubs.ts!")
+

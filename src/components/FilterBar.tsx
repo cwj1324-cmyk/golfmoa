@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import type { FilterState, Region } from '../types/golf';
-import { Search, RotateCcw, SlidersHorizontal, ChevronDown, ChevronUp, DollarSign, Moon } from 'lucide-react';
+import { Search, RotateCcw, SlidersHorizontal, ChevronDown, ChevronUp, DollarSign, Moon, LayoutGrid, List } from 'lucide-react';
+import type { ViewMode } from './Navbar';
 
 interface FilterBarProps {
   filter: FilterState;
@@ -9,6 +10,8 @@ interface FilterBarProps {
   filteredCount: number;
   sortBy: string;
   setSortBy: (sort: string) => void;
+  viewMode?: ViewMode;
+  setViewMode?: (mode: ViewMode) => void;
 }
 
 const REGIONS: Region[] = ['전체', '경기남부', '경기북부', '인천', '강원', '충청', '전라', '경상', '제주'];
@@ -20,6 +23,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   filteredCount,
   sortBy,
   setSortBy,
+  viewMode,
+  setViewMode,
 }) => {
   const [isDetailOpen, setIsDetailOpen] = useState(false);
 
@@ -270,11 +275,45 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
       )}
 
-      {/* Row 4: Results Count & Sort Dropdown */}
-      <div className="flex items-center justify-between pt-1 text-[11px] sm:text-xs text-slate-500 border-t border-slate-100 gap-2">
-        <div className="truncate">
-          검색 결과: <strong className="text-slate-900 font-bold">{filteredCount}</strong>
-          <span className="text-slate-400">/{totalCount}곳</span>
+      {/* Row 4: Results Count, View Switcher & Sort Dropdown */}
+      <div className="flex items-center justify-between pt-1.5 text-[11px] sm:text-xs text-slate-500 border-t border-slate-100 gap-2">
+        <div className="truncate flex items-center gap-2">
+          <span>
+            검색 결과: <strong className="text-slate-900 font-bold">{filteredCount}</strong>
+            <span className="text-slate-400">/{totalCount}곳</span>
+          </span>
+
+          {/* Quick View Switcher (Cards vs List) */}
+          {setViewMode && viewMode !== 'map' && (
+            <div className="inline-flex items-center bg-slate-100 p-0.5 rounded-lg ml-1">
+              <button
+                type="button"
+                onClick={() => setViewMode('cards')}
+                className={`p-1 rounded flex items-center gap-1 ${
+                  viewMode === 'cards'
+                    ? 'bg-white text-emerald-800 shadow-2xs font-bold'
+                    : 'text-slate-500 hover:text-slate-800'
+                }`}
+                title="카드형 그리드 뷰"
+              >
+                <LayoutGrid className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline text-[10px]">카드</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode('list')}
+                className={`p-1 rounded flex items-center gap-1 ${
+                  viewMode === 'list'
+                    ? 'bg-white text-emerald-800 shadow-2xs font-bold'
+                    : 'text-slate-500 hover:text-slate-800'
+                }`}
+                title="리스트(표)형 뷰"
+              >
+                <List className="w-3.5 h-3.5" />
+                <span className="hidden sm:inline text-[10px]">리스트</span>
+              </button>
+            </div>
+          )}
         </div>
 
         <div className="flex items-center space-x-1 shrink-0">

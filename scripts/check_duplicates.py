@@ -34,3 +34,4 @@ for i in range(len(clubs)):
 print(f"\nPotential coordinate duplicates (within 800m): {len(coord_dupes)}")
 for d in coord_dupes:
     print(f"{d[0]:.0f}m: '{d[1]}' vs '{d[2]}' ({d[3]} vs {d[4]})")
+

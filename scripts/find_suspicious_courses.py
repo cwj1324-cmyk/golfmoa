@@ -18,3 +18,4 @@ for i, c in enumerate(clubs):
     # Check suspicious or practice names
     if any(k in name for k in ['123', '연습', '파3', '숏코스', '미니', '아카데미', '퍼블릭', '클럽하우스', '골프랜드', '조선', '스카이21']):
         print(f"[{i}] {name} ({cid}) - {c.get('region')} {c.get('city')}")
+

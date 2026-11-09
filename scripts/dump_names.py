@@ -16,3 +16,4 @@ with open('all_494_names.txt', 'w', encoding='utf-8') as f:
         f.write(f"[{i:3d}] ID: {c['id']:<25} | Name: {c['name']:<25} | Region: {c.get('region')} {c.get('city')}\n")
 
 print('Written all 494 names to all_494_names.txt')
+

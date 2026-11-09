@@ -1,312 +1,624 @@
-import React, { useState } from 'react';
-import type { GolfClub } from '../types/golf';
+import React, { useState, useEffect } from 'react';
+import {
+  X,
+  ExternalLink,
+  MapPin,
+  Phone,
+  Check,
+  Plus,
+  ShieldCheck,
+  Star,
+  Moon,
+  Sparkles,
+  Edit3,
+  RotateCcw,
+  MessageSquare,
+  Send,
+} from 'lucide-react';
+import type { GolfClub, GrassType, CourseStyle, CourseType, GolferReview, WikiEditRecord } from '../types/golf';
 import { calculateCostPerPerson, formatPrice, predictFieldScore, getOfficialClubUrl } from '../utils/calculator';
-import { X, MapPin, Gauge, Phone, ExternalLink, Check, Target, Moon, Plus } from 'lucide-react';
+import {
+  getWikiEdits,
+  saveWikiEdit,
+  resetWikiEdit,
+  getGolferReviews,
+  addGolferReview,
+} from '../utils/wikiStorage';
 
 interface GolfDetailModalProps {
-  club: GolfClub | null;
+  club: GolfClub;
   onClose: () => void;
   isCompared: boolean;
   onToggleCompare: (club: GolfClub) => void;
-  initialUserAvgScore?: number;
+  userAvgScore: number;
+  onUpdateClub?: (updatedClub: GolfClub) => void;
 }
 
 export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
-  club,
+  club: initialClub,
   onClose,
   isCompared,
   onToggleCompare,
-  initialUserAvgScore = 90,
+  userAvgScore,
+  onUpdateClub,
 }) => {
-  const [myAvgScore, setMyAvgScore] = useState<number>(initialUserAvgScore);
+  const [club, setClub] = useState<GolfClub>(initialClub);
+  const [wikiRecord, setWikiRecord] = useState<WikiEditRecord | null>(null);
 
-  if (!club) return null;
+  // Wiki Edit Mode State
+  const [isEditing, setIsEditing] = useState(false);
+  const [editForm, setEditForm] = useState({
+    courseType: club.courseType,
+    fairwayGrass: club.grass.fairway,
+    teeBoxMatRatio: club.teeBoxMatRatio || '미확인',
+    nightPlay: club.playOptions.nightPlay,
+    lightingType: club.playOptions.lightingType,
+    courseStyle: club.courseStyle,
+    weekdayGreenFee: club.pricing.weekdayGreenFee,
+    weekendGreenFee: club.pricing.weekendGreenFee,
+    cartFee: club.pricing.cartFee,
+    caddieFee: club.pricing.caddieFee,
+    drivingRange: club.facilities.drivingRange,
+    drivingRangeNote: club.facilities.drivingRangeNote || '',
+    author: '',
+    reason: '',
+  });
 
-  const scorePred = predictFieldScore(
-    club.difficultyIndex.slopeRating,
-    club.difficultyIndex.courseRating,
-    myAvgScore
+  // Review System State
+  const [reviews, setReviews] = useState<GolferReview[]>([]);
+  const [isWritingReview, setIsWritingReview] = useState(false);
+  const [reviewForm, setReviewForm] = useState({
+    author: '',
+    rating: 5,
+    avgScore: '80대',
+    visitDate: '2024년 10월',
+    courseScore: 5,
+    caddieScore: 5,
+    costScore: 4,
+    content: '',
+  });
+
+  // Load Wiki Record & Reviews
+  useEffect(() => {
+    const edits = getWikiEdits();
+    if (edits[club.id]) {
+      setWikiRecord(edits[club.id]);
+    } else {
+      setWikiRecord(null);
+    }
+    setReviews(getGolferReviews(club));
+  }, [club.id]);
+
+  const pred = predictFieldScore(
+    club.difficultyIndex?.slopeRating,
+    club.difficultyIndex?.courseRating,
+    userAvgScore
   );
 
   const weekdayCost = calculateCostPerPerson(club, false, 4, true);
   const weekendCost = calculateCostPerPerson(club, true, 4, true);
+
+  // Safe official URL fallback
   const officialUrl = getOfficialClubUrl(club);
 
-  const isNoMat = club.teeBoxMatRatio?.includes('매트 없음');
-  const isMixedMat = club.teeBoxMatRatio?.includes('일부 매트') || club.teeBoxMatRatio?.includes('매트 비율 높음');
-  const isYangGrass = club.grass.fairway.includes('양잔디');
-  const isFlat = club.courseStyle.includes('구릉') || club.courseStyle.includes('링크스') || club.courseStyle.includes('평지');
-  const isNightLed = club.playOptions.nightPlay && club.playOptions.lightingType.includes('LED');
+  // Handle Wiki Save
+  const handleSaveWiki = (e: React.FormEvent) => {
+    e.preventDefault();
+
+    const changes: Partial<GolfClub> = {
+      courseType: editForm.courseType,
+      grass: {
+        ...club.grass,
+        fairway: editForm.fairwayGrass as GrassType,
+      },
+      teeBoxMatRatio:
+        editForm.teeBoxMatRatio === '미확인'
+          ? null
+          : (editForm.teeBoxMatRatio as GolfClub['teeBoxMatRatio']),
+      playOptions: {
+        ...club.playOptions,
+        nightPlay: editForm.nightPlay,
+        lightingType: editForm.lightingType as GolfClub['playOptions']['lightingType'],
+      },
+      courseStyle: editForm.courseStyle as CourseStyle,
+      pricing: {
+        ...club.pricing,
+        weekdayGreenFee: Number(editForm.weekdayGreenFee),
+        weekendGreenFee: Number(editForm.weekendGreenFee),
+        cartFee: Number(editForm.cartFee),
+        caddieFee: Number(editForm.caddieFee),
+      },
+      facilities: {
+        ...club.facilities,
+        drivingRange: editForm.drivingRange,
+        drivingRangeNote: editForm.drivingRangeNote.trim() || null,
+      },
+    };
+
+    const record = saveWikiEdit(club.id, changes, editForm.author, editForm.reason);
+    const updated = {
+      ...club,
+      ...changes,
+    };
+
+    setClub(updated);
+    setWikiRecord(record);
+    setIsEditing(false);
+    if (onUpdateClub) onUpdateClub(updated);
+  };
+
+  // Handle Wiki Reset to Official Data
+  const handleResetWiki = () => {
+    if (confirm('골퍼 위키 수정 내역을 삭제하고 공식 협회 기본 데이터로 되돌리시겠습니까?')) {
+      resetWikiEdit(club.id);
+      setWikiRecord(null);
+      setClub(initialClub);
+      if (onUpdateClub) onUpdateClub(initialClub);
+    }
+  };
+
+  // Handle Review Submission
+  const handleSubmitReview = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!reviewForm.content.trim()) {
+      alert('골프장 전체 평(후기) 내용을 입력해 주세요.');
+      return;
+    }
+
+    const newRev = addGolferReview(club.id, {
+      author: reviewForm.author.trim() || '익명 골퍼',
+      rating: reviewForm.rating,
+      avgScore: reviewForm.avgScore,
+      visitDate: reviewForm.visitDate,
+      content: reviewForm.content.trim(),
+      scores: {
+        course: reviewForm.courseScore,
+        caddie: reviewForm.caddieScore,
+        cost: reviewForm.costScore,
+      },
+    });
+
+    setReviews([newRev, ...reviews.filter((r) => r.id !== newRev.id)]);
+    setIsWritingReview(false);
+    setReviewForm({
+      ...reviewForm,
+      content: '',
+      author: '',
+    });
+  };
 
   return (
-    <div className="fixed inset-0 z-50 overflow-y-auto bg-black/60 backdrop-blur-xs flex items-center justify-center p-3 sm:p-6 animate-fadeIn">
-      <div className="bg-white rounded-2xl max-w-3xl w-full max-h-[92vh] flex flex-col shadow-2xl overflow-hidden border border-slate-200">
-        {/* 1. Clean Modal Header (Photo-less, High-Density Spec Profile) */}
-        <div className="p-4 sm:p-5 border-b border-slate-200 bg-white">
-          <div className="flex items-start justify-between gap-2 sm:gap-3">
-            <div className="space-y-1 min-w-0 flex-1">
-              <div className="flex flex-wrap items-center gap-1.5 sm:gap-2">
-                <span className="px-1.5 sm:px-2 py-0.5 rounded text-[10px] sm:text-[11px] font-bold bg-slate-100 text-slate-700 whitespace-nowrap">
-                  {club.courseType} {club.holes}홀
-                </span>
-                <span className="text-[11px] sm:text-xs text-slate-500 flex items-center gap-1 font-medium truncate">
-                  <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-slate-400 shrink-0" />
-                  {club.region} · {club.city || club.address.split(' ')[1] || club.region}
-                </span>
-              </div>
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-slate-950/60 backdrop-blur-xs animate-in fade-in duration-200">
+      <div className="bg-white w-full max-w-4xl max-h-[92vh] sm:max-h-[90vh] rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-slate-200">
+        {/* Wiki Contributed Banner */}
+        {wikiRecord && (
+          <div className="bg-amber-50 px-4 py-2 border-b border-amber-200 text-xs text-amber-900 flex items-center justify-between gap-2">
+            <span className="flex items-center gap-1.5 font-medium truncate">
+              <Sparkles className="w-3.5 h-3.5 text-amber-600 shrink-0" />
+              <span>
+                <strong>골퍼 위키 기여 정보 적용됨</strong> ({wikiRecord.author} 님 · {wikiRecord.updatedAt}):{' '}
+                <span className="text-amber-800">{wikiRecord.reason}</span>
+              </span>
+            </span>
+            <button
+              onClick={handleResetWiki}
+              className="px-2 py-0.5 rounded text-[11px] font-bold text-amber-800 hover:bg-amber-100 flex items-center gap-1 shrink-0"
+              title="원문 공식 데이터로 복원"
+            >
+              <RotateCcw className="w-3 h-3" />
+              <span>원문 복원</span>
+            </button>
+          </div>
+        )}
 
-              <h2 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight truncate">
-                {club.name}
-              </h2>
-
-              <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-1">
-                {club.highlight || club.description}
-              </p>
+        {/* Modal Header */}
+        <div className="p-3.5 sm:p-5 border-b border-slate-200 flex items-start justify-between gap-2 bg-white sticky top-0 z-10">
+          <div className="min-w-0 flex-1">
+            <div className="flex flex-wrap items-center gap-1.5 mb-1">
+              <span className="px-1.5 sm:px-2 py-0.5 rounded text-[10px] sm:text-[11px] font-bold bg-slate-100 text-slate-700 whitespace-nowrap">
+                {club.courseType} {club.holes}홀
+              </span>
+              <span className="text-[11px] sm:text-xs text-slate-500 flex items-center gap-1 font-medium truncate">
+                <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-slate-400 shrink-0" />
+                {club.region} · {club.city || club.address.split(' ')[1] || club.region}
+              </span>
             </div>
 
-            {/* Header Actions */}
-            <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
-              <button
-                onClick={() => onToggleCompare(club)}
-                className={`px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${isCompared
+            <h2 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight truncate">
+              {club.name}
+            </h2>
+
+            <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-1">
+              {club.highlight || club.description}
+            </p>
+          </div>
+
+          {/* Header Action Buttons */}
+          <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
+            {/* Wiki Edit Button */}
+            <button
+              onClick={() => setIsEditing(!isEditing)}
+              className={`px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${
+                isEditing
+                  ? 'bg-amber-600 text-white border-amber-600 shadow-2xs'
+                  : 'bg-white text-slate-700 border-slate-200 hover:bg-amber-50 hover:text-amber-900 hover:border-amber-300'
+              }`}
+              title="위키피디아처럼 골프장 정보 직접 수정/기여하기"
+            >
+              <Edit3 className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">{isEditing ? '보기 모드' : '위키 수정'}</span>
+              <span className="sm:hidden text-[11px]">{isEditing ? '보기' : '수정'}</span>
+            </button>
+
+            {/* Compare Button */}
+            <button
+              onClick={() => onToggleCompare(club)}
+              className={`px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${
+                isCompared
                   ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
                   : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
-                  }`}
-              >
-                {isCompared ? <Check className="w-3.5 h-3.5 stroke-[3]" /> : <Plus className="w-3.5 h-3.5" />}
-                <span className="hidden sm:inline">{isCompared ? '비교중' : '조건 비교'}</span>
-                <span className="sm:hidden text-[11px]">{isCompared ? '비교중' : '비교'}</span>
-              </button>
+              }`}
+            >
+              {isCompared ? <Check className="w-3.5 h-3.5 stroke-[3]" /> : <Plus className="w-3.5 h-3.5" />}
+              <span className="hidden sm:inline">{isCompared ? '비교중' : '조건 비교'}</span>
+              <span className="sm:hidden text-[11px]">{isCompared ? '비교중' : '비교'}</span>
+            </button>
 
-              <a
-                href={officialUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold bg-slate-900 hover:bg-slate-800 text-white flex items-center gap-1 transition-all shadow-2xs"
-                title="공식 홈페이지 바로가기"
-              >
-                <span className="hidden sm:inline">공홈 바로가기</span>
-                <span className="sm:hidden text-[11px]">공홈</span>
-                <ExternalLink className="w-3 h-3" />
-              </a>
+            {/* Official Webpage */}
+            <a
+              href={officialUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold bg-slate-900 hover:bg-slate-800 text-white flex items-center gap-1 transition-all shadow-2xs"
+              title="공식 홈페이지 바로가기"
+            >
+              <span className="hidden sm:inline">공홈 바로가기</span>
+              <span className="sm:hidden text-[11px]">공홈</span>
+              <ExternalLink className="w-3 h-3" />
+            </a>
 
-              <button
-                onClick={onClose}
-                className="p-1 sm:p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all ml-0.5"
-              >
-                <X className="w-5 h-5" />
-              </button>
-            </div>
+            {/* Close Button */}
+            <button
+              onClick={onClose}
+              className="p-1 sm:p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all ml-0.5"
+            >
+              <X className="w-5 h-5" />
+            </button>
           </div>
         </div>
 
-        {/* 2. Scrollable Body */}
-        <div className="flex-1 overflow-y-auto p-4 sm:p-6 space-y-5">
-          {/* Section 1: 핵심 코스 조건 8대 매트릭스 (Disciplined Grid) */}
-          <div>
-            <div className="flex items-center justify-between mb-2">
-              <h3 className="text-xs font-bold text-slate-900 tracking-tight uppercase flex items-center gap-1.5">
-                <span>핵심 코스 조건 제원표</span>
-              </h3>
-              <span className="text-[11px] text-slate-400">8대 코스 조건 대조</span>
-            </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
-              {/* 1. 티박스 */}
-              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
-                <span className="text-[10px] text-slate-400 block font-medium">티박스 컨디션</span>
-                <span className={`font-bold mt-1 block ${isNoMat ? 'text-emerald-800' : isMixedMat ? 'text-slate-700' : 'text-slate-400'}`}>
-                  {isNoMat ? '🌱 100% 잔디티' : isMixedMat ? '매트 혼용' : '티박스 -'}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">{club.teeBoxMatRatio || '미확인'}</span>
-              </div>
-
-              {/* 2. 페어웨이 잔디 */}
-              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
-                <span className="text-[10px] text-slate-400 block font-medium">페어웨이 잔디</span>
-                <span className={`font-bold mt-1 block ${isYangGrass ? 'text-teal-800' : 'text-amber-900'}`}>
-                  {isYangGrass ? '🌿 양잔디' : '🌾 조선잔디'}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block line-clamp-1">{club.grass.fairway}</span>
-              </div>
-
-              {/* 3. 코스 지형 */}
-              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
-                <span className="text-[10px] text-slate-400 block font-medium">코스 지형 & 고저차</span>
-                <span className={`font-bold mt-1 block ${isFlat ? 'text-sky-800' : 'text-slate-700'}`}>
-                  {isFlat ? '⛰️ 평지·시야개방' : '⛰️ 산악 다이내믹'}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">언듈레이션 {club.undulation}</span>
-              </div>
-
-              {/* 4. 야간 3부 */}
-              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
-                <span className="text-[10px] text-slate-400 block font-medium">야간 3부 라운드</span>
-                <span className={`font-bold mt-1 block flex items-center gap-1 ${isNightLed ? 'text-indigo-800' : club.playOptions.nightPlay ? 'text-indigo-600' : 'text-slate-400'
-                  }`}>
-                  {club.playOptions.nightPlay ? (
-                    <>
-                      <Moon className="w-3 h-3 text-indigo-500 fill-indigo-500" />
-                      <span>{isNightLed ? 'LED 야간 운영' : '야간 3부 운영'}</span>
-                    </>
-                  ) : (
-                    '야간 미운영'
-                  )}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">{club.playOptions.lightingType}</span>
-              </div>
-
-              {/* 5. 그린 스피드 */}
-              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
-                <span className="text-[10px] text-slate-400 block font-medium">평균 그린 스피드</span>
-                <span className="font-bold text-slate-900 mt-1 flex items-center gap-1">
-                  <Gauge className="w-3.5 h-3.5 text-purple-600" />
-                  {club.greenSpeedAvg ? (
-                    <>
-                      <span>{club.greenSpeedAvg.toFixed(1)}m</span>
-                      <span className="text-[11px] font-normal text-slate-500">
-                        ({club.greenSpeedAvg >= 2.8 ? '빠름' : '보통'})
-                      </span>
-                    </>
-                  ) : (
-                    <span className="text-slate-400 font-normal text-xs">미확인</span>
-                  )}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">그린잔디: {club.grass.green}</span>
-              </div>
-
-              {/* 6. 페어웨이 폭 & 전장 */}
-              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
-                <span className="text-[10px] text-slate-400 block font-medium">페어웨이 폭 & 전장</span>
-                <span className="font-bold text-slate-900 mt-1 block">
-                  {club.fairwayWidth} 폭
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">
-                  전장 {club.totalLengthMeters.toLocaleString()}m
+        {/* Modal Scrollable Body */}
+        <div className="flex-1 overflow-y-auto p-3.5 sm:p-6 space-y-4 sm:space-y-6">
+          {/* ==================================================== */}
+          {/* MODE A: WIKIPEDIA EDIT FORM (위키피디아 수정 모드) */}
+          {/* ==================================================== */}
+          {isEditing ? (
+            <form onSubmit={handleSaveWiki} className="bg-amber-50/50 rounded-2xl border border-amber-200 p-4 sm:p-6 space-y-4">
+              <div className="flex items-center justify-between border-b border-amber-200 pb-3">
+                <div>
+                  <h3 className="text-base sm:text-lg font-black text-amber-950 flex items-center gap-1.5">
+                    <Edit3 className="w-5 h-5 text-amber-700" />
+                    골퍼 집단지성 위키 정보 수정하기
+                  </h3>
+                  <p className="text-xs text-amber-800 mt-0.5">
+                    실제 라운드 방문 경험이나 최신 변경사항을 위키피디아처럼 자유롭게 기여해 주세요.
+                  </p>
+                </div>
+                <span className="text-[11px] font-bold px-2 py-1 rounded bg-amber-100 text-amber-900 border border-amber-300">
+                  위키 편집중
                 </span>
               </div>
 
-              {/* 7. 플레이 옵션 */}
-              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
-                <span className="text-[10px] text-slate-400 block font-medium">인원 & 캐디 옵션</span>
-                <span className="font-bold text-slate-900 mt-1 block">
-                  {club.playOptions.noCaddieAllowed ? '노캐디 가능' : '캐디제 운영'}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">
-                  {club.playOptions.twoPlayerAllowed ? '2인 라운드 가능' : '3~4인 전용'}
-                </span>
-              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-xs">
+                {/* 1. 운영 구분 */}
+                <div>
+                  <label className="font-bold text-slate-700 block mb-1">운영 구분 (코스 타입)</label>
+                  <select
+                    value={editForm.courseType}
+                    onChange={(e) => setEditForm({ ...editForm, courseType: e.target.value as CourseType })}
+                    className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
+                  >
+                    <option value="대중제">대중제 (퍼블릭)</option>
+                    <option value="회원제">회원제 (프라이빗)</option>
+                    <option value="대중제+회원제">대중제+회원제 (복합 운영)</option>
+                  </select>
+                </div>
 
-              {/* 8. 연습 시설 */}
-              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/60">
-                <span className="text-[10px] text-slate-400 block font-medium">라운드 전 연습시설</span>
-                <span className="font-bold text-slate-900 mt-1 block">
-                  {club.facilities.drivingRange ? '타석 레인지 보유' : '퍼팅 연습그린'}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">
-                  {club.facilities.practiceGreen ? '어프로치 그린 완비' : '기본 퍼팅그린'}
-                </span>
-              </div>
-            </div>
-          </div>
+                {/* 2. 페어웨이 잔디 */}
+                <div>
+                  <label className="font-bold text-slate-700 block mb-1">페어웨이 잔디 종류</label>
+                  <select
+                    value={editForm.fairwayGrass}
+                    onChange={(e) => setEditForm({ ...editForm, fairwayGrass: e.target.value as GrassType })}
+                    className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
+                  >
+                    <option value="양잔디(켄터키블루)">양잔디 (켄터키블루)</option>
+                    <option value="양잔디(벤트그라스)">양잔디 (벤트그라스)</option>
+                    <option value="조선잔디(중지)">조선잔디 (중지)</option>
+                    <option value="조선잔디(한국잔디)">조선잔디 (한국잔디)</option>
+                    <option value="조선잔디(안양중지)">조선잔디 (안양중지)</option>
+                  </select>
+                </div>
 
-          {/* Section 2: USGA 공인 코스 난이도 & 맞춤 스코어 예측 (Harmonious Light Theme) */}
-          <div className="p-4 rounded-xl border border-slate-200 bg-slate-50/80 space-y-3.5">
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-200 pb-2.5">
-              <div className="flex items-center space-x-2">
-                <Target className="w-4 h-4 text-emerald-800" />
-                <h3 className="text-xs sm:text-sm font-bold text-slate-900 tracking-tight">
-                  USGA 공인 코스 난이도 & 내 맞춤 예상 스코어
-                </h3>
-              </div>
-              <div className="flex items-center space-x-1 text-xs">
-                <span className="text-slate-500 text-[11px] font-medium">내 평소 타수:</span>
-                <div className="flex items-center gap-1">
-                  {[80, 85, 90, 95, 100].map((score) => (
-                    <button
-                      key={score}
-                      onClick={() => setMyAvgScore(score)}
-                      className={`px-2 py-0.5 rounded text-[11px] font-bold transition-all border ${myAvgScore === score
-                          ? 'bg-slate-900 text-white border-slate-900 shadow-2xs'
-                          : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-100'
-                        }`}
-                    >
-                      {score}타
-                    </button>
-                  ))}
+                {/* 3. 티박스 상태 */}
+                <div>
+                  <label className="font-bold text-slate-700 block mb-1">티박스 매트 상태</label>
+                  <select
+                    value={editForm.teeBoxMatRatio || '미확인'}
+                    onChange={(e) => setEditForm({ ...editForm, teeBoxMatRatio: e.target.value as any })}
+                    className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
+                  >
+                    <option value="매트 없음(100% 잔디)">매트 없음 (100% 자연잔디 티)</option>
+                    <option value="일부 매트">일부 매트 (파3 또는 잔디보호 매트 혼용)</option>
+                    <option value="매트 비율 높음">매트 비율 높음</option>
+                    <option value="미확인">미확인 / 미측정</option>
+                  </select>
+                </div>
+
+                {/* 4. 야간 라운드 & 조명 */}
+                <div>
+                  <label className="font-bold text-slate-700 block mb-1">3부 야간 라운드 및 조명</label>
+                  <select
+                    value={editForm.lightingType}
+                    onChange={(e) => {
+                      const lt = e.target.value as GolfClub['playOptions']['lightingType'];
+                      setEditForm({
+                        ...editForm,
+                        lightingType: lt,
+                        nightPlay: lt !== '야간 미운영',
+                      });
+                    }}
+                    className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
+                  >
+                    <option value="최신 고광량 LED">야간 운영 · 최신 고광량 LED (눈부심 적음)</option>
+                    <option value="LED 초고광량">야간 운영 · LED 초고광량</option>
+                    <option value="일반 메탈">야간 운영 · 일반 메탈 라이트</option>
+                    <option value="야간 미운영">야간 3부 미운영 (주간 전용)</option>
+                  </select>
+                </div>
+
+                {/* 5. 코스 지형 */}
+                <div>
+                  <label className="font-bold text-slate-700 block mb-1">코스 지형 스타일</label>
+                  <select
+                    value={editForm.courseStyle}
+                    onChange={(e) => setEditForm({ ...editForm, courseStyle: e.target.value as CourseStyle })}
+                    className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
+                  >
+                    <option value="구릉형(힐)">구릉형 (힐 코스)</option>
+                    <option value="산악형">산악형 (마운틴 코스)</option>
+                    <option value="링크스형(평지/해변)">링크스형 (평지 / 해변 코스)</option>
+                    <option value="곶자왈(평지)">곶자왈 (제주 평지형)</option>
+                  </select>
+                </div>
+
+                {/* 6. 부대시설 연습장 */}
+                <div>
+                  <label className="font-bold text-slate-700 block mb-1">인도어 드라이빙레인지 연습장</label>
+                  <input
+                    type="text"
+                    value={editForm.drivingRangeNote}
+                    onChange={(e) =>
+                      setEditForm({
+                        ...editForm,
+                        drivingRangeNote: e.target.value,
+                        drivingRange: e.target.value.trim().length > 0,
+                      })
+                    }
+                    placeholder="예: 300m 비거리 천연잔디 인도어 타석 완비"
+                    className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
+                  />
                 </div>
               </div>
-            </div>
 
-            {/* 4-Metric Grid */}
-            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-center">
-              <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
-                <span className="text-[10px] text-slate-400 block font-medium">슬로프 레이팅 (SR)</span>
-                <span className="text-xl font-black text-rose-600 block mt-0.5">
-                  {club.difficultyIndex?.slopeRating ?? '미측정'}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">
-                  {club.difficultyIndex?.slopeRating ? '표준 113 기준' : '공인 데이터 없음'}
-                </span>
-              </div>
-
-              <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
-                <span className="text-[10px] text-slate-400 block font-medium">코스 레이팅 (CR)</span>
-                <span className="text-xl font-black text-amber-600 block mt-0.5">
-                  {club.difficultyIndex?.courseRating ?? '미측정'}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">
-                  {club.difficultyIndex?.courseRating ? '스크래치 기준' : '공인 데이터 없음'}
-                </span>
-              </div>
-
-              <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
-                <span className="text-[10px] text-slate-400 block font-medium">빅데이터 평균 타수</span>
-                <span className="text-xl font-black text-emerald-800 block mt-0.5">
-                  {club.difficultyIndex?.avgFieldScore ? `${club.difficultyIndex.avgFieldScore}타` : '미집계'}
-                </span>
-                <span className="text-[10px] text-slate-400 mt-0.5 block">스마트스코어 실기록</span>
-              </div>
-
-              <div className="bg-white p-3 rounded-xl border border-slate-200/80 shadow-2xs">
-                <span className="text-[10px] text-slate-400 block font-medium">내 체감 예상 타수</span>
-                {scorePred.isUnrated ? (
-                  <div className="mt-1">
-                    <span className="text-sm font-bold text-slate-600">공인 레이팅 미측정</span>
-                    <span className="text-[10px] text-slate-400 block mt-0.5">평소 {myAvgScore}타 기준</span>
+              {/* 비용 수정 */}
+              <div className="bg-white p-3.5 rounded-xl border border-slate-200">
+                <span className="text-xs font-bold text-slate-800 block mb-2">실제 라운드 비용 체계 (원 단위)</span>
+                <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 text-xs">
+                  <div>
+                    <span className="text-[11px] text-slate-500 block">주중 그린피</span>
+                    <input
+                      type="number"
+                      value={editForm.weekdayGreenFee}
+                      onChange={(e) => setEditForm({ ...editForm, weekdayGreenFee: Number(e.target.value) })}
+                      className="w-full p-1.5 border border-slate-300 rounded font-bold"
+                    />
                   </div>
-                ) : (
-                  <>
-                    <div className="flex items-baseline justify-center space-x-1 mt-0.5">
-                      <span className="text-xl font-black text-slate-900">
-                        {scorePred.expectedScore}타
-                      </span>
-                      <span className={`text-[11px] font-bold ${scorePred.diffFromAverage > 0 ? 'text-rose-600' : 'text-emerald-700'}`}>
-                        ({scorePred.diffFromAverage > 0 ? `+${scorePred.diffFromAverage}` : scorePred.diffFromAverage})
-                      </span>
-                    </div>
-                    <span className="text-[10px] text-slate-500 mt-0.5 block font-medium">{scorePred.levelAssessment.split(' ')[0]}</span>
-                  </>
-                )}
+                  <div>
+                    <span className="text-[11px] text-slate-500 block">주말 그린피</span>
+                    <input
+                      type="number"
+                      value={editForm.weekendGreenFee}
+                      onChange={(e) => setEditForm({ ...editForm, weekendGreenFee: Number(e.target.value) })}
+                      className="w-full p-1.5 border border-slate-300 rounded font-bold"
+                    />
+                  </div>
+                  <div>
+                    <span className="text-[11px] text-slate-500 block">팀 카트비</span>
+                    <input
+                      type="number"
+                      value={editForm.cartFee}
+                      onChange={(e) => setEditForm({ ...editForm, cartFee: Number(e.target.value) })}
+                      className="w-full p-1.5 border border-slate-300 rounded font-bold"
+                    />
+                  </div>
+                  <div>
+                    <span className="text-[11px] text-slate-500 block">팀 캐디피</span>
+                    <input
+                      type="number"
+                      value={editForm.caddieFee}
+                      onChange={(e) => setEditForm({ ...editForm, caddieFee: Number(e.target.value) })}
+                      className="w-full p-1.5 border border-slate-300 rounded font-bold"
+                    />
+                  </div>
+                </div>
               </div>
-            </div>
 
-            <div className="text-[11px] text-slate-700 bg-white p-3 rounded-xl border border-emerald-200/70 shadow-2xs leading-relaxed">
-              <span className="font-bold text-emerald-800">💡 코스 실전 공략 가이드:</span> {scorePred.advice}
+              {/* 기여자 서명 & 수정 사유 */}
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs">
+                <div>
+                  <label className="font-bold text-slate-700 block mb-1">기여자 닉네임</label>
+                  <input
+                    type="text"
+                    value={editForm.author}
+                    onChange={(e) => setEditForm({ ...editForm, author: e.target.value })}
+                    placeholder="예: 싱글골퍼, 안성주민"
+                    className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
+                    required
+                  />
+                </div>
+                <div>
+                  <label className="font-bold text-slate-700 block mb-1">수정 사유 및 출처</label>
+                  <input
+                    type="text"
+                    value={editForm.reason}
+                    onChange={(e) => setEditForm({ ...editForm, reason: e.target.value })}
+                    placeholder="예: 2024년 10월 실제 방문 시 잔디티 확인"
+                    className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
+                    required
+                  />
+                </div>
+              </div>
+
+              {/* Action Buttons */}
+              <div className="flex items-center justify-end gap-2 pt-2 border-t border-amber-200">
+                <button
+                  type="button"
+                  onClick={() => setIsEditing(false)}
+                  className="px-3.5 py-2 rounded-xl text-xs font-bold bg-white text-slate-600 border border-slate-300 hover:bg-slate-100"
+                >
+                  수정 취소
+                </button>
+                <button
+                  type="submit"
+                  className="px-4 py-2 rounded-xl text-xs font-bold bg-amber-600 hover:bg-amber-700 text-white shadow-xs flex items-center gap-1.5"
+                >
+                  <Check className="w-4 h-4" />
+                  <span>위키 정보 저장 및 반영</span>
+                </button>
+              </div>
+            </form>
+          ) : null}
+
+          {/* ==================================================== */}
+          {/* MODE B: STANDARD DETAIL VIEW (일반 상세 보기 모드) */}
+          {/* ==================================================== */}
+
+          {/* Section 1: 코스 핵심 조건 4대 스펙 스트립 */}
+          <div>
+            <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
+              골퍼 필수 확인 코스 컨디션 4대 조건
+            </h3>
+            <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
+              {/* 1. 페어웨이 잔디 */}
+              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/70 text-xs">
+                <span className="text-[11px] text-slate-500 block mb-1">페어웨이 잔디</span>
+                <span className="font-black text-slate-900 block truncate text-xs sm:text-sm">
+                  {club.grass.fairway}
+                </span>
+                <span className="text-[10px] text-slate-500 mt-1 block">
+                  {club.grass.fairway.includes('양잔디') ? '디봇 샷감 우수 · 4계절 녹색' : '조선 천연잔디 (중지)'}
+                </span>
+              </div>
+
+              {/* 2. 티잉구역 매트 */}
+              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/70 text-xs">
+                <span className="text-[11px] text-slate-500 block mb-1">티박스 매트 유무</span>
+                <span
+                  className={`font-black block truncate text-xs sm:text-sm ${
+                    club.teeBoxMatRatio === '매트 없음(100% 잔디)' ? 'text-emerald-800' : 'text-slate-900'
+                  }`}
+                >
+                  {club.teeBoxMatRatio ?? '공인 데이터 미측정'}
+                </span>
+                <span className="text-[10px] text-slate-500 mt-1 block">
+                  {club.teeBoxMatRatio === '매트 없음(100% 잔디)' ? '100% 자연잔디 티샷' : '주말/파3 일부 매트'}
+                </span>
+              </div>
+
+              {/* 3. 야간 라운드 & 조명 */}
+              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/70 text-xs">
+                <span className="text-[11px] text-slate-500 block mb-1">야간 3부 라운드</span>
+                <span className="font-black text-slate-900 block truncate text-xs sm:text-sm flex items-center gap-1">
+                  {club.playOptions.nightPlay ? (
+                    <>
+                      <Moon className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
+                      <span className="text-indigo-900">운영</span>
+                    </>
+                  ) : (
+                    <span className="text-slate-400">야간 미운영</span>
+                  )}
+                </span>
+                <span className="text-[10px] text-slate-500 mt-1 block truncate">
+                  {club.playOptions.lightingType}
+                </span>
+              </div>
+
+              {/* 4. 코스 지형 */}
+              <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/70 text-xs">
+                <span className="text-[11px] text-slate-500 block mb-1">코스 지형 스타일</span>
+                <span className="font-black text-slate-900 block truncate text-xs sm:text-sm">
+                  {club.courseStyle}
+                </span>
+                <span className="text-[10px] text-slate-500 mt-1 block">
+                  언듈레이션 {club.undulation} · {club.fairwayWidth} 페어웨이
+                </span>
+              </div>
             </div>
           </div>
 
-          {/* Section 3: 기본 이용 요금 안내 (Clean Compact Table, NO giant simulator) */}
-          <div>
+          {/* Section 2: 공인 난이도 지표 & 핸디캡 타수 예측 */}
+          <div className="rounded-xl border border-slate-200 p-3.5 sm:p-4 bg-slate-50/50">
             <div className="flex items-center justify-between mb-2">
-              <h3 className="text-xs font-bold text-slate-900 tracking-tight uppercase">
-                기준 이용 요금 안내
-              </h3>
-              <span className="text-[11px] text-slate-400">공시 기준 정가</span>
+              <span className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
+                <ShieldCheck className="w-4 h-4 text-emerald-800" />
+                USGA / KGA 공인 코스 난이도 분석
+              </span>
+              <span className="text-[11px] text-slate-500">
+                골퍼 평균 <strong>{userAvgScore}타</strong> 기준 예측
+              </span>
             </div>
 
-            <div className="rounded-xl border border-slate-200 overflow-hidden text-xs">
-              <div className="grid grid-cols-4 bg-slate-50 font-semibold text-slate-600 p-2 sm:p-2.5 border-b border-slate-200 text-center text-[10px] sm:text-xs">
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
+              <div className="bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-[11px] text-slate-500">슬로프 레이팅 (Slope)</span>
+                <div className="text-base font-black text-slate-900 mt-0.5">
+                  {club.difficultyIndex?.slopeRating ?? '미측정'}
+                </div>
+                <span className="text-[10px] text-slate-400">
+                  {club.difficultyIndex?.slopeRating ? '세계 표준 113 기준' : '공인 데이터 미측정'}
+                </span>
+              </div>
+
+              <div className="bg-white p-2.5 rounded-lg border border-slate-200">
+                <span className="text-[11px] text-slate-500">코스 레이팅 (CR)</span>
+                <div className="text-base font-black text-slate-900 mt-0.5">
+                  {club.difficultyIndex?.courseRating ?? '미측정'}
+                </div>
+                <span className="text-[10px] text-slate-400">
+                  {club.difficultyIndex?.courseRating ? '스크래치 골퍼 기준' : '공인 데이터 미측정'}
+                </span>
+              </div>
+
+              <div className="bg-emerald-50/80 p-2.5 rounded-lg border border-emerald-200">
+                <span className="text-[11px] text-emerald-900 font-bold">내 예상 필드 타수</span>
+                <div className="text-base font-black text-emerald-950 mt-0.5">
+                  {pred.isUnrated ? '공인 미측정' : `약 ${pred.expectedScore}타`}
+                </div>
+                <span className="text-[10px] text-emerald-800">
+                  {pred.isUnrated ? '평소 타수 참고' : `평소보다 ${pred.diffFromAverage > 0 ? `+${pred.diffFromAverage}타` : `${pred.diffFromAverage}타`}`}
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* Section 3: 비용 체계 */}
+          <div>
+            <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
+              상세 요금 체계 및 1인 실부담액
+            </h3>
+            <div className="border border-slate-200 rounded-xl overflow-hidden bg-white">
+              <div className="grid grid-cols-4 bg-slate-50 p-2 sm:p-2.5 text-center text-[10px] sm:text-xs font-bold text-slate-500 border-b border-slate-200">
                 <div>주중 그린피</div>
                 <div>주말 그린피</div>
                 <div>팀 카트비</div>
@@ -354,6 +666,219 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 {club.facilities.drivingRangeNote}
               </p>
             )}
+          </div>
+
+          {/* ==================================================== */}
+          {/* Section 5: 골퍼 실제 리뷰 & 전체 평 남기기 */}
+          {/* ==================================================== */}
+          <div className="pt-2 border-t border-slate-200 space-y-3">
+            <div className="flex items-center justify-between">
+              <div>
+                <h3 className="text-sm font-black text-slate-900 flex items-center gap-1.5">
+                  <MessageSquare className="w-4 h-4 text-emerald-700" />
+                  골퍼 실제 라운드 전체 평 ({reviews.length}개)
+                </h3>
+                <p className="text-[11px] text-slate-500">
+                  직접 라운드를 다녀온 골퍼들의 솔직한 코스 관리 상태 및 체감 리뷰입니다.
+                </p>
+              </div>
+
+              <button
+                onClick={() => setIsWritingReview(!isWritingReview)}
+                className="px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-700 hover:bg-emerald-800 text-white flex items-center gap-1 shadow-2xs transition-all"
+              >
+                <Edit3 className="w-3.5 h-3.5" />
+                <span>{isWritingReview ? '작성 닫기' : '전체 평 남기기'}</span>
+              </button>
+            </div>
+
+            {/* Review Input Form */}
+            {isWritingReview && (
+              <form onSubmit={handleSubmitReview} className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-3 text-xs">
+                <div className="font-bold text-slate-800 flex items-center justify-between border-b border-slate-200 pb-2">
+                  <span>솔직한 전체 평 & 평점 남기기</span>
+                  <div className="flex items-center gap-1">
+                    {[1, 2, 3, 4, 5].map((star) => (
+                      <button
+                        type="button"
+                        key={star}
+                        onClick={() => setReviewForm({ ...reviewForm, rating: star })}
+                        className="p-0.5"
+                      >
+                        <Star
+                          className={`w-4 h-4 ${
+                            star <= reviewForm.rating
+                              ? 'fill-amber-400 text-amber-400'
+                              : 'text-slate-300'
+                          }`}
+                        />
+                      </button>
+                    ))}
+                    <span className="font-black text-amber-500 ml-1">{reviewForm.rating}.0</span>
+                  </div>
+                </div>
+
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5">
+                  <div>
+                    <label className="text-[11px] font-bold text-slate-600 block mb-1">닉네임</label>
+                    <input
+                      type="text"
+                      value={reviewForm.author}
+                      onChange={(e) => setReviewForm({ ...reviewForm, author: e.target.value })}
+                      placeholder="예: 싱글골퍼, 보기플레이어"
+                      className="w-full p-2 bg-white rounded-lg border border-slate-300"
+                      required
+                    />
+                  </div>
+                  <div>
+                    <label className="text-[11px] font-bold text-slate-600 block mb-1">평균 타수 (핸디)</label>
+                    <select
+                      value={reviewForm.avgScore}
+                      onChange={(e) => setReviewForm({ ...reviewForm, avgScore: e.target.value })}
+                      className="w-full p-2 bg-white rounded-lg border border-slate-300"
+                    >
+                      <option value="싱글 (70대)">싱글 (70대)</option>
+                      <option value="80대 초중반">80대 초중반</option>
+                      <option value="90대 (보기플레이어)">90대 (보기플레이어)</option>
+                      <option value="100대 (골린이/백돌이)">100대 (골린이/백돌이)</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label className="text-[11px] font-bold text-slate-600 block mb-1">방문 시기</label>
+                    <input
+                      type="text"
+                      value={reviewForm.visitDate}
+                      onChange={(e) => setReviewForm({ ...reviewForm, visitDate: e.target.value })}
+                      placeholder="예: 2024년 10월 3부"
+                      className="w-full p-2 bg-white rounded-lg border border-slate-300"
+                    />
+                  </div>
+                </div>
+
+                {/* 세부 점수 */}
+                <div className="grid grid-cols-3 gap-2 p-2.5 bg-white rounded-lg border border-slate-200 text-[11px]">
+                  <div className="flex items-center justify-between">
+                    <span className="text-slate-500">코스/잔디 관리:</span>
+                    <select
+                      value={reviewForm.courseScore}
+                      onChange={(e) => setReviewForm({ ...reviewForm, courseScore: Number(e.target.value) })}
+                      className="font-bold text-slate-800"
+                    >
+                      <option value="5">★ 5점 (최상)</option>
+                      <option value="4">★ 4점 (우수)</option>
+                      <option value="3">★ 3점 (보통)</option>
+                      <option value="2">★ 2점 (미흡)</option>
+                    </select>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-slate-500">진행/캐디 서비스:</span>
+                    <select
+                      value={reviewForm.caddieScore}
+                      onChange={(e) => setReviewForm({ ...reviewForm, caddieScore: Number(e.target.value) })}
+                      className="font-bold text-slate-800"
+                    >
+                      <option value="5">★ 5점 (친절)</option>
+                      <option value="4">★ 4점 (원활)</option>
+                      <option value="3">★ 3점 (보통)</option>
+                      <option value="2">★ 2점 (아쉬움)</option>
+                    </select>
+                  </div>
+                  <div className="flex items-center justify-between">
+                    <span className="text-slate-500">가성비/시설:</span>
+                    <select
+                      value={reviewForm.costScore}
+                      onChange={(e) => setReviewForm({ ...reviewForm, costScore: Number(e.target.value) })}
+                      className="font-bold text-slate-800"
+                    >
+                      <option value="5">★ 5점 (대만족)</option>
+                      <option value="4">★ 4점 (적정)</option>
+                      <option value="3">★ 3점 (보통)</option>
+                      <option value="2">★ 2점 (비쌈)</option>
+                    </select>
+                  </div>
+                </div>
+
+                {/* 텍스트 내용 */}
+                <div>
+                  <textarea
+                    rows={3}
+                    value={reviewForm.content}
+                    onChange={(e) => setReviewForm({ ...reviewForm, content: e.target.value })}
+                    placeholder="페어웨이 디봇 상태, 그린 스피드, 티박스 매트 유무, 야간 조명 밝기 등 골퍼들에게 실질적인 도움이 되는 전체 평을 솔직하게 남겨주세요."
+                    className="w-full p-2.5 bg-white rounded-lg border border-slate-300"
+                    required
+                  />
+                </div>
+
+                <div className="flex justify-end gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setIsWritingReview(false)}
+                    className="px-3 py-1.5 rounded-lg border border-slate-300 bg-white text-slate-600 font-bold"
+                  >
+                    취소
+                  </button>
+                  <button
+                    type="submit"
+                    className="px-4 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-bold flex items-center gap-1"
+                  >
+                    <Send className="w-3.5 h-3.5" />
+                    <span>전체 평 등록하기</span>
+                  </button>
+                </div>
+              </form>
+            )}
+
+            {/* Reviews List */}
+            <div className="space-y-2.5">
+              {reviews.map((rev) => (
+                <div key={rev.id} className="p-3 sm:p-3.5 bg-slate-50 rounded-xl border border-slate-200 text-xs space-y-1.5">
+                  <div className="flex items-center justify-between">
+                    <div className="flex items-center gap-1.5">
+                      <span className="font-extrabold text-slate-900">{rev.author}</span>
+                      {rev.avgScore && (
+                        <span className="px-1.5 py-0.2 rounded bg-slate-200 text-slate-700 text-[10px] font-semibold">
+                          {rev.avgScore}
+                        </span>
+                      )}
+                      {rev.visitDate && (
+                        <span className="text-[10px] text-slate-400">· {rev.visitDate}</span>
+                      )}
+                    </div>
+
+                    <div className="flex items-center gap-1">
+                      <div className="flex items-center text-amber-500">
+                        {Array.from({ length: 5 }).map((_, i) => (
+                          <Star
+                            key={i}
+                            className={`w-3 h-3 ${
+                              i < rev.rating
+                                ? 'fill-amber-400 text-amber-400'
+                                : 'text-slate-300'
+                            }`}
+                          />
+                        ))}
+                      </div>
+                      <span className="text-[10px] text-slate-400 ml-1">{rev.createdAt}</span>
+                    </div>
+                  </div>
+
+                  <p className="text-slate-700 leading-relaxed text-[11px] sm:text-xs">
+                    {rev.content}
+                  </p>
+
+                  {rev.scores && (
+                    <div className="flex items-center gap-2 text-[10px] text-slate-400 pt-1 border-t border-slate-100">
+                      <span>잔디/관리 ★{rev.scores.course}</span>
+                      <span>·</span>
+                      <span>서비스 ★{rev.scores.caddie}</span>
+                      <span>·</span>
+                      <span>가성비 ★{rev.scores.cost}</span>
+                    </div>
+                  )}
+                </div>
+              ))}
+            </div>
           </div>
         </div>
       </div>

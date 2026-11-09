@@ -50,3 +50,4 @@ jobs:
           else
             echo "No data changes detected. Database is up to date."
           fi
+

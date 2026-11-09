@@ -122,3 +122,27 @@ export interface FilterState {
   selectedTheme: string | null;
   userAvgScore: number; // 골퍼 본인의 평소 평균 타수 (기본 90타)
 }
+
+export interface WikiEditRecord {
+  clubId: string;
+  updatedAt: string;
+  author: string;
+  reason: string;
+  changes: Partial<GolfClub>;
+}
+
+export interface GolferReview {
+  id: string;
+  clubId: string;
+  author: string;
+  rating: number; // 1 ~ 5
+  avgScore?: string; // 예: "85타", "90대 초반"
+  visitDate?: string; // 예: "2024년 10월 주말"
+  content: string;
+  createdAt: string;
+  scores?: {
+    course: number;   // 잔디/그린 관리 (1~5)
+    caddie: number;   // 서비스/진행 (1~5)
+    cost: number;     // 가성비/시설 (1~5)
+  };
+}
