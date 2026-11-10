@@ -182,8 +182,8 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                 <button
                   onClick={() => onToggleCompare(club)}
                   className={`p-1.5 sm:px-2 sm:py-1 rounded-lg text-xs font-bold flex items-center gap-1 transition-all border ${isCompared
-                      ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
-                      : 'bg-white text-slate-600 border-slate-200 hover:border-emerald-600 hover:text-emerald-800'
+                    ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
+                    : 'bg-white text-slate-600 border-slate-200 hover:border-emerald-600 hover:text-emerald-800'
                     }`}
                   title={isCompared ? '비교함에서 제외' : '1:1 비교함 담기'}
                 >
