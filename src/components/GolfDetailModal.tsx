@@ -227,10 +227,6 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             <h2 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight truncate">
               {club.name}
             </h2>
-
-            <p className="text-[11px] sm:text-xs text-slate-500 line-clamp-1">
-              {club.highlight || club.description}
-            </p>
           </div>
 
           {/* Header Action Buttons */}

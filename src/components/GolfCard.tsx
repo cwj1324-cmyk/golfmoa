@@ -1,6 +1,7 @@
 import React from 'react';
 import type { GolfClub } from '../types/golf';
 import { calculateCostPerPerson, formatPrice, predictFieldScore } from '../utils/calculator';
+import { getClubRatingStats } from '../utils/wikiStorage';
 import { Star, MapPin, Check, Plus, ChevronRight } from 'lucide-react';
 
 interface GolfCardProps {
@@ -20,6 +21,7 @@ export const GolfCard: React.FC<GolfCardProps> = ({
 }) => {
   const weekdayCost = calculateCostPerPerson(club, false, 4, true);
   const pred = predictFieldScore(club.difficultyIndex?.slopeRating, club.difficultyIndex?.courseRating, userAvgScore);
+  const ratingStats = getClubRatingStats(club.id);
 
   const isNoMat = club.teeBoxMatRatio?.includes('매트 없음');
   const isMixedMat = club.teeBoxMatRatio?.includes('일부 매트') || club.teeBoxMatRatio?.includes('매트 비율 높음');
@@ -52,10 +54,16 @@ export const GolfCard: React.FC<GolfCardProps> = ({
                 {club.region} · {club.city || club.address.split(' ')[1] || club.region}
               </span>
               <span className="text-slate-300">·</span>
-              <span className="inline-flex items-center text-amber-500 font-bold shrink-0">
-                <Star className="w-3 h-3 fill-amber-400 text-amber-400 mr-0.5" />
-                {club.rating.toFixed(1)}
-              </span>
+              {ratingStats.rating !== null ? (
+                <span className="inline-flex items-center text-amber-500 font-bold shrink-0">
+                  <Star className="w-3 h-3 fill-amber-400 text-amber-400 mr-0.5" />
+                  {ratingStats.rating} ({ratingStats.reviewCount})
+                </span>
+              ) : (
+                <span className="inline-flex items-center text-slate-400 text-[11px] font-medium shrink-0">
+                  후기 0개
+                </span>
+              )}
             </div>
           </div>
 

@@ -11,7 +11,7 @@ import { MapView } from './components/MapView';
 import { ComparisonModal } from './components/ComparisonModal';
 import { GolfDetailModal } from './components/GolfDetailModal';
 import { FloatingComparisonBar } from './components/FloatingComparisonBar';
-import { applyWikiEditsToClubs } from './utils/wikiStorage';
+import { applyWikiEditsToClubs, getClubRatingStats } from './utils/wikiStorage';
 import { Info, ArrowUp } from 'lucide-react';
 
 export function App() {
@@ -127,15 +127,14 @@ export function App() {
   // Filter & Sort Logic
   const filteredClubs = useMemo(() => {
     return allClubs.filter((club) => {
-      // 1. Search Query
+      // 1. Search Query (공식 명칭, 주소, 상세 시/군, 태그 검색)
       if (filter.searchQuery.trim()) {
         const query = filter.searchQuery.toLowerCase();
         const matchName = club.name.toLowerCase().includes(query);
         const matchAddress = club.address.toLowerCase().includes(query);
         const matchCity = club.city ? club.city.toLowerCase().includes(query) : false;
         const matchTags = club.tags.some((t) => t.toLowerCase().includes(query));
-        const matchHighlight = club.highlight.toLowerCase().includes(query);
-        if (!matchName && !matchAddress && !matchCity && !matchTags && !matchHighlight) return false;
+        if (!matchName && !matchAddress && !matchCity && !matchTags) return false;
       }
 
       // 2. Region
@@ -197,7 +196,14 @@ export function App() {
       return true;
     }).sort((a, b) => {
       if (sortBy === 'rating') {
-        return b.rating - a.rating;
+        const statsA = getClubRatingStats(a.id);
+        const statsB = getClubRatingStats(b.id);
+        if (statsA.rating !== null && statsB.rating !== null) {
+          return statsB.rating - statsA.rating || statsB.reviewCount - statsA.reviewCount;
+        }
+        if (statsA.rating !== null) return -1;
+        if (statsB.rating !== null) return 1;
+        return a.name.localeCompare(b.name, 'ko');
       }
       if (sortBy === 'slopeHigh') {
         return (b.difficultyIndex?.slopeRating ?? 0) - (a.difficultyIndex?.slopeRating ?? 0);
@@ -210,8 +216,11 @@ export function App() {
         const costB = calculateCostPerPerson(b, false, 4, true).totalPerPerson;
         return costA - costB;
       }
-      // default: recommended (rating * reviewCount weighted)
-      return (b.rating * Math.log10(b.reviewCount)) - (a.rating * Math.log10(a.reviewCount));
+      // default: recommended (KGA 공인 레이팅 보유 구장 우선 배치 후 가나다순)
+      const hasRatingA = a.difficultyIndex?.slopeRating != null ? 1 : 0;
+      const hasRatingB = b.difficultyIndex?.slopeRating != null ? 1 : 0;
+      if (hasRatingB !== hasRatingA) return hasRatingB - hasRatingA;
+      return a.name.localeCompare(b.name, 'ko');
     });
   }, [allClubs, filter, sortBy]);
 

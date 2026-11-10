@@ -78,6 +78,31 @@ export const applyWikiEditsToClubs = (clubs: GolfClub[]): GolfClub[] => {
 };
 
 // 2. GOLFER REVIEWS (실제 골퍼가 직접 남긴 전체 평만 보관 - AI 자동 생성 금지)
+export interface RatingStats {
+  rating: number | null;
+  reviewCount: number;
+}
+
+export const getClubRatingStats = (clubId: string): RatingStats => {
+  let stored: Record<string, GolferReview[]> = {};
+  try {
+    const raw = localStorage.getItem(REVIEWS_STORAGE_KEY);
+    stored = raw ? JSON.parse(raw) : {};
+  } catch {
+    stored = {};
+  }
+
+  const reviews = (stored[clubId] || []).filter((r) => !r.id.startsWith('default-'));
+  if (reviews.length === 0) {
+    return { rating: null, reviewCount: 0 };
+  }
+  const sum = reviews.reduce((acc, r) => acc + r.rating, 0);
+  return {
+    rating: Number((sum / reviews.length).toFixed(1)),
+    reviewCount: reviews.length,
+  };
+};
+
 export const getGolferReviews = (club: GolfClub): GolferReview[] => {
   let stored: Record<string, GolferReview[]> = {};
   try {

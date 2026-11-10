@@ -2,6 +2,7 @@ import React from 'react';
 import { Star, MapPin, Layers, Check, ExternalLink, Moon } from 'lucide-react';
 import type { GolfClub } from '../types/golf';
 import { predictFieldScore } from '../utils/calculator';
+import { getClubRatingStats } from '../utils/wikiStorage';
 
 interface GolfListViewProps {
   clubs: GolfClub[];
@@ -48,6 +49,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
 
           const isYang = club.grass.fairway.includes('양잔디');
           const isNoMat = club.teeBoxMatRatio === '매트 없음(100% 잔디)';
+          const ratingStats = getClubRatingStats(club.id);
 
           return (
             <div
@@ -71,15 +73,15 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                   {club.name}
                 </h3>
 
-                <div className="flex items-center gap-2 mt-1 text-xs">
-                  <span className="inline-flex items-center text-amber-500 font-bold text-xs">
-                    <Star className="w-3 h-3 fill-amber-400 text-amber-400 mr-0.5" />
-                    {club.rating.toFixed(1)}
-                  </span>
-                  <span className="text-slate-300">·</span>
-                  <span className="text-slate-400 text-[11px] truncate">
-                    {club.highlight || club.description}
-                  </span>
+                <div className="flex items-center gap-2 mt-0.5 text-xs">
+                  {ratingStats.rating !== null ? (
+                    <span className="inline-flex items-center text-amber-500 font-bold text-[11px]">
+                      <Star className="w-3 h-3 fill-amber-400 text-amber-400 mr-0.5" />
+                      {ratingStats.rating} (후기 {ratingStats.reviewCount})
+                    </span>
+                  ) : (
+                    <span className="text-slate-400 text-[11px]">후기 0</span>
+                  )}
                 </div>
               </div>
 

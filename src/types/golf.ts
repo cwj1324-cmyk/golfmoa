@@ -82,12 +82,12 @@ export interface GolfClub {
     saunaRating: '최상' | '최우수' | '우수' | '보통';
   };
 
-  rating: number; // 5.0 만점
-  reviewCount: number;
+  rating?: number | null; // 실제 골퍼 평점 (미등록 시 null)
+  reviewCount?: number;   // 실제 골퍼 후기 개수
   tags: string[]; // 필터 및 큐레이션용 태그
-  imageUrl: string;
-  description: string;
-  highlight: string; // 한줄 핵심 매력
+  imageUrl?: string;
+  description?: string;
+  highlight?: string;
   officialUrl: string;
   phone: string;
 }

@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 import L from 'leaflet';
 import type { GolfClub } from '../types/golf';
 import { calculateCostPerPerson, formatPrice } from '../utils/calculator';
+import { getClubRatingStats } from '../utils/wikiStorage';
 import { Star } from 'lucide-react';
 
 interface MapViewProps {
@@ -60,9 +61,16 @@ export const MapView: React.FC<MapViewProps> = ({
                     <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-emerald-100 text-emerald-800">
                       {club.region} · {club.city || club.address.split(' ')[1] || club.region}
                     </span>
-                    <span className="text-[10px] text-amber-500 font-bold flex items-center gap-0.5">
-                      <Star className="w-2.5 h-2.5 fill-amber-400 text-amber-400" /> {club.rating.toFixed(1)}
-                    </span>
+                    {(() => {
+                      const stats = getClubRatingStats(club.id);
+                      return stats.rating !== null ? (
+                        <span className="text-[10px] text-amber-500 font-bold flex items-center gap-0.5">
+                          <Star className="w-2.5 h-2.5 fill-amber-400 text-amber-400" /> {stats.rating}
+                        </span>
+                      ) : (
+                        <span className="text-[10px] text-slate-400">후기 0</span>
+                      );
+                    })()}
                   </div>
 
                   <h4 className="font-extrabold text-sm text-slate-900 mb-1">
