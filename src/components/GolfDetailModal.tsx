@@ -224,7 +224,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               </span>
             </div>
 
-            <h2 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight truncate">
+            <h2 className="text-lg sm:text-2xl font-bold text-emerald-800 tracking-tight truncate">
               {club.name}
             </h2>
           </div>
@@ -575,7 +575,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
               <div className="bg-white p-2.5 rounded-lg border border-slate-200">
                 <span className="text-[11px] text-slate-500">슬로프 레이팅 (Slope)</span>
-                <div className="text-base font-black text-slate-900 mt-0.5">
+                <div className="text-base font-bold text-slate-700 mt-0.5">
                   {club.difficultyIndex?.slopeRating ?? '미측정'}
                 </div>
                 <span className="text-[10px] text-slate-400">
@@ -585,7 +585,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
 
               <div className="bg-white p-2.5 rounded-lg border border-slate-200">
                 <span className="text-[11px] text-slate-500">코스 레이팅 (CR)</span>
-                <div className="text-base font-black text-slate-900 mt-0.5">
+                <div className="text-base font-bold text-slate-700 mt-0.5">
                   {club.difficultyIndex?.courseRating ?? '미측정'}
                 </div>
                 <span className="text-[10px] text-slate-400">
@@ -617,7 +617,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 <div>팀 카트비</div>
                 <div>팀 캐디피</div>
               </div>
-              <div className="grid grid-cols-4 p-2.5 sm:p-3 text-center font-bold text-slate-900 items-center text-[11px] sm:text-xs">
+              <div className="grid grid-cols-4 p-2.5 sm:p-3 text-center font-bold text-slate-700 items-center text-[11px] sm:text-xs">
                 <div className="truncate">{formatPrice(club.pricing.weekdayGreenFee)}~</div>
                 <div className="truncate">{formatPrice(club.pricing.weekendGreenFee)}~</div>
                 <div className="truncate">{formatPrice(club.pricing.cartFee)}</div>

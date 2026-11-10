@@ -69,7 +69,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                   </span>
                 </div>
 
-                <h3 className="text-sm sm:text-base font-extrabold text-slate-900 group-hover:text-emerald-800 transition-colors truncate">
+                <h3 className="text-sm sm:text-base font-bold text-emerald-800 group-hover:text-emerald-600 transition-colors truncate">
                   {club.name}
                 </h3>
 
@@ -149,7 +149,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
               <div className="hidden lg:flex col-span-1 flex-col items-center justify-center text-center">
                 {club.difficultyIndex?.slopeRating ? (
                   <>
-                    <span className="text-xs font-black text-slate-900 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-200">
+                    <span className="text-xs font-bold text-slate-700 bg-slate-100 px-1.5 py-0.5 rounded border border-slate-200">
                       {club.difficultyIndex.slopeRating}
                     </span>
                     <span className="text-[10px] text-slate-500 mt-0.5">
@@ -165,7 +165,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
               <div className="col-span-2 flex lg:flex-col items-center lg:items-end justify-between lg:justify-center">
                 <span className="text-xs text-slate-400 lg:hidden">1인 예상 총비용</span>
                 <div className="text-right">
-                  <span className="text-sm sm:text-base font-black text-slate-900 tracking-tight">
+                  <span className="text-sm sm:text-base font-bold text-slate-700 tracking-tight">
                     {totalCost.toLocaleString()}원
                   </span>
                   <span className="block text-[10px] text-slate-400">

@@ -40,7 +40,7 @@ export const GolfCard: React.FC<GolfCardProps> = ({
         <div className="flex items-start justify-between gap-2">
           <div className="min-w-0 flex-1">
             <div className="flex items-center gap-1.5 flex-wrap">
-              <h3 className="text-sm sm:text-base font-bold text-slate-900 tracking-tight truncate group-hover:text-emerald-800 transition-colors">
+              <h3 className="text-sm sm:text-base font-bold text-emerald-800 tracking-tight truncate group-hover:text-emerald-600 transition-colors">
                 {club.name}
               </h3>
               <span className="shrink-0 px-1.5 py-0.5 rounded text-[10px] font-semibold bg-slate-100 text-slate-600">
@@ -160,7 +160,7 @@ export const GolfCard: React.FC<GolfCardProps> = ({
             </div>
           ) : (
             <div className="flex items-baseline space-x-1 mt-0.5">
-              <span className="text-sm sm:text-base font-black text-slate-900">{pred.expectedScore}타</span>
+              <span className="text-sm sm:text-base font-bold text-slate-700">{pred.expectedScore}타</span>
               <span className={`text-[10px] sm:text-[11px] font-bold ${pred.diffFromAverage > 0 ? 'text-rose-600' : 'text-emerald-700'}`}>
                 ({pred.diffFromAverage > 0 ? `+${pred.diffFromAverage}` : pred.diffFromAverage})
               </span>
@@ -173,7 +173,7 @@ export const GolfCard: React.FC<GolfCardProps> = ({
         <div className="text-right shrink-0">
           <span className="text-[10px] text-slate-400 block font-medium whitespace-nowrap">1인 실부담 (카트·캐디 포함)</span>
           <div className="flex items-baseline justify-end space-x-0.5 mt-0.5">
-            <span className="text-sm sm:text-base font-black text-slate-900">
+            <span className="text-sm sm:text-base font-bold text-slate-700">
               {formatPrice(weekdayCost.totalPerPerson)}
             </span>
             <span className="text-[10px] text-slate-400">~</span>

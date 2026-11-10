@@ -245,19 +245,11 @@ export function App() {
 
       {/* 2. Main Container */}
       <main className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 flex-1 w-full pb-28">
-        {/* Page Header */}
-        <div className="mb-3 sm:mb-4 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
-          <div>
-            <h1 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight">
-              전국 {allClubs.length}개 골프장 코스 조건 & 정보 사전
-            </h1>
-            <p className="text-[11px] sm:text-xs text-slate-500 mt-0.5">
-              잔디 종류 · 티박스 매트 유무 · 야간 LED 조명 · 공인 슬로프 난이도 · 골퍼 정보 수정 및 기여
-            </p>
-          </div>
-          <span className="text-xs text-slate-400 font-medium hidden sm:inline">
-            정규 {allClubs.length}개소 스펙 전수 대조
-          </span>
+        {/* Page Header (Minimal) */}
+        <div className="mb-2.5 sm:mb-3">
+          <h1 className="text-base sm:text-lg font-bold text-slate-800 tracking-tight">
+            전국 골프장 코스 조건 정보
+          </h1>
         </div>
 
         {/* Curation Themes */}

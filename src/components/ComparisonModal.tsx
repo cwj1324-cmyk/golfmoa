@@ -250,7 +250,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                         <div className="text-[11px] font-semibold text-slate-500 mb-0.5">
                           {club.courseType} {club.holes}홀
                         </div>
-                        <h4 className="font-extrabold text-base text-slate-900 line-clamp-1 hover:text-emerald-800">
+                        <h4 className="font-bold text-base text-emerald-800 line-clamp-1 hover:text-emerald-600">
                           {club.name}
                         </h4>
                         <p className="text-[11px] text-slate-500 flex items-center gap-1 mt-0.5">
@@ -485,7 +485,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                   {comparedClubs.map((club) => {
                     const cost = calculateCostPerPerson(club, isWeekend, playerCount, true);
                     return (
-                      <div key={club.id} className="text-slate-900 font-black text-sm sm:text-base">
+                      <div key={club.id} className="text-slate-700 font-bold text-sm sm:text-base">
                         {formatPrice(cost.totalPerPerson)}
                         <span className="block text-[10px] text-slate-400 font-normal">
                           팀당 총 {formatPrice(cost.totalTeamCost)}

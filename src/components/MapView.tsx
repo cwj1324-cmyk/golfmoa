@@ -73,7 +73,7 @@ export const MapView: React.FC<MapViewProps> = ({
                     })()}
                   </div>
 
-                  <h4 className="font-extrabold text-sm text-slate-900 mb-1">
+                  <h4 className="font-bold text-sm text-emerald-800 mb-1">
                     {club.name}
                   </h4>
 
