@@ -35,7 +35,7 @@ export const Navbar: React.FC<NavbarProps> = ({
               </span>
             </div>
             <p className="text-[11px] text-slate-400 hidden sm:block">
-              전국 골프장 스펙 비교 & 위키 집단지성 사전
+              전국 골프장 스펙 비교 & 참여형 코스 정보
             </p>
           </div>
         </div>

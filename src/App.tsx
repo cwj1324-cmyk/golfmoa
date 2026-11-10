@@ -237,10 +237,10 @@ export function App() {
         <div className="mb-3 sm:mb-4 flex flex-col sm:flex-row sm:items-baseline justify-between gap-1">
           <div>
             <h1 className="text-lg sm:text-2xl font-black text-slate-900 tracking-tight">
-              전국 {allClubs.length}개 골프장 코스 조건 & 위키 사전
+              전국 {allClubs.length}개 골프장 코스 조건 & 정보 사전
             </h1>
             <p className="text-[11px] sm:text-xs text-slate-500 mt-0.5">
-              잔디 종류 · 티박스 매트 유무 · 야간 LED 조명 · 공인 슬로프 난이도 · 골퍼 집단지성 위키 기여
+              잔디 종류 · 티박스 매트 유무 · 야간 LED 조명 · 공인 슬로프 난이도 · 골퍼 정보 수정 및 기여
             </p>
           </div>
           <span className="text-xs text-slate-400 font-medium hidden sm:inline">
@@ -402,11 +402,11 @@ export function App() {
               <span className="text-emerald-400 font-black">GOLFMOA</span>
               <span className="text-white">골프모아</span>
               <span className="text-[11px] text-slate-400 font-normal">
-                | KGA·KGBA 공인 데이터 & 골퍼 위키 백과
+                | KGA·KGBA 공인 데이터 & 골퍼 참여형 코스 정보
               </span>
             </div>
             <p className="text-[11px] text-slate-500">
-              대한골프협회(KGA) 공식 코스레이팅, 한국골프장경영협회(KGBA) 인허가 현황 및 골퍼들의 위키 집단지성 기여로 운영됩니다.
+              대한골프협회(KGA) 공식 코스레이팅, 한국골프장경영협회(KGBA) 인허가 현황 및 골퍼들의 정보 수정과 기여로 운영됩니다.
             </p>
           </div>
 

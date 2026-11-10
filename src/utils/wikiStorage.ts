@@ -77,7 +77,7 @@ export const applyWikiEditsToClubs = (clubs: GolfClub[]): GolfClub[] => {
   });
 };
 
-// 2. GOLFER REVIEWS
+// 2. GOLFER REVIEWS (실제 골퍼가 직접 남긴 전체 평만 보관 - AI 자동 생성 금지)
 export const getGolferReviews = (club: GolfClub): GolferReview[] => {
   let stored: Record<string, GolferReview[]> = {};
   try {
@@ -88,29 +88,8 @@ export const getGolferReviews = (club: GolfClub): GolferReview[] => {
   }
 
   const customReviews = stored[club.id] || [];
-
-  // Default seed review based on club specs if no reviews yet
-  const defaultReviews: GolferReview[] = [
-    {
-      id: `default-${club.id}-1`,
-      clubId: club.id,
-      author: '주말골퍼',
-      rating: Math.min(5, Math.max(4, Math.round(club.rating))),
-      avgScore: '80대 후반',
-      visitDate: '최근 방문',
-      content: `${club.name}은(는) ${club.grass.fairway} 디봇 관리가 잘 되어 있고, ${
-        club.teeBoxMatRatio === '매트 없음(100% 잔디)' ? '전홀 천연잔디 티박스라 샷감이 훌륭합니다.' : '코스 레이아웃이 재미있고 전략적인 공략이 요구됩니다.'
-      } ${club.playOptions.nightPlay ? '야간 조명도 밝아 나이트 라운드로도 추천합니다.' : '주간에 즐기기 좋은 코스입니다.'}`,
-      createdAt: '2024-10-18',
-      scores: {
-        course: 4.8,
-        caddie: 4.6,
-        cost: 4.5,
-      },
-    },
-  ];
-
-  return [...customReviews, ...defaultReviews];
+  // AI 생성 및 기본 시드 후기 엄격 제외 (실제 사용자가 직접 작성한 후기만 반환)
+  return customReviews.filter((r) => !r.id.startsWith('default-'));
 };
 
 export const addGolferReview = (
@@ -143,3 +122,4 @@ export const addGolferReview = (
 
   return newReview;
 };
+

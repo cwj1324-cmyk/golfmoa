@@ -147,9 +147,9 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
     if (onUpdateClub) onUpdateClub(updated);
   };
 
-  // Handle Wiki Reset to Official Data
+  // Handle Reset to Official Data
   const handleResetWiki = () => {
-    if (confirm('골퍼 위키 수정 내역을 삭제하고 공식 협회 기본 데이터로 되돌리시겠습니까?')) {
+    if (confirm('골퍼가 수정한 정보를 삭제하고 공식 기본 데이터로 되돌리시겠습니까?')) {
       resetWikiEdit(club.id);
       setWikiRecord(null);
       setClub(initialClub);
@@ -190,20 +190,20 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-2 sm:p-4 bg-slate-950/60 backdrop-blur-xs animate-in fade-in duration-200">
       <div className="bg-white w-full max-w-4xl max-h-[92vh] sm:max-h-[90vh] rounded-2xl shadow-2xl flex flex-col overflow-hidden border border-slate-200">
-        {/* Wiki Contributed Banner */}
+        {/* Contributed Info Banner */}
         {wikiRecord && (
           <div className="bg-amber-50 px-4 py-2 border-b border-amber-200 text-xs text-amber-900 flex items-center justify-between gap-2">
             <span className="flex items-center gap-1.5 font-medium truncate">
               <Sparkles className="w-3.5 h-3.5 text-amber-600 shrink-0" />
               <span>
-                <strong>골퍼 위키 기여 정보 적용됨</strong> ({wikiRecord.author} 님 · {wikiRecord.updatedAt}):{' '}
+                <strong>골퍼 기여 정보 적용됨</strong> ({wikiRecord.author} 님 · {wikiRecord.updatedAt}):{' '}
                 <span className="text-amber-800">{wikiRecord.reason}</span>
               </span>
             </span>
             <button
               onClick={handleResetWiki}
               className="px-2 py-0.5 rounded text-[11px] font-bold text-amber-800 hover:bg-amber-100 flex items-center gap-1 shrink-0"
-              title="원문 공식 데이터로 복원"
+              title="공식 기본 데이터로 복원"
             >
               <RotateCcw className="w-3 h-3" />
               <span>원문 복원</span>
@@ -235,7 +235,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
 
           {/* Header Action Buttons */}
           <div className="flex items-center gap-1 sm:gap-1.5 shrink-0">
-            {/* Wiki Edit Button */}
+            {/* Info Edit Button */}
             <button
               onClick={() => setIsEditing(!isEditing)}
               className={`px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${
@@ -243,10 +243,10 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                   ? 'bg-amber-600 text-white border-amber-600 shadow-2xs'
                   : 'bg-white text-slate-700 border-slate-200 hover:bg-amber-50 hover:text-amber-900 hover:border-amber-300'
               }`}
-              title="위키피디아처럼 골프장 정보 직접 수정/기여하기"
+              title="골프장 정보 직접 수정 및 기여하기"
             >
               <Edit3 className="w-3.5 h-3.5" />
-              <span className="hidden sm:inline">{isEditing ? '보기 모드' : '위키 수정'}</span>
+              <span className="hidden sm:inline">{isEditing ? '보기 모드' : '정보 수정'}</span>
               <span className="sm:hidden text-[11px]">{isEditing ? '보기' : '수정'}</span>
             </button>
 
@@ -290,7 +290,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
         {/* Modal Scrollable Body */}
         <div className="flex-1 overflow-y-auto p-3.5 sm:p-6 space-y-4 sm:space-y-6">
           {/* ==================================================== */}
-          {/* MODE A: WIKIPEDIA EDIT FORM (위키피디아 수정 모드) */}
+          {/* MODE A: INFO EDIT FORM (정보 수정 모드) */}
           {/* ==================================================== */}
           {isEditing ? (
             <form onSubmit={handleSaveWiki} className="bg-amber-50/50 rounded-2xl border border-amber-200 p-4 sm:p-6 space-y-4">
@@ -298,14 +298,14 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 <div>
                   <h3 className="text-base sm:text-lg font-black text-amber-950 flex items-center gap-1.5">
                     <Edit3 className="w-5 h-5 text-amber-700" />
-                    골퍼 집단지성 위키 정보 수정하기
+                    골프장 정보 직접 수정 및 기여하기
                   </h3>
                   <p className="text-xs text-amber-800 mt-0.5">
-                    실제 라운드 방문 경험이나 최신 변경사항을 위키피디아처럼 자유롭게 기여해 주세요.
+                    실제 라운드 방문 경험이나 최신 변경사항을 자유롭게 수정하고 기여해 주세요.
                   </p>
                 </div>
                 <span className="text-[11px] font-bold px-2 py-1 rounded bg-amber-100 text-amber-900 border border-amber-300">
-                  위키 편집중
+                  정보 수정중
                 </span>
               </div>
 
@@ -324,19 +324,16 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                   </select>
                 </div>
 
-                {/* 2. 페어웨이 잔디 */}
+                {/* 2. 페어웨이 잔디 (조선잔디 vs 양잔디만 구분) */}
                 <div>
                   <label className="font-bold text-slate-700 block mb-1">페어웨이 잔디 종류</label>
                   <select
-                    value={editForm.fairwayGrass}
+                    value={editForm.fairwayGrass.includes('양잔디') ? '양잔디' : '조선잔디'}
                     onChange={(e) => setEditForm({ ...editForm, fairwayGrass: e.target.value as GrassType })}
                     className="w-full p-2 bg-white rounded-lg border border-slate-300 font-medium"
                   >
-                    <option value="양잔디(켄터키블루)">양잔디 (켄터키블루)</option>
-                    <option value="양잔디(벤트그라스)">양잔디 (벤트그라스)</option>
-                    <option value="조선잔디(중지)">조선잔디 (중지)</option>
-                    <option value="조선잔디(한국잔디)">조선잔디 (한국잔디)</option>
-                    <option value="조선잔디(안양중지)">조선잔디 (안양중지)</option>
+                    <option value="조선잔디">조선잔디</option>
+                    <option value="양잔디">양잔디</option>
                   </select>
                 </div>
 
@@ -494,7 +491,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                   className="px-4 py-2 rounded-xl text-xs font-bold bg-amber-600 hover:bg-amber-700 text-white shadow-xs flex items-center gap-1.5"
                 >
                   <Check className="w-4 h-4" />
-                  <span>위키 정보 저장 및 반영</span>
+                  <span>수정 정보 저장 및 반영</span>
                 </button>
               </div>
             </form>
@@ -510,14 +507,14 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               골퍼 필수 확인 코스 컨디션 4대 조건
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
-              {/* 1. 페어웨이 잔디 */}
+              {/* 1. 페어웨이 잔디 (조선잔디 vs 양잔디) */}
               <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/70 text-xs">
                 <span className="text-[11px] text-slate-500 block mb-1">페어웨이 잔디</span>
                 <span className="font-black text-slate-900 block truncate text-xs sm:text-sm">
-                  {club.grass.fairway}
+                  {club.grass.fairway.includes('양잔디') ? '양잔디' : '조선잔디'}
                 </span>
                 <span className="text-[10px] text-slate-500 mt-1 block">
-                  {club.grass.fairway.includes('양잔디') ? '디봇 샷감 우수 · 4계절 녹색' : '조선 천연잔디 (중지)'}
+                  {club.grass.fairway.includes('양잔디') ? '디봇 샷감 우수 · 4계절 녹색' : '조선 천연잔디'}
                 </span>
               </div>
 
@@ -830,55 +827,76 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             )}
 
             {/* Reviews List */}
-            <div className="space-y-2.5">
-              {reviews.map((rev) => (
-                <div key={rev.id} className="p-3 sm:p-3.5 bg-slate-50 rounded-xl border border-slate-200 text-xs space-y-1.5">
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-1.5">
-                      <span className="font-extrabold text-slate-900">{rev.author}</span>
-                      {rev.avgScore && (
-                        <span className="px-1.5 py-0.2 rounded bg-slate-200 text-slate-700 text-[10px] font-semibold">
-                          {rev.avgScore}
-                        </span>
-                      )}
-                      {rev.visitDate && (
-                        <span className="text-[10px] text-slate-400">· {rev.visitDate}</span>
-                      )}
-                    </div>
-
-                    <div className="flex items-center gap-1">
-                      <div className="flex items-center text-amber-500">
-                        {Array.from({ length: 5 }).map((_, i) => (
-                          <Star
-                            key={i}
-                            className={`w-3 h-3 ${
-                              i < rev.rating
-                                ? 'fill-amber-400 text-amber-400'
-                                : 'text-slate-300'
-                            }`}
-                          />
-                        ))}
+            {reviews.length === 0 ? (
+              <div className="p-8 text-center bg-slate-50 rounded-xl border border-dashed border-slate-300 space-y-2">
+                <MessageSquare className="w-8 h-8 text-slate-300 mx-auto" />
+                <p className="text-sm font-bold text-slate-700">
+                  아직 등록된 골퍼 후기가 없습니다
+                </p>
+                <p className="text-xs text-slate-500">
+                  직접 라운드를 다녀오셨나요? 첫 번째 솔직한 전체 평을 남겨보세요!
+                </p>
+                {!isWritingReview && (
+                  <button
+                    onClick={() => setIsWritingReview(true)}
+                    className="mt-2 px-3.5 py-1.5 rounded-lg text-xs font-bold bg-emerald-700 hover:bg-emerald-800 text-white inline-flex items-center gap-1 shadow-2xs"
+                  >
+                    <Edit3 className="w-3.5 h-3.5" />
+                    <span>첫 전체 평 남기기</span>
+                  </button>
+                )}
+              </div>
+            ) : (
+              <div className="space-y-2.5">
+                {reviews.map((rev) => (
+                  <div key={rev.id} className="p-3 sm:p-3.5 bg-slate-50 rounded-xl border border-slate-200 text-xs space-y-1.5">
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-1.5">
+                        <span className="font-extrabold text-slate-900">{rev.author}</span>
+                        {rev.avgScore && (
+                          <span className="px-1.5 py-0.2 rounded bg-slate-200 text-slate-700 text-[10px] font-semibold">
+                            {rev.avgScore}
+                          </span>
+                        )}
+                        {rev.visitDate && (
+                          <span className="text-[10px] text-slate-400">· {rev.visitDate}</span>
+                        )}
                       </div>
-                      <span className="text-[10px] text-slate-400 ml-1">{rev.createdAt}</span>
+
+                      <div className="flex items-center gap-1">
+                        <div className="flex items-center text-amber-500">
+                          {Array.from({ length: 5 }).map((_, i) => (
+                            <Star
+                              key={i}
+                              className={`w-3 h-3 ${
+                                i < rev.rating
+                                  ? 'fill-amber-400 text-amber-400'
+                                  : 'text-slate-300'
+                              }`}
+                            />
+                          ))}
+                        </div>
+                        <span className="text-[10px] text-slate-400 ml-1">{rev.createdAt}</span>
+                      </div>
                     </div>
+
+                    <p className="text-slate-700 leading-relaxed text-[11px] sm:text-xs">
+                      {rev.content}
+                    </p>
+
+                    {rev.scores && (
+                      <div className="flex items-center gap-2 text-[10px] text-slate-400 pt-1 border-t border-slate-100">
+                        <span>잔디/관리 ★{rev.scores.course}</span>
+                        <span>·</span>
+                        <span>서비스 ★{rev.scores.caddie}</span>
+                        <span>·</span>
+                        <span>가성비 ★{rev.scores.cost}</span>
+                      </div>
+                    )}
                   </div>
-
-                  <p className="text-slate-700 leading-relaxed text-[11px] sm:text-xs">
-                    {rev.content}
-                  </p>
-
-                  {rev.scores && (
-                    <div className="flex items-center gap-2 text-[10px] text-slate-400 pt-1 border-t border-slate-100">
-                      <span>잔디/관리 ★{rev.scores.course}</span>
-                      <span>·</span>
-                      <span>서비스 ★{rev.scores.caddie}</span>
-                      <span>·</span>
-                      <span>가성비 ★{rev.scores.cost}</span>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
+                ))}
+              </div>
+            )}
           </div>
         </div>
       </div>

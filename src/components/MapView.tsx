@@ -70,7 +70,7 @@ export const MapView: React.FC<MapViewProps> = ({
                   </h4>
 
                   <div className="text-[11px] text-slate-600 mb-2 space-y-0.5">
-                    <div>잔디: <span className="font-bold">{club.grass.fairway}</span></div>
+                    <div>잔디: <span className="font-bold">{club.grass.fairway.includes('양잔디') ? '양잔디' : '조선잔디'}</span></div>
                     <div>1인 실부담: <span className="font-bold text-emerald-700">{formatPrice(cost.totalPerPerson)}</span></div>
                   </div>
 

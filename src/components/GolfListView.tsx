@@ -55,38 +55,31 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
               onClick={() => onSelectClub(club)}
               className="p-3.5 sm:p-4 hover:bg-slate-50/80 transition-all cursor-pointer flex flex-col lg:grid lg:grid-cols-12 lg:gap-3 lg:items-center group"
             >
-              {/* 1. 골프장 정보 & 위치 */}
-              <div className="col-span-4 flex items-start gap-3">
-                <img
-                  src={club.imageUrl}
-                  alt={club.name}
-                  className="w-14 h-14 sm:w-16 sm:h-16 rounded-xl object-cover shrink-0 border border-slate-200 group-hover:scale-102 transition-transform"
-                />
-                <div className="min-w-0 flex-1">
-                  <div className="flex items-center gap-1.5 mb-0.5">
-                    <span className="text-[10px] font-bold px-1.5 py-0.2 rounded bg-slate-100 text-slate-700">
-                      {club.courseType} · {club.holes}홀
-                    </span>
-                    <span className="text-[11px] text-slate-500 font-medium truncate flex items-center gap-0.5">
-                      <MapPin className="w-3 h-3 text-slate-400 shrink-0" />
-                      {club.region} · {club.city || club.address.split(' ')[1] || club.region}
-                    </span>
-                  </div>
+              {/* 1. 골프장 정보 & 위치 (사진 제거됨) */}
+              <div className="col-span-4 min-w-0">
+                <div className="flex items-center gap-1.5 mb-1">
+                  <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-slate-100 text-slate-700">
+                    {club.courseType} · {club.holes}홀
+                  </span>
+                  <span className="text-[11px] text-slate-500 font-medium truncate flex items-center gap-0.5">
+                    <MapPin className="w-3 h-3 text-slate-400 shrink-0" />
+                    {club.region} · {club.city || club.address.split(' ')[1] || club.region}
+                  </span>
+                </div>
 
-                  <h3 className="text-sm sm:text-base font-extrabold text-slate-900 group-hover:text-emerald-800 transition-colors truncate">
-                    {club.name}
-                  </h3>
+                <h3 className="text-sm sm:text-base font-extrabold text-slate-900 group-hover:text-emerald-800 transition-colors truncate">
+                  {club.name}
+                </h3>
 
-                  <div className="flex items-center gap-2 mt-1 text-xs">
-                    <span className="inline-flex items-center text-amber-500 font-bold text-xs">
-                      <Star className="w-3 h-3 fill-amber-400 text-amber-400 mr-0.5" />
-                      {club.rating.toFixed(1)}
-                    </span>
-                    <span className="text-slate-300">·</span>
-                    <span className="text-slate-400 text-[11px] truncate">
-                      {club.highlight || club.description}
-                    </span>
-                  </div>
+                <div className="flex items-center gap-2 mt-1 text-xs">
+                  <span className="inline-flex items-center text-amber-500 font-bold text-xs">
+                    <Star className="w-3 h-3 fill-amber-400 text-amber-400 mr-0.5" />
+                    {club.rating.toFixed(1)}
+                  </span>
+                  <span className="text-slate-300">·</span>
+                  <span className="text-slate-400 text-[11px] truncate">
+                    {club.highlight || club.description}
+                  </span>
                 </div>
               </div>
 
@@ -97,7 +90,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                     isYang ? 'bg-teal-50 text-teal-800 border-teal-200' : 'bg-amber-50 text-amber-900 border-amber-200'
                   }`}
                 >
-                  {club.grass.fairway}
+                  {isYang ? '양잔디' : '조선잔디'}
                 </span>
                 {isNoMat && (
                   <span className="px-1.5 py-0.5 rounded font-semibold bg-emerald-50 text-emerald-800 border border-emerald-200">
@@ -127,7 +120,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                     isYang ? 'bg-teal-50 text-teal-800 border-teal-200' : 'bg-amber-50 text-amber-900 border-amber-200'
                   }`}
                 >
-                  {club.grass.fairway}
+                  {isYang ? '양잔디' : '조선잔디'}
                 </span>
                 <span
                   className={`text-[11px] font-medium ${

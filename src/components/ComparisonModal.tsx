@@ -95,7 +95,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
       lines.push(
         `${idx + 1}. ${club.name} (${club.region})`,
-        `   • 핵심 조건: ${isNoMat} | ${club.grass.fairway} | ${isNight}`,
+        `   • 핵심 조건: ${isNoMat} | ${club.grass.fairway.includes('양잔디') ? '양잔디' : '조선잔디'} | ${isNight}`,
         `   • 지형/그린: ${club.courseStyle} | ${greenText}`,
         `   • 예상 스코어: ${slopeText}`,
         `   • 1인 실부담: ${formatPrice(cost.totalPerPerson)} (팀: ${formatPrice(cost.totalTeamCost)})`,
@@ -329,7 +329,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                             : 'bg-amber-50 text-amber-900 border-amber-200'
                             }`}
                         >
-                          {club.grass.fairway}
+                          {isYang ? '양잔디' : '조선잔디'}
                         </span>
                       </div>
                     );

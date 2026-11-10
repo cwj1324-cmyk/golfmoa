@@ -14,7 +14,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -81,7 +81,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -148,7 +148,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -215,7 +215,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -280,7 +280,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -347,7 +347,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -413,7 +413,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -479,7 +479,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -546,7 +546,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -611,7 +611,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -677,7 +677,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -742,7 +742,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -809,7 +809,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -875,7 +875,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -941,7 +941,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1008,7 +1008,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1075,7 +1075,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1141,7 +1141,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1207,7 +1207,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1273,7 +1273,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1338,7 +1338,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1403,7 +1403,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1469,7 +1469,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1535,7 +1535,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1602,7 +1602,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1670,7 +1670,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -1737,7 +1737,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1803,7 +1803,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1870,7 +1870,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -1937,7 +1937,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 27,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -2003,7 +2003,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2070,7 +2070,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 36,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -2136,7 +2136,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2201,7 +2201,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2268,7 +2268,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -2333,7 +2333,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2399,7 +2399,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2464,7 +2464,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2531,7 +2531,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -2597,7 +2597,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2663,7 +2663,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -2730,7 +2730,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2795,7 +2795,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2862,7 +2862,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -2929,7 +2929,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -2994,7 +2994,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3059,7 +3059,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3124,7 +3124,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3190,7 +3190,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3257,7 +3257,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(벤트그라스)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3325,7 +3325,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3391,7 +3391,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3457,7 +3457,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3525,7 +3525,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3591,7 +3591,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3657,7 +3657,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3722,7 +3722,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3788,7 +3788,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3853,7 +3853,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -3920,7 +3920,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -3987,7 +3987,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -4054,7 +4054,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4121,7 +4121,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -4188,7 +4188,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "곶자왈(평지)",
@@ -4256,7 +4256,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -4323,7 +4323,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(벤트그라스)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4390,7 +4390,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4457,7 +4457,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -4524,7 +4524,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4591,7 +4591,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "곶자왈(평지)",
@@ -4659,7 +4659,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4727,7 +4727,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "곶자왈(평지)",
@@ -4794,7 +4794,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "곶자왈(평지)",
@@ -4861,7 +4861,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -4928,7 +4928,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -4995,7 +4995,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -5062,7 +5062,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -5129,7 +5129,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "곶자왈(평지)",
@@ -5196,7 +5196,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -5262,7 +5262,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -5328,7 +5328,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -5395,7 +5395,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -5463,7 +5463,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -5528,7 +5528,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -5593,7 +5593,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 27,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -5659,7 +5659,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -5727,7 +5727,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -5794,7 +5794,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(안양중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -5861,7 +5861,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -5926,7 +5926,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -5992,7 +5992,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6058,7 +6058,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6124,7 +6124,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6189,7 +6189,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -6257,7 +6257,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6324,7 +6324,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 27,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -6390,7 +6390,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6457,7 +6457,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6522,7 +6522,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -6588,7 +6588,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6655,7 +6655,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -6722,7 +6722,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6788,7 +6788,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -6854,7 +6854,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6919,7 +6919,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -6985,7 +6985,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7052,7 +7052,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7118,7 +7118,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7184,7 +7184,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7249,7 +7249,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7317,7 +7317,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7384,7 +7384,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7450,7 +7450,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7517,7 +7517,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7584,7 +7584,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7650,7 +7650,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7717,7 +7717,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7782,7 +7782,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7848,7 +7848,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -7916,7 +7916,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -7984,7 +7984,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8050,7 +8050,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8117,7 +8117,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8184,7 +8184,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8250,7 +8250,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8317,7 +8317,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8383,7 +8383,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8449,7 +8449,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8516,7 +8516,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8581,7 +8581,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8648,7 +8648,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8714,7 +8714,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8780,7 +8780,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8845,7 +8845,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -8913,7 +8913,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -8979,7 +8979,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9045,7 +9045,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9111,7 +9111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9177,7 +9177,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9244,7 +9244,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9312,7 +9312,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9378,7 +9378,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9444,7 +9444,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9510,7 +9510,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9576,7 +9576,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9642,7 +9642,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9709,7 +9709,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9775,7 +9775,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9842,7 +9842,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -9909,7 +9909,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -9975,7 +9975,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10041,7 +10041,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -10108,7 +10108,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10174,7 +10174,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -10240,7 +10240,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10308,7 +10308,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -10374,7 +10374,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10440,7 +10440,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -10506,7 +10506,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -10574,7 +10574,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -10641,7 +10641,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10707,7 +10707,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10774,7 +10774,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10839,7 +10839,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10906,7 +10906,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 36,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -10972,7 +10972,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11038,7 +11038,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11104,7 +11104,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11170,7 +11170,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11236,7 +11236,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11304,7 +11304,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11369,7 +11369,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11435,7 +11435,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11501,7 +11501,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -11569,7 +11569,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11635,7 +11635,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -11703,7 +11703,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11769,7 +11769,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -11835,7 +11835,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11901,7 +11901,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -11968,7 +11968,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12034,7 +12034,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12101,7 +12101,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -12167,7 +12167,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12234,7 +12234,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -12302,7 +12302,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12367,7 +12367,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -12434,7 +12434,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 27,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12499,7 +12499,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 27,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -12566,7 +12566,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12632,7 +12632,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -12697,7 +12697,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12763,7 +12763,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -12828,7 +12828,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -12895,7 +12895,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -12960,7 +12960,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13026,7 +13026,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -13093,7 +13093,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13158,7 +13158,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13224,7 +13224,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13289,7 +13289,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13355,7 +13355,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13420,7 +13420,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -13488,7 +13488,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13554,7 +13554,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -13621,7 +13621,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -13688,7 +13688,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -13753,7 +13753,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13819,7 +13819,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -13884,7 +13884,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -13950,7 +13950,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14017,7 +14017,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14084,7 +14084,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14150,7 +14150,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14215,7 +14215,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14281,7 +14281,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14347,7 +14347,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14414,7 +14414,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 45,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14479,7 +14479,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14544,7 +14544,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(벤트그라스)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14610,7 +14610,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14677,7 +14677,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14743,7 +14743,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14809,7 +14809,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -14875,7 +14875,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -14941,7 +14941,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -15009,7 +15009,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15074,7 +15074,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -15142,7 +15142,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -15208,7 +15208,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -15274,7 +15274,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15340,7 +15340,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -15406,7 +15406,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15472,7 +15472,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(안양중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15539,7 +15539,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15607,7 +15607,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15673,7 +15673,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15739,7 +15739,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15807,7 +15807,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15872,7 +15872,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -15939,7 +15939,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16004,7 +16004,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16071,7 +16071,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16138,7 +16138,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16205,7 +16205,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(벤트그라스)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16272,7 +16272,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 27,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16337,7 +16337,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 27,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16402,7 +16402,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16468,7 +16468,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16533,7 +16533,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16598,7 +16598,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16664,7 +16664,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16729,7 +16729,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16795,7 +16795,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(안양중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16863,7 +16863,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -16928,7 +16928,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -16994,7 +16994,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17060,7 +17060,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17126,7 +17126,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17193,7 +17193,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17260,7 +17260,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17325,7 +17325,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17393,7 +17393,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17458,7 +17458,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17526,7 +17526,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17591,7 +17591,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17657,7 +17657,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17724,7 +17724,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17790,7 +17790,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17855,7 +17855,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -17921,7 +17921,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -17987,7 +17987,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18054,7 +18054,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -18120,7 +18120,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -18187,7 +18187,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18255,7 +18255,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18321,7 +18321,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18387,7 +18387,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18455,7 +18455,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18520,7 +18520,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -18586,7 +18586,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18654,7 +18654,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18720,7 +18720,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18785,7 +18785,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -18850,7 +18850,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -18916,7 +18916,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -18983,7 +18983,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19050,7 +19050,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19117,7 +19117,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19182,7 +19182,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19249,7 +19249,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19315,7 +19315,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19382,7 +19382,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19447,7 +19447,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19514,7 +19514,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19580,7 +19580,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19646,7 +19646,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19711,7 +19711,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19779,7 +19779,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19845,7 +19845,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -19912,7 +19912,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -19978,7 +19978,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20043,7 +20043,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20111,7 +20111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20177,7 +20177,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20243,7 +20243,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20309,7 +20309,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20375,7 +20375,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20441,7 +20441,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20507,7 +20507,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20573,7 +20573,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20639,7 +20639,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20705,7 +20705,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20771,7 +20771,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20838,7 +20838,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -20903,7 +20903,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -20968,7 +20968,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21036,7 +21036,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21102,7 +21102,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21168,7 +21168,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 27,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21233,7 +21233,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21298,7 +21298,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21366,7 +21366,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21432,7 +21432,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21500,7 +21500,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21567,7 +21567,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21635,7 +21635,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21701,7 +21701,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -21769,7 +21769,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21835,7 +21835,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21901,7 +21901,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -21968,7 +21968,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22036,7 +22036,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22101,7 +22101,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22167,7 +22167,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22233,7 +22233,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22298,7 +22298,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22364,7 +22364,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22432,7 +22432,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22497,7 +22497,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22563,7 +22563,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22629,7 +22629,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22694,7 +22694,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22760,7 +22760,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22826,7 +22826,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -22892,7 +22892,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -22959,7 +22959,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23025,7 +23025,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23091,7 +23091,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23158,7 +23158,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23223,7 +23223,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23290,7 +23290,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23356,7 +23356,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23423,7 +23423,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23489,7 +23489,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23555,7 +23555,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23623,7 +23623,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23688,7 +23688,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23753,7 +23753,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23820,7 +23820,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -23885,7 +23885,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -23950,7 +23950,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24017,7 +24017,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24083,7 +24083,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24149,7 +24149,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24216,7 +24216,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24282,7 +24282,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24348,7 +24348,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24413,7 +24413,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24481,7 +24481,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24547,7 +24547,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24612,7 +24612,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24680,7 +24680,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24745,7 +24745,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24812,7 +24812,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -24877,7 +24877,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -24942,7 +24942,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25009,7 +25009,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25074,7 +25074,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25141,7 +25141,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -25209,7 +25209,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25274,7 +25274,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -25341,7 +25341,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -25407,7 +25407,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25473,7 +25473,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -25539,7 +25539,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -25605,7 +25605,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25671,7 +25671,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25738,7 +25738,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25805,7 +25805,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25871,7 +25871,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -25937,7 +25937,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26004,7 +26004,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26070,7 +26070,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26135,7 +26135,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26201,7 +26201,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26268,7 +26268,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -26333,7 +26333,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26399,7 +26399,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26465,7 +26465,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26531,7 +26531,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26596,7 +26596,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26662,7 +26662,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26728,7 +26728,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26794,7 +26794,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26860,7 +26860,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -26927,7 +26927,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -26992,7 +26992,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27057,7 +27057,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27123,7 +27123,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27190,7 +27190,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27255,7 +27255,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27322,7 +27322,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27389,7 +27389,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27455,7 +27455,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27523,7 +27523,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27590,7 +27590,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27657,7 +27657,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27723,7 +27723,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27788,7 +27788,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27855,7 +27855,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -27920,7 +27920,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -27986,7 +27986,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -28053,7 +28053,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28119,7 +28119,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -28185,7 +28185,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -28250,7 +28250,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -28316,7 +28316,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28383,7 +28383,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28448,7 +28448,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28514,7 +28514,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28580,7 +28580,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28647,7 +28647,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28712,7 +28712,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -28778,7 +28778,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -28845,7 +28845,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28913,7 +28913,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -28979,7 +28979,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29045,7 +29045,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29111,7 +29111,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29176,7 +29176,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29242,7 +29242,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29307,7 +29307,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "링크스형(평지/해변)",
@@ -29375,7 +29375,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29440,7 +29440,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29508,7 +29508,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29575,7 +29575,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29640,7 +29640,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29705,7 +29705,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(안양중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29770,7 +29770,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29836,7 +29836,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -29902,7 +29902,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -29969,7 +29969,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30036,7 +30036,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30101,7 +30101,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30168,7 +30168,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30233,7 +30233,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -30301,7 +30301,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30367,7 +30367,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30434,7 +30434,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -30499,7 +30499,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -30566,7 +30566,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30631,7 +30631,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -30698,7 +30698,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30764,7 +30764,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -30830,7 +30830,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30895,7 +30895,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -30962,7 +30962,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31028,7 +31028,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31093,7 +31093,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "회원제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31160,7 +31160,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31225,7 +31225,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31290,7 +31290,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",
@@ -31357,7 +31357,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31422,7 +31422,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31487,7 +31487,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제+회원제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(한국잔디)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31554,7 +31554,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 27,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31622,7 +31622,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "양잔디(켄터키블루)",
+      "fairway": "양잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "산악형",
@@ -31690,7 +31690,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "courseType": "대중제",
     "holes": 18,
     "grass": {
-      "fairway": "조선잔디(중지)",
+      "fairway": "조선잔디",
       "green": "벤트그라스"
     },
     "courseStyle": "구릉형(힐)",

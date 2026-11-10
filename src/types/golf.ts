@@ -9,17 +9,7 @@ export type Region =
   | '전라'
   | '제주';
 
-export type GrassType =
-  | '조선잔디(한국잔디)'
-  | '조선잔디(중지)'
-  | '조선잔디(안양중지)'
-  | '양잔디(켄터키블루)'
-  | '양잔디(벤트그라스/켄터키)'
-  | '양잔디(벤트그라스)'
-  | '양잔디(버뮤다/켄터키)'
-  | '중지'
-  | '벤트그라스 혼합'
-  | '미확인';
+export type GrassType = '조선잔디' | '양잔디';
 
 export type CourseStyle = '산악형' | '구릉형(힐)' | '링크스형(평지/해변)' | '곶자왈(평지)';
 export type FairwayWidth = '넓음' | '보통' | '좁음';
