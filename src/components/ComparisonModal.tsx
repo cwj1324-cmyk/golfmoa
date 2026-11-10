@@ -276,7 +276,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                         href={getOfficialClubUrl(club)}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="mt-1.5 py-1.5 bg-slate-900 hover:bg-slate-800 text-white rounded-lg font-bold flex items-center justify-center gap-1 text-[11px] transition-all"
+                        className="mt-1.5 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg font-bold flex items-center justify-center gap-1 text-[11px] transition-all shadow-2xs"
                       >
                         <span>공식 홈페이지 바로가기</span>
                         <ExternalLink className="w-2.5 h-2.5" />

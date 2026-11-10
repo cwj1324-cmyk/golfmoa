@@ -99,7 +99,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               key={reg}
               onClick={() => setFilter((prev) => ({ ...prev, region: reg }))}
               className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all shrink-0 ${filter.region === reg
-                ? 'bg-slate-900 text-white shadow-2xs'
+                ? 'bg-emerald-700 text-white shadow-2xs font-bold'
                 : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                 }`}
             >
@@ -194,7 +194,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <button
             onClick={() => setFilter((prev) => ({ ...prev, noCaddieOnly: !prev.noCaddieOnly }))}
             className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-semibold whitespace-nowrap transition-all border ${filter.noCaddieOnly
-              ? 'bg-slate-900 text-white border-slate-900 shadow-2xs'
+              ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
@@ -205,14 +205,14 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <button
             onClick={() => setIsDetailOpen(!isDetailOpen)}
             className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-medium whitespace-nowrap flex items-center gap-1 transition-all border ${isDetailOpen || advancedCount > 0
-              ? 'bg-slate-900 text-white border-slate-900'
+              ? 'bg-emerald-700 text-white border-emerald-700 font-bold shadow-2xs'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
             <SlidersHorizontal className="w-3 h-3" />
             <span>상세 조건</span>
             {advancedCount > 0 && (
-              <span className="w-4 h-4 rounded-full bg-emerald-500 text-slate-900 text-[9px] font-black flex items-center justify-center ml-0.5">
+              <span className="w-4 h-4 rounded-full bg-white text-emerald-800 text-[9px] font-black flex items-center justify-center ml-0.5">
                 {advancedCount}
               </span>
             )}
@@ -324,6 +324,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             className="bg-transparent font-bold text-slate-800 text-[11px] sm:text-xs focus:outline-none cursor-pointer"
           >
             <option value="recommended">추천순</option>
+            <option value="name">이름순 (가나다)</option>
             <option value="rating">평점 높은순</option>
             <option value="slopeLow">난이도 쉬운순</option>
             <option value="slopeHigh">난이도 높은순</option>

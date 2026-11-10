@@ -96,7 +96,7 @@ export const DateRateSimulator: React.FC<DateRateSimulatorProps> = ({ club }) =>
                   key={idx}
                   onClick={() => setSelectedDate(date)}
                   className={`flex flex-col items-center justify-center min-w-[52px] py-2 px-1 rounded-xl text-center transition-all shrink-0 border ${isSelected
-                      ? 'bg-slate-900 text-white border-slate-900 shadow-sm'
+                      ? 'bg-emerald-700 text-white border-emerald-700 shadow-sm'
                       : 'bg-slate-50/80 hover:bg-slate-100 border-slate-200 text-slate-700'
                     }`}
                 >
@@ -163,7 +163,7 @@ export const DateRateSimulator: React.FC<DateRateSimulatorProps> = ({ club }) =>
                     disabled={disabled}
                     onClick={() => setPlayerCount(num)}
                     className={`py-1.5 rounded-lg text-xs font-bold transition-all border ${playerCount === num
-                        ? 'bg-slate-900 text-white border-slate-900'
+                        ? 'bg-emerald-700 text-white border-emerald-700'
                         : disabled
                           ? 'bg-slate-100 text-slate-300 border-slate-200 cursor-not-allowed'
                           : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
@@ -186,7 +186,7 @@ export const DateRateSimulator: React.FC<DateRateSimulatorProps> = ({ club }) =>
               <button
                 onClick={() => setWithCaddie(true)}
                 className={`py-1.5 rounded-lg text-xs font-bold transition-all border ${withCaddie
-                    ? 'bg-slate-900 text-white border-slate-900'
+                    ? 'bg-emerald-700 text-white border-emerald-700'
                     : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
                   }`}
               >
@@ -196,7 +196,7 @@ export const DateRateSimulator: React.FC<DateRateSimulatorProps> = ({ club }) =>
                 disabled={!club.playOptions.noCaddieAllowed && club.pricing.caddieFee > 0}
                 onClick={() => setWithCaddie(false)}
                 className={`py-1.5 rounded-lg text-xs font-bold transition-all border ${!withCaddie
-                    ? 'bg-slate-900 text-white border-slate-900'
+                    ? 'bg-emerald-700 text-white border-emerald-700'
                     : !club.playOptions.noCaddieAllowed && club.pricing.caddieFee > 0
                       ? 'bg-slate-100 text-slate-300 border-slate-200 cursor-not-allowed'
                       : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
@@ -256,7 +256,7 @@ export const DateRateSimulator: React.FC<DateRateSimulatorProps> = ({ club }) =>
         </div>
 
         {/* 5. Final Real-Time Cost Card */}
-        <div className="bg-slate-900 text-white p-4 sm:p-5 rounded-2xl shadow-sm">
+        <div className="bg-emerald-950 text-white p-4 sm:p-5 rounded-2xl shadow-sm border border-emerald-900">
           <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
             <div>
               <div className="flex items-center space-x-2 text-emerald-300 text-xs font-semibold mb-1">

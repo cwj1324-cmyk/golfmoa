@@ -88,9 +88,8 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
               {/* Mobile Spec Summary Strip */}
               <div className="lg:hidden flex flex-wrap items-center gap-1.5 my-2.5 pt-2 border-t border-slate-100 text-[11px]">
                 <span
-                  className={`px-1.5 py-0.5 rounded font-semibold border ${
-                    isYang ? 'bg-teal-50 text-teal-800 border-teal-200' : 'bg-amber-50 text-amber-900 border-amber-200'
-                  }`}
+                  className={`px-1.5 py-0.5 rounded font-semibold border ${isYang ? 'bg-teal-50 text-teal-800 border-teal-200' : 'bg-amber-50 text-amber-900 border-amber-200'
+                    }`}
                 >
                   {isYang ? '양잔디' : '조선잔디'}
                 </span>
@@ -109,7 +108,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                   {club.courseStyle}
                 </span>
                 {club.difficultyIndex?.slopeRating && (
-                  <span className="px-1.5 py-0.5 rounded font-bold bg-slate-800 text-white text-[10px]">
+                  <span className="px-1.5 py-0.5 rounded font-bold bg-emerald-800 text-white text-[10px]">
                     슬로프 {club.difficultyIndex.slopeRating}
                   </span>
                 )}
@@ -118,16 +117,14 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
               {/* 2. Desktop: 잔디 · 티박스 */}
               <div className="hidden lg:flex col-span-2 flex-col items-center justify-center gap-1 text-center">
                 <span
-                  className={`px-2 py-0.5 rounded text-xs font-semibold border ${
-                    isYang ? 'bg-teal-50 text-teal-800 border-teal-200' : 'bg-amber-50 text-amber-900 border-amber-200'
-                  }`}
+                  className={`px-2 py-0.5 rounded text-xs font-semibold border ${isYang ? 'bg-teal-50 text-teal-800 border-teal-200' : 'bg-amber-50 text-amber-900 border-amber-200'
+                    }`}
                 >
                   {isYang ? '양잔디' : '조선잔디'}
                 </span>
                 <span
-                  className={`text-[11px] font-medium ${
-                    isNoMat ? 'text-emerald-700 font-bold' : club.teeBoxMatRatio ? 'text-slate-600' : 'text-slate-400'
-                  }`}
+                  className={`text-[11px] font-medium ${isNoMat ? 'text-emerald-700 font-bold' : club.teeBoxMatRatio ? 'text-slate-600' : 'text-slate-400'
+                    }`}
                 >
                   {club.teeBoxMatRatio || '티박스 미확인'}
                 </span>
@@ -184,11 +181,10 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
               >
                 <button
                   onClick={() => onToggleCompare(club)}
-                  className={`p-1.5 sm:px-2 sm:py-1 rounded-lg text-xs font-bold flex items-center gap-1 transition-all border ${
-                    isCompared
+                  className={`p-1.5 sm:px-2 sm:py-1 rounded-lg text-xs font-bold flex items-center gap-1 transition-all border ${isCompared
                       ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
                       : 'bg-white text-slate-600 border-slate-200 hover:border-emerald-600 hover:text-emerald-800'
-                  }`}
+                    }`}
                   title={isCompared ? '비교함에서 제외' : '1:1 비교함 담기'}
                 >
                   {isCompared ? <Check className="w-3.5 h-3.5" /> : <Layers className="w-3.5 h-3.5" />}

@@ -19,10 +19,10 @@ export const FloatingComparisonBar: React.FC<FloatingComparisonBarProps> = ({
 
   return (
     <div className="fixed bottom-4 sm:bottom-5 left-1/2 -translate-x-1/2 z-40 max-w-2xl w-[94%] sm:w-[95%] animate-slideUp">
-      <div className="bg-slate-900/95 text-white backdrop-blur-md rounded-2xl p-2.5 sm:p-3.5 shadow-2xl border border-slate-700/60 flex items-center justify-between gap-2 sm:gap-3">
+      <div className="bg-emerald-950/95 text-white backdrop-blur-md rounded-2xl p-2.5 sm:p-3.5 shadow-2xl border border-emerald-800/80 flex items-center justify-between gap-2 sm:gap-3">
         {/* Left: Thumbnail & Club Info */}
         <div className="flex items-center space-x-1.5 sm:space-x-2.5 overflow-x-auto min-w-0 scrollbar-none">
-          <div className="hidden sm:flex items-center space-x-1.5 text-xs font-bold text-emerald-400 pl-1 pr-2 border-r border-slate-700 shrink-0">
+          <div className="hidden sm:flex items-center space-x-1.5 text-xs font-bold text-emerald-400 pl-1 pr-2 border-r border-emerald-800 shrink-0">
             <Layers className="w-4 h-4" />
             <span>비교함 ({comparedClubs.length}/3)</span>
           </div>
@@ -31,7 +31,7 @@ export const FloatingComparisonBar: React.FC<FloatingComparisonBarProps> = ({
             {comparedClubs.map((club) => (
               <div
                 key={club.id}
-                className="relative flex items-center bg-slate-800/90 rounded-lg px-2 py-1 pr-5 sm:px-2.5 sm:py-1.5 sm:pr-6 border border-slate-700/80 group"
+                className="relative flex items-center bg-emerald-900/90 rounded-lg px-2 py-1 pr-5 sm:px-2.5 sm:py-1.5 sm:pr-6 border border-emerald-700/60 group"
               >
                 <span className="text-[11px] sm:text-xs font-bold text-slate-100 max-w-[75px] sm:max-w-[110px] truncate block">
                   {club.name}
@@ -52,7 +52,7 @@ export const FloatingComparisonBar: React.FC<FloatingComparisonBarProps> = ({
         <div className="flex items-center space-x-1.5 sm:space-x-2 shrink-0">
           <button
             onClick={onClearAll}
-            className="p-1.5 sm:p-2 text-slate-400 hover:text-rose-400 rounded-xl hover:bg-slate-800 transition-all text-xs"
+            className="p-1.5 sm:p-2 text-slate-400 hover:text-rose-400 rounded-xl hover:bg-emerald-900 transition-all text-xs"
             title="비교함 비우기"
           >
             <Trash2 className="w-3.5 h-3.5 sm:w-4 sm:h-4" />

@@ -85,7 +85,7 @@ export const MapView: React.FC<MapViewProps> = ({
                   <div className="grid grid-cols-2 gap-1.5 pt-1.5 border-t border-slate-100">
                     <button
                       onClick={() => onSelectClub(club)}
-                      className="py-1 bg-slate-900 text-white rounded text-[11px] font-bold hover:bg-slate-800"
+                      className="py-1 bg-emerald-700 text-white rounded text-[11px] font-bold hover:bg-emerald-800 transition-all shadow-2xs"
                     >
                       상세보기
                     </button>

@@ -265,7 +265,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               href={officialUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold bg-slate-900 hover:bg-slate-800 text-white flex items-center gap-1 transition-all shadow-2xs"
+              className="px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold bg-emerald-700 hover:bg-emerald-800 text-white flex items-center gap-1 transition-all shadow-2xs"
               title="공식 홈페이지 바로가기"
             >
               <span className="hidden sm:inline">공홈 바로가기</span>

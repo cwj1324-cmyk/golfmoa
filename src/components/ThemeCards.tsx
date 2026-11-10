@@ -26,7 +26,7 @@ export const ThemeCards: React.FC<ThemeCardsProps> = ({
         <button
           onClick={() => onSelectTheme(null)}
           className={`px-3 py-1.5 rounded-full text-xs font-semibold whitespace-nowrap transition-all flex items-center gap-1.5 border ${selectedThemeId === null
-            ? 'bg-slate-900 text-white border-slate-900 shadow-2xs'
+            ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs font-bold'
             : 'bg-white text-slate-600 border-slate-200 hover:border-slate-300 hover:bg-slate-50'
             }`}
         >

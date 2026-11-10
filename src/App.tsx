@@ -195,6 +195,9 @@ export function App() {
 
       return true;
     }).sort((a, b) => {
+      if (sortBy === 'name') {
+        return a.name.localeCompare(b.name, 'ko');
+      }
       if (sortBy === 'rating') {
         const statsA = getClubRatingStats(a.id);
         const statsB = getClubRatingStats(b.id);
@@ -404,7 +407,7 @@ export function App() {
       )}
 
       {/* Footer */}
-      <footer className="bg-slate-900 border-t border-slate-800 py-6 text-slate-400 text-xs">
+      <footer className="bg-emerald-950 border-t border-emerald-900 py-6 text-emerald-200/70 text-xs">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="text-center sm:text-left">
             <div className="flex items-center space-x-2 text-white font-extrabold text-sm mb-1">
