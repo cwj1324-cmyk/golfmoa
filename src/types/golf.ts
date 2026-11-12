@@ -90,6 +90,7 @@ export interface GolfClub {
   highlight?: string;
   officialUrl: string;
   phone: string;
+  blogReviews?: BlogReview[]; // 네이버 블로그 최신 실 라운드 후기 (최근 1~2년 이내 검수 완료)
 }
 
 export interface FilterState {
@@ -136,3 +137,13 @@ export interface GolferReview {
     cost: number;     // 가성비/시설 (1~5)
   };
 }
+
+export interface BlogReview {
+  title: string;
+  url: string;
+  blogName: string;
+  date: string;
+  snippet: string;
+  verified?: boolean;
+}
+

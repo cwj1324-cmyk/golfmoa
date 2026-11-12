@@ -14,9 +14,12 @@ import {
   RotateCcw,
   MessageSquare,
   Send,
+  BookOpen,
+  Calendar,
 } from 'lucide-react';
 import type { GolfClub, GrassType, CourseStyle, CourseType, GolferReview, WikiEditRecord } from '../types/golf';
 import { calculateCostPerPerson, formatPrice, predictFieldScore, getOfficialClubUrl } from '../utils/calculator';
+import { BLOG_REVIEWS_MAP } from '../data/blogReviewsData';
 import {
   getWikiEdits,
   saveWikiEdit,
@@ -662,7 +665,128 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
           </div>
 
           {/* ==================================================== */}
-          {/* Section 5: 골퍼 실제 리뷰 & 전체 평 남기기 */}
+          {/* Section 5: 네이버 블로그 최신 실 라운드 후기 (검수 완료) */}
+          {/* ==================================================== */}
+          {(() => {
+            const blogReviews = (club.blogReviews && club.blogReviews.length > 0)
+              ? club.blogReviews
+              : (BLOG_REVIEWS_MAP[club.id] || []);
+            const naverSearchQuery = `${club.name} 라운드 후기`;
+            const naverSearchUrl = `https://search.naver.com/search.naver?where=blog&query=${encodeURIComponent(naverSearchQuery)}`;
+
+            return (
+              <div className="pt-3 border-t border-slate-200 space-y-3">
+                <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
+                  <div>
+                    <h3 className="text-sm font-black text-slate-900 flex items-center gap-1.5">
+                      <BookOpen className="w-4 h-4 text-emerald-700" />
+                      <span>네이버 블로그 실 라운드 후기</span>
+                      {blogReviews.length > 0 && (
+                        <span className="text-emerald-700 font-extrabold text-xs">({blogReviews.length}건)</span>
+                      )}
+                    </h3>
+                    <p className="text-[11px] text-slate-500">
+                      최근 1~2년 이내(2024~2026년) 실제 골퍼가 작성한 솔직한 코스 컨디션 및 라운드 기록입니다.
+                    </p>
+                  </div>
+
+                  <div className="flex items-center gap-2">
+                    {blogReviews.length > 0 && (
+                      <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
+                        <ShieldCheck className="w-3 h-3 text-emerald-600" />
+                        <span>골프장 전수 검수 완료</span>
+                      </span>
+                    )}
+                    <a
+                      href={naverSearchUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors"
+                    >
+                      <span>네이버 전체 검색</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  </div>
+                </div>
+
+                {blogReviews.length > 0 ? (
+                  <div className="grid grid-cols-1 gap-2.5">
+                    {blogReviews.map((rev, idx) => (
+                      <div
+                        key={idx}
+                        className="p-3 sm:p-3.5 bg-slate-50/80 hover:bg-emerald-50/30 rounded-xl border border-slate-200 hover:border-emerald-300 transition-all text-xs space-y-1.5 group"
+                      >
+                        <div className="flex items-start justify-between gap-2">
+                          <a
+                            href={rev.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="font-bold text-slate-900 hover:text-emerald-800 transition-colors flex items-center gap-1.5 group-hover:underline leading-snug"
+                          >
+                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-emerald-100/70 text-emerald-800 font-bold shrink-0">
+                              블로그
+                            </span>
+                            <span>{rev.title}</span>
+                            <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-emerald-700 shrink-0" />
+                          </a>
+                        </div>
+
+                        <div className="flex items-center gap-2 text-[11px] text-slate-500">
+                          <span className="font-bold text-slate-700">{rev.blogName}</span>
+                          <span>·</span>
+                          <span className="flex items-center gap-1 text-slate-400">
+                            <Calendar className="w-3 h-3" />
+                            <span>{rev.date}</span>
+                          </span>
+                        </div>
+
+                        <p className="text-[11px] text-slate-600 leading-relaxed line-clamp-2">
+                          {rev.snippet}
+                        </p>
+
+                        <div className="pt-1 flex items-center justify-between border-t border-slate-100 text-[11px]">
+                          <span className="text-slate-400 text-[10px]">네이버 블로그 출처</span>
+                          <a
+                            href={rev.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="inline-flex items-center gap-1 font-bold text-emerald-700 hover:text-emerald-800"
+                          >
+                            <span>블로그 원문 읽기</span>
+                            <ExternalLink className="w-3 h-3" />
+                          </a>
+                        </div>
+                      </div>
+                    ))}
+                  </div>
+                ) : (
+                  <div className="p-4 bg-slate-50 rounded-xl border border-slate-200 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+                    <div className="space-y-0.5 text-center sm:text-left">
+                      <p className="font-bold text-slate-700">
+                        {club.name}의 최신 라운드 블로그 후기를 확인해보세요
+                      </p>
+                      <p className="text-[11px] text-slate-500">
+                        네이버 블로그에서 실제 골퍼들의 잔디 상태 및 코스 공략 후기를 바로 보실 수 있습니다.
+                      </p>
+                    </div>
+                    <a
+                      href={naverSearchUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="px-3.5 py-1.5 rounded-lg font-bold bg-[#03C75A] hover:bg-[#02b350] text-white flex items-center gap-1.5 shadow-2xs shrink-0 transition-colors"
+                    >
+                      <span className="font-black text-xs">N</span>
+                      <span>네이버 블로그 후기 보기</span>
+                      <ExternalLink className="w-3 h-3" />
+                    </a>
+                  </div>
+                )}
+              </div>
+            );
+          })()}
+
+          {/* ==================================================== */}
+          {/* Section 6: 골퍼 실제 리뷰 & 전체 평 남기기 */}
           {/* ==================================================== */}
           <div className="pt-2 border-t border-slate-200 space-y-3">
             <div className="flex items-center justify-between">
