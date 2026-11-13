@@ -237,8 +237,6 @@ export function App() {
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
       {/* 1. Header Navbar */}
       <Navbar
-        viewMode={viewMode}
-        setViewMode={setViewMode}
         compareCount={comparedClubs.length}
         onOpenCompare={() => setIsCompareModalOpen(true)}
       />

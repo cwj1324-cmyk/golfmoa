@@ -1,6 +1,22 @@
 import React, { useState } from 'react';
 import type { FilterState, Region } from '../types/golf';
-import { Search, RotateCcw, SlidersHorizontal, ChevronDown, ChevronUp, DollarSign, Moon, LayoutGrid, List } from 'lucide-react';
+import {
+  Search,
+  RotateCcw,
+  SlidersHorizontal,
+  ChevronDown,
+  ChevronUp,
+  DollarSign,
+  Moon,
+  LayoutGrid,
+  List,
+  MapPin,
+  Sprout,
+  Leaf,
+  Mountain,
+  Flag,
+  Footprints,
+} from 'lucide-react';
 import type { ViewMode } from './Navbar';
 
 interface FilterBarProps {
@@ -81,14 +97,14 @@ export const FilterBar: React.FC<FilterBarProps> = ({
     <div className="bg-white rounded-xl border border-slate-200/90 shadow-2xs p-3.5 sm:p-4 mb-4 space-y-3">
       {/* Row 1: Search Input & Region Tabs */}
       <div className="flex flex-col md:flex-row gap-2 items-stretch md:items-center justify-between">
-        <div className="relative flex-1">
-          <Search className="w-4 h-4 absolute left-3 top-1/2 -translate-y-1/2 text-slate-400" />
+        <div className="relative flex-1 flex items-center">
+          <Search className="w-4 h-4 absolute left-3 text-slate-400 pointer-events-none" />
           <input
             type="text"
             value={filter.searchQuery}
             onChange={(e) => setFilter((prev) => ({ ...prev, searchQuery: e.target.value }))}
             placeholder="골프장 이름, 지역 검색 (예: 라비에벨, 남여주, 용인, 서원힐스)"
-            className="w-full pl-9 pr-3 py-1.5 bg-slate-50 border border-slate-200 rounded-lg text-xs sm:text-sm focus:outline-none focus:ring-1 focus:ring-slate-900 focus:bg-white transition-all placeholder:text-slate-400"
+            className="w-full h-9 pl-9 pr-3 bg-slate-50 border border-slate-200 rounded-lg text-xs sm:text-sm focus:outline-none focus:ring-1 focus:ring-emerald-700 focus:border-emerald-700 focus:bg-white transition-all placeholder:text-slate-400"
           />
         </div>
 
@@ -98,7 +114,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <button
               key={reg}
               onClick={() => setFilter((prev) => ({ ...prev, region: reg }))}
-              className={`px-2.5 py-1.5 rounded-lg text-xs font-semibold whitespace-nowrap transition-all shrink-0 ${filter.region === reg
+              className={`h-9 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center justify-center transition-all shrink-0 ${filter.region === reg
                 ? 'bg-emerald-700 text-white shadow-2xs font-bold'
                 : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                 }`}
@@ -109,16 +125,16 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
       </div>
 
-      {/* Row 2: Condition Filter Buttons (Neatly Arranged & Aligned) */}
-      <div className="pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-1.5 sm:gap-2">
-        <div className="flex flex-wrap items-center gap-1 sm:gap-1.5 text-xs">
+      {/* Row 2: Condition Filter Buttons (Uniform h-8 height & w-3.5 h-3.5 Lucide icons) */}
+      <div className="pt-2.5 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2">
+        <div className="flex flex-wrap items-center gap-1.5 text-xs">
           {/* My Score Selector */}
-          <div className="inline-flex items-center bg-slate-100 rounded-lg px-2 py-1 text-[11px] sm:text-xs border border-slate-200/80 mr-0.5">
-            <span className="text-[10px] sm:text-[11px] font-medium text-slate-500 mr-1 whitespace-nowrap">내 타수:</span>
+          <div className="h-8 inline-flex items-center bg-slate-100 rounded-lg px-2.5 text-xs border border-slate-200/80">
+            <span className="text-[11px] font-medium text-slate-500 mr-1.5 whitespace-nowrap">내 타수:</span>
             <select
               value={filter.userAvgScore || 90}
               onChange={(e) => setFilter((prev) => ({ ...prev, userAvgScore: Number(e.target.value) }))}
-              className="bg-transparent font-bold text-slate-900 text-[11px] sm:text-xs focus:outline-none cursor-pointer"
+              className="bg-transparent font-bold text-slate-800 text-xs focus:outline-none cursor-pointer"
             >
               <option value={80}>80타 (싱글)</option>
               <option value={85}>85타 (중상급)</option>
@@ -132,12 +148,13 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           {/* Condition: 100% 잔디티 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, noMatOnly: !prev.noMatOnly }))}
-            className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-semibold whitespace-nowrap transition-all border ${filter.noMatOnly
-              ? 'bg-emerald-800 text-white border-emerald-800 shadow-2xs'
+            className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.noMatOnly
+              ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            🌱 잔디티만
+            <Sprout className={`w-3.5 h-3.5 shrink-0 ${filter.noMatOnly ? 'text-white' : 'text-emerald-600'}`} />
+            <span>잔디티만</span>
           </button>
 
           {/* Condition: 양잔디 */}
@@ -148,75 +165,79 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 fairwayGrass: prev.fairwayGrass === '양잔디' ? '전체' : '양잔디',
               }))
             }
-            className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-semibold whitespace-nowrap transition-all border ${filter.fairwayGrass === '양잔디'
-              ? 'bg-teal-800 text-white border-teal-800 shadow-2xs'
+            className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.fairwayGrass === '양잔디'
+              ? 'bg-teal-700 text-white border-teal-700 shadow-2xs'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            🌿 양잔디
+            <Leaf className={`w-3.5 h-3.5 shrink-0 ${filter.fairwayGrass === '양잔디' ? 'text-white' : 'text-teal-600'}`} />
+            <span>양잔디</span>
           </button>
 
           {/* Condition: 평지·시야 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, flatTerrainOnly: !prev.flatTerrainOnly }))}
-            className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-semibold whitespace-nowrap transition-all border ${filter.flatTerrainOnly
-              ? 'bg-sky-800 text-white border-sky-800 shadow-2xs'
+            className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.flatTerrainOnly
+              ? 'bg-sky-700 text-white border-sky-700 shadow-2xs'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            ⛰️ 평지형
+            <Mountain className={`w-3.5 h-3.5 shrink-0 ${filter.flatTerrainOnly ? 'text-white' : 'text-sky-600'}`} />
+            <span>평지형</span>
           </button>
 
           {/* Condition: 야간 3부 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, nightPlayOnly: !prev.nightPlayOnly }))}
-            className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-semibold whitespace-nowrap transition-all border flex items-center gap-1 ${filter.nightPlayOnly
-              ? 'bg-indigo-800 text-white border-indigo-800 shadow-2xs'
-              : 'bg-white text-indigo-900 border-slate-200 hover:bg-indigo-50/50'
+            className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.nightPlayOnly
+              ? 'bg-indigo-700 text-white border-indigo-700 shadow-2xs'
+              : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            <Moon className="w-3 h-3 text-indigo-500 fill-indigo-500" />
+            <Moon className={`w-3.5 h-3.5 shrink-0 ${filter.nightPlayOnly ? 'text-white' : 'text-indigo-500'}`} />
             <span>야간 3부</span>
           </button>
 
           {/* Condition: 빠른 그린 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, fastGreenOnly: !prev.fastGreenOnly }))}
-            className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-semibold whitespace-nowrap transition-all border ${filter.fastGreenOnly
-              ? 'bg-purple-800 text-white border-purple-800 shadow-2xs'
+            className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.fastGreenOnly
+              ? 'bg-purple-700 text-white border-purple-700 shadow-2xs'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            ⛳ 빠른 그린
+            <Flag className={`w-3.5 h-3.5 shrink-0 ${filter.fastGreenOnly ? 'text-white' : 'text-purple-600'}`} />
+            <span>빠른 그린</span>
           </button>
 
           {/* Condition: 노캐디 */}
           <button
             onClick={() => setFilter((prev) => ({ ...prev, noCaddieOnly: !prev.noCaddieOnly }))}
-            className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-semibold whitespace-nowrap transition-all border ${filter.noCaddieOnly
+            className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.noCaddieOnly
               ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            🚶 노캐디
+            <Footprints className={`w-3.5 h-3.5 shrink-0 ${filter.noCaddieOnly ? 'text-white' : 'text-emerald-600'}`} />
+            <span>노캐디</span>
           </button>
 
           {/* Drawer trigger */}
           <button
             onClick={() => setIsDetailOpen(!isDetailOpen)}
-            className={`px-2 sm:px-2.5 py-1 rounded-lg text-[11px] sm:text-xs font-medium whitespace-nowrap flex items-center gap-1 transition-all border ${isDetailOpen || advancedCount > 0
+            className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${isDetailOpen || advancedCount > 0
               ? 'bg-emerald-700 text-white border-emerald-700 font-bold shadow-2xs'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            <SlidersHorizontal className="w-3 h-3" />
+            <SlidersHorizontal className="w-3.5 h-3.5 shrink-0" />
             <span>상세 조건</span>
             {advancedCount > 0 && (
-              <span className="w-4 h-4 rounded-full bg-white text-emerald-800 text-[9px] font-black flex items-center justify-center ml-0.5">
+              <span className="w-4 h-4 rounded-full bg-white text-emerald-800 text-[10px] font-black inline-flex items-center justify-center">
                 {advancedCount}
               </span>
             )}
-            {isDetailOpen ? <ChevronUp className="w-3 h-3 ml-0.5" /> : <ChevronDown className="w-3 h-3 ml-0.5" />}
+            {isDetailOpen ? <ChevronUp className="w-3.5 h-3.5 shrink-0" /> : <ChevronDown className="w-3.5 h-3.5 shrink-0" />}
           </button>
         </div>
 
@@ -224,9 +245,9 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         {hasActiveFilters && (
           <button
             onClick={handleReset}
-            className="text-[11px] sm:text-xs text-rose-600 hover:text-rose-700 font-semibold flex items-center gap-1 px-1.5 py-1 rounded hover:bg-rose-50 transition-all shrink-0 whitespace-nowrap"
+            className="h-8 px-2.5 text-xs text-rose-600 hover:text-rose-700 font-semibold inline-flex items-center gap-1.5 rounded-lg hover:bg-rose-50 transition-all shrink-0 whitespace-nowrap"
           >
-            <RotateCcw className="w-3 h-3" />
+            <RotateCcw className="w-3.5 h-3.5 shrink-0" />
             <span>필터 초기화</span>
           </button>
         )}
@@ -276,48 +297,61 @@ export const FilterBar: React.FC<FilterBarProps> = ({
       )}
 
       {/* Row 4: Results Count, View Switcher & Sort Dropdown */}
-      <div className="flex items-center justify-between pt-1.5 text-[11px] sm:text-xs text-slate-500 border-t border-slate-100 gap-2">
-        <div className="truncate flex items-center gap-2">
-          <span>
+      <div className="flex flex-wrap items-center justify-between pt-2 text-xs text-slate-500 border-t border-slate-100 gap-2">
+        <div className="flex items-center gap-2.5">
+          <span className="whitespace-nowrap">
             검색 결과: <strong className="text-slate-900 font-bold">{filteredCount}</strong>
             <span className="text-slate-400">/{totalCount}곳</span>
           </span>
 
-          {/* Quick View Switcher (Cards vs List) */}
-          {setViewMode && viewMode !== 'map' && (
-            <div className="inline-flex items-center bg-slate-100 p-0.5 rounded-lg ml-1">
+          {/* Unified 3-Way View Switcher: 카드 / 리스트 / 지도 */}
+          {setViewMode && (
+            <div className="inline-flex items-center bg-slate-100 p-0.5 rounded-lg h-8">
               <button
                 type="button"
                 onClick={() => setViewMode('cards')}
-                className={`p-1 rounded flex items-center gap-1 ${
+                className={`h-7 px-2 rounded-md inline-flex items-center gap-1 text-[11px] transition-all ${
                   viewMode === 'cards'
                     ? 'bg-white text-emerald-800 shadow-2xs font-bold'
-                    : 'text-slate-500 hover:text-slate-800'
+                    : 'text-slate-500 hover:text-slate-800 font-medium'
                 }`}
                 title="카드형 그리드 뷰"
               >
-                <LayoutGrid className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline text-[10px]">카드</span>
+                <LayoutGrid className="w-3.5 h-3.5 shrink-0" />
+                <span>카드</span>
               </button>
               <button
                 type="button"
                 onClick={() => setViewMode('list')}
-                className={`p-1 rounded flex items-center gap-1 ${
+                className={`h-7 px-2 rounded-md inline-flex items-center gap-1 text-[11px] transition-all ${
                   viewMode === 'list'
                     ? 'bg-white text-emerald-800 shadow-2xs font-bold'
-                    : 'text-slate-500 hover:text-slate-800'
+                    : 'text-slate-500 hover:text-slate-800 font-medium'
                 }`}
                 title="리스트(표)형 뷰"
               >
-                <List className="w-3.5 h-3.5" />
-                <span className="hidden sm:inline text-[10px]">리스트</span>
+                <List className="w-3.5 h-3.5 shrink-0" />
+                <span>리스트</span>
+              </button>
+              <button
+                type="button"
+                onClick={() => setViewMode('map')}
+                className={`h-7 px-2 rounded-md inline-flex items-center gap-1 text-[11px] transition-all ${
+                  viewMode === 'map'
+                    ? 'bg-white text-emerald-800 shadow-2xs font-bold'
+                    : 'text-slate-500 hover:text-slate-800 font-medium'
+                }`}
+                title="지도형 뷰"
+              >
+                <MapPin className="w-3.5 h-3.5 shrink-0" />
+                <span>지도</span>
               </button>
             </div>
           )}
         </div>
 
-        <div className="flex items-center space-x-1 shrink-0">
-          <span className="text-slate-400">정렬:</span>
+        <div className="h-8 inline-flex items-center space-x-1 shrink-0">
+          <span className="text-slate-400 text-[11px] sm:text-xs">정렬:</span>
           <select
             value={sortBy}
             onChange={(e) => setSortBy(e.target.value)}

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Star, MapPin, Layers, Check, ExternalLink, Moon } from 'lucide-react';
+import { Star, MapPin, Plus, Check, ExternalLink, Moon } from 'lucide-react';
 import type { GolfClub } from '../types/golf';
 import { predictFieldScore } from '../utils/calculator';
 import { getClubRatingStats } from '../utils/wikiStorage';
@@ -23,12 +23,12 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
     <div className="bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-xs">
       {/* Desktop Table Header */}
       <div className="hidden lg:grid grid-cols-12 gap-3 px-5 py-3.5 bg-slate-50 border-b border-slate-200 text-xs font-bold text-slate-500">
-        <div className="col-span-4">골프장 / 위치</div>
+        <div className="col-span-3">골프장 / 위치</div>
         <div className="col-span-2 text-center">잔디 · 티박스</div>
         <div className="col-span-2 text-center">야간 · 지형</div>
-        <div className="col-span-1 text-center">난이도 (슬로프)</div>
+        <div className="col-span-1 text-center">난이도</div>
         <div className="col-span-2 text-right">예상 비용 (1인 총액)</div>
-        <div className="col-span-1 text-center">비교 / 상세</div>
+        <div className="col-span-2 text-center">조건 비교 / 상세</div>
       </div>
 
       {/* Rows */}
@@ -58,7 +58,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
               className="p-3.5 sm:p-4 hover:bg-slate-50/80 transition-all cursor-pointer flex flex-col lg:grid lg:grid-cols-12 lg:gap-3 lg:items-center group"
             >
               {/* 1. 골프장 정보 & 위치 (사진 제거됨) */}
-              <div className="col-span-4 min-w-0">
+              <div className="col-span-3 min-w-0">
                 <div className="flex items-center gap-1.5 mb-1">
                   <span className="text-[10px] font-bold px-1.5 py-0.5 rounded bg-slate-100 text-slate-700">
                     {club.courseType} · {club.holes}홀
@@ -174,26 +174,37 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                 </div>
               </div>
 
-              {/* 6. 액션 버튼 (비교 & 상세) */}
+              {/* 6. 액션 버튼 (조건 비교 & 상세) */}
               <div
-                className="col-span-1 flex items-center justify-end lg:justify-center gap-1.5 mt-2 lg:mt-0 pt-2 lg:pt-0 border-t lg:border-t-0 border-slate-100"
+                className="col-span-2 flex items-center justify-end lg:justify-center gap-1.5 mt-2 lg:mt-0 pt-2 lg:pt-0 border-t lg:border-t-0 border-slate-100"
                 onClick={(e) => e.stopPropagation()}
               >
                 <button
+                  type="button"
                   onClick={() => onToggleCompare(club)}
-                  className={`p-1.5 sm:px-2 sm:py-1 rounded-lg text-xs font-bold flex items-center gap-1 transition-all border ${isCompared
+                  className={`h-8 px-2.5 rounded-lg text-xs font-bold inline-flex items-center gap-1 transition-all border shrink-0 whitespace-nowrap ${isCompared
                     ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
-                    : 'bg-white text-slate-600 border-slate-200 hover:border-emerald-600 hover:text-emerald-800'
+                    : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50 hover:border-emerald-600 hover:text-emerald-800'
                     }`}
-                  title={isCompared ? '비교함에서 제외' : '1:1 비교함 담기'}
+                  title={isCompared ? '1:1 조건 비교함에서 제외' : '1:1 조건 비교함에 담기'}
                 >
-                  {isCompared ? <Check className="w-3.5 h-3.5" /> : <Layers className="w-3.5 h-3.5" />}
-                  <span className="hidden sm:inline">{isCompared ? '담김' : '비교'}</span>
+                  {isCompared ? (
+                    <>
+                      <Check className="w-3.5 h-3.5 stroke-[3] shrink-0" />
+                      <span>비교중</span>
+                    </>
+                  ) : (
+                    <>
+                      <Plus className="w-3.5 h-3.5 shrink-0" />
+                      <span>조건 비교</span>
+                    </>
+                  )}
                 </button>
 
                 <button
+                  type="button"
                   onClick={() => onSelectClub(club)}
-                  className="p-1.5 text-slate-400 hover:text-emerald-700 hover:bg-slate-100 rounded-lg transition-all"
+                  className="h-8 w-8 inline-flex items-center justify-center text-slate-400 hover:text-emerald-700 hover:bg-slate-100 rounded-lg transition-all shrink-0"
                   title="상세보기"
                 >
                   <ExternalLink className="w-3.5 h-3.5" />
