@@ -16,6 +16,7 @@ import {
   Send,
   BookOpen,
   Calendar,
+  Trash2,
 } from 'lucide-react';
 import type { GolfClub, GrassType, CourseStyle, CourseType, GolferReview, WikiEditRecord } from '../types/golf';
 import { calculateCostPerPerson, formatPrice, predictFieldScore, getOfficialClubUrl } from '../utils/calculator';
@@ -26,6 +27,9 @@ import {
   resetWikiEdit,
   getGolferReviews,
   addGolferReview,
+  updateGolferReview,
+  deleteGolferReview,
+  isMyReview,
 } from '../utils/wikiStorage';
 
 interface GolfDetailModalProps {
@@ -70,6 +74,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
   // Review System State
   const [reviews, setReviews] = useState<GolferReview[]>([]);
   const [isWritingReview, setIsWritingReview] = useState(false);
+  const [editingReviewId, setEditingReviewId] = useState<string | null>(null);
   const [reviewForm, setReviewForm] = useState({
     author: '',
     rating: 5,
@@ -160,7 +165,53 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
     }
   };
 
-  // Handle Review Submission
+  // Start Editing Review
+  const handleStartEditReview = (rev: GolferReview) => {
+    setEditingReviewId(rev.id);
+    setIsWritingReview(true);
+    setReviewForm({
+      author: rev.author,
+      rating: rev.rating,
+      avgScore: rev.avgScore || '80대',
+      visitDate: rev.visitDate || '',
+      courseScore: rev.scores?.course || 5,
+      caddieScore: rev.scores?.caddie || 5,
+      costScore: rev.scores?.cost || 4,
+      content: rev.content,
+    });
+  };
+
+  // Cancel Review Writing/Editing
+  const handleCancelReview = () => {
+    setIsWritingReview(false);
+    setEditingReviewId(null);
+    setReviewForm({
+      author: '',
+      rating: 5,
+      avgScore: '80대',
+      visitDate: '2024년 10월',
+      courseScore: 5,
+      caddieScore: 5,
+      costScore: 4,
+      content: '',
+    });
+  };
+
+  // Delete Review
+  const handleDeleteReview = (reviewId: string) => {
+    if (!confirm('작성하신 전체 평을 삭제하시겠습니까? 삭제 후에는 복구할 수 없습니다.')) {
+      return;
+    }
+
+    deleteGolferReview(club.id, reviewId);
+    setReviews(reviews.filter((r) => r.id !== reviewId));
+    if (editingReviewId === reviewId) {
+      setIsWritingReview(false);
+      setEditingReviewId(null);
+    }
+  };
+
+  // Handle Review Submission (Add & Update)
   const handleSubmitReview = (e: React.FormEvent) => {
     e.preventDefault();
     if (!reviewForm.content.trim()) {
@@ -168,25 +219,52 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
       return;
     }
 
-    const newRev = addGolferReview(club.id, {
-      author: reviewForm.author.trim() || '익명 골퍼',
-      rating: reviewForm.rating,
-      avgScore: reviewForm.avgScore,
-      visitDate: reviewForm.visitDate,
-      content: reviewForm.content.trim(),
-      scores: {
-        course: reviewForm.courseScore,
-        caddie: reviewForm.caddieScore,
-        cost: reviewForm.costScore,
-      },
-    });
+    if (editingReviewId) {
+      const updated = updateGolferReview(club.id, editingReviewId, {
+        author: reviewForm.author.trim() || '익명 골퍼',
+        rating: reviewForm.rating,
+        avgScore: reviewForm.avgScore,
+        visitDate: reviewForm.visitDate,
+        content: reviewForm.content.trim(),
+        scores: {
+          course: reviewForm.courseScore,
+          caddie: reviewForm.caddieScore,
+          cost: reviewForm.costScore,
+        },
+      });
 
-    setReviews([newRev, ...reviews.filter((r) => r.id !== newRev.id)]);
-    setIsWritingReview(false);
+      if (updated) {
+        setReviews(reviews.map((r) => (r.id === editingReviewId ? updated : r)));
+      }
+      setIsWritingReview(false);
+      setEditingReviewId(null);
+    } else {
+      const newRev = addGolferReview(club.id, {
+        author: reviewForm.author.trim() || '익명 골퍼',
+        rating: reviewForm.rating,
+        avgScore: reviewForm.avgScore,
+        visitDate: reviewForm.visitDate,
+        content: reviewForm.content.trim(),
+        scores: {
+          course: reviewForm.courseScore,
+          caddie: reviewForm.caddieScore,
+          cost: reviewForm.costScore,
+        },
+      });
+
+      setReviews([newRev, ...reviews.filter((r) => r.id !== newRev.id)]);
+      setIsWritingReview(false);
+    }
+
     setReviewForm({
-      ...reviewForm,
-      content: '',
       author: '',
+      rating: 5,
+      avgScore: '80대',
+      visitDate: '2024년 10월',
+      courseScore: 5,
+      caddieScore: 5,
+      costScore: 4,
+      content: '',
     });
   };
 
@@ -813,7 +891,10 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             {isWritingReview && (
               <form onSubmit={handleSubmitReview} className="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-3 text-xs">
                 <div className="font-bold text-slate-800 flex items-center justify-between border-b border-slate-200 pb-2">
-                  <span>솔직한 전체 평 & 평점 남기기</span>
+                  <div className="flex items-center gap-1.5">
+                    <Edit3 className="w-4 h-4 text-emerald-700" />
+                    <span>{editingReviewId ? '내가 작성한 전체 평 수정하기' : '솔직한 전체 평 & 평점 남기기'}</span>
+                  </div>
                   <div className="flex items-center gap-1">
                     {[1, 2, 3, 4, 5].map((star) => (
                       <button
@@ -930,17 +1011,17 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 <div className="flex justify-end gap-2">
                   <button
                     type="button"
-                    onClick={() => setIsWritingReview(false)}
-                    className="px-3 py-1.5 rounded-lg border border-slate-300 bg-white text-slate-600 font-bold"
+                    onClick={handleCancelReview}
+                    className="px-3 py-1.5 rounded-lg border border-slate-300 bg-white hover:bg-slate-50 text-slate-600 font-bold transition-colors"
                   >
                     취소
                   </button>
                   <button
                     type="submit"
-                    className="px-4 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-bold flex items-center gap-1"
+                    className="px-4 py-1.5 rounded-lg bg-emerald-700 hover:bg-emerald-800 text-white font-bold flex items-center gap-1.5 shadow-2xs transition-colors"
                   >
                     <Send className="w-3.5 h-3.5" />
-                    <span>전체 평 등록하기</span>
+                    <span>{editingReviewId ? '수정 완료' : '전체 평 등록하기'}</span>
                   </button>
                 </div>
               </form>
@@ -968,53 +1049,96 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               </div>
             ) : (
               <div className="space-y-2.5">
-                {reviews.map((rev) => (
-                  <div key={rev.id} className="p-3 sm:p-3.5 bg-slate-50 rounded-xl border border-slate-200 text-xs space-y-1.5">
-                    <div className="flex items-center justify-between">
-                      <div className="flex items-center gap-1.5">
-                        <span className="font-extrabold text-slate-900">{rev.author}</span>
-                        {rev.avgScore && (
-                          <span className="px-1.5 py-0.2 rounded bg-slate-200 text-slate-700 text-[10px] font-semibold">
-                            {rev.avgScore}
-                          </span>
-                        )}
-                        {rev.visitDate && (
-                          <span className="text-[10px] text-slate-400">· {rev.visitDate}</span>
-                        )}
-                      </div>
-
-                      <div className="flex items-center gap-1">
-                        <div className="flex items-center text-amber-500">
-                          {Array.from({ length: 5 }).map((_, i) => (
-                            <Star
-                              key={i}
-                              className={`w-3 h-3 ${
-                                i < rev.rating
-                                  ? 'fill-amber-400 text-amber-400'
-                                  : 'text-slate-300'
-                              }`}
-                            />
-                          ))}
+                {reviews.map((rev) => {
+                  const mine = isMyReview(rev.id);
+                  return (
+                    <div
+                      key={rev.id}
+                      className={`p-3 sm:p-3.5 rounded-xl border text-xs space-y-1.5 transition-all ${
+                        mine
+                          ? 'bg-emerald-50/40 border-emerald-300 ring-1 ring-emerald-200/50'
+                          : 'bg-slate-50 border-slate-200'
+                      }`}
+                    >
+                      <div className="flex items-center justify-between gap-2">
+                        <div className="flex items-center gap-1.5 flex-wrap">
+                          <span className="font-extrabold text-slate-900">{rev.author}</span>
+                          {mine && (
+                            <span className="px-1.5 py-0.5 rounded text-[10px] font-bold bg-emerald-700 text-white shadow-2xs">
+                              내가 쓴 글
+                            </span>
+                          )}
+                          {rev.avgScore && (
+                            <span className="px-1.5 py-0.2 rounded bg-slate-200 text-slate-700 text-[10px] font-semibold">
+                              {rev.avgScore}
+                            </span>
+                          )}
+                          {rev.visitDate && (
+                            <span className="text-[10px] text-slate-400">· {rev.visitDate}</span>
+                          )}
                         </div>
-                        <span className="text-[10px] text-slate-400 ml-1">{rev.createdAt}</span>
+
+                        <div className="flex items-center gap-2 shrink-0">
+                          <div className="flex items-center gap-1">
+                            <div className="flex items-center text-amber-500">
+                              {Array.from({ length: 5 }).map((_, i) => (
+                                <Star
+                                  key={i}
+                                  className={`w-3 h-3 ${
+                                    i < rev.rating
+                                      ? 'fill-amber-400 text-amber-400'
+                                      : 'text-slate-300'
+                                  }`}
+                                />
+                              ))}
+                            </div>
+                            <span className="text-[10px] text-slate-400 ml-1">
+                              {rev.createdAt}
+                              {rev.updatedAt && ' (수정됨)'}
+                            </span>
+                          </div>
+
+                          {mine && (
+                            <div className="flex items-center gap-1 pl-1.5 border-l border-slate-300">
+                              <button
+                                type="button"
+                                onClick={() => handleStartEditReview(rev)}
+                                className="px-2 py-1 text-slate-600 hover:text-emerald-800 hover:bg-emerald-100 rounded text-[11px] font-bold inline-flex items-center gap-1 transition-colors"
+                                title="수정하기"
+                              >
+                                <Edit3 className="w-3 h-3 text-emerald-700" />
+                                <span>수정</span>
+                              </button>
+                              <button
+                                type="button"
+                                onClick={() => handleDeleteReview(rev.id)}
+                                className="px-2 py-1 text-slate-500 hover:text-rose-700 hover:bg-rose-100 rounded text-[11px] font-bold inline-flex items-center gap-1 transition-colors"
+                                title="삭제하기"
+                              >
+                                <Trash2 className="w-3 h-3 text-rose-600" />
+                                <span>삭제</span>
+                              </button>
+                            </div>
+                          )}
+                        </div>
                       </div>
+
+                      <p className="text-slate-700 leading-relaxed text-[11px] sm:text-xs">
+                        {rev.content}
+                      </p>
+
+                      {rev.scores && (
+                        <div className="flex items-center gap-2 text-[10px] text-slate-400 pt-1 border-t border-slate-100">
+                          <span>잔디/관리 ★{rev.scores.course}</span>
+                          <span>·</span>
+                          <span>서비스 ★{rev.scores.caddie}</span>
+                          <span>·</span>
+                          <span>가성비 ★{rev.scores.cost}</span>
+                        </div>
+                      )}
                     </div>
-
-                    <p className="text-slate-700 leading-relaxed text-[11px] sm:text-xs">
-                      {rev.content}
-                    </p>
-
-                    {rev.scores && (
-                      <div className="flex items-center gap-2 text-[10px] text-slate-400 pt-1 border-t border-slate-100">
-                        <span>잔디/관리 ★{rev.scores.course}</span>
-                        <span>·</span>
-                        <span>서비스 ★{rev.scores.caddie}</span>
-                        <span>·</span>
-                        <span>가성비 ★{rev.scores.cost}</span>
-                      </div>
-                    )}
-                  </div>
-                ))}
+                  );
+                })}
               </div>
             )}
           </div>

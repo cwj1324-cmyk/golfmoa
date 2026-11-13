@@ -2,6 +2,7 @@ import type { GolfClub, GolferReview, WikiEditRecord } from '../types/golf';
 
 const WIKI_STORAGE_KEY = 'GOLFMOA_WIKI_EDITS';
 const REVIEWS_STORAGE_KEY = 'GOLFMOA_GOLFER_REVIEWS';
+const MY_REVIEWS_STORAGE_KEY = 'GOLFMOA_MY_REVIEWS';
 
 // 1. WIKI EDITS
 export const getWikiEdits = (): Record<string, WikiEditRecord> => {
@@ -117,6 +118,52 @@ export const getGolferReviews = (club: GolfClub): GolferReview[] => {
   return customReviews.filter((r) => !r.id.startsWith('default-'));
 };
 
+export const getMyReviewIds = (): string[] => {
+  try {
+    const raw = localStorage.getItem(MY_REVIEWS_STORAGE_KEY);
+    if (raw) {
+      return JSON.parse(raw);
+    }
+  } catch {
+    // fallback
+  }
+
+  // Backward compatibility: If no record yet, claim all custom reviews currently in this device's storage
+  try {
+    const rawReviews = localStorage.getItem(REVIEWS_STORAGE_KEY);
+    if (rawReviews) {
+      const stored: Record<string, GolferReview[]> = JSON.parse(rawReviews);
+      const allIds = Object.values(stored)
+        .flat()
+        .filter((r) => !r.id.startsWith('default-'))
+        .map((r) => r.id);
+      localStorage.setItem(MY_REVIEWS_STORAGE_KEY, JSON.stringify(allIds));
+      return allIds;
+    }
+  } catch {
+    // fallback
+  }
+
+  return [];
+};
+
+export const isMyReview = (reviewId: string): boolean => {
+  const ids = getMyReviewIds();
+  return ids.includes(reviewId);
+};
+
+export const markAsMyReview = (reviewId: string): void => {
+  const ids = getMyReviewIds();
+  if (!ids.includes(reviewId)) {
+    ids.push(reviewId);
+    try {
+      localStorage.setItem(MY_REVIEWS_STORAGE_KEY, JSON.stringify(ids));
+    } catch (e) {
+      console.error('Failed to save my review id', e);
+    }
+  }
+};
+
 export const addGolferReview = (
   clubId: string,
   review: Omit<GolferReview, 'id' | 'clubId' | 'createdAt'>
@@ -145,6 +192,83 @@ export const addGolferReview = (
     console.error('Failed to save review to localStorage', e);
   }
 
+  markAsMyReview(newReview.id);
   return newReview;
 };
+
+export const updateGolferReview = (
+  clubId: string,
+  reviewId: string,
+  updatedFields: Partial<Omit<GolferReview, 'id' | 'clubId' | 'createdAt'>>
+): GolferReview | null => {
+  let stored: Record<string, GolferReview[]> = {};
+  try {
+    const raw = localStorage.getItem(REVIEWS_STORAGE_KEY);
+    stored = raw ? JSON.parse(raw) : {};
+  } catch {
+    stored = {};
+  }
+
+  const list = stored[clubId] || [];
+  const index = list.findIndex((r) => r.id === reviewId);
+  if (index === -1) return null;
+
+  const oldScores = list[index].scores;
+  const newScores = updatedFields.scores;
+  const mergedScores = newScores && oldScores
+    ? {
+        course: newScores.course ?? oldScores.course,
+        caddie: newScores.caddie ?? oldScores.caddie,
+        cost: newScores.cost ?? oldScores.cost,
+      }
+    : (newScores || oldScores);
+
+  const updated: GolferReview = {
+    ...list[index],
+    ...updatedFields,
+    updatedAt: new Date().toISOString().split('T')[0],
+    scores: mergedScores,
+  };
+
+  list[index] = updated;
+  stored[clubId] = list;
+
+  try {
+    localStorage.setItem(REVIEWS_STORAGE_KEY, JSON.stringify(stored));
+  } catch (e) {
+    console.error('Failed to update review in localStorage', e);
+  }
+
+  return updated;
+};
+
+export const deleteGolferReview = (clubId: string, reviewId: string): boolean => {
+  let stored: Record<string, GolferReview[]> = {};
+  try {
+    const raw = localStorage.getItem(REVIEWS_STORAGE_KEY);
+    stored = raw ? JSON.parse(raw) : {};
+  } catch {
+    stored = {};
+  }
+
+  const list = stored[clubId] || [];
+  stored[clubId] = list.filter((r) => r.id !== reviewId);
+
+  try {
+    localStorage.setItem(REVIEWS_STORAGE_KEY, JSON.stringify(stored));
+  } catch (e) {
+    console.error('Failed to delete review from localStorage', e);
+  }
+
+  // Remove from myReviewIds
+  const myIds = getMyReviewIds().filter((id) => id !== reviewId);
+  try {
+    localStorage.setItem(MY_REVIEWS_STORAGE_KEY, JSON.stringify(myIds));
+  } catch (e) {
+    console.error('Failed to remove review from my reviews', e);
+  }
+
+  return true;
+};
+
 

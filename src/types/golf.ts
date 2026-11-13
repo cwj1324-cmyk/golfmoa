@@ -131,6 +131,7 @@ export interface GolferReview {
   visitDate?: string; // 예: "2024년 10월 주말"
   content: string;
   createdAt: string;
+  updatedAt?: string; // 수정 일시 (예: "2024-10-15 (수정됨)")
   scores?: {
     course: number;   // 잔디/그린 관리 (1~5)
     caddie: number;   // 서비스/진행 (1~5)
