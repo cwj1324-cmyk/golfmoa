@@ -16,6 +16,7 @@ import {
   Mountain,
   Flag,
   Footprints,
+  Layers,
 } from 'lucide-react';
 import type { ViewMode } from './Navbar';
 
@@ -28,6 +29,8 @@ interface FilterBarProps {
   setSortBy: (sort: string) => void;
   viewMode?: ViewMode;
   setViewMode?: (mode: ViewMode) => void;
+  compareCount?: number;
+  onOpenCompare?: () => void;
 }
 
 const REGIONS: Region[] = ['전체', '경기남부', '경기북부', '인천', '강원', '충청', '전라', '경상', '제주'];
@@ -41,6 +44,8 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   setSortBy,
   viewMode,
   setViewMode,
+  compareCount = 0,
+  onOpenCompare,
 }) => {
   const [isDetailOpen, setIsDetailOpen] = useState(false);
 
@@ -298,7 +303,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
 
       {/* Row 4: Results Count, View Switcher & Sort Dropdown */}
       <div className="flex flex-wrap items-center justify-between pt-2 text-xs text-slate-500 border-t border-slate-100 gap-2">
-        <div className="flex items-center gap-2.5">
+        <div className="flex flex-wrap items-center gap-2">
           <span className="whitespace-nowrap">
             검색 결과: <strong className="text-slate-900 font-bold">{filteredCount}</strong>
             <span className="text-slate-400">/{totalCount}곳</span>
@@ -347,6 +352,28 @@ export const FilterBar: React.FC<FilterBarProps> = ({
                 <span>지도</span>
               </button>
             </div>
+          )}
+
+          {/* Spec Compare Button */}
+          {onOpenCompare && (
+            <button
+              type="button"
+              onClick={onOpenCompare}
+              className={`h-8 px-2.5 rounded-lg text-[11px] font-bold inline-flex items-center gap-1.5 transition-all shrink-0 ${
+                compareCount > 0
+                  ? 'bg-emerald-700 text-white hover:bg-emerald-800 shadow-xs'
+                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200 hover:text-slate-900'
+              }`}
+              title="선택한 골프장 스펙 비교"
+            >
+              <Layers className="w-3.5 h-3.5 shrink-0" />
+              <span>스펙 비교</span>
+              {compareCount > 0 && (
+                <span className="px-1.5 py-0.5 text-[10px] leading-none rounded-full bg-white text-emerald-800 font-extrabold">
+                  {compareCount}
+                </span>
+              )}
+            </button>
           )}
         </div>
 

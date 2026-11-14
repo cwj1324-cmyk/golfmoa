@@ -1,17 +1,9 @@
 import React from 'react';
-import { Flag, Layers } from 'lucide-react';
+import { Flag } from 'lucide-react';
 
 export type ViewMode = 'cards' | 'list' | 'map';
 
-interface NavbarProps {
-  compareCount: number;
-  onOpenCompare: () => void;
-}
-
-export const Navbar: React.FC<NavbarProps> = ({
-  compareCount,
-  onOpenCompare,
-}) => {
+export const Navbar: React.FC = () => {
   return (
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm">
       <div className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 h-14 sm:h-16 flex items-center justify-between gap-2">
@@ -34,28 +26,6 @@ export const Navbar: React.FC<NavbarProps> = ({
               전국 골프장 스펙 비교 & 참여형 코스 정보
             </p>
           </div>
-        </div>
-
-        {/* Actions */}
-        <div className="flex items-center">
-          {/* Quick Compare Button */}
-          <button
-            onClick={onOpenCompare}
-            className={`relative flex items-center space-x-1 sm:space-x-1.5 px-2.5 py-1.5 sm:px-3.5 sm:py-2 rounded-xl text-xs sm:text-sm font-bold transition-all ${
-              compareCount > 0
-                ? 'bg-emerald-700 text-white shadow-xs hover:bg-emerald-800'
-                : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
-            }`}
-          >
-            <Layers className="w-3.5 h-3.5 sm:w-4 sm:h-4" />
-            <span className="sm:inline hidden">스펙 비교</span>
-            <span className="sm:hidden text-[11px]">비교</span>
-            {compareCount > 0 && (
-              <span className="ml-1 bg-white text-emerald-800 text-[10px] sm:text-xs font-black px-1.5 py-0.2 rounded-full">
-                {compareCount}
-              </span>
-            )}
-          </button>
         </div>
       </div>
     </header>

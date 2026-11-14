@@ -236,10 +236,7 @@ export function App() {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
       {/* 1. Header Navbar */}
-      <Navbar
-        compareCount={comparedClubs.length}
-        onOpenCompare={() => setIsCompareModalOpen(true)}
-      />
+      <Navbar />
 
       {/* 2. Main Container */}
       <main className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 flex-1 w-full pb-28">
@@ -266,6 +263,8 @@ export function App() {
           setSortBy={setSortBy}
           viewMode={viewMode}
           setViewMode={setViewMode}
+          compareCount={comparedClubs.length}
+          onOpenCompare={() => setIsCompareModalOpen(true)}
         />
 
         {/* View Mode Content (Cards vs Table List vs Map) */}
