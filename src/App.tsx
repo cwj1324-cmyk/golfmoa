@@ -3,7 +3,6 @@ import { GOLF_CLUBS_DATA, THEME_PRESETS } from './data/golfClubs';
 import type { GolfClub, FilterState } from './types/golf';
 import { calculateCostPerPerson } from './utils/calculator';
 import { Navbar, type ViewMode } from './components/Navbar';
-import { ThemeCards } from './components/ThemeCards';
 import { FilterBar } from './components/FilterBar';
 import { GolfCard } from './components/GolfCard';
 import { GolfListView } from './components/GolfListView';
@@ -115,13 +114,6 @@ export function App() {
     setComparedClubs((prev) =>
       prev.map((c) => (c.id === updatedClub.id ? updatedClub : c))
     );
-  };
-
-  const handleSelectTheme = (themeId: string | null) => {
-    setFilter((prev) => ({
-      ...prev,
-      selectedTheme: themeId,
-    }));
   };
 
   // Filter & Sort Logic
@@ -246,12 +238,6 @@ export function App() {
             전국 골프장 코스 조건 정보
           </h1>
         </div>
-
-        {/* Curation Themes */}
-        <ThemeCards
-          selectedThemeId={filter.selectedTheme}
-          onSelectTheme={handleSelectTheme}
-        />
 
         {/* Multi-Condition Filter Bar */}
         <FilterBar
