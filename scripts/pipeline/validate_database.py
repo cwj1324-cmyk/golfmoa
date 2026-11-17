@@ -10,6 +10,10 @@
 import json
 import sys
 
+# Windows 콘솔(cp949)에서 체크 기호 출력이 깨지지 않도록
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+
 FORBIDDEN_KEYWORDS = ['파3', 'par3', 'par 3', '연습장', '인도어', '스크린골프', '미니골프', '숏코스', '클럽하우스']
 
 def validate():
@@ -44,8 +48,14 @@ def validate():
 
         # 3. Hole Count validation
         holes = c.get('holes')
-        if not holes or holes < 18:
+        # 9홀 정규 대중제(예: 고양CC, 거창CC)는 허용하고, 그보다 작은 시설만 막는다.
+        if not holes or holes < 9:
             errors.append(f"[{idx}] Invalid hole count ({holes} holes): {name}")
+
+        # 3-1. 자동 생성된 가짜 전화번호(0X-777-1XXX) 유입 차단
+        import re
+        if re.match(r'^0\d{0,2}-777-1\d{3}$', c.get('phone') or ''):
+            errors.append(f"[{idx}] Placeholder phone number: {name} ({c.get('phone')})")
 
         # 4. Location & Region validation
         coords = c.get('coordinates', {})

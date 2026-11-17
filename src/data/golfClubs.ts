@@ -3,16 +3,16 @@ import type { GolfClub } from '../types/golf';
 export const GOLF_CLUBS_DATA: GolfClub[] = [
   {
     "id": "레이크힐스제주골프클럽",
-    "name": "레이크힐스 제주 골프클럽",
+    "name": "볼카노CC (구 레이크힐스 제주)",
     "region": "제주",
-    "address": "제주특별자치도 서귀포시",
+    "address": "제주특별자치도 서귀포시 산록남로 1391 (중문동)",
     "coordinates": {
       "lat": 33.29993,
       "lng": 126.43071
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "회원제",
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -60,7 +60,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.lakehills.co.kr",
-    "phone": "04-777-1002",
+    "phone": "064-738-8858",
     "city": "서귀포시",
     "blogReviews": [
       {
@@ -88,7 +88,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "우리들cc",
-    "name": "우리들 CC",
+    "name": "우리들CC",
     "region": "제주",
     "address": "제주특별자치도 서귀포시",
     "coordinates": {
@@ -145,7 +145,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.wooridulcc.com",
-    "phone": "07-777-1005",
+    "phone": "",
     "city": "서귀포시"
   },
   {
@@ -207,7 +207,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.plazacc.co.kr",
-    "phone": "04-777-1011",
+    "phone": "",
     "city": "제주시"
   },
   {
@@ -267,14 +267,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.seaside.co.kr",
-    "phone": "07-777-1023",
+    "phone": "",
     "city": "통영시"
   },
   {
     "id": "로얄포레cc",
     "name": "로얄포레CC",
     "region": "충청",
-    "address": "충청북도 충주시 화치3길",
+    "address": "충청북도 충주시 신니면 화치3길 35 (대화리, (주)신니개발)",
     "coordinates": {
       "lat": 36.99481,
       "lng": 127.67778
@@ -329,7 +329,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.royalforet.com",
-    "phone": "08-777-1024",
+    "phone": "043-841-9000",
     "city": "충주시",
     "blogReviews": [
       {
@@ -359,7 +359,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "id": "크리스탈밸리골프클럽",
     "name": "크리스탈밸리 골프클럽",
     "region": "경기북부",
-    "address": "경기도 가평군",
+    "address": "경기도 가평군 상면 대보간선로 602-111",
     "coordinates": {
       "lat": 37.79412,
       "lng": 127.38751
@@ -413,7 +413,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.crystalvalley.co.kr",
-    "phone": "08-777-1033",
+    "phone": "031-589-5000",
     "city": "가평군"
   },
   {
@@ -474,7 +474,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.shinanresort.co.kr",
-    "phone": "06-777-1040",
+    "phone": "",
     "city": "북구"
   },
   {
@@ -536,14 +536,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.pajucc.co.kr",
-    "phone": "02-777-1045",
+    "phone": "",
     "city": "파주시"
   },
   {
     "id": "성문안cc",
     "name": "성문안CC",
     "region": "강원",
-    "address": "강원특별자치도 원주시",
+    "address": "강원특별자치도 원주시 지정면 월송석화로 431",
     "coordinates": {
       "lat": 37.39559,
       "lng": 127.83308
@@ -596,20 +596,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.sungmoonan.com",
-    "phone": "06-777-1067",
+    "phone": "033-769-7330",
     "city": "원주시"
   },
   {
     "id": "캐슬렉스서울gc",
     "name": "캐슬렉스서울GC",
     "region": "경기남부",
-    "address": "경기도 하남시",
+    "address": "경기도 하남시 감이로 317 (감이동)",
     "coordinates": {
       "lat": 37.49674,
       "lng": 127.16906
     },
     "drivingTimeFromSeoul": 29,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디",
@@ -657,7 +657,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.castlex.co.kr",
-    "phone": "010-777-1134",
+    "phone": "02-480-5600",
     "city": "하남시"
   },
   {
@@ -671,7 +671,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 270,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -717,7 +717,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.adelscott.co.kr",
-    "phone": "07-777-1149",
+    "phone": "",
     "city": "합천군"
   },
   {
@@ -779,7 +779,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.yuseongcc.co.kr",
-    "phone": "(042)822-7103",
+    "phone": "042-822-7103",
     "city": "유성구"
   },
   {
@@ -793,7 +793,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 225,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 81,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -840,7 +840,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.gunsancc.net",
-    "phone": "09-777-1151",
+    "phone": "",
     "city": "군산시"
   },
   {
@@ -901,7 +901,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.seosansoo.com",
-    "phone": "(041)689-7700",
+    "phone": "041-689-7700",
     "city": "서산시"
   },
   {
@@ -915,7 +915,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 246,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -963,7 +963,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.shangrila.co.kr",
-    "phone": "02-777-1153",
+    "phone": "",
     "city": "임실군"
   },
   {
@@ -1025,7 +1025,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.clubd.co.kr",
-    "phone": "03-777-1154",
+    "phone": "",
     "city": "익산시"
   },
   {
@@ -1086,14 +1086,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.thehillcc.co.kr",
-    "phone": "04-777-1155",
+    "phone": "",
     "city": "논산시"
   },
   {
     "id": "알펜시아트룬cc",
     "name": "알펜시아 트룬CC",
     "region": "강원",
-    "address": "강원특별자치도 평창군",
+    "address": "강원특별자치도 평창군 대관령면 솔봉로 325",
     "coordinates": {
       "lat": 37.65358,
       "lng": 128.65789
@@ -1147,7 +1147,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.alpensia.com",
-    "phone": "05-777-1156",
+    "phone": "",
     "city": "평창군"
   },
   {
@@ -1208,14 +1208,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.spahills.co.kr",
-    "phone": "06-777-1157",
+    "phone": "",
     "city": "김제시"
   },
   {
     "id": "문경gc",
     "name": "문경GC",
     "region": "경상",
-    "address": "경상북도 문경시",
+    "address": "경상북도 문경시 마성면 문경골프장길 240 (외어리, (주)문경레저타운)",
     "coordinates": {
       "lat": 36.71485,
       "lng": 128.15603
@@ -1268,7 +1268,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.mungyeonggc.co.kr",
-    "phone": "07-777-1158",
+    "phone": "054-550-5000",
     "city": "문경시",
     "blogReviews": [
       {
@@ -1298,7 +1298,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "id": "팔공cc",
     "name": "팔공CC",
     "region": "경상",
-    "address": "대구광역시 대구시 동구 팔공산로 237길 186",
+    "address": "대구광역시 동구 팔공산로 237길 186",
     "coordinates": {
       "lat": 35.99023,
       "lng": 128.72287
@@ -1351,21 +1351,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디"
     ],
     "officialUrl": "https://www.palgongcc.co.kr",
-    "phone": "(053)982-8080~5",
+    "phone": "053-982-8080",
     "city": "동구"
   },
   {
     "id": "가야cc",
     "name": "가야CC",
     "region": "경상",
-    "address": "경상남도 김해시",
+    "address": "경상남도 김해시 인제로 502 (삼방동, 가야컨트리클럽)",
     "coordinates": {
       "lat": 35.27299,
       "lng": 128.89858
     },
     "drivingTimeFromSeoul": 360,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 54,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -1412,21 +1412,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.gayacc.com",
-    "phone": "09-777-1160",
+    "phone": "055-337-0091",
     "city": "김해시"
   },
   {
     "id": "마우나오션cc",
     "name": "마우나오션CC",
     "region": "경상",
-    "address": "경상북도 경주시",
+    "address": "경상북도 경주시 양남면 동남로 982 (신대리, 마우나오션리조트)",
     "coordinates": {
       "lat": 35.6848,
       "lng": 129.3743
     },
     "drivingTimeFromSeoul": 351,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -1473,14 +1473,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.mauna.co.kr",
-    "phone": "010-777-1161",
+    "phone": "054-740-0678",
     "city": "경주시"
   },
   {
     "id": "여수시티파크리조트",
     "name": "여수시티파크리조트",
     "region": "전라",
-    "address": "전라남도 여수시",
+    "address": "전라남도 여수시 좌우영로 641",
     "coordinates": {
       "lat": 34.77579,
       "lng": 127.68604
@@ -1534,15 +1534,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1162",
+    "officialUrl": "",
+    "phone": "061-808-8000",
     "city": "여수시"
   },
   {
     "id": "우정힐스cc",
     "name": "우정힐스CC",
     "region": "충청",
-    "address": "충청남도 천안시 동남구",
+    "address": "충청남도 천안시 동남구 목천읍 충절로 1048-68 (운전리, 우정힐스컨트리클럽)",
     "coordinates": {
       "lat": 36.76727,
       "lng": 127.21973
@@ -1598,14 +1598,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.whcc.co.kr",
-    "phone": "05-777-1165",
+    "phone": "041-557-2902",
     "city": "천안시"
   },
   {
     "id": "라헨느골프리조트",
     "name": "라헨느골프리조트",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 명림로 384",
     "coordinates": {
       "lat": 33.45723,
       "lng": 126.60927
@@ -1659,8 +1659,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1166",
+    "officialUrl": "",
+    "phone": "064-754-9000",
     "city": "제주시"
   },
   {
@@ -1721,14 +1721,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.skyviewcc.co.kr",
-    "phone": "07-777-1167",
+    "phone": "",
     "city": "함양군"
   },
   {
     "id": "파크밸리gc",
     "name": "파크밸리GC",
     "region": "강원",
-    "address": "강원특별자치도 원주시",
+    "address": "강원특별자치도 원주시 소초면 바우실길 281",
     "coordinates": {
       "lat": 37.39309,
       "lng": 128.01026
@@ -1782,15 +1782,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.parkvalley.co.kr",
-    "phone": "08-777-1168",
+    "officialUrl": "http://www.parkvalley.co.kr",
+    "phone": "033-744-4000",
     "city": "원주시"
   },
   {
     "id": "중문골프클럽joongmooncountryclub",
     "name": "중문골프클럽(중문CC)",
     "region": "제주",
-    "address": "제주특별자치도 서귀포시",
+    "address": "제주특별자치도 서귀포시 중문관광로72번길 60 (색달동, 중문골프장)",
     "coordinates": {
       "lat": 33.24958,
       "lng": 126.40518
@@ -1845,7 +1845,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://golf.visitkorea.or.kr",
-    "phone": "09-777-1169",
+    "phone": "064-735-7200",
     "city": "서귀포시"
   },
   {
@@ -1906,21 +1906,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.haeundaecc.co.kr",
-    "phone": "(051)726-8000",
+    "phone": "051-726-8000",
     "city": "기장군"
   },
   {
     "id": "롯데스카이힐제주cclotteskyhilljejucc",
-    "name": "롯데스카이힐 제주C.C. (Lotte Sky Hill jeju)CC",
+    "name": "롯데스카이힐 제주CC",
     "region": "제주",
-    "address": "제주특별자치도 서귀포시",
+    "address": "제주특별자치도 서귀포시 색달동 100",
     "coordinates": {
       "lat": 33.28776,
       "lng": 126.40679
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "대중제+회원제",
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -1968,7 +1968,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.lotteskyhill.com",
-    "phone": "02-777-1171",
+    "phone": "064-731-2000",
     "city": "서귀포시"
   },
   {
@@ -2029,21 +2029,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.jaeil-cc.co.kr",
-    "phone": "(031)400-2500",
+    "phone": "031-400-2500",
     "city": "안산시"
   },
   {
     "id": "대구daeguecountryclubcc",
-    "name": "대구 (Daegue Country Club)CC",
+    "name": "대구CC",
     "region": "경상",
-    "address": "경상북도 경산시",
+    "address": "경상북도 경산시 진량읍 일연로 718-42",
     "coordinates": {
       "lat": 35.86584,
       "lng": 128.81126
     },
     "drivingTimeFromSeoul": 294,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -2089,7 +2089,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.daegucc.co.kr",
-    "phone": "04-777-1173",
+    "phone": "053-854-0002",
     "city": "경산시"
   },
   {
@@ -2150,15 +2150,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1175",
+    "officialUrl": "",
+    "phone": "",
     "city": "영천시"
   },
   {
     "id": "구니cc",
     "name": "구니CC",
     "region": "경상",
-    "address": "경상북도 군위군",
+    "address": "대구광역시 군위군 군위읍 도군로 2450",
     "coordinates": {
       "lat": 36.25252,
       "lng": 128.54534
@@ -2210,22 +2210,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.goonicc.co.kr",
-    "phone": "07-777-1176",
+    "officialUrl": "http://gunicc.co.kr",
+    "phone": "054-380-0000",
     "city": "군위군"
   },
   {
     "id": "오펠골프클럽ophellgolfclub",
     "name": "오펠GC (영천)",
     "region": "경상",
-    "address": "경상북도 영천시",
+    "address": "경상북도 영천시 고경면 호국로 1221-24",
     "coordinates": {
       "lat": 36.01003,
       "lng": 129.05457
     },
     "drivingTimeFromSeoul": 298,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -2272,12 +2272,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.ophelgolf.com",
-    "phone": "08-777-1177",
+    "phone": "054-333-2100",
     "city": "영천시"
   },
   {
     "id": "조광컨트리jogwangcountrycc",
-    "name": "조광컨트리(Jogwang Country)CC",
+    "name": "조광CC",
     "region": "경기남부",
     "address": "경기도 광주시",
     "coordinates": {
@@ -2331,15 +2331,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기남부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1179",
+    "officialUrl": "",
+    "phone": "",
     "city": "광주시"
   },
   {
     "id": "한라산cc",
     "name": "한라산CC",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 선돌목동길 56-46",
     "coordinates": {
       "lat": 33.4441,
       "lng": 126.5458
@@ -2393,22 +2393,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.hallasancc.co.kr",
-    "phone": "05-777-1183",
+    "officialUrl": "http://hallasancc.co.kr",
+    "phone": "064-754-5667",
     "city": "제주시"
   },
   {
     "id": "지산cc",
     "name": "지산CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 원삼면 죽양대로 2000번길 60",
     "coordinates": {
       "lat": 37.2158,
       "lng": 127.33284
     },
     "drivingTimeFromSeoul": 62,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -2455,7 +2455,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.jisanresort.co.kr",
-    "phone": "06-777-1184",
+    "phone": "031-330-1400",
     "city": "용인시",
     "blogReviews": [
       {
@@ -2483,15 +2483,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
   },
   {
     "id": "에이치원클럽",
-    "name": "에이치원클럽",
+    "name": "H1클럽",
     "region": "경기남부",
-    "address": "경기도 이천시",
+    "address": "경기도 이천시 호법면 장자터로 115",
     "coordinates": {
       "lat": 37.18504,
       "lng": 127.39936
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디",
@@ -2538,22 +2538,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1185",
+    "officialUrl": "",
+    "phone": "031-640-8114",
     "city": "이천시"
   },
   {
     "id": "뉴스프링빌cc이천cc",
-    "name": "뉴스프링빌CC 이천CC",
+    "name": "뉴스프링빌CC",
     "region": "경기남부",
-    "address": "경기도 이천시",
+    "address": "경기도 이천시 모가면 사실로527번길 158",
     "coordinates": {
       "lat": 37.15681,
       "lng": 127.42342
     },
     "drivingTimeFromSeoul": 74,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "대중제+회원제",
+    "holes": 45,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -2601,12 +2601,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.newspringville.com",
-    "phone": "08-777-1186",
+    "phone": "031-630-7500",
     "city": "이천시"
   },
   {
     "id": "에덴벨리cc",
-    "name": "에덴벨리CC",
+    "name": "골프존카운티 이든(구 에덴밸리CC)",
     "region": "경상",
     "address": "경상남도 양산시",
     "coordinates": {
@@ -2661,7 +2661,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.edenvalley.co.kr",
-    "phone": "09-777-1187",
+    "phone": "",
     "city": "양산시"
   },
   {
@@ -2722,22 +2722,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1189",
+    "officialUrl": "",
+    "phone": "",
     "city": "여주시"
   },
   {
     "id": "금강cc",
     "name": "금강CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 가남읍 여주남로 541",
     "coordinates": {
       "lat": 37.24017,
       "lng": 127.60094
     },
     "drivingTimeFromSeoul": 82,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -2785,14 +2785,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.kccgolf.co.kr",
-    "phone": "03-777-1190",
+    "phone": "031-880-6000",
     "city": "여주시"
   },
   {
     "id": "솔트베이gc",
     "name": "솔트베이GC",
     "region": "경기남부",
-    "address": "경기도 시흥시",
+    "address": "경기도 시흥시 마유로 987",
     "coordinates": {
       "lat": 37.39113,
       "lng": 126.77166
@@ -2845,7 +2845,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.saltbay.co.kr",
-    "phone": "04-777-1191",
+    "phone": "",
     "city": "시흥시"
   },
   {
@@ -2905,7 +2905,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디"
     ],
     "officialUrl": "https://www.busancc.co.kr",
-    "phone": "(051)509-0707",
+    "phone": "051-509-0707",
     "city": "금정구"
   },
   {
@@ -2919,7 +2919,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 351,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -2965,7 +2965,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.tongdocc.co.kr",
-    "phone": "06-777-1193",
+    "phone": "",
     "city": "양산시"
   },
   {
@@ -3025,8 +3025,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1194",
+    "officialUrl": "",
+    "phone": "",
     "city": "김제시"
   },
   {
@@ -3088,14 +3088,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.anesvill.com",
-    "phone": "08-777-1195",
+    "phone": "",
     "city": "김제시"
   },
   {
     "id": "잭니클라우스골프클럽",
     "name": "잭니클라우스 골프클럽",
     "region": "인천",
-    "address": "인천광역시 아카데미로",
+    "address": "인천광역시 연수구 아카데미로 209 (송도동)",
     "coordinates": {
       "lat": 37.37985,
       "lng": 126.62439
@@ -3151,21 +3151,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.jacknicklausgolfclubkorea.com",
-    "phone": "09-777-1196",
+    "phone": "032-850-8000",
     "city": "연수구"
   },
   {
     "id": "태광cc",
     "name": "태광CC",
     "region": "경기남부",
-    "address": "경기도 용인시 기흥구",
+    "address": "경기도 용인시 기흥구 흥덕4로 77 (영덕동)",
     "coordinates": {
       "lat": 37.28385,
       "lng": 127.08683
     },
     "drivingTimeFromSeoul": 43,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -3212,7 +3212,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "초보추천구장"
     ],
     "officialUrl": "https://www.taekwangcc.co.kr",
-    "phone": "03-777-1199",
+    "phone": "1877-6001",
     "city": "용인시"
   },
   {
@@ -3273,21 +3273,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.lakehills.co.kr",
-    "phone": "04-777-1200",
+    "phone": "",
     "city": "함안군"
   },
   {
     "id": "신원cc",
     "name": "신원CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 이동면 이원로 225",
     "coordinates": {
       "lat": 37.18148,
       "lng": 127.24573
     },
     "drivingTimeFromSeoul": 61,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -3336,21 +3336,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.shinwoncc.co.kr",
-    "phone": "06-777-1202",
+    "phone": "031-333-1800",
     "city": "용인시"
   },
   {
     "id": "양지파인cc",
     "name": "양지파인CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 양지면 남평로 112 (남곡리, 양지파인리조트)",
     "coordinates": {
       "lat": 37.21526,
       "lng": 127.29418
     },
     "drivingTimeFromSeoul": 60,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -3397,7 +3397,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.pineresort.com",
-    "phone": "07-777-1203",
+    "phone": "031-338-2001",
     "city": "용인시"
   },
   {
@@ -3458,14 +3458,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.suwoncc.co.kr",
-    "phone": "09-777-1205",
+    "phone": "",
     "city": "화성시"
   },
   {
     "id": "드비치gc",
     "name": "드비치GC",
     "region": "경상",
-    "address": "경상남도 거제시 거제북로",
+    "address": "경상남도 거제시 장목면 거제북로 1573 (드비치골프장)",
     "coordinates": {
       "lat": 35.0121,
       "lng": 128.67399
@@ -3518,21 +3518,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.debeach.co.kr",
-    "phone": "010-777-1206",
+    "phone": "055-736-3001",
     "city": "거제시"
   },
   {
     "id": "킹즈락cc",
     "name": "킹즈락CC",
     "region": "충청",
-    "address": "충청북도 제천시",
+    "address": "충청북도 제천시 내토로7길 7 (천남동) 136",
     "coordinates": {
       "lat": 37.13971,
       "lng": 128.18053
     },
     "drivingTimeFromSeoul": 141,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -3579,14 +3579,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.kingsrockcc.com",
-    "phone": "02-777-1207",
+    "phone": "043-640-9000",
     "city": "제천시"
   },
   {
     "id": "설악썬밸리cc",
     "name": "설악썬밸리CC",
     "region": "강원",
-    "address": "강원특별자치도 고성군",
+    "address": "강원특별자치도 고성군 죽왕면 순포로 188",
     "coordinates": {
       "lat": 38.31378,
       "lng": 128.50247
@@ -3639,7 +3639,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.sunvalley.co.kr",
-    "phone": "04-777-1209",
+    "phone": "",
     "city": "고성군",
     "blogReviews": [
       {
@@ -3724,7 +3724,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.springdale.co.kr",
-    "phone": "07-777-1212",
+    "phone": "",
     "city": "서귀포시"
   },
   {
@@ -3786,7 +3786,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.theclassiccc.co.kr",
-    "phone": "08-777-1213",
+    "phone": "",
     "city": "서귀포시"
   },
   {
@@ -3848,21 +3848,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.jejuheal.com",
-    "phone": "09-777-1214",
+    "phone": "",
     "city": "제주시"
   },
   {
     "id": "엘리시안제주cc",
     "name": "엘리시안제주CC",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 애월읍 평화로 1738-116",
     "coordinates": {
       "lat": 33.37478,
       "lng": 126.37775
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -3910,21 +3910,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.elysian.co.kr",
-    "phone": "010-777-1215",
+    "phone": "064-798-7000",
     "city": "제주시"
   },
   {
     "id": "캐슬렉스제주cc",
     "name": "캐슬렉스 제주CC",
     "region": "제주",
-    "address": "제주특별자치도 서귀포시",
+    "address": "제주특별자치도 서귀포시 안덕면 평화로 1241",
     "coordinates": {
       "lat": 33.33999,
       "lng": 126.3481
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -3972,14 +3972,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.castlex.co.kr",
-    "phone": "02-777-1216",
+    "phone": "064-793-6688",
     "city": "서귀포시"
   },
   {
     "id": "아덴힐리조트앤골프클럽",
     "name": "아덴힐리조트앤골프클럽",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 한림읍 화전길 82",
     "coordinates": {
       "lat": 33.34622,
       "lng": 126.36751
@@ -4035,21 +4035,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.ardenhill.co.kr",
-    "phone": "03-777-1217",
+    "phone": "064-730-7000",
     "city": "제주시"
   },
   {
     "id": "타미우스gc",
     "name": "타미우스GC",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 애월읍 화전길 201",
     "coordinates": {
       "lat": 33.35204,
       "lng": 126.38737
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -4097,21 +4097,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.tameuscc.co.kr",
-    "phone": "04-777-1218",
+    "phone": "064-793-0707",
     "city": "제주시"
   },
   {
     "id": "나인브릿지cc",
     "name": "나인브릿지CC",
     "region": "제주",
-    "address": "제주특별자치도 서귀포시",
+    "address": "제주특별자치도 서귀포시 안덕면 광평로 34-156",
     "coordinates": {
       "lat": 33.33966,
       "lng": 126.40111
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 24,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -4159,21 +4159,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.ninebridges.co.kr",
-    "phone": "05-777-1219",
+    "phone": "064-793-9999",
     "city": "서귀포시"
   },
   {
     "id": "사이프러스cc",
     "name": "사이프러스CC",
     "region": "제주",
-    "address": "제주특별자치도 서귀포시",
+    "address": "제주특별자치도 서귀포시 표선면 번영로 2300 (성읍리)",
     "coordinates": {
       "lat": 33.41343,
       "lng": 126.74386
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -4221,21 +4221,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.cypress.co.kr",
-    "phone": "07-777-1221",
+    "phone": "064-787-8888",
     "city": "서귀포시"
   },
   {
     "id": "크라운cc",
     "name": "크라운 CC",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 조천읍 북선로 125 (북촌리, 크라운컨트리클럽)",
     "coordinates": {
       "lat": 33.52945,
       "lng": 126.6961
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -4283,20 +4283,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.crowncc.co.kr",
-    "phone": "08-777-1222",
+    "phone": "064-784-4811",
     "city": "제주시"
   },
   {
     "id": "오라cc",
-    "name": "오라CC",
+    "name": "골프존카운티 오라 (구 오라CC)",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 오라남로 130-16 (오라2동, 오라칸트리클럽)",
     "coordinates": {
       "lat": 33.44522,
       "lng": 126.51072
     },
     "drivingTimeFromSeoul": 70,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디",
@@ -4345,21 +4345,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.oraresort.com",
-    "phone": "09-777-1223",
+    "phone": "064-747-5100",
     "city": "제주시"
   },
   {
     "id": "라온gc",
     "name": "라온GC",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 한경면 용금로 998",
     "coordinates": {
       "lat": 33.33946,
       "lng": 126.27989
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -4408,21 +4408,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.raon.co.kr",
-    "phone": "010-777-1224",
+    "phone": "",
     "city": "제주시"
   },
   {
     "id": "블랙스톤cc",
     "name": "블랙스톤CC",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 한림읍 한창로 925-122 (금악리, 블랙스톤골프클럽)",
     "coordinates": {
       "lat": 33.3379,
       "lng": 126.30856
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -4471,7 +4471,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.blackstonecc.co.kr",
-    "phone": "02-777-1225",
+    "phone": "064-795-2200",
     "city": "제주시"
   },
   {
@@ -4485,7 +4485,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -4533,14 +4533,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.ecolandjeju.co.kr",
-    "phone": "04-777-1227",
+    "phone": "",
     "city": "제주시"
   },
   {
     "id": "테디밸리골프리조트",
     "name": "테디밸리 골프&리조트",
     "region": "제주",
-    "address": "제주특별자치도 서귀포시",
+    "address": "제주특별자치도 서귀포시 안덕면 한창로 365",
     "coordinates": {
       "lat": 33.28964,
       "lng": 126.34324
@@ -4595,7 +4595,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.teddyvalley.com",
-    "phone": "05-777-1228",
+    "phone": "064-793-1000",
     "city": "서귀포시"
   },
   {
@@ -4609,7 +4609,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -4657,7 +4657,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.stfour.com",
-    "phone": "06-777-1229",
+    "phone": "",
     "city": "제주시"
   },
   {
@@ -4718,8 +4718,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1230",
+    "officialUrl": "",
+    "phone": "",
     "city": "제주시"
   },
   {
@@ -4781,14 +4781,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://welfare.airforce.mil.kr",
-    "phone": "08-777-1231",
+    "phone": "",
     "city": "사천시"
   },
   {
     "id": "그린필드cc",
     "name": "그린필드 CC",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 조천읍 번영로 1040-70",
     "coordinates": {
       "lat": 33.46479,
       "lng": 126.64513
@@ -4843,7 +4843,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.greenfieldcc.co.kr",
-    "phone": "02-777-1234",
+    "phone": "064-720-7000",
     "city": "제주시",
     "blogReviews": [
       {
@@ -4928,21 +4928,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.raon.co.kr",
-    "phone": "03-777-1235",
+    "phone": "",
     "city": "제주시"
   },
   {
     "id": "레이크사이드cc",
     "name": "레이크사이드CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 모현읍 능원리 산 5-12",
     "coordinates": {
       "lat": 37.31012,
       "lng": 127.17207
     },
     "drivingTimeFromSeoul": 43,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 54,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -4989,14 +4989,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.lakeside.kr",
-    "phone": "04-777-1236",
+    "phone": "031-334-2111",
     "city": "용인시"
   },
   {
     "id": "남부cc",
     "name": "남부CC",
     "region": "경기남부",
-    "address": "경기도 용인시 기흥구",
+    "address": "경기도 용인시 기흥구 사은로 163 (보라동, 남부컨트리클럽)",
     "coordinates": {
       "lat": 37.26291,
       "lng": 127.12529
@@ -5050,21 +5050,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.nambucc.co.kr",
-    "phone": "05-777-1237",
+    "phone": "031-280-4101",
     "city": "용인시"
   },
   {
     "id": "리베라cc",
     "name": "리베라CC",
     "region": "경기남부",
-    "address": "경기도 화성시 중리길",
+    "address": "경기도 화성시 중리길 183 (청계동, 리베라CC클럽하우스)",
     "coordinates": {
       "lat": 37.19023,
       "lng": 127.10774
     },
     "drivingTimeFromSeoul": 55,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -5112,7 +5112,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.shinwonresort.co.kr",
-    "phone": "06-777-1238",
+    "phone": "031-8047-8080",
     "city": "화성시"
   },
   {
@@ -5175,21 +5175,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.orangedunes.com",
-    "phone": "08-777-1240",
+    "phone": "",
     "city": "연수구"
   },
   {
     "id": "센추리21cc",
     "name": "센추리21CC",
     "region": "강원",
-    "address": "강원특별자치도 원주시",
+    "address": "강원특별자치도 원주시 문막읍 궁말길 193",
     "coordinates": {
       "lat": 37.28272,
       "lng": 127.85142
     },
     "drivingTimeFromSeoul": 103,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 45,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -5235,7 +5235,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.century21cc.co.kr",
-    "phone": "09-777-1241",
+    "phone": "033-733-1000",
     "city": "원주시"
   },
   {
@@ -5295,7 +5295,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.jgc.co.kr",
-    "phone": "010-777-1242",
+    "phone": "",
     "city": "충주시"
   },
   {
@@ -5356,21 +5356,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "초보추천구장"
     ],
     "officialUrl": "https://www.emersonpacific.co.kr",
-    "phone": "(044)862-4004",
+    "phone": "044-862-4004",
     "city": "세종시"
   },
   {
     "id": "아난티중앙골프클럽",
     "name": "아난티 중앙 골프클럽",
     "region": "충청",
-    "address": "충청북도 진천군",
+    "address": "충청북도 진천군 백곡면 배티로 818-105",
     "coordinates": {
       "lat": 36.93756,
       "lng": 127.33923
     },
     "drivingTimeFromSeoul": 93,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -5419,21 +5419,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.ananti.kr",
-    "phone": "03-777-1244",
+    "phone": "043-533-6666",
     "city": "진천군"
   },
   {
     "id": "천룡cc",
     "name": "천룡CC",
     "region": "충청",
-    "address": "충청북도 진천군",
+    "address": "충청북도 진천군 이월면 진안로 347-123 (신계리, 천룡컨트리클럽)",
     "coordinates": {
       "lat": 36.94856,
       "lng": 127.38808
     },
     "drivingTimeFromSeoul": 94,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -5481,21 +5481,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.cheonryong.co.kr",
-    "phone": "04-777-1245",
+    "phone": "043-536-1007",
     "city": "진천군"
   },
   {
     "id": "안성베네스트골프클럽",
     "name": "안성베네스트골프클럽",
     "region": "경기남부",
-    "address": "경기도 안성시",
+    "address": "경기도 안성시 금광면 삼흥로 660",
     "coordinates": {
       "lat": 37.02033,
       "lng": 127.38554
     },
     "drivingTimeFromSeoul": 86,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -5543,21 +5543,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.benestgolf.com",
-    "phone": "05-777-1246",
+    "phone": "031-670-0777",
     "city": "안성시"
   },
   {
     "id": "블루원용인cc",
     "name": "블루원 용인CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 원삼면 보개원삼로1534번길 40",
     "coordinates": {
       "lat": 37.12956,
       "lng": 127.32191
     },
     "drivingTimeFromSeoul": 71,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -5603,14 +5603,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.blueone.com",
-    "phone": "06-777-1247",
+    "phone": "1899-1888",
     "city": "용인시"
   },
   {
     "id": "안성cc",
     "name": "안성CC",
     "region": "경기남부",
-    "address": "경기도 안성시",
+    "address": "경기도 안성시 죽산면 걸미로 487 (장계리)",
     "coordinates": {
       "lat": 37.03765,
       "lng": 127.4054
@@ -5664,21 +5664,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.anseongcc.co.kr",
-    "phone": "07-777-1248",
+    "phone": "031-674-9111",
     "city": "안성시"
   },
   {
     "id": "이스트밸리cc",
     "name": "이스트밸리CC",
     "region": "경기남부",
-    "address": "경기도 광주시",
+    "address": "경기도 광주시 곤지암읍 건업길 195 (건업리, 이스트밸리CC)",
     "coordinates": {
       "lat": 37.40686,
       "lng": 127.38477
     },
     "drivingTimeFromSeoul": 53,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -5725,7 +5725,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.eastvalley.co.kr",
-    "phone": "08-777-1249",
+    "phone": "031-760-3800",
     "city": "광주시"
   },
   {
@@ -5786,21 +5786,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.ecolian.or.kr",
-    "phone": "09-777-1250",
+    "phone": "",
     "city": "정선군"
   },
   {
     "id": "세레니티cc",
     "name": "세레니티CC",
     "region": "충청",
-    "address": "충청북도 청주시 서원구",
+    "address": "충청북도 청주시 서원구 남이면 문곡구절골길 235",
     "coordinates": {
       "lat": 36.54694,
       "lng": 127.3884
     },
     "drivingTimeFromSeoul": 142,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -5846,7 +5846,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.serenitycc.co.kr",
-    "phone": "010-777-1251",
+    "phone": "043-277-5000",
     "city": "청주시"
   },
   {
@@ -5909,14 +5909,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "02-777-1252",
+    "phone": "",
     "city": "진천군"
   },
   {
     "id": "화산cc",
     "name": "화산CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 이동면 화산로 239 (화산리, 화산C.C)",
     "coordinates": {
       "lat": 37.15264,
       "lng": 127.23516
@@ -5971,7 +5971,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "상급자도전코스"
     ],
     "officialUrl": "https://www.hwasan.co.kr",
-    "phone": "03-777-1253",
+    "phone": "031-329-7114",
     "city": "용인시"
   },
   {
@@ -6032,7 +6032,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.hanwoncc.co.kr",
-    "phone": "(031)373-7111/~4",
+    "phone": "031-373-7111",
     "city": "용인시",
     "blogReviews": [
       {
@@ -6117,7 +6117,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.plazacc.co.kr",
-    "phone": "05-777-1255",
+    "phone": "",
     "city": "용인시"
   },
   {
@@ -6176,8 +6176,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기남부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1257",
+    "officialUrl": "",
+    "phone": "",
     "city": "용인시"
   },
   {
@@ -6238,12 +6238,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.edinburgh.co.kr",
-    "phone": "(041)750-0114",
+    "phone": "041-750-0114",
     "city": "금산군"
   },
   {
     "id": "떼제베골프장tgvcc",
-    "name": "떼제베 골프장(TGV CC)",
+    "name": "올데이 청주 떼제베CC (구 떼제베CC)",
     "region": "충청",
     "address": "충청북도 청주시 흥덕구",
     "coordinates": {
@@ -6252,7 +6252,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 126,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -6300,7 +6300,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.tgvcc.co.kr",
-    "phone": "09-777-1259",
+    "phone": "",
     "city": "청주시"
   },
   {
@@ -6362,14 +6362,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.daeyoungcc.co.kr",
-    "phone": "010-777-1260",
+    "phone": "",
     "city": "충주시"
   },
   {
     "id": "대영힐스cc",
     "name": "대영힐스CC",
     "region": "충청",
-    "address": "충청북도 충주시",
+    "address": "충청북도 충주시 대소원면 성종두담길 114",
     "coordinates": {
       "lat": 36.95189,
       "lng": 127.85406
@@ -6423,14 +6423,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.daeyoungcc.co.kr",
-    "phone": "02-777-1261",
+    "phone": "043-850-8600",
     "city": "충주시"
   },
   {
     "id": "임페리얼레이크cc",
     "name": "임페리얼레이크CC",
     "region": "충청",
-    "address": "충청북도 충주시",
+    "address": "충청북도 충주시 금가면 다래울길 52",
     "coordinates": {
       "lat": 37.02713,
       "lng": 127.86961
@@ -6484,20 +6484,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.imperiallake.co.kr",
-    "phone": "03-777-1262",
+    "phone": "043-853-5555",
     "city": "충주시"
   },
   {
     "id": "도고칸트리구락부cc",
-    "name": "도고칸트리구락부CC",
+    "name": "도고CC",
     "region": "충청",
-    "address": "충청남도 아산시",
+    "address": "충청남도 아산시 선장면 삼봉산길 188 (신성리)",
     "coordinates": {
       "lat": 36.77884,
       "lng": 126.89028
     },
     "drivingTimeFromSeoul": 108,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디",
@@ -6544,14 +6544,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.dogocc.co.kr",
-    "phone": "04-777-1263",
+    "phone": "041-542-4411",
     "city": "아산시"
   },
   {
     "id": "스타cc",
     "name": "스타CC",
     "region": "충청",
-    "address": "충청북도 충주시",
+    "address": "충청북도 충주시 앙성면 상대촌1길 198",
     "coordinates": {
       "lat": 37.08393,
       "lng": 127.69972
@@ -6604,15 +6604,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1265",
+    "officialUrl": "",
+    "phone": "",
     "city": "충주시"
   },
   {
     "id": "동촌gc",
     "name": "동촌GC",
     "region": "충청",
-    "address": "충청북도 충주시",
+    "address": "충청북도 충주시 노은면 감노로 1327",
     "coordinates": {
       "lat": 37.05512,
       "lng": 127.74425
@@ -6667,21 +6667,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.dongchongc.co.kr",
-    "phone": "07-777-1266",
+    "phone": "043-722-0707",
     "city": "충주시"
   },
   {
     "id": "양평tpc골프클럽",
     "name": "양평TPC골프클럽",
     "region": "경기남부",
-    "address": "경기도 양평군",
+    "address": "경기도 양평군 지평면 대평평장길 113-8",
     "coordinates": {
       "lat": 37.41367,
       "lng": 127.64546
     },
     "drivingTimeFromSeoul": 79,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -6728,14 +6728,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.tpcgolf.co.kr",
-    "phone": "08-777-1267",
+    "phone": "031-772-3000",
     "city": "양평군"
   },
   {
     "id": "블루헤런gc",
     "name": "블루헤런GC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 대신면 고달사로 67 (상구리)",
     "coordinates": {
       "lat": 37.38325,
       "lng": 127.64652
@@ -6789,21 +6789,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.blueheron.co.kr",
-    "phone": "09-777-1268",
+    "phone": "031-880-0700",
     "city": "여주시"
   },
   {
     "id": "남여주gc",
     "name": "남여주GC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 가여로 532",
     "coordinates": {
       "lat": 37.224,
       "lng": 127.62794
     },
     "drivingTimeFromSeoul": 85,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -6849,7 +6849,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.namyeoju.co.kr",
-    "phone": "010-777-1269",
+    "phone": "031-880-6700",
     "city": "여주시"
   },
   {
@@ -6912,21 +6912,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.ariji.co.kr",
-    "phone": "02-777-1270",
+    "phone": "",
     "city": "여주시"
   },
   {
     "id": "솔모로cc",
     "name": "솔모로CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 가남읍 솔모로그린길 171 (양귀리)",
     "coordinates": {
       "lat": 37.19125,
       "lng": 127.58868
     },
     "drivingTimeFromSeoul": 84,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -6974,21 +6974,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "상급자도전코스"
     ],
     "officialUrl": "https://www.solmoro.com",
-    "phone": "03-777-1271",
+    "phone": "031-884-7000",
     "city": "여주시"
   },
   {
     "id": "이천실크밸리gc",
     "name": "이천실크밸리GC",
     "region": "경기남부",
-    "address": "경기도 이천시",
+    "address": "경기도 이천시 율면 임오산로 296",
     "coordinates": {
       "lat": 37.08125,
       "lng": 127.57402
     },
     "drivingTimeFromSeoul": 92,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -7034,22 +7034,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.silkvalley.co.kr",
-    "phone": "04-777-1272",
+    "officialUrl": "https://www.silkvalleygc.co.kr",
+    "phone": "031-639-0077",
     "city": "이천시"
   },
   {
     "id": "이포cc",
     "name": "이포CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 금사면 장흥로 416",
     "coordinates": {
       "lat": 37.38964,
       "lng": 127.49828
     },
     "drivingTimeFromSeoul": 65,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 24,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -7097,7 +7097,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.ipocc.co.kr",
-    "phone": "05-777-1273",
+    "phone": "031-886-8100",
     "city": "여주시"
   },
   {
@@ -7159,21 +7159,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "(054)473-6200",
+    "phone": "054-473-6200",
     "city": "구미시"
   },
   {
     "id": "동훈힐마루cc",
     "name": "동훈힐마루CC",
     "region": "경상",
-    "address": "경상남도 창녕군",
+    "address": "경상남도 창녕군 장마면 영산계성로 469-195",
     "coordinates": {
       "lat": 35.49543,
       "lng": 128.49416
     },
     "drivingTimeFromSeoul": 313,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "대중제+회원제",
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -7220,7 +7220,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.healmaru.com",
-    "phone": "07-777-1275",
+    "phone": "055-520-8000",
     "city": "창녕군"
   },
   {
@@ -7282,7 +7282,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.clubd.co.kr",
-    "phone": "08-777-1276",
+    "phone": "",
     "city": "보은군"
   },
   {
@@ -7341,8 +7341,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "충청",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1277",
+    "officialUrl": "",
+    "phone": "",
     "city": "완주군"
   },
   {
@@ -7403,21 +7403,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "010-777-1278",
+    "phone": "",
     "city": "영동군"
   },
   {
     "id": "골프존카운티드래곤",
     "name": "골프존카운티 드래곤",
     "region": "전라",
-    "address": "전북특별자치도 남원시",
+    "address": "전북특별자치도 남원시 대산면 대사로 500",
     "coordinates": {
       "lat": 35.43572,
       "lng": 127.34221
     },
     "drivingTimeFromSeoul": 282,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -7466,7 +7466,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "02-777-1279",
+    "phone": "063-630-3000",
     "city": "남원시"
   },
   {
@@ -7528,8 +7528,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1280",
+    "officialUrl": "",
+    "phone": "",
     "city": "계룡시"
   },
   {
@@ -7589,22 +7589,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1281",
+    "officialUrl": "",
+    "phone": "",
     "city": "곡성군"
   },
   {
     "id": "광주cc",
     "name": "광주CC",
     "region": "전라",
-    "address": "전라남도 곡성군",
+    "address": "전라남도 곡성군 옥과면 입면로 455",
     "coordinates": {
       "lat": 35.30964,
       "lng": 127.17273
     },
     "drivingTimeFromSeoul": 296,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -7652,7 +7652,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.gwangjucc.com",
-    "phone": "05-777-1282",
+    "phone": "061-339-7100",
     "city": "곡성군"
   },
   {
@@ -7714,21 +7714,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "06-777-1283",
+    "phone": "",
     "city": "진천군"
   },
   {
     "id": "히든밸리골프클럽",
     "name": "히든밸리골프클럽",
     "region": "충청",
-    "address": "충청북도 진천군",
+    "address": "충청북도 진천군 백곡면 소토골길 61",
     "coordinates": {
       "lat": 36.90858,
       "lng": 127.30888
     },
     "drivingTimeFromSeoul": 96,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -7775,14 +7775,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.hiddenvalley.co.kr",
-    "phone": "07-777-1284",
+    "phone": "043-539-7900",
     "city": "진천군"
   },
   {
     "id": "썬밸리cc",
     "name": "썬밸리CC",
     "region": "충청",
-    "address": "충청북도 음성군",
+    "address": "충청북도 음성군 삼성면 범말길 49 (대사리, 썬벨리컨트리클럽)",
     "coordinates": {
       "lat": 37.04019,
       "lng": 127.46385
@@ -7837,14 +7837,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.sunvalley.co.kr",
-    "phone": "08-777-1285",
+    "phone": "043-881-5307",
     "city": "음성군"
   },
   {
     "id": "오창에딘버러cc",
     "name": "오창에딘버러CC",
     "region": "충청",
-    "address": "충청북도 청주시 청원구",
+    "address": "충청북도 청주시 청원구 오창읍 두릉유리로 846",
     "coordinates": {
       "lat": 36.73394,
       "lng": 127.42804
@@ -7897,22 +7897,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.edinburgh.co.kr",
-    "phone": "09-777-1286",
+    "officialUrl": "https://www.ochangedincc.com",
+    "phone": "043-210-1900",
     "city": "청주시"
   },
   {
     "id": "그랜드cc",
     "name": "그랜드CC",
     "region": "충청",
-    "address": "충청북도 청주시 청원구",
+    "address": "충청북도 청주시 청원구 오창읍 꽃화산길 51-20 (화산리, 클럽하우스)",
     "coordinates": {
       "lat": 36.72137,
       "lng": 127.37926
     },
     "drivingTimeFromSeoul": 121,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -7959,14 +7959,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.grandgolf.co.kr",
-    "phone": "010-777-1287",
+    "phone": "043-212-7111",
     "city": "청주시"
   },
   {
     "id": "세종필드골프클럽",
     "name": "세종필드골프클럽",
     "region": "충청",
-    "address": "세종특별자치시 세종시 정안세종로",
+    "address": "세종특별자치시 정안세종로 1569 (산울동, 건설공제조합 세종필드골프클럽)",
     "coordinates": {
       "lat": 36.53506,
       "lng": 127.25758
@@ -8021,7 +8021,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.sejongfield.com",
-    "phone": "02-777-1288",
+    "phone": "044-861-5678",
     "city": "세종시"
   },
   {
@@ -8081,7 +8081,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.winchest.co.kr",
-    "phone": "03-777-1289",
+    "phone": "",
     "city": "안성시"
   },
   {
@@ -8143,21 +8143,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.lakehills.co.kr",
-    "phone": "04-777-1290",
+    "phone": "",
     "city": "용인시"
   },
   {
     "id": "신안cc",
     "name": "신안CC",
     "region": "경기남부",
-    "address": "경기도 안성시",
+    "address": "경기도 안성시 고삼면 개울말길 149",
     "coordinates": {
       "lat": 37.09459,
       "lng": 127.24803
     },
     "drivingTimeFromSeoul": 71,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -8204,7 +8204,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.shinanresort.co.kr",
-    "phone": "05-777-1291",
+    "phone": "031-8046-0777",
     "city": "안성시"
   },
   {
@@ -8218,7 +8218,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 71,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -8265,7 +8265,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.pinecreek.co.kr",
-    "phone": "06-777-1292",
+    "phone": "",
     "city": "안성시"
   },
   {
@@ -8325,7 +8325,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.anseongcc.co.kr",
-    "phone": "07-777-1293",
+    "phone": "",
     "city": "안성시"
   },
   {
@@ -8388,7 +8388,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "08-777-1294",
+    "phone": "",
     "city": "안성시"
   },
   {
@@ -8449,21 +8449,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "09-777-1295",
+    "phone": "",
     "city": "용인시"
   },
   {
     "id": "아시아나cc",
     "name": "아시아나CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 양지면 양대로 290",
     "coordinates": {
       "lat": 37.25585,
       "lng": 127.28121
     },
     "drivingTimeFromSeoul": 55,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -8510,14 +8510,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.asianacc.co.kr",
-    "phone": "010-777-1296",
+    "phone": "031-334-8800",
     "city": "용인시"
   },
   {
     "id": "은화삼cc",
     "name": "은화삼CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 백옥대로 860-38 (호동, 은화삼C.C)",
     "coordinates": {
       "lat": 37.21585,
       "lng": 127.21976
@@ -8571,21 +8571,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.ehscc.co.kr",
-    "phone": "02-777-1297",
+    "phone": "031-335-8255",
     "city": "용인시"
   },
   {
     "id": "천안상록cc",
     "name": "천안상록CC",
     "region": "충청",
-    "address": "충청남도 천안시 동남구",
+    "address": "충청남도 천안시 동남구 수신면 수신로 576",
     "coordinates": {
       "lat": 36.74295,
       "lng": 127.28128
     },
     "drivingTimeFromSeoul": 115,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -8632,7 +8632,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.sangrokresort.co.kr",
-    "phone": "03-777-1298",
+    "phone": "041-560-9001",
     "city": "천안시"
   },
   {
@@ -8694,14 +8694,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "04-777-1299",
+    "phone": "",
     "city": "천안시"
   },
   {
     "id": "강남300cc",
     "name": "강남300CC",
     "region": "경기남부",
-    "address": "경기도 광주시",
+    "address": "경기도 광주시 새말길 353 (목동)",
     "coordinates": {
       "lat": 37.38391,
       "lng": 127.18159
@@ -8757,21 +8757,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.kn300.co.kr",
-    "phone": "05-777-1300",
+    "phone": "031-719-0300",
     "city": "광주시"
   },
   {
     "id": "뉴서울cc",
     "name": "뉴서울CC",
     "region": "경기남부",
-    "address": "경기도 광주시",
+    "address": "경기도 광주시 삼지곡길 95 (삼동)",
     "coordinates": {
       "lat": 37.42456,
       "lng": 127.2127
     },
     "drivingTimeFromSeoul": 36,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -8818,20 +8818,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.newseoulgolf.co.kr",
-    "phone": "06-777-1301",
+    "phone": "031-760-8000",
     "city": "광주시"
   },
   {
     "id": "중부cc",
-    "name": "중부CC",
+    "name": "더 시에나 서울CC (구 중부CC)",
     "region": "경기남부",
-    "address": "경기도 광주시",
+    "address": "경기도 광주시 곤지암읍 경충대로 451",
     "coordinates": {
       "lat": 37.33471,
       "lng": 127.35127
     },
     "drivingTimeFromSeoul": 54,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디",
@@ -8878,15 +8878,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.jungbucc.co.kr",
-    "phone": "07-777-1302",
+    "officialUrl": "https://thesiena.co.kr/content/seoulcc",
+    "phone": "031-762-6588",
     "city": "광주시"
   },
   {
     "id": "곤지암gc",
     "name": "곤지암GC",
     "region": "경기남부",
-    "address": "경기도 광주시",
+    "address": "경기도 광주시 도척면 도척윗로 280 (도웅리)",
     "coordinates": {
       "lat": 37.32986,
       "lng": 127.29832
@@ -8940,21 +8940,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.konjiamgolfclub.co.kr",
-    "phone": "08-777-1303",
+    "phone": "031-760-3555",
     "city": "광주시"
   },
   {
     "id": "해피니스cc",
     "name": "해피니스CC",
     "region": "전라",
-    "address": "전라남도 나주시",
+    "address": "전라남도 나주시 다도면 다도로 171-60",
     "coordinates": {
       "lat": 35.00199,
       "lng": 126.8355
     },
     "drivingTimeFromSeoul": 336,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 45,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -9001,21 +9001,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.happinesscc.com",
-    "phone": "09-777-1304",
+    "phone": "061-330-5000",
     "city": "나주시"
   },
   {
     "id": "골드레이크cc",
     "name": "골드레이크CC",
     "region": "전라",
-    "address": "전라남도 나주시",
+    "address": "전라남도 나주시 남평읍 나주호로 442-129",
     "coordinates": {
       "lat": 34.95927,
       "lng": 126.87408
     },
     "drivingTimeFromSeoul": 342,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -9062,14 +9062,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.gakorea.com",
-    "phone": "010-777-1305",
+    "phone": "061-339-3000",
     "city": "나주시"
   },
   {
     "id": "담양다이너스티cc",
-    "name": "담양다이너스티CC",
+    "name": "담양레이나CC (구 담양다이너스티)",
     "region": "전라",
-    "address": "전라남도 담양군",
+    "address": "전라남도 담양군 담양읍 깊은실길 169 (학동리)",
     "coordinates": {
       "lat": 35.30832,
       "lng": 127.0205
@@ -9124,7 +9124,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.damyangcc.co.kr",
-    "phone": "02-777-1306",
+    "phone": "061-380-7500",
     "city": "담양군"
   },
   {
@@ -9185,7 +9185,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.muancc.co.kr",
-    "phone": "03-777-1307",
+    "phone": "",
     "city": "무안군"
   },
   {
@@ -9247,7 +9247,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.eliche.co.kr",
-    "phone": "04-777-1308",
+    "phone": "",
     "city": "함평군"
   },
   {
@@ -9309,12 +9309,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.najucc.co.kr",
-    "phone": "05-777-1309",
+    "phone": "",
     "city": "나주시"
   },
   {
     "id": "조아밸리cc",
-    "name": "조아밸리 CC",
+    "name": "조아밸리CC",
     "region": "전라",
     "address": "전라남도 화순군",
     "coordinates": {
@@ -9369,15 +9369,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1310",
+    "officialUrl": "",
+    "phone": "",
     "city": "화순군"
   },
   {
     "id": "엘리체cc",
-    "name": "엘리체CC",
+    "name": "화순엘리체CC",
     "region": "전라",
-    "address": "전라남도 화순군",
+    "address": "전라남도 화순군 춘양면 장곡길 55",
     "coordinates": {
       "lat": 34.95434,
       "lng": 126.92055
@@ -9431,21 +9431,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.eliche.co.kr",
-    "phone": "07-777-1311",
+    "phone": "",
     "city": "화순군"
   },
   {
     "id": "화순cc",
     "name": "화순CC",
     "region": "전라",
-    "address": "전라남도 화순군",
+    "address": "전라남도 화순군 도곡면 천태로 1000-151",
     "coordinates": {
       "lat": 34.97165,
       "lng": 126.90897
     },
     "drivingTimeFromSeoul": 340,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -9493,21 +9493,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.hwasuncc.co.kr",
-    "phone": "08-777-1312",
+    "phone": "061-371-0900",
     "city": "화순군"
   },
   {
     "id": "푸른솔gc장성cc",
-    "name": "푸른솔GC 장성CC",
+    "name": "푸른솔GC 장성",
     "region": "전라",
-    "address": "전라남도 장성군",
+    "address": "전라남도 장성군 동화면 임정로 155 (남산리)",
     "coordinates": {
       "lat": 35.25025,
       "lng": 126.71242
     },
     "drivingTimeFromSeoul": 306,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -9554,7 +9554,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.pureunsolgc.com",
-    "phone": "09-777-1313",
+    "phone": "061-399-6000",
     "city": "장성군"
   },
   {
@@ -9615,21 +9615,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "010-777-1314",
+    "phone": "",
     "city": "장성군"
   },
   {
     "id": "고창칸트리클럽",
     "name": "고창칸트리클럽",
     "region": "전라",
-    "address": "전북특별자치도 고창군",
+    "address": "전북특별자치도 고창군 심원면 애향갯벌로 70 (고전리, 고창컨트리클럽)",
     "coordinates": {
       "lat": 35.52106,
       "lng": 126.50549
     },
     "drivingTimeFromSeoul": 275,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 21,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -9678,21 +9678,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.gochangcc.co.kr",
-    "phone": "02-777-1315",
+    "phone": "063-560-7744",
     "city": "고창군"
   },
   {
     "id": "백제cc",
     "name": "백제CC",
     "region": "충청",
-    "address": "충청남도 부여군",
+    "address": "충청남도 부여군 은산면 충절로 3734-82",
     "coordinates": {
       "lat": 36.34355,
       "lng": 126.79356
     },
     "drivingTimeFromSeoul": 165,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -9739,7 +9739,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.baekjecc.com",
-    "phone": "03-777-1316",
+    "phone": "041-830-0700",
     "city": "부여군"
   },
   {
@@ -9800,21 +9800,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.bosungcc.co.kr",
-    "phone": "04-777-1317",
+    "phone": "",
     "city": "보성군"
   },
   {
     "id": "아시아드cc",
     "name": "아시아드CC",
     "region": "경상",
-    "address": "부산광역시 기장군",
+    "address": "부산광역시 기장군 일광면 차양길 26",
     "coordinates": {
       "lat": 35.28428,
       "lng": 129.24278
     },
     "drivingTimeFromSeoul": 380,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -9861,14 +9861,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.asiadcc.co.kr",
-    "phone": "05-777-1318",
+    "phone": "",
     "city": "기장군"
   },
   {
     "id": "파인비치골프링크스",
     "name": "파인비치골프링크스",
     "region": "전라",
-    "address": "전라남도 해남군",
+    "address": "전라남도 해남군 화원면 시아로 224",
     "coordinates": {
       "lat": 34.6979,
       "lng": 126.26506
@@ -9924,7 +9924,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.pinebeachcc.co.kr",
-    "phone": "06-777-1319",
+    "phone": "061-530-7700",
     "city": "해남군"
   },
   {
@@ -9986,7 +9986,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.stonebeach.co.kr",
-    "phone": "07-777-1320",
+    "phone": "",
     "city": "태안군"
   },
   {
@@ -10047,21 +10047,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.hantancc.co.kr",
-    "phone": "08-777-1321",
+    "phone": "",
     "city": "철원군"
   },
   {
     "id": "몽베르cc",
     "name": "몽베르CC",
     "region": "경기북부",
-    "address": "경기도 포천시",
+    "address": "경기도 포천시 영북면 산정호수로 359-12",
     "coordinates": {
       "lat": 38.08262,
       "lng": 127.30608
     },
     "drivingTimeFromSeoul": 95,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -10109,21 +10109,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.montvertcc.com",
-    "phone": "09-777-1322",
+    "phone": "031-531-1100",
     "city": "포천시"
   },
   {
     "id": "포천아도니스cc",
     "name": "포천 아도니스CC",
     "region": "경기북부",
-    "address": "경기도 포천시",
+    "address": "경기도 포천시 신북면 포천로 2499",
     "coordinates": {
       "lat": 37.968,
       "lng": 127.17039
     },
     "drivingTimeFromSeoul": 77,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -10169,14 +10169,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.adoniscc.co.kr",
-    "phone": "010-777-1323",
+    "phone": "031-530-9100",
     "city": "포천시"
   },
   {
     "id": "티클라우드cc",
     "name": "티클라우드CC",
     "region": "경기북부",
-    "address": "경기도 동두천시",
+    "address": "경기도 동두천시 평화로 3202 (하봉암동)",
     "coordinates": {
       "lat": 37.96544,
       "lng": 127.08816
@@ -10231,7 +10231,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.tcloudcc.co.kr",
-    "phone": "02-777-1324",
+    "phone": "031-869-7770",
     "city": "동두천시"
   },
   {
@@ -10292,14 +10292,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.lakewood.co.kr",
-    "phone": "(031)820-1500",
+    "phone": "031-820-1500",
     "city": "양주시"
   },
   {
     "id": "노스팜cc",
     "name": "노스팜CC",
     "region": "경기북부",
-    "address": "경기도 파주시",
+    "address": "경기도 파주시 광탄면 쇠장이길 265",
     "coordinates": {
       "lat": 37.78632,
       "lng": 126.91204
@@ -10353,14 +10353,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.northpalmcc.co.kr",
-    "phone": "04-777-1326",
+    "phone": "031-950-6900",
     "city": "파주시"
   },
   {
     "id": "송추cc",
     "name": "송추CC",
     "region": "경기북부",
-    "address": "경기도 양주시",
+    "address": "경기도 양주시 광적면 쇠장이길 435",
     "coordinates": {
       "lat": 37.79682,
       "lng": 126.91052
@@ -10414,14 +10414,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.songchoocc.co.kr",
-    "phone": "05-777-1327",
+    "phone": "031-871-9410",
     "city": "양주시"
   },
   {
     "id": "스마트ku골프파빌리온",
     "name": "스마트 KU골프파빌리온",
     "region": "경기북부",
-    "address": "경기도 파주시",
+    "address": "경기도 파주시 법원읍 보광로 1616",
     "coordinates": {
       "lat": 37.82399,
       "lng": 126.87666
@@ -10474,15 +10474,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1328",
+    "officialUrl": "",
+    "phone": "031-930-1600",
     "city": "파주시"
   },
   {
     "id": "베스트밸리gc",
     "name": "베스트밸리GC",
     "region": "경기북부",
-    "address": "경기도 파주시",
+    "address": "경기도 파주시 광탄면 장지산로200번길 32-41",
     "coordinates": {
       "lat": 37.75706,
       "lng": 126.88583
@@ -10536,14 +10536,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.bestvalleygc.com",
-    "phone": "07-777-1329",
+    "phone": "",
     "city": "파주시"
   },
   {
     "id": "올림픽cc",
     "name": "올림픽CC",
     "region": "경기북부",
-    "address": "경기도 고양시 덕양구",
+    "address": "경기도 고양시 덕양구 혜음로 301",
     "coordinates": {
       "lat": 37.72094,
       "lng": 126.89218
@@ -10599,14 +10599,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.olympiccc.co.kr",
-    "phone": "08-777-1330",
+    "phone": "031-962-0101",
     "city": "고양시"
   },
   {
     "id": "서서울cc",
     "name": "서서울CC",
     "region": "경기북부",
-    "address": "경기도 파주시",
+    "address": "경기도 파주시 광탄면 혜음로 324 (용미리)",
     "coordinates": {
       "lat": 37.73224,
       "lng": 126.89667
@@ -10659,21 +10659,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.seoseoul.co.kr",
-    "phone": "09-777-1331",
+    "phone": "031-943-0040",
     "city": "파주시"
   },
   {
     "id": "한양cc",
     "name": "한양 CC",
     "region": "경기북부",
-    "address": "경기도 고양시 덕양구",
+    "address": "경기도 고양시 덕양구 고양대로1643번길 164 (원당동)",
     "coordinates": {
       "lat": 37.65682,
       "lng": 126.85661
     },
     "drivingTimeFromSeoul": 41,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -10720,14 +10720,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.hycc.co.kr",
-    "phone": "010-777-1332",
+    "phone": "031-960-6900",
     "city": "고양시"
   },
   {
     "id": "뉴코리아cc",
     "name": "뉴코리아 CC",
     "region": "경기북부",
-    "address": "경기도 고양시 덕양구",
+    "address": "경기도 고양시 덕양구 신원2로 57 (신원동, 뉴코리아컨트리클럽)",
     "coordinates": {
       "lat": 37.66599,
       "lng": 126.87891
@@ -10781,7 +10781,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.gakorea.com",
-    "phone": "02-777-1333",
+    "phone": "02-353-0091",
     "city": "고양시"
   },
   {
@@ -10844,7 +10844,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "03-777-1334",
+    "phone": "",
     "city": "무주군"
   },
   {
@@ -10905,21 +10905,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.sunchangcc.co.kr",
-    "phone": "04-777-1335",
+    "phone": "",
     "city": "순창군"
   },
   {
     "id": "포라이즌cc",
     "name": "포라이즌CC",
     "region": "전라",
-    "address": "전라남도 순천시",
+    "address": "전라남도 순천시 별량면 오실길 333 (덕정리)",
     "coordinates": {
       "lat": 34.90012,
       "lng": 127.44875
     },
     "drivingTimeFromSeoul": 352,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -10968,7 +10968,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.fourhorizon.com",
-    "phone": "05-777-1336",
+    "phone": "061-740-8000",
     "city": "순천시"
   },
   {
@@ -11029,7 +11029,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.suncheoncc.co.kr",
-    "phone": "06-777-1337",
+    "phone": "",
     "city": "순천시"
   },
   {
@@ -11090,14 +11090,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.bitgoulcc.co.kr",
-    "phone": "07-777-1338",
+    "phone": "",
     "city": "남구"
   },
   {
     "id": "샌드파인gc",
     "name": "샌드파인GC",
     "region": "강원",
-    "address": "강원특별자치도 강릉시",
+    "address": "강원특별자치도 강릉시 저동등길 53 (저동)",
     "coordinates": {
       "lat": 37.79984,
       "lng": 128.88106
@@ -11151,21 +11151,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.sandpine.co.kr",
-    "phone": "08-777-1339",
+    "phone": "1644-3001",
     "city": "강릉시"
   },
   {
     "id": "라데나골프클럽",
     "name": "라데나 골프 클럽",
     "region": "강원",
-    "address": "강원특별자치도 춘천시",
+    "address": "강원특별자치도 춘천시 신동면 칠전동길 72 (정족리, 라데나클럽)",
     "coordinates": {
       "lat": 37.84012,
       "lng": 127.7232
     },
     "drivingTimeFromSeoul": 98,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "회원제",
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -11213,7 +11213,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.ladena.co.kr",
-    "phone": "09-777-1340",
+    "phone": "033-260-1114",
     "city": "춘천시"
   },
   {
@@ -11273,13 +11273,13 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1341",
+    "officialUrl": "",
+    "phone": "",
     "city": "순창군"
   },
   {
     "id": "일산스프링힐스cc",
-    "name": "일산스프링힐스 CC",
+    "name": "스프링힐스CC (일산)",
     "region": "경기북부",
     "address": "경기도 고양시 일산동구",
     "coordinates": {
@@ -11336,14 +11336,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.springhills.co.kr",
-    "phone": "02-777-1342",
+    "phone": "",
     "city": "고양시"
   },
   {
     "id": "그린힐cc",
     "name": "그린힐CC",
     "region": "경기남부",
-    "address": "경기도 광주시",
+    "address": "경기도 광주시 곤지암읍 내선길 176",
     "coordinates": {
       "lat": 37.35915,
       "lng": 127.43237
@@ -11397,12 +11397,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.shinanresort.co.kr",
-    "phone": "04-777-1344",
+    "phone": "031-799-8500",
     "city": "광주시"
   },
   {
     "id": "창평cc골프장",
-    "name": "창평CC(골프장)",
+    "name": "창평CC",
     "region": "전라",
     "address": "전라남도 담양군",
     "coordinates": {
@@ -11458,8 +11458,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1345",
+    "officialUrl": "",
+    "phone": "",
     "city": "담양군"
   },
   {
@@ -11522,7 +11522,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.rainbowhills.co.kr",
-    "phone": "06-777-1346",
+    "phone": "",
     "city": "음성군"
   },
   {
@@ -11582,14 +11582,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.salegc.co.kr",
-    "phone": "07-777-1347",
+    "phone": "",
     "city": "충주시"
   },
   {
     "id": "킹스데일cc",
     "name": "킹스데일CC",
     "region": "충청",
-    "address": "충청북도 충주시",
+    "address": "충청북도 충주시 주덕읍 기업도시3로 2 (화곡리, 킹스데일)",
     "coordinates": {
       "lat": 37.01911,
       "lng": 127.8141
@@ -11644,7 +11644,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.kingsdale.co.kr",
-    "phone": "08-777-1348",
+    "phone": "043-870-4100",
     "city": "충주시"
   },
   {
@@ -11704,7 +11704,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.centeriumcc.com",
-    "phone": "(043)849-7000",
+    "phone": "043-849-7000",
     "city": "충주시"
   },
   {
@@ -11766,7 +11766,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.jeongsancc.co.kr",
-    "phone": "(055)338-8300",
+    "phone": "055-338-8300",
     "city": "김해시"
   },
   {
@@ -11826,8 +11826,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1351",
+    "officialUrl": "",
+    "phone": "",
     "city": "김해시"
   },
   {
@@ -11887,21 +11887,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디"
     ],
     "officialUrl": "https://www.bugokcc.co.kr",
-    "phone": "(055)521-0707/10",
+    "phone": "055-521-0707",
     "city": "창녕군"
   },
   {
     "id": "발리오스cc",
     "name": "발리오스CC",
     "region": "경기남부",
-    "address": "경기도 화성시",
+    "address": "경기도 화성시 팔탄면 3.1만세로 641-28 (화당리, 발리오스컨트리클럽)",
     "coordinates": {
       "lat": 37.11629,
       "lng": 126.86055
     },
     "drivingTimeFromSeoul": 66,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -11948,7 +11948,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.balios.co.kr",
-    "phone": "06-777-1355",
+    "phone": "031-352-5061",
     "city": "화성시"
   },
   {
@@ -12008,14 +12008,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.seorabeolcc.co.kr",
-    "phone": "07-777-1356",
+    "phone": "",
     "city": "경주시"
   },
   {
     "id": "스카이72골프장바다코스제5활주로건설예정지",
-    "name": "클럽72CC 바다코스 (오션·레이크·클래식)",
+    "name": "클럽72 바다코스",
     "region": "인천",
-    "address": "인천광역시 중구",
+    "address": "인천광역시 영종구",
     "coordinates": {
       "lat": 37.47949,
       "lng": 126.47018
@@ -12070,14 +12070,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.onetheclub.com",
-    "phone": "09-777-1358",
-    "city": "중구"
+    "phone": "",
+    "city": "영종구"
   },
   {
     "id": "블랙밸리cc",
     "name": "블랙밸리CC",
     "region": "강원",
-    "address": "강원특별자치도 삼척시",
+    "address": "강원특별자치도 삼척시 도계읍 도상로 307-84",
     "coordinates": {
       "lat": 37.22294,
       "lng": 129.06602
@@ -12130,7 +12130,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.blackvalley.co.kr",
-    "phone": "04-777-1362",
+    "phone": "033-540-5300",
     "city": "삼척시"
   },
   {
@@ -12191,12 +12191,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.pinevalleycc.co.kr",
-    "phone": "05-777-1363",
+    "phone": "",
     "city": "삼척시"
   },
   {
     "id": "부영cc순천cc",
-    "name": "부영CC순천CC",
+    "name": "부영CC 순천",
     "region": "전라",
     "address": "전라남도 순천시",
     "coordinates": {
@@ -12253,7 +12253,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.booyoung.co.kr",
-    "phone": "06-777-1364",
+    "phone": "",
     "city": "순천시"
   },
   {
@@ -12312,8 +12312,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "충청",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1367",
+    "officialUrl": "",
+    "phone": "",
     "city": "유성구"
   },
   {
@@ -12373,15 +12373,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1369",
+    "officialUrl": "",
+    "phone": "",
     "city": "구미시"
   },
   {
     "id": "메이플비치cc",
     "name": "메이플비치CC",
     "region": "강원",
-    "address": "강원특별자치도 강릉시",
+    "address": "강원특별자치도 강릉시 강동면 염전길 255",
     "coordinates": {
       "lat": 37.74375,
       "lng": 128.969
@@ -12434,7 +12434,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.maplebeach.co.kr",
-    "phone": "07-777-1374",
+    "phone": "033-650-0020",
     "city": "강릉시"
   },
   {
@@ -12494,8 +12494,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1376",
+    "officialUrl": "",
+    "phone": "",
     "city": "포천시"
   },
   {
@@ -12555,21 +12555,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.yongincc.co.kr",
-    "phone": "010-777-1377",
+    "phone": "",
     "city": "용인시"
   },
   {
     "id": "해솔리아cc",
     "name": "해솔리아CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 이동읍 백자로297번길 74",
     "coordinates": {
       "lat": 37.20794,
       "lng": 127.18916
     },
     "drivingTimeFromSeoul": 55,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -12617,8 +12617,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능",
       "야간3부"
     ],
-    "officialUrl": "https://www.haesoliacc.co.kr",
-    "phone": "02-777-1378",
+    "officialUrl": "http://www.haesoliacc.co.kr",
+    "phone": "031-321-7755",
     "city": "용인시"
   },
   {
@@ -12678,22 +12678,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1381",
+    "officialUrl": "",
+    "phone": "",
     "city": "화성시"
   },
   {
     "id": "송도gc",
-    "name": "송도GC",
+    "name": "송도골프클럽",
     "region": "인천",
-    "address": "인천광역시 연수구",
+    "address": "인천광역시 연수구 능허대로 236",
     "coordinates": {
       "lat": 37.41361,
       "lng": 126.65073
     },
     "drivingTimeFromSeoul": 54,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -12740,15 +12740,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1382",
+    "officialUrl": "",
+    "phone": "032-383-0500",
     "city": "연수구"
   },
   {
     "id": "오션힐스포항cc",
     "name": "오션힐스 포항CC",
     "region": "경상",
-    "address": "경상북도 포항시 북구",
+    "address": "경상북도 포항시 북구 송라면 동해대로2751번길 126",
     "coordinates": {
       "lat": 36.24487,
       "lng": 129.35333
@@ -12802,8 +12802,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.oceanhills.com",
-    "phone": "09-777-1385",
+    "officialUrl": "https://www.pohangcc.com",
+    "phone": "054-230-2000",
     "city": "포항시"
   },
   {
@@ -12863,7 +12863,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.pohangcc.co.kr",
-    "phone": "010-777-1386",
+    "phone": "",
     "city": "포항시"
   },
   {
@@ -12923,8 +12923,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1387",
+    "officialUrl": "",
+    "phone": "",
     "city": "화성시"
   },
   {
@@ -12983,8 +12983,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1388",
+    "officialUrl": "",
+    "phone": "",
     "city": "구미시"
   },
   {
@@ -12998,7 +12998,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 362,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -13044,22 +13044,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.jnjgolfresort.com",
-    "phone": "010-777-1395",
+    "officialUrl": "http://jnjgolfresort.co.kr",
+    "phone": "061-860-9000",
     "city": "장흥군"
   },
   {
     "id": "수원cc",
     "name": "수원CC",
     "region": "경기남부",
-    "address": "경기도 용인시 기흥구",
+    "address": "경기도 용인시 기흥구 중부대로 495 (구갈동, 수원컨트리클럽)",
     "coordinates": {
       "lat": 37.28049,
       "lng": 127.1231
     },
     "drivingTimeFromSeoul": 44,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -13107,21 +13107,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.suwoncc.co.kr",
-    "phone": "02-777-1396",
+    "phone": "031-281-6611",
     "city": "용인시"
   },
   {
     "id": "인터불고cc",
-    "name": "인터불고 CC",
+    "name": "해내다CC (구 인터불고 경산)",
     "region": "경상",
-    "address": "경상북도 경산시",
+    "address": "경상북도 경산시 삼성현로 614-26 (평산동, 인터불고경산컨트리클럽)",
     "coordinates": {
       "lat": 35.79446,
       "lng": 128.76145
     },
     "drivingTimeFromSeoul": 297,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "회원제",
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -13168,8 +13168,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.ibcc.co.kr",
-    "phone": "05-777-1399",
+    "officialUrl": "https://haenaedacc.co.kr",
+    "phone": "053-819-6100",
     "city": "경산시"
   },
   {
@@ -13229,22 +13229,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1400",
+    "officialUrl": "",
+    "phone": "",
     "city": "수성구"
   },
   {
     "id": "휘닉스평창cc",
     "name": "휘닉스평창 CC",
     "region": "강원",
-    "address": "강원특별자치도 평창군",
+    "address": "강원특별자치도 평창군 봉평면 태기로 227-84, 일원",
     "coordinates": {
       "lat": 37.58821,
       "lng": 128.33745
     },
     "drivingTimeFromSeoul": 149,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 24,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -13290,14 +13290,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://phoenixhnr.co.kr",
-    "phone": "07-777-1401",
+    "phone": "1577-0755",
     "city": "평창군"
   },
   {
     "id": "태기산cc",
     "name": "태기산CC",
     "region": "강원",
-    "address": "강원특별자치도 평창군",
+    "address": "강원특별자치도 평창군 봉평면 태기로 174",
     "coordinates": {
       "lat": 37.58492,
       "lng": 128.31932
@@ -13350,8 +13350,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1402",
+    "officialUrl": "",
+    "phone": "",
     "city": "평창군"
   },
   {
@@ -13411,8 +13411,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1404",
+    "officialUrl": "",
+    "phone": "",
     "city": "춘천시"
   },
   {
@@ -13473,15 +13473,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1406",
+    "officialUrl": "",
+    "phone": "",
     "city": "순천시"
   },
   {
     "id": "설해원cc",
     "name": "설해원CC",
     "region": "강원",
-    "address": "강원특별자치도 강원도 양양군 손양면 공항로 230",
+    "address": "강원특별자치도 양양군 손양면 공항로 230",
     "coordinates": {
       "lat": 38.05233,
       "lng": 128.66337
@@ -13534,12 +13534,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.seolhaeone.com",
-    "phone": "(033)670-7700",
+    "phone": "033-670-7700",
     "city": "양양군"
   },
   {
     "id": "플라자cc설악cc",
-    "name": "플라자CC 설악CC",
+    "name": "플라자CC 설악",
     "region": "강원",
     "address": "강원특별자치도 속초시 미시령로2983번길 56-20 (장사동)",
     "coordinates": {
@@ -13594,14 +13594,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디"
     ],
     "officialUrl": "https://www.plazacc.co.kr",
-    "phone": "(033)630-5511",
+    "phone": "033-630-5511",
     "city": "속초시"
   },
   {
     "id": "스카이72골프장하늘코스",
-    "name": "클럽72CC 하늘코스",
+    "name": "클럽72 하늘코스",
     "region": "인천",
-    "address": "인천광역시 중구",
+    "address": "인천광역시 영종구 운서동 3238",
     "coordinates": {
       "lat": 37.45138,
       "lng": 126.4824
@@ -13654,9 +13654,9 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.onetheclub.com",
-    "phone": "06-777-1409",
-    "city": "중구"
+    "officialUrl": "https://onetheclub.com",
+    "phone": "1599-0072",
+    "city": "영종구"
   },
   {
     "id": "남서울cc",
@@ -13717,7 +13717,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.seoulcc.co.kr",
-    "phone": "(031)709-6000",
+    "phone": "031-709-6000",
     "city": "성남시"
   },
   {
@@ -13778,7 +13778,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.yangsancc.co.kr",
-    "phone": "08-777-1411",
+    "phone": "055-379-0000",
     "city": "양산시"
   },
   {
@@ -13792,7 +13792,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 366,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -13838,8 +13838,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1412",
+    "officialUrl": "",
+    "phone": "",
     "city": "무안군"
   },
   {
@@ -13900,7 +13900,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.evendale.co.kr",
-    "phone": "04-777-1416",
+    "phone": "",
     "city": "청주시"
   },
   {
@@ -13960,8 +13960,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.gakorea.com",
-    "phone": "05-777-1417",
+    "officialUrl": "",
+    "phone": "",
     "city": "청주시"
   },
   {
@@ -14024,21 +14024,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.hwasan.co.kr",
-    "phone": "06-777-1418",
+    "phone": "",
     "city": "상주시"
   },
   {
     "id": "구미cc",
     "name": "구미CC",
     "region": "경상",
-    "address": "경상북도 구미시",
+    "address": "경상북도 구미시 장천면 송백로 229 (상림리, 구미컨트리클럽하우스)",
     "coordinates": {
       "lat": 36.16826,
       "lng": 128.48342
     },
     "drivingTimeFromSeoul": 242,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -14084,7 +14084,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.gumicc.co.kr",
-    "phone": "07-777-1419",
+    "phone": "054-452-9878",
     "city": "구미시"
   },
   {
@@ -14147,7 +14147,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.gracecc.co.kr",
-    "phone": "08-777-1420",
+    "phone": "",
     "city": "청도군"
   },
   {
@@ -14208,7 +14208,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.westocean.co.kr",
-    "phone": "09-777-1421",
+    "phone": "",
     "city": "영광군"
   },
   {
@@ -14268,22 +14268,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1422",
+    "officialUrl": "",
+    "phone": "",
     "city": "함평군"
   },
   {
     "id": "블루원디아너스cccc",
-    "name": "블루원 디아너스 C.C.CC",
+    "name": "블루원 디아너스CC",
     "region": "경상",
-    "address": "경상북도 경주시 보불로",
+    "address": "경상북도 경주시 보불로 391",
     "coordinates": {
       "lat": 35.82314,
       "lng": 129.29766
     },
     "drivingTimeFromSeoul": 333,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "회원제",
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -14330,14 +14330,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.blueone.com",
-    "phone": "02-777-1423",
+    "phone": "054-778-9000",
     "city": "경주시"
   },
   {
     "id": "남촌cc",
     "name": "남촌CC",
     "region": "경기남부",
-    "address": "경기도 광주시",
+    "address": "경기도 광주시 곤지암읍 부항길 135-38",
     "coordinates": {
       "lat": 37.35153,
       "lng": 127.4189
@@ -14391,21 +14391,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.namchoncc.co.kr",
-    "phone": "03-777-1424",
+    "phone": "031-769-0333",
     "city": "광주시"
   },
   {
     "id": "스카이밸리cc",
     "name": "스카이밸리CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 북내면 운촌길 254 (운촌리, 스카이밸리CC)",
     "coordinates": {
       "lat": 37.33233,
       "lng": 127.72808
     },
     "drivingTimeFromSeoul": 89,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -14452,21 +14452,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.skyvalley.co.kr",
-    "phone": "04-777-1425",
+    "phone": "031-880-8800",
     "city": "여주시"
   },
   {
     "id": "가평베네스트gc",
     "name": "가평베네스트GC",
     "region": "경기북부",
-    "address": "경기도 가평군",
+    "address": "경기도 가평군 상면 둔덕말길 232",
     "coordinates": {
       "lat": 37.80051,
       "lng": 127.30444
     },
     "drivingTimeFromSeoul": 63,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -14514,21 +14514,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.benestgolf.com",
-    "phone": "05-777-1426",
+    "phone": "031-589-8002",
     "city": "가평군"
   },
   {
     "id": "베어크리크gccc",
-    "name": "베어크리크G.CCC",
+    "name": "베어크리크 포천",
     "region": "경기북부",
-    "address": "경기도 포천시",
+    "address": "경기도 포천시 화현면 달인동로 35",
     "coordinates": {
       "lat": 37.91113,
       "lng": 127.28808
     },
     "drivingTimeFromSeoul": 74,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -14577,7 +14577,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.bearcreek.co.kr",
-    "phone": "06-777-1427",
+    "phone": "1899-0115",
     "city": "포천시",
     "blogReviews": [
       {
@@ -14607,14 +14607,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "id": "일동레이크gc",
     "name": "일동레이크GC",
     "region": "경기북부",
-    "address": "경기도 포천시",
+    "address": "경기도 포천시 일동면 화동로 738 (유동리)",
     "coordinates": {
       "lat": 37.93002,
       "lng": 127.31781
     },
     "drivingTimeFromSeoul": 77,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 30,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -14661,21 +14661,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.ildonglakes.co.kr",
-    "phone": "07-777-1428",
+    "phone": "031-539-5900",
     "city": "포천시"
   },
   {
     "id": "썬힐gc",
     "name": "썬힐GC",
     "region": "경기북부",
-    "address": "경기도 가평군",
+    "address": "경기도 가평군 조종면 운악청계로 809 (운악리, 썬힐골프클럽)",
     "coordinates": {
       "lat": 37.87468,
       "lng": 127.34798
     },
     "drivingTimeFromSeoul": 73,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -14722,21 +14722,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.sunhillgolf.co.kr",
-    "phone": "08-777-1429",
+    "phone": "031-585-7900",
     "city": "가평군"
   },
   {
     "id": "아난티클럽서울",
     "name": "아난티클럽 서울",
     "region": "경기북부",
-    "address": "경기도 가평군",
+    "address": "경기도 가평군 설악면 유명로 961-34",
     "coordinates": {
       "lat": 37.62045,
       "lng": 127.48174
     },
     "drivingTimeFromSeoul": 63,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -14785,7 +14785,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.ananti.kr",
-    "phone": "09-777-1430",
+    "phone": "031-589-3000",
     "city": "가평군"
   },
   {
@@ -14844,21 +14844,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기북부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1431",
+    "officialUrl": "",
+    "phone": "",
     "city": "가평군"
   },
   {
     "id": "클럽비전힐스cc",
     "name": "클럽비전힐스CC",
     "region": "경기북부",
-    "address": "경기도 남양주시 마치로",
+    "address": "경기도 남양주시 화도읍 마치로 226-220 (녹촌리, (주)비전힐스)",
     "coordinates": {
       "lat": 37.64147,
       "lng": 127.26975
     },
     "drivingTimeFromSeoul": 45,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "양잔디",
@@ -14907,7 +14907,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.visionhills.co.kr",
-    "phone": "02-777-1432",
+    "phone": "031-595-3355",
     "city": "남양주시"
   },
   {
@@ -14921,7 +14921,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 98,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -14967,21 +14967,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.cygnuscc.co.kr",
-    "phone": "03-777-1433",
+    "phone": "",
     "city": "충주시"
   },
   {
     "id": "렉스필드cc",
     "name": "렉스필드CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 산북면 광여로 1115",
     "coordinates": {
       "lat": 37.40322,
       "lng": 127.42151
     },
     "drivingTimeFromSeoul": 57,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -15029,7 +15029,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.rexfield.com",
-    "phone": "04-777-1434",
+    "phone": "031-880-8700",
     "city": "여주시"
   },
   {
@@ -15091,7 +15091,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.easthillcc.co.kr",
-    "phone": "05-777-1435",
+    "phone": "",
     "city": "경주시"
   },
   {
@@ -15153,14 +15153,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "06-777-1436",
+    "phone": "",
     "city": "경주시"
   },
   {
     "id": "해슬리나인브릿지cc",
     "name": "해슬리나인브릿지CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 명품1로 76 (연라동)",
     "coordinates": {
       "lat": 37.25395,
       "lng": 127.6165
@@ -15215,7 +15215,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "상급자도전코스"
     ],
     "officialUrl": "https://www.haesley.com",
-    "phone": "07-777-1437",
+    "phone": "031-887-9900",
     "city": "여주시"
   },
   {
@@ -15275,7 +15275,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디"
     ],
     "officialUrl": "https://www.boracc.com",
-    "phone": "(052)255-1000",
+    "phone": "052-255-1000",
     "city": "울주군"
   },
   {
@@ -15335,14 +15335,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디"
     ],
     "officialUrl": "https://www.ulsancc.co.kr",
-    "phone": "(052)225-0707",
+    "phone": "052-225-0707",
     "city": "울주군"
   },
   {
     "id": "포도cc",
     "name": "포도CC",
     "region": "경상",
-    "address": "경상북도 김천시",
+    "address": "경상북도 김천시 구성면 남김천대로 2532",
     "coordinates": {
       "lat": 36.0416,
       "lng": 128.05809
@@ -15395,8 +15395,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1440",
+    "officialUrl": "",
+    "phone": "",
     "city": "김천시"
   },
   {
@@ -15410,7 +15410,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 292,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -15456,7 +15456,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.oceanhills.com",
-    "phone": "03-777-1442",
+    "phone": "",
     "city": "영천시"
   },
   {
@@ -15515,22 +15515,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1443",
+    "officialUrl": "",
+    "phone": "",
     "city": "김해시"
   },
   {
     "id": "에이원cc",
     "name": "에이원 CC",
     "region": "경상",
-    "address": "경상남도 양산시",
+    "address": "경상남도 양산시 덕명로 190 (매곡동, 에이원컨트리클럽)",
     "coordinates": {
       "lat": 35.37542,
       "lng": 129.17451
     },
     "drivingTimeFromSeoul": 367,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -15577,14 +15577,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.aonecc.co.kr",
-    "phone": "05-777-1444",
+    "phone": "055-371-3500",
     "city": "양산시"
   },
   {
     "id": "오투리조트cc",
     "name": "오투리조트 CC",
     "region": "강원",
-    "address": "강원특별자치도 태백시",
+    "address": "강원특별자치도 태백시 서학로 861",
     "coordinates": {
       "lat": 37.15791,
       "lng": 128.94863
@@ -15637,7 +15637,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.o2resort.com",
-    "phone": "07-777-1446",
+    "phone": "",
     "city": "태백시"
   },
   {
@@ -15697,15 +15697,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1449",
+    "officialUrl": "",
+    "phone": "",
     "city": "광양시"
   },
   {
     "id": "글렌로스cc",
-    "name": "글렌로스CC",
+    "name": "글렌로스GC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 포곡읍 에버랜드로562번길 69",
     "coordinates": {
       "lat": 37.29457,
       "lng": 127.18102
@@ -15761,7 +15761,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.benestgolf.com",
-    "phone": "02-777-1450",
+    "phone": "031-320-9601",
     "city": "용인시"
   },
   {
@@ -15820,8 +15820,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기북부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.yangjucc.co.kr",
-    "phone": "03-777-1451",
+    "officialUrl": "",
+    "phone": "",
     "city": "남양주시"
   },
   {
@@ -15882,7 +15882,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "04-777-1452",
+    "phone": "",
     "city": "화성시"
   },
   {
@@ -15896,7 +15896,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 54,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -15942,22 +15942,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1453",
+    "officialUrl": "",
+    "phone": "",
     "city": "화성시"
   },
   {
     "id": "블루버드cc",
-    "name": "블루버드CC",
+    "name": "큐로CC (구 블루버드CC)",
     "region": "경기남부",
-    "address": "경기도 광주시",
+    "address": "경기도 광주시 곤지암읍 오향길 180",
     "coordinates": {
       "lat": 37.38479,
       "lng": 127.36847
     },
     "drivingTimeFromSeoul": 52,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -16003,15 +16003,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1454",
+    "officialUrl": "",
+    "phone": "031-799-6000",
     "city": "광주시"
   },
   {
     "id": "대호단양cc",
     "name": "대호단양CC",
     "region": "충청",
-    "address": "충청북도 단양군",
+    "address": "충청북도 단양군 매포읍 고양5길 43",
     "coordinates": {
       "lat": 37.0874,
       "lng": 128.27591
@@ -16066,7 +16066,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.daehocc.co.kr",
-    "phone": "07-777-1455",
+    "phone": "043-420-7100",
     "city": "단양군"
   },
   {
@@ -16080,7 +16080,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 332,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -16128,14 +16128,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.pinehills.co.kr",
-    "phone": "08-777-1456",
+    "phone": "061-750-9000",
     "city": "순천시"
   },
   {
     "id": "알프스대영cc",
     "name": "알프스대영CC",
     "region": "강원",
-    "address": "강원특별자치도 횡성군",
+    "address": "강원특별자치도 횡성군 우천면 한우로 1295",
     "coordinates": {
       "lat": 37.46468,
       "lng": 128.07234
@@ -16188,7 +16188,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.alpsdy.com",
-    "phone": "09-777-1457",
+    "phone": "033-340-8000",
     "city": "횡성군"
   },
   {
@@ -16251,7 +16251,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "010-777-1458",
+    "phone": "",
     "city": "순천시"
   },
   {
@@ -16311,14 +16311,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.shillacc.co.kr",
-    "phone": "04-777-1461",
+    "phone": "",
     "city": "여주시"
   },
   {
     "id": "360도cc",
     "name": "360도CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 강천면 부평리 산59-5",
     "coordinates": {
       "lat": 37.29709,
       "lng": 127.73594
@@ -16373,15 +16373,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능",
       "야간3부"
     ],
-    "officialUrl": "https://www.360cc.co.kr",
-    "phone": "05-777-1462",
+    "officialUrl": "http://www.360cc.co.kr",
+    "phone": "031-880-3600",
     "city": "여주시"
   },
   {
     "id": "캐슬파인gc",
     "name": "캐슬파인GC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 강천면 부평로 580",
     "coordinates": {
       "lat": 37.30072,
       "lng": 127.74456
@@ -16434,14 +16434,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.castlepine.co.kr",
-    "phone": "06-777-1463",
+    "phone": "031-880-8680",
     "city": "여주시"
   },
   {
     "id": "여주썬밸리cc",
     "name": "여주썬밸리CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 강천면 강문로 872",
     "coordinates": {
       "lat": 37.26877,
       "lng": 127.73389
@@ -16495,14 +16495,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.sunvalley.co.kr",
-    "phone": "07-777-1464",
+    "phone": "",
     "city": "여주시"
   },
   {
     "id": "마론뉴데이cc",
     "name": "마론뉴데이CC",
     "region": "충청",
-    "address": "충청남도 천안시 동남구",
+    "address": "충청남도 천안시 동남구 북면 납안5길 74",
     "coordinates": {
       "lat": 36.86581,
       "lng": 127.25655
@@ -16557,21 +16557,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.maronnewday.co.kr",
-    "phone": "08-777-1465",
+    "phone": "041-623-5500",
     "city": "천안시"
   },
   {
     "id": "에콜리안광산cc",
     "name": "에콜리안광산CC",
     "region": "전라",
-    "address": "광주광역시 광산구",
+    "address": "광주광역시 광산구 연산동 118",
     "coordinates": {
       "lat": 35.10802,
       "lng": 126.74218
     },
     "drivingTimeFromSeoul": 323,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -16618,7 +16618,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.ecolian.or.kr",
-    "phone": "09-777-1466",
+    "phone": "",
     "city": "광산구"
   },
   {
@@ -16677,8 +16677,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1467",
+    "officialUrl": "",
+    "phone": "",
     "city": "의성군"
   },
   {
@@ -16738,15 +16738,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1468",
+    "officialUrl": "",
+    "phone": "",
     "city": "안동시"
   },
   {
     "id": "한양파인cc",
-    "name": "한양파인 CC",
+    "name": "한양파인CC",
     "region": "경기북부",
-    "address": "경기도 고양시 덕양구",
+    "address": "경기도 고양시 덕양구 고양대로 1591",
     "coordinates": {
       "lat": 37.65458,
       "lng": 126.8662
@@ -16800,21 +16800,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.hycc.co.kr",
-    "phone": "03-777-1469",
+    "phone": "",
     "city": "고양시"
   },
   {
     "id": "고양cc",
-    "name": "고양 CC",
+    "name": "고양CC",
     "region": "경기북부",
-    "address": "경기도 고양시 덕양구",
+    "address": "경기도 고양시 덕양구 흥도로 304-23",
     "coordinates": {
       "lat": 37.63531,
       "lng": 126.85805
     },
     "drivingTimeFromSeoul": 39,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -16862,21 +16862,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.goyangcc.com",
-    "phone": "04-777-1470",
+    "phone": "031-960-7700",
     "city": "고양시"
   },
   {
     "id": "드림파크cc",
     "name": "드림파크CC",
     "region": "인천",
-    "address": "인천광역시",
+    "address": "인천광역시 검단구 자원순환로260번길 46 (백석동)",
     "coordinates": {
       "lat": 37.57756,
       "lng": 126.63455
     },
     "drivingTimeFromSeoul": 56,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -16923,21 +16923,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.dreamparkcc.or.kr",
-    "phone": "07-777-1473",
-    "city": "서구"
+    "phone": "032-560-1700",
+    "city": "검단구"
   },
   {
     "id": "베어즈베스트청라gc",
     "name": "베어즈베스트청라GC",
     "region": "인천",
-    "address": "인천광역시",
+    "address": "인천광역시 서구 청라대로316번길 45 (청라동)",
     "coordinates": {
       "lat": 37.54942,
       "lng": 126.62831
     },
     "drivingTimeFromSeoul": 56,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -16985,14 +16985,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.bearsbestcheongnagc.com",
-    "phone": "09-777-1475",
+    "phone": "032-560-2000",
     "city": "서구"
   },
   {
     "id": "인천국제cc",
     "name": "인천국제CC",
     "region": "인천",
-    "address": "인천광역시",
+    "address": "인천광역시 서구 도요지로 37 (경서동, 인천국제 C.C Club House)",
     "coordinates": {
       "lat": 37.56125,
       "lng": 126.65266
@@ -17048,14 +17048,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.incheoncc.co.kr",
-    "phone": "010-777-1476",
+    "phone": "032-562-6666",
     "city": "서구"
   },
   {
     "id": "마에스트로cc",
     "name": "마에스트로CC",
     "region": "경기남부",
-    "address": "경기도 안성시",
+    "address": "경기도 안성시 양성면 안성맞춤대로 2134-36",
     "coordinates": {
       "lat": 37.10461,
       "lng": 127.26257
@@ -17109,7 +17109,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.maestrocc.co.kr",
-    "phone": "02-777-1477",
+    "phone": "031-8046-1000",
     "city": "안성시"
   },
   {
@@ -17170,7 +17170,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "03-777-1478",
+    "phone": "",
     "city": "용인시"
   },
   {
@@ -17232,8 +17232,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1480",
+    "officialUrl": "",
+    "phone": "",
     "city": "군포시"
   },
   {
@@ -17292,22 +17292,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "충청",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1481",
+    "officialUrl": "",
+    "phone": "",
     "city": "태안군"
   },
   {
     "id": "솔라고cc",
     "name": "솔라고CC",
     "region": "충청",
-    "address": "충청남도 태안군",
+    "address": "충청남도 태안군 태안읍 기업도시9길 176",
     "coordinates": {
       "lat": 36.69339,
       "lng": 126.32216
     },
     "drivingTimeFromSeoul": 141,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -17353,15 +17353,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.solago.co.kr",
-    "phone": "07-777-1482",
+    "officialUrl": "https://www.sollago.co.kr",
+    "phone": "041-670-8888",
     "city": "태안군"
   },
   {
     "id": "오션비치cc",
     "name": "오션비치CC",
     "region": "경상",
-    "address": "경상북도 영덕군",
+    "address": "경상북도 영덕군 강구면 동해대로 4265-43",
     "coordinates": {
       "lat": 36.34262,
       "lng": 129.37201
@@ -17417,20 +17417,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.oceanbeach.net",
-    "phone": "08-777-1483",
+    "phone": "",
     "city": "영덕군"
   },
   {
     "id": "한림광릉cc회원제cc",
-    "name": "한림광릉CC(회원제)CC",
+    "name": "광릉CC",
     "region": "경기북부",
-    "address": "경기도 남양주시",
+    "address": "경기도 남양주시 진접읍 팔야로 280",
     "coordinates": {
       "lat": 37.75741,
       "lng": 127.24368
     },
     "drivingTimeFromSeoul": 54,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디",
@@ -17478,7 +17478,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.hanlimgolf.com",
-    "phone": "09-777-1484",
+    "phone": "",
     "city": "남양주시"
   },
   {
@@ -17538,21 +17538,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.goseongcc.co.kr",
-    "phone": "03-777-1487",
+    "phone": "",
     "city": "고성군"
   },
   {
     "id": "고성노벨cc",
     "name": "고성노벨CC",
     "region": "경상",
-    "address": "경상남도 고성군",
+    "address": "경상남도 고성군 회화면 회진로 567 (봉동리)",
     "coordinates": {
       "lat": 35.06744,
       "lng": 128.40664
     },
     "drivingTimeFromSeoul": 358,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "회원제",
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -17598,14 +17598,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.nobelcc.co.kr",
-    "phone": "04-777-1488",
+    "phone": "055-670-8000",
     "city": "고성군"
   },
   {
     "id": "다이아몬드cc",
     "name": "다이아몬드CC",
     "region": "경상",
-    "address": "경상남도 양산시",
+    "address": "경상남도 양산시 상북면 공원로 305-391",
     "coordinates": {
       "lat": 35.42331,
       "lng": 129.03157
@@ -17659,12 +17659,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.diamondcc.co.kr",
-    "phone": "05-777-1489",
+    "phone": "051-293-7711",
     "city": "양산시"
   },
   {
     "id": "아라미르골프앤리조트",
-    "name": "아라미르 골프앤리조트",
+    "name": "진해신항CC",
     "region": "경상",
     "address": "경상남도 창원시 진해구",
     "coordinates": {
@@ -17673,7 +17673,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 372,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -17721,7 +17721,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.aramircc.co.kr",
-    "phone": "06-777-1490",
+    "phone": "",
     "city": "창원시"
   },
   {
@@ -17783,7 +17783,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.booyoung.co.kr",
-    "phone": "07-777-1491",
+    "phone": "",
     "city": "서귀포시"
   },
   {
@@ -17844,8 +17844,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.lordhills.co.kr",
-    "phone": "08-777-1492",
+    "officialUrl": "https://lordhills.co.kr",
+    "phone": "",
     "city": "춘천시"
   },
   {
@@ -17905,7 +17905,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.lavieestbellegolfnresort.com",
-    "phone": "09-777-1493",
+    "phone": "",
     "city": "춘천시"
   },
   {
@@ -17966,8 +17966,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1495",
+    "officialUrl": "",
+    "phone": "",
     "city": "포천시"
   },
   {
@@ -18028,21 +18028,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.midasgolf.co.kr",
-    "phone": "04-777-1497",
+    "phone": "",
     "city": "가평군"
   },
   {
     "id": "리앤리cc",
     "name": "리앤리CC",
     "region": "경기북부",
-    "address": "경기도 가평군",
+    "address": "경기도 가평군 조종면 운악청계로 702-24",
     "coordinates": {
       "lat": 37.87546,
       "lng": 127.36379
     },
     "drivingTimeFromSeoul": 74,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -18090,7 +18090,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.reanleecc.com",
-    "phone": "05-777-1498",
+    "phone": "",
     "city": "가평군"
   },
   {
@@ -18149,15 +18149,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기북부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1499",
+    "officialUrl": "",
+    "phone": "",
     "city": "포천시"
   },
   {
     "id": "양주cc",
     "name": "양주CC",
     "region": "경기북부",
-    "address": "경기도 남양주시",
+    "address": "경기도 남양주시 화도읍 북한강로 1525-52 (금남리, 양주컨트리클럽)",
     "coordinates": {
       "lat": 37.64312,
       "lng": 127.35412
@@ -18212,7 +18212,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.yangjucc.co.kr",
-    "phone": "07-777-1500",
+    "phone": "031-592-6060",
     "city": "남양주시"
   },
   {
@@ -18273,21 +18273,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.shinedale.com",
-    "phone": "08-777-1501",
+    "phone": "",
     "city": "홍천군"
   },
   {
     "id": "클럽모우cc",
-    "name": "클럽모우CC",
+    "name": "클럽모우",
     "region": "강원",
-    "address": "강원특별자치도 홍천군",
+    "address": "강원특별자치도 홍천군 서면 장락동길 111",
     "coordinates": {
       "lat": 37.69328,
       "lng": 127.5659
     },
     "drivingTimeFromSeoul": 75,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -18334,7 +18334,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.clubmow.com",
-    "phone": "09-777-1502",
+    "phone": "033-434-3881",
     "city": "홍천군",
     "blogReviews": [
       {
@@ -18417,14 +18417,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.paganica.co.kr",
-    "phone": "010-777-1503",
+    "phone": "1833-8800",
     "city": "춘천시"
   },
   {
     "id": "타이거cc",
     "name": "타이거CC",
     "region": "경기북부",
-    "address": "경기도 파주시",
+    "address": "경기도 파주시 법원읍 술이홀로 1803",
     "coordinates": {
       "lat": 37.92397,
       "lng": 126.89205
@@ -18480,21 +18480,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.tigercc.co.kr",
-    "phone": "02-777-1504",
+    "phone": "",
     "city": "파주시"
   },
   {
     "id": "코스카cc",
     "name": "코스카CC",
     "region": "충청",
-    "address": "충청북도 음성군",
+    "address": "충청북도 음성군 음성읍 동음로 318",
     "coordinates": {
       "lat": 36.93,
       "lng": 127.62236
     },
     "drivingTimeFromSeoul": 110,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -18541,21 +18541,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.koscacc.kr",
-    "phone": "03-777-1505",
+    "phone": "043-870-1000",
     "city": "음성군"
   },
   {
     "id": "에버리스cc",
     "name": "에버리스CC",
     "region": "제주",
-    "address": "제주특별자치도 제주시",
+    "address": "제주특별자치도 제주시 애월읍 평화로 1693-75 (어음리, 에버리스골프장)",
     "coordinates": {
       "lat": 33.37444,
       "lng": 126.36149
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -18603,7 +18603,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.shinanresort.co.kr",
-    "phone": "04-777-1506",
+    "phone": "064-795-5000",
     "city": "제주시"
   },
   {
@@ -18664,7 +18664,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.gakorea.com",
-    "phone": "05-777-1507",
+    "phone": "",
     "city": "울주군"
   },
   {
@@ -18723,22 +18723,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1508",
+    "officialUrl": "",
+    "phone": "",
     "city": "울주군"
   },
   {
     "id": "블랙스톤이천gc",
     "name": "블랙스톤이천GC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 이천시 장호원읍 장여로 459-160",
     "coordinates": {
       "lat": 37.16597,
       "lng": 127.61816
     },
     "drivingTimeFromSeoul": 88,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -18787,21 +18787,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.blackstonecc.co.kr",
-    "phone": "08-777-1510",
-    "city": "여주시"
+    "phone": "031-643-2000",
+    "city": "이천시"
   },
   {
     "id": "빅토리아cc",
     "name": "빅토리아CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 가남읍 송삼로 191",
     "coordinates": {
       "lat": 37.17906,
       "lng": 127.63021
     },
     "drivingTimeFromSeoul": 89,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -18847,22 +18847,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1511",
+    "officialUrl": "http://www.victoriagc.co.kr",
+    "phone": "031-883-0111",
     "city": "여주시"
   },
   {
     "id": "소피아그린cc",
     "name": "소피아그린CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 점동면 소피아그린길 84 (현수리)",
     "coordinates": {
       "lat": 37.17824,
       "lng": 127.70446
     },
     "drivingTimeFromSeoul": 95,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -18909,7 +18909,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.sophiagreen.co.kr",
-    "phone": "010-777-1512",
+    "phone": "031-887-8100",
     "city": "여주시",
     "blogReviews": [
       {
@@ -18993,14 +18993,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.jinyangvalley.co.kr",
-    "phone": "02-777-1513",
+    "phone": "",
     "city": "음성군"
   },
   {
     "id": "에덴블루cc",
     "name": "에덴블루CC",
     "region": "경기남부",
-    "address": "경기도 안성시",
+    "address": "경기도 안성시 죽산면 녹배길 175",
     "coordinates": {
       "lat": 37.05457,
       "lng": 127.38761
@@ -19054,14 +19054,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.edenblue.co.kr",
-    "phone": "03-777-1514",
+    "phone": "031-678-7000",
     "city": "안성시"
   },
   {
     "id": "프린세스gc",
     "name": "프린세스GC",
     "region": "충청",
-    "address": "충청남도 공주시",
+    "address": "충청남도 공주시 정안면 방자들길 81-50",
     "coordinates": {
       "lat": 36.65361,
       "lng": 127.11176
@@ -19115,12 +19115,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.princesscc.co.kr",
-    "phone": "04-777-1515",
+    "phone": "041-851-6300",
     "city": "공주시"
   },
   {
     "id": "리더스cc",
-    "name": "리더스CC",
+    "name": "더리더스CC",
     "region": "경상",
     "address": "경상남도 밀양시",
     "coordinates": {
@@ -19129,7 +19129,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 334,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -19175,21 +19175,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1516",
+    "officialUrl": "",
+    "phone": "",
     "city": "밀양시"
   },
   {
     "id": "동래배네스트cc",
-    "name": "동래배네스트CC",
+    "name": "동래베네스트CC",
     "region": "경상",
-    "address": "부산광역시 금정구",
+    "address": "부산광역시 금정구 하정로 66",
     "coordinates": {
       "lat": 35.26336,
       "lng": 129.09915
     },
     "drivingTimeFromSeoul": 373,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디",
@@ -19236,8 +19236,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1518",
+    "officialUrl": "",
+    "phone": "051-580-0313",
     "city": "금정구"
   },
   {
@@ -19297,8 +19297,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1519",
+    "officialUrl": "",
+    "phone": "",
     "city": "고령군"
   },
   {
@@ -19359,14 +19359,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.najucc.co.kr",
-    "phone": "09-777-1520",
+    "phone": "",
     "city": "나주시"
   },
   {
     "id": "남원상록gc",
     "name": "남원상록GC",
     "region": "전라",
-    "address": "전북특별자치도 남원시",
+    "address": "전북특별자치도 남원시 대산면 월계길 11 (대곡리, 남원상록골프장)",
     "coordinates": {
       "lat": 35.41584,
       "lng": 127.29526
@@ -19420,14 +19420,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.sangrokresort.co.kr",
-    "phone": "010-777-1521",
+    "phone": "063-630-1300",
     "city": "남원시"
   },
   {
     "id": "포천힐스cc",
-    "name": "포천힐스 CC",
+    "name": "포천힐스CC",
     "region": "경기북부",
-    "address": "경기도 포천시",
+    "address": "경기도 포천시 군내면 반월산성로375번길 34",
     "coordinates": {
       "lat": 37.8859,
       "lng": 127.24014
@@ -19481,8 +19481,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.fortunehills.co.kr",
-    "phone": "02-777-1522",
+    "officialUrl": "http://www.fortunehills.co.kr",
+    "phone": "031-538-7000",
     "city": "포천시"
   },
   {
@@ -19541,8 +19541,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기북부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1523",
+    "officialUrl": "",
+    "phone": "",
     "city": "포천시"
   },
   {
@@ -19601,22 +19601,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1524",
+    "officialUrl": "",
+    "phone": "",
     "city": "김천시"
   },
   {
     "id": "파미힐스cc",
     "name": "파미힐스CC",
     "region": "경상",
-    "address": "경상북도 칠곡군",
+    "address": "경상북도 칠곡군 왜관읍 봉계로 263 (매원리, 파미힐스CC)",
     "coordinates": {
       "lat": 36.00357,
       "lng": 128.44277
     },
     "drivingTimeFromSeoul": 256,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -19665,21 +19665,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.palgongcc.co.kr",
-    "phone": "05-777-1525",
+    "phone": "054-971-9900",
     "city": "칠곡군"
   },
   {
     "id": "화성상록gc",
     "name": "화성상록GC",
     "region": "경기남부",
-    "address": "경기도 화성시",
+    "address": "경기도 화성시 풀무골로60번길 80 (중동)",
     "coordinates": {
       "lat": 37.19352,
       "lng": 127.13108
     },
     "drivingTimeFromSeoul": 55,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -19726,21 +19726,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.sangrokresort.co.kr",
-    "phone": "06-777-1526",
+    "phone": "031-371-0100",
     "city": "화성시"
   },
   {
     "id": "기흥cc",
     "name": "기흥CC",
     "region": "경기남부",
-    "address": "경기도 화성시",
+    "address": "경기도 화성시 동탄구 풀무골로106번길 244",
     "coordinates": {
       "lat": 37.19307,
       "lng": 127.1477
     },
     "drivingTimeFromSeoul": 56,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -19787,7 +19787,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "초보추천구장"
     ],
     "officialUrl": "https://www.kheung.co.kr",
-    "phone": "07-777-1527",
+    "phone": "031-376-4001",
     "city": "화성시"
   },
   {
@@ -19847,14 +19847,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디"
     ],
     "officialUrl": "https://www.busancc.co.kr",
-    "phone": "(055)388-1315/7",
+    "phone": "055-388-1315",
     "city": "양산시"
   },
   {
     "id": "해운대비치골프리조트",
     "name": "해운대비치골프&리조트",
     "region": "경상",
-    "address": "부산광역시 기장군",
+    "address": "부산광역시 기장군 기장읍 대변로 74 (대변리, 해운대비치골프앤리조트)",
     "coordinates": {
       "lat": 35.22356,
       "lng": 129.21947
@@ -19907,7 +19907,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.haeundaecc.co.kr",
-    "phone": "09-777-1529",
+    "phone": "051-726-0707",
     "city": "기장군"
   },
   {
@@ -19970,7 +19970,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "010-777-1530",
+    "phone": "",
     "city": "영천시"
   },
   {
@@ -20030,15 +20030,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1531",
+    "officialUrl": "",
+    "phone": "",
     "city": "경주시"
   },
   {
     "id": "써닝포인트cc",
     "name": "써닝포인트CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 백암면 고안로 51번길 205",
     "coordinates": {
       "lat": 37.14423,
       "lng": 127.42159
@@ -20094,7 +20094,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.sunningpoint.com",
-    "phone": "03-777-1532",
+    "phone": "031-329-0800",
     "city": "용인시",
     "blogReviews": [
       {
@@ -20124,7 +20124,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "id": "사우스스프링스cc",
     "name": "사우스스프링스CC",
     "region": "경기남부",
-    "address": "경기도 이천시",
+    "address": "경기도 이천시 모가면 공원로 64 (소고리)",
     "coordinates": {
       "lat": 37.17583,
       "lng": 127.45682
@@ -20179,7 +20179,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "상급자도전코스"
     ],
     "officialUrl": "https://www.southsprings.com",
-    "phone": "04-777-1533",
+    "phone": "031-630-7000",
     "city": "이천시",
     "blogReviews": [
       {
@@ -20265,7 +20265,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "(031)8056-0700",
+    "phone": "031-8056-0700",
     "city": "안성시"
   },
   {
@@ -20326,14 +20326,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "06-777-1535",
+    "phone": "",
     "city": "여주시"
   },
   {
     "id": "트리니티클럽",
     "name": "트리니티클럽",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 가남읍 가남로 320-21",
     "coordinates": {
       "lat": 37.20776,
       "lng": 127.57661
@@ -20389,14 +20389,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.trinityclub.co.kr",
-    "phone": "07-777-1536",
+    "phone": "031-887-7900",
     "city": "여주시"
   },
   {
     "id": "동원썬밸리cc",
     "name": "동원썬밸리CC",
     "region": "강원",
-    "address": "강원특별자치도 횡성군",
+    "address": "강원특별자치도 횡성군 서원면 서원서로339번길 90",
     "coordinates": {
       "lat": 37.48398,
       "lng": 127.78939
@@ -20450,14 +20450,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.sunvalley.co.kr",
-    "phone": "08-777-1537",
+    "phone": "033-344-5308",
     "city": "횡성군"
   },
   {
     "id": "김포씨사이드cc",
     "name": "김포 씨사이드 CC",
     "region": "경기남부",
-    "address": "경기도 김포시",
+    "address": "경기도 김포시 월곶면 김포대로2801번길 219 (포내리)",
     "coordinates": {
       "lat": 37.70297,
       "lng": 126.53427
@@ -20510,8 +20510,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1538",
+    "officialUrl": "",
+    "phone": "031-987-9992",
     "city": "김포시"
   },
   {
@@ -20572,22 +20572,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1539",
+    "officialUrl": "",
+    "phone": "",
     "city": "완주군"
   },
   {
     "id": "sg아름다운cc",
     "name": "SG아름다운CC",
     "region": "충청",
-    "address": "충청남도 아산시",
+    "address": "충청남도 아산시 영인면 영인산로 440 (신현리, 아름다운골프장)",
     "coordinates": {
       "lat": 36.84535,
       "lng": 126.9194
     },
     "drivingTimeFromSeoul": 99,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -20636,7 +20636,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.sgresort.co.kr",
-    "phone": "02-777-1540",
+    "phone": "041-536-8132",
     "city": "아산시"
   },
   {
@@ -20695,8 +20695,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "충청",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1541",
+    "officialUrl": "",
+    "phone": "",
     "city": "당진시"
   },
   {
@@ -20756,15 +20756,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1542",
+    "officialUrl": "",
+    "phone": "",
     "city": "정읍시"
   },
   {
     "id": "롯데스카이힐cc",
     "name": "롯데스카이힐CC",
     "region": "충청",
-    "address": "충청남도 부여군",
+    "address": "충청남도 부여군 규암면 백제문로 470",
     "coordinates": {
       "lat": 36.30287,
       "lng": 126.90479
@@ -20818,7 +20818,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.lotteskyhill.com",
-    "phone": "05-777-1543",
+    "phone": "041-939-1700",
     "city": "부여군"
   },
   {
@@ -20878,7 +20878,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "06-777-1544",
+    "phone": "",
     "city": "영천시"
   },
   {
@@ -20938,22 +20938,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1545",
+    "officialUrl": "",
+    "phone": "",
     "city": "안동시"
   },
   {
     "id": "마이다스레이크이천골프앤리조트",
     "name": "마이다스레이크이천 골프앤리조트",
     "region": "경기남부",
-    "address": "경기도 이천시",
+    "address": "경기도 이천시 설성면 설가로 602 (송계리)",
     "coordinates": {
       "lat": 37.17338,
       "lng": 127.52371
     },
     "drivingTimeFromSeoul": 80,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -21002,14 +21002,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.midasgolf.co.kr",
-    "phone": "08-777-1546",
+    "phone": "031-640-0123",
     "city": "이천시"
   },
   {
     "id": "탑스텐리조트동강시스타cc",
     "name": "탑스텐리조트 동강시스타CC",
     "region": "강원",
-    "address": "강원특별자치도 영월군",
+    "address": "강원특별자치도 영월군 영월읍 사지막길 160",
     "coordinates": {
       "lat": 37.21467,
       "lng": 128.51169
@@ -21061,8 +21061,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "강원",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1547",
+    "officialUrl": "",
+    "phone": "",
     "city": "영월군"
   },
   {
@@ -21122,8 +21122,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1548",
+    "officialUrl": "",
+    "phone": "",
     "city": "아산시"
   },
   {
@@ -21183,21 +21183,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1549",
+    "officialUrl": "",
+    "phone": "",
     "city": "아산시"
   },
   {
     "id": "해비치cc",
     "name": "해비치CC",
     "region": "경기북부",
-    "address": "경기도 남양주시",
+    "address": "경기도 남양주시 화도읍 재재기로190번길 160",
     "coordinates": {
       "lat": 37.61343,
       "lng": 127.2977
     },
     "drivingTimeFromSeoul": 46,
-    "courseType": "대중제+회원제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디",
@@ -21244,7 +21244,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.haevichi.com",
-    "phone": "04-777-1551",
+    "phone": "031-579-3000",
     "city": "남양주시"
   },
   {
@@ -21304,15 +21304,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1552",
+    "officialUrl": "",
+    "phone": "",
     "city": "포항시"
   },
   {
     "id": "김해상록gc",
     "name": "김해상록GC",
     "region": "경상",
-    "address": "경상남도 김해시",
+    "address": "경상남도 김해시 한림면 김해대로 974번길 198",
     "coordinates": {
       "lat": 35.2735,
       "lng": 128.79688
@@ -21366,7 +21366,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.sangrokresort.co.kr",
-    "phone": "06-777-1553",
+    "phone": "055-340-1400",
     "city": "김해시"
   },
   {
@@ -21380,7 +21380,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 283,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -21426,15 +21426,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1554",
+    "officialUrl": "https://woori-cc.co.kr",
+    "phone": "",
     "city": "장성군"
   },
   {
     "id": "석정힐cc",
     "name": "석정힐CC",
     "region": "전라",
-    "address": "전북특별자치도 고창군",
+    "address": "전북특별자치도 고창군 고창읍 석정2로 192 (석정리, 클럽하우스)",
     "coordinates": {
       "lat": 35.4269,
       "lng": 126.73854
@@ -21488,8 +21488,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1555",
+    "officialUrl": "",
+    "phone": "063-560-7000",
     "city": "고창군"
   },
   {
@@ -21549,8 +21549,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1556",
+    "officialUrl": "",
+    "phone": "",
     "city": "김제시"
   },
   {
@@ -21563,8 +21563,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "lng": 127.02767
     },
     "drivingTimeFromSeoul": 212,
-    "courseType": "대중제",
-    "holes": 18,
+    "courseType": "대중제+회원제",
+    "holes": 24,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -21610,22 +21610,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1557",
+    "officialUrl": "",
+    "phone": "063-835-2521",
     "city": "익산시"
   },
   {
     "id": "무등산cc",
     "name": "무등산CC",
     "region": "전라",
-    "address": "전라남도 화순군",
+    "address": "전라남도 화순군 화순읍 오성로 292-90 (무등산CC)",
     "coordinates": {
       "lat": 35.04451,
       "lng": 126.93597
     },
     "drivingTimeFromSeoul": 330,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -21672,8 +21672,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1558",
+    "officialUrl": "",
+    "phone": "061-379-1000",
     "city": "화순군"
   },
   {
@@ -21732,8 +21732,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1559",
+    "officialUrl": "",
+    "phone": "",
     "city": "의령군"
   },
   {
@@ -21795,14 +21795,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://armywelfare.mil.kr",
-    "phone": "04-777-1560",
+    "phone": "",
     "city": "함안군"
   },
   {
     "id": "클럽디보은cc",
     "name": "클럽디보은CC",
     "region": "충청",
-    "address": "충청북도 보은군",
+    "address": "충청북도 보은군 보은읍 장속중초로 386",
     "coordinates": {
       "lat": 36.51014,
       "lng": 127.69155
@@ -21855,15 +21855,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.clubd.co.kr",
-    "phone": "05-777-1561",
+    "officialUrl": "https://www.clubd.com/boeun",
+    "phone": "043-540-8888",
     "city": "보은군"
   },
   {
     "id": "내장산골프리조트",
     "name": "내장산골프&리조트",
     "region": "전라",
-    "address": "전북특별자치도 정읍시",
+    "address": "전북특별자치도 정읍시 첨단과학로 476",
     "coordinates": {
       "lat": 35.50365,
       "lng": 126.86679
@@ -21917,8 +21917,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.naejangsanresort.com",
-    "phone": "08-777-1564",
+    "officialUrl": "https://www.naejangsancc.com",
+    "phone": "063-570-7700",
     "city": "정읍시"
   },
   {
@@ -21978,15 +21978,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1565",
+    "officialUrl": "",
+    "phone": "",
     "city": "의성군"
   },
   {
     "id": "보령베이스cc",
     "name": "보령베이스CC",
     "region": "충청",
-    "address": "충청남도 보령시",
+    "address": "충청남도 보령시 옥마벚길 10",
     "coordinates": {
       "lat": 36.3306,
       "lng": 126.61885
@@ -22040,7 +22040,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.boryeongbase.co.kr",
-    "phone": "010-777-1566",
+    "phone": "",
     "city": "보령시"
   },
   {
@@ -22103,12 +22103,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.oceanhills.com",
-    "phone": "02-777-1567",
+    "phone": "",
     "city": "청도군"
   },
   {
     "id": "유니밸리cc",
-    "name": "유니밸리CC",
+    "name": "고령컨트리클럽 유니밸리",
     "region": "경상",
     "address": "경상북도 고령군",
     "coordinates": {
@@ -22117,7 +22117,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 282,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -22163,14 +22163,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.univalley.co.kr",
-    "phone": "03-777-1568",
+    "phone": "",
     "city": "고령군"
   },
   {
     "id": "세븐밸리cc",
     "name": "세븐밸리CC",
     "region": "경상",
-    "address": "경상북도 칠곡군",
+    "address": "경상북도 칠곡군 왜관읍 봉계3길 180",
     "coordinates": {
       "lat": 36.0153,
       "lng": 128.46198
@@ -22223,14 +22223,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.sevenvalley.co.kr",
-    "phone": "04-777-1569",
+    "phone": "054-979-1000",
     "city": "칠곡군"
   },
   {
     "id": "보성에덴cc",
-    "name": "보성에덴CC",
+    "name": "보성컨트리클럽 (구 보성에덴CC)",
     "region": "전라",
-    "address": "전라남도 보성군",
+    "address": "전라남도 보성군 조성면 조성3길 338",
     "coordinates": {
       "lat": 34.75354,
       "lng": 127.05239
@@ -22285,7 +22285,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.bosungcc.co.kr",
-    "phone": "05-777-1570",
+    "phone": "061-804-1000",
     "city": "보성군"
   },
   {
@@ -22345,7 +22345,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.dongwonroyal.co.kr",
-    "phone": "06-777-1571",
+    "phone": "",
     "city": "양산시"
   },
   {
@@ -22359,7 +22359,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 307,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -22404,15 +22404,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1572",
+    "officialUrl": "",
+    "phone": "",
     "city": "경주시"
   },
   {
     "id": "무주덕유산cc",
     "name": "무주덕유산CC",
     "region": "전라",
-    "address": "전북특별자치도 무주군",
+    "address": "전북특별자치도 무주군 설천면 만선로 185",
     "coordinates": {
       "lat": 35.88386,
       "lng": 127.72407
@@ -22467,21 +22467,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.mdysresort.com",
-    "phone": "08-777-1573",
+    "phone": "063-320-7039",
     "city": "무주군"
   },
   {
     "id": "세이지우드cc홍천cc",
-    "name": "세이지우드CC 홍천CC",
+    "name": "세이지우드 홍천",
     "region": "강원",
-    "address": "강원특별자치도 홍천군",
+    "address": "강원특별자치도 홍천군 두촌면 광석로 898-160 (괘석리)",
     "coordinates": {
       "lat": 37.88272,
       "lng": 128.11751
     },
     "drivingTimeFromSeoul": 136,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -22528,14 +22528,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.sagewood.co.kr",
-    "phone": "09-777-1574",
+    "phone": "033-439-1000",
     "city": "홍천군"
   },
   {
     "id": "하이원cc",
     "name": "하이원CC",
     "region": "강원",
-    "address": "강원특별자치도 정선군",
+    "address": "강원특별자치도 정선군 고한읍 고한7길 399",
     "coordinates": {
       "lat": 37.1737,
       "lng": 128.8454
@@ -22589,14 +22589,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.high1.com",
-    "phone": "010-777-1575",
+    "phone": "033-590-7300",
     "city": "정선군"
   },
   {
     "id": "장수골프리조트",
     "name": "장수골프리조트",
     "region": "전라",
-    "address": "전북특별자치도 장수군",
+    "address": "전북특별자치도 장수군 계남면 장안산로 303",
     "coordinates": {
       "lat": 35.67823,
       "lng": 127.60134
@@ -22651,12 +22651,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.jangsugolf.com",
-    "phone": "02-777-1576",
+    "phone": "",
     "city": "장수군"
   },
   {
     "id": "에콜리안cc거창cc",
-    "name": "에콜리안CC 거창CC",
+    "name": "거창CC",
     "region": "경상",
     "address": "경상남도 거창군",
     "coordinates": {
@@ -22665,7 +22665,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 270,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -22712,14 +22712,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.ecolian.or.kr",
-    "phone": "08-777-1582",
+    "phone": "",
     "city": "거창군"
   },
   {
     "id": "인천그랜드cc",
     "name": "인천그랜드CC",
     "region": "인천",
-    "address": "인천광역시",
+    "address": "인천광역시 서구 원석로 195",
     "coordinates": {
       "lat": 37.5139,
       "lng": 126.63841
@@ -22772,8 +22772,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.grandgolf.co.kr",
-    "phone": "09-777-1583",
+    "officialUrl": "https://incheongrand.cc",
+    "phone": "032-584-3111",
     "city": "서구"
   },
   {
@@ -22787,7 +22787,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 315,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -22832,15 +22832,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1584",
+    "officialUrl": "",
+    "phone": "",
     "city": "의령군"
   },
   {
     "id": "베어크리크gc춘천cc",
-    "name": "베어크리크GC 춘천CC",
+    "name": "베어크리크 춘천",
     "region": "강원",
-    "address": "강원특별자치도 춘천시",
+    "address": "강원특별자치도 춘천시 신동면 김유정로 730 (혈동리)",
     "coordinates": {
       "lat": 37.76882,
       "lng": 127.71992
@@ -22896,7 +22896,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.bearcreek.co.kr",
-    "phone": "02-777-1585",
+    "phone": "033-264-6700",
     "city": "춘천시"
   },
   {
@@ -22957,14 +22957,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.namchuncheon.co.kr",
-    "phone": "03-777-1586",
+    "phone": "",
     "city": "춘천시"
   },
   {
     "id": "오너스gc",
     "name": "오너스GC",
     "region": "강원",
-    "address": "강원특별자치도 춘천시",
+    "address": "강원특별자치도 춘천시 남산면 동촌로 667",
     "coordinates": {
       "lat": 37.77157,
       "lng": 127.65825
@@ -23016,8 +23016,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기북부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1587",
+    "officialUrl": "",
+    "phone": "033-260-1991",
     "city": "춘천시"
   },
   {
@@ -23080,7 +23080,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.shinanresort.co.kr",
-    "phone": "05-777-1588",
+    "phone": "",
     "city": "남양주시"
   },
   {
@@ -23139,15 +23139,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기남부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1589",
+    "officialUrl": "",
+    "phone": "",
     "city": "화성시"
   },
   {
     "id": "힐드로사이cc",
     "name": "힐드로사이CC",
     "region": "강원",
-    "address": "강원특별자치도 홍천군",
+    "address": "강원특별자치도 홍천군 남면 한서로 2840 (화전리)",
     "coordinates": {
       "lat": 37.59373,
       "lng": 127.71042
@@ -23202,7 +23202,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.hildrosai.co.kr",
-    "phone": "07-777-1590",
+    "phone": "033-439-3300",
     "city": "홍천군"
   },
   {
@@ -23262,14 +23262,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.jinjocc.co.kr",
-    "phone": "09-777-1592",
+    "phone": "",
     "city": "진주시"
   },
   {
     "id": "젠스필드cc",
     "name": "젠스필드CC",
     "region": "충청",
-    "address": "충청북도 음성군",
+    "address": "충청북도 음성군 삼성면 덕호로 382",
     "coordinates": {
       "lat": 37.03909,
       "lng": 127.52006
@@ -23321,22 +23321,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "충청",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.gensfield.com",
-    "phone": "010-777-1593",
+    "officialUrl": "https://www.zensfield.com",
+    "phone": "043-880-1000",
     "city": "음성군"
   },
   {
     "id": "더플레이어스gc",
-    "name": "더플레이어스GC",
+    "name": "클럽디 더플레이어스",
     "region": "강원",
-    "address": "강원특별자치도 춘천시",
+    "address": "강원특별자치도 춘천시 동산면 새술막길 438",
     "coordinates": {
       "lat": 37.77619,
       "lng": 127.74889
     },
     "drivingTimeFromSeoul": 96,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -23384,7 +23384,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.theplayersgc.com",
-    "phone": "03-777-1595",
+    "phone": "033-250-5130",
     "city": "춘천시"
   },
   {
@@ -23444,14 +23444,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.seoulcc.co.kr",
-    "phone": "04-777-1596",
+    "phone": "",
     "city": "원주시"
   },
   {
     "id": "페럼클럽",
     "name": "페럼클럽",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 점동면 점동로 181 (사곡리)",
     "coordinates": {
       "lat": 37.20921,
       "lng": 127.68452
@@ -23506,7 +23506,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "상급자도전코스"
     ],
     "officialUrl": "https://www.ferrumclub.com",
-    "phone": "05-777-1597",
+    "phone": "031-887-7000",
     "city": "여주시"
   },
   {
@@ -23568,8 +23568,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1600",
+    "officialUrl": "",
+    "phone": "",
     "city": "유성구"
   },
   {
@@ -23628,8 +23628,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1601",
+    "officialUrl": "",
+    "phone": "",
     "city": "밀양시"
   },
   {
@@ -23691,7 +23691,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.ceragio.com",
-    "phone": "010-777-1602",
+    "phone": "",
     "city": "여주시"
   },
   {
@@ -23752,14 +23752,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.muancc.co.kr",
-    "phone": "03-777-1604",
+    "phone": "",
     "city": "무안군"
   },
   {
     "id": "스톤게이트cc",
     "name": "스톤게이트CC",
     "region": "경상",
-    "address": "부산광역시 기장군",
+    "address": "부산광역시 기장군 일광면 곡천길 317",
     "coordinates": {
       "lat": 35.28749,
       "lng": 129.20069
@@ -23813,21 +23813,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.stonegatecc.co.kr",
-    "phone": "04-777-1605",
+    "phone": "",
     "city": "기장군"
   },
   {
     "id": "코리아cc",
     "name": "코리아CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 이동읍 기흥단지로 579 (서리, 코리아CC)",
     "coordinates": {
       "lat": 37.22025,
       "lng": 127.15445
     },
     "drivingTimeFromSeoul": 53,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -23874,73 +23874,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.gakorea.com",
-    "phone": "07-777-1608",
+    "phone": "031-334-7111",
     "city": "용인시"
   },
   {
-    "id": "남일밸리cc",
-    "name": "남일밸리CC",
-    "region": "충청",
-    "address": "충청남도 아산시 휴대길",
-    "coordinates": {
-      "lat": 36.76742,
-      "lng": 127.11758
-    },
-    "drivingTimeFromSeoul": 109,
-    "courseType": "대중제",
-    "holes": 18,
-    "grass": {
-      "fairway": "조선잔디",
-      "green": "벤트그라스"
-    },
-    "courseStyle": "구릉형(힐)",
-    "fairwayWidth": "보통",
-    "undulation": "보통",
-    "totalLengthMeters": 6700,
-    "courseDifficulty": 3,
-    "greenDifficulty": 3,
-    "greenSpeedAvg": null,
-    "teeBoxMatRatio": null,
-    "difficultyIndex": {
-      "slopeRating": null,
-      "courseRating": null,
-      "golfzonCourseLevel": 3.5,
-      "golfzonGreenLevel": 3.5,
-      "avgFieldScore": 92.6,
-      "relativeDifficulty": "미측정"
-    },
-    "pricing": {
-      "weekdayGreenFee": 140000,
-      "weekendGreenFee": 190000,
-      "cartFee": 100000,
-      "caddieFee": 150000
-    },
-    "playOptions": {
-      "twoPlayerAllowed": false,
-      "threePlayerAllowed": true,
-      "noCaddieAllowed": false,
-      "nightPlay": true,
-      "lightingType": "LED 초고광량"
-    },
-    "facilities": {
-      "drivingRange": false,
-      "drivingRangeNote": null,
-      "practiceGreen": true,
-      "hotel": false,
-      "saunaRating": "우수"
-    },
-    "tags": [
-      "충청",
-      "대중제퍼블릭",
-      "야간3부"
-    ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1614",
-    "city": "아산시"
-  },
-  {
     "id": "하이망cc점cc",
-    "name": "하이망 CC점CC",
+    "name": "하이망CC",
     "region": "강원",
     "address": "강원특별자치도 영월군",
     "coordinates": {
@@ -23995,8 +23934,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1627",
+    "officialUrl": "",
+    "phone": "",
     "city": "영월군"
   },
   {
@@ -24010,7 +23949,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 375,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 45,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -24058,14 +23997,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.southlinks.co.kr",
-    "phone": "010-777-1629",
-    "city": "목포시"
+    "phone": "",
+    "city": "영암군"
   },
   {
     "id": "블랙스톤벨포레cc",
     "name": "블랙스톤 벨포레CC",
     "region": "충청",
-    "address": "충청북도 증평군",
+    "address": "충청북도 증평군 도안면 벨포레길 346",
     "coordinates": {
       "lat": 36.84498,
       "lng": 127.58732
@@ -24119,8 +24058,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "상급자도전코스"
     ],
-    "officialUrl": "https://www.blackstonecc.co.kr",
-    "phone": "03-777-1631",
+    "officialUrl": "https://belleforetresort.com/",
+    "phone": "043-926-1000",
     "city": "증평군"
   },
   {
@@ -24181,14 +24120,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.ecolian.or.kr",
-    "phone": "07-777-1635",
+    "phone": "",
     "city": "영광군"
   },
   {
     "id": "세현cc",
     "name": "세현CC",
     "region": "경기남부",
-    "address": "경기도 용인시 처인구",
+    "address": "경기도 용인시 처인구 이동읍 백자로 450",
     "coordinates": {
       "lat": 37.18805,
       "lng": 127.1891
@@ -24241,8 +24180,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.sehyeoncc.co.kr",
-    "phone": "02-777-1639",
+    "officialUrl": "https://www.sehyeoncc.com",
+    "phone": "031-670-8800",
     "city": "용인시"
   },
   {
@@ -24304,14 +24243,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.thecrosby.co.kr",
-    "phone": "03-777-1640",
+    "phone": "",
     "city": "이천시"
   },
   {
     "id": "루나힐스안성cc",
     "name": "루나힐스안성CC",
     "region": "경기남부",
-    "address": "경기도 안성시",
+    "address": "경기도 안성시 양성면 약산길 67-6",
     "coordinates": {
       "lat": 37.1191,
       "lng": 127.26821
@@ -24364,8 +24303,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.lunahills.co.kr",
-    "phone": "09-777-1646",
+    "officialUrl": "https://as.4wellcc.com",
+    "phone": "031-612-6000",
     "city": "안성시"
   },
   {
@@ -24425,7 +24364,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://golf.gtc.co.kr",
-    "phone": "010-777-1647",
+    "phone": "",
     "city": "경주시"
   },
   {
@@ -24486,14 +24425,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.gyeongjucc.co.kr",
-    "phone": "02-777-1648",
+    "phone": "",
     "city": "경주시"
   },
   {
     "id": "유니아일랜드골프스파리조트",
     "name": "유니아일랜드 골프&스파 리조트",
     "region": "인천",
-    "address": "인천광역시 어류정길 177번길",
+    "address": "인천광역시 강화군 삼산면 어류정길177번길 15",
     "coordinates": {
       "lat": 37.65788,
       "lng": 126.34576
@@ -24548,7 +24487,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.islandresort.co.kr",
-    "phone": "06-777-1652",
+    "phone": "",
     "city": "강화군"
   },
   {
@@ -24608,7 +24547,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.southcape.co.kr",
-    "phone": "07-777-1653",
+    "phone": "",
     "city": "남해군"
   },
   {
@@ -24668,15 +24607,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1655",
+    "officialUrl": "",
+    "phone": "",
     "city": "보령시"
   },
   {
     "id": "샴발라cc",
     "name": "샴발라CC",
     "region": "경기북부",
-    "address": "경기도 포천시",
+    "address": "경기도 포천시 군내면 청군로 2856-93",
     "coordinates": {
       "lat": 37.86671,
       "lng": 127.25877
@@ -24730,12 +24669,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.shambhalacc.co.kr",
-    "phone": "010-777-1656",
+    "phone": "031-538-0505",
     "city": "포천시"
   },
   {
     "id": "동원로얄cc통영cc",
-    "name": "동원로얄CC 통영CC",
+    "name": "동원로얄CC 통영",
     "region": "경상",
     "address": "경상남도 통영시",
     "coordinates": {
@@ -24791,12 +24730,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.dongwonroyal.co.kr",
-    "phone": "02-777-1657",
+    "phone": "",
     "city": "통영시"
   },
   {
     "id": "루나엑스골프장",
-    "name": "루나엑스골프장",
+    "name": "힐스카이CC (구 루나엑스)",
     "region": "경상",
     "address": "경상북도 경주시",
     "coordinates": {
@@ -24805,7 +24744,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 327,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 24,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -24851,14 +24790,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.lunax.co.kr",
-    "phone": "04-777-1659",
+    "phone": "",
     "city": "경주시"
   },
   {
     "id": "오크힐스cc",
     "name": "오크힐스CC",
     "region": "강원",
-    "address": "강원특별자치도 원주시",
+    "address": "강원특별자치도 원주시 지정면 오크밸리2길 38 (판대리, 오크밸리 스키빌리지)",
     "coordinates": {
       "lat": 37.40644,
       "lng": 127.81191
@@ -24912,7 +24851,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.oakvalley.co.kr",
-    "phone": "07-777-1662",
+    "phone": "033-769-7700",
     "city": "원주시"
   },
   {
@@ -24972,8 +24911,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1667",
+    "officialUrl": "",
+    "phone": "",
     "city": "담양군"
   },
   {
@@ -25034,14 +24973,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.seoulcc.co.kr",
-    "phone": "04-777-1668",
+    "phone": "",
     "city": "성남시"
   },
   {
     "id": "세종레이캐슬cc",
     "name": "세종레이캐슬CC",
     "region": "충청",
-    "address": "세종특별자치시 세종시",
+    "address": "세종특별자치시",
     "coordinates": {
       "lat": 36.6182,
       "lng": 127.19116
@@ -25095,7 +25034,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.raycastle.com",
-    "phone": "05-777-1669",
+    "phone": "",
     "city": "세종시"
   },
   {
@@ -25156,22 +25095,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1670",
+    "officialUrl": "",
+    "phone": "",
     "city": "청주시"
   },
   {
     "id": "이글몬트cc",
     "name": "이글몬트CC",
     "region": "경기남부",
-    "address": "경기도 안성시",
+    "address": "경기도 안성시 보개면 보삼로",
     "coordinates": {
       "lat": 37.09572,
       "lng": 127.32741
     },
     "drivingTimeFromSeoul": 75,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -25217,7 +25156,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.eaglemont.co.kr",
-    "phone": "07-777-1671",
+    "phone": "",
     "city": "안성시"
   },
   {
@@ -25276,15 +25215,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "09-777-1673",
+    "officialUrl": "",
+    "phone": "",
     "city": "청도군"
   },
   {
     "id": "더스타휴골프앤리조트",
     "name": "더스타휴 골프앤리조트",
     "region": "경기남부",
-    "address": "경기도 양평군",
+    "address": "경기도 양평군 양동면 양동로 756 (고송리, 더스타휴골프컨트리클럽)",
     "coordinates": {
       "lat": 37.47598,
       "lng": 127.70046
@@ -25338,21 +25277,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.thestarhue.com",
-    "phone": "010-777-1674",
+    "phone": "031-770-9900",
     "city": "양평군"
   },
   {
     "id": "베뉴지cc",
     "name": "베뉴지CC",
     "region": "경기북부",
-    "address": "경기도 가평군",
+    "address": "경기도 가평군 가평읍 용추로171번길 100 (승안리, 가평베뉴지골프장)",
     "coordinates": {
       "lat": 37.84778,
       "lng": 127.46741
     },
     "drivingTimeFromSeoul": 78,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -25400,14 +25339,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.venuegcc.com",
-    "phone": "02-777-1675",
+    "phone": "031-582-6248",
     "city": "가평군"
   },
   {
     "id": "옥스필드cc",
     "name": "옥스필드CC",
     "region": "강원",
-    "address": "강원특별자치도 횡성군",
+    "address": "강원특별자치도 횡성군 서원면 경강로유현6길 28",
     "coordinates": {
       "lat": 37.52013,
       "lng": 127.84684
@@ -25460,7 +25399,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.oxfield.com",
-    "phone": "04-777-1677",
+    "phone": "033-340-7700",
     "city": "횡성군"
   },
   {
@@ -25521,15 +25460,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "(031)8046-7000",
+    "officialUrl": "",
+    "phone": "031-8046-7000",
     "city": "안성시"
   },
   {
     "id": "감곡cc",
     "name": "감곡CC",
     "region": "충청",
-    "address": "충청북도 음성군",
+    "address": "충청북도 음성군 감곡면 오갑길 195 (문촌리)",
     "coordinates": {
       "lat": 37.12941,
       "lng": 127.69742
@@ -25584,7 +25523,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.gamgokcc.co.kr",
-    "phone": "07-777-1680",
+    "phone": "043-882-1600",
     "city": "음성군"
   },
   {
@@ -25645,21 +25584,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.11cc.co.kr",
-    "phone": "08-777-1681",
+    "phone": "",
     "city": "충주시"
   },
   {
     "id": "웰링턴cc",
     "name": "웰링턴CC",
     "region": "경기남부",
-    "address": "경기도 이천시",
+    "address": "경기도 이천시 모가면 사실로725번길 119-73",
     "coordinates": {
       "lat": 37.16634,
       "lng": 127.42421
     },
     "drivingTimeFromSeoul": 73,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -25708,7 +25647,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.wellingtoncc.co.kr",
-    "phone": "09-777-1682",
+    "phone": "031-645-1800",
     "city": "이천시"
   },
   {
@@ -25770,7 +25709,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.monarchcc.co.kr",
-    "phone": "04-777-1686",
+    "phone": "",
     "city": "음성군"
   },
   {
@@ -25831,15 +25770,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1687",
+    "officialUrl": "",
+    "phone": "",
     "city": "곡성군"
   },
   {
     "id": "아리스타cc",
     "name": "아리스타CC",
     "region": "충청",
-    "address": "충청남도 논산시",
+    "address": "충청남도 논산시 연무읍 연무로 810",
     "coordinates": {
       "lat": 36.0839,
       "lng": 127.1282
@@ -25892,8 +25831,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1688",
+    "officialUrl": "https://aristacc.co.kr",
+    "phone": "041-741-0100",
     "city": "논산시"
   },
   {
@@ -25952,8 +25891,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "07-777-1689",
+    "officialUrl": "",
+    "phone": "",
     "city": "울진군"
   },
   {
@@ -26014,8 +25953,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1690",
+    "officialUrl": "",
+    "phone": "",
     "city": "밀양시"
   },
   {
@@ -26029,7 +25968,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 262,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -26075,7 +26014,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.shinanresort.co.kr",
-    "phone": "09-777-1691",
+    "phone": "",
     "city": "칠곡군"
   },
   {
@@ -26135,15 +26074,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "야간3부"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "010-777-1692",
+    "officialUrl": "",
+    "phone": "",
     "city": "양평군"
   },
   {
     "id": "루트52cc",
     "name": "루트52CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 북내면 중암1길 36",
     "coordinates": {
       "lat": 37.34773,
       "lng": 127.72385
@@ -26198,7 +26137,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.route52.co.kr",
-    "phone": "02-777-1693",
+    "phone": "031-882-0052",
     "city": "여주시"
   },
   {
@@ -26259,21 +26198,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.illitecc.co.kr",
-    "phone": "03-777-1694",
+    "phone": "",
     "city": "영동군"
   },
   {
     "id": "골든베이골프리조트",
     "name": "골든베이골프&리조트",
     "region": "충청",
-    "address": "충청남도 태안군",
+    "address": "충청남도 태안군 근흥면 정산포로 217 (정죽리, 골든베이)",
     "coordinates": {
       "lat": 36.70702,
       "lng": 126.17286
     },
     "drivingTimeFromSeoul": 149,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -26320,7 +26259,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.goldenbay.co.kr",
-    "phone": "04-777-1695",
+    "phone": "041-671-8000",
     "city": "태안군"
   },
   {
@@ -26380,7 +26319,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.ecolian.or.kr",
-    "phone": "06-777-1697",
+    "phone": "",
     "city": "제천시"
   },
   {
@@ -26394,7 +26333,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 276,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -26441,7 +26380,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.clubd.co.kr",
-    "phone": "08-777-1699",
+    "phone": "",
     "city": "거창군"
   },
   {
@@ -26455,7 +26394,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 230,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -26503,14 +26442,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.summitcc.co.kr",
-    "phone": "02-777-1702",
+    "phone": "",
     "city": "진안군"
   },
   {
     "id": "이지스카이cc",
     "name": "이지스카이CC",
     "region": "경상",
-    "address": "경상북도 군위군",
+    "address": "경상북도 군위군 군위읍 대흥1길 48-100 (대흥리)",
     "coordinates": {
       "lat": 36.28901,
       "lng": 128.5409
@@ -26563,21 +26502,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.easysky.co.kr",
-    "phone": "04-777-1704",
+    "phone": "054-380-9200",
     "city": "군위군"
   },
   {
     "id": "다산베아채cc",
     "name": "다산베아채CC",
     "region": "전라",
-    "address": "전라남도 강진군",
+    "address": "전라남도 강진군 도암면 학장용산길 101 (학장리, 다산 베아채 골프 & 리조트 클럽하우스)",
     "coordinates": {
       "lat": 34.54686,
       "lng": 126.76114
     },
     "drivingTimeFromSeoul": 395,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -26624,7 +26563,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.beachegolf.com",
-    "phone": "06-777-1706",
+    "phone": "061-430-9999",
     "city": "강진군"
   },
   {
@@ -26684,8 +26623,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1708",
+    "officialUrl": "",
+    "phone": "",
     "city": "영주시"
   },
   {
@@ -26747,7 +26686,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://welfare.airforce.mil.kr",
-    "phone": "010-777-1710",
+    "phone": "",
     "city": "평택시"
   },
   {
@@ -26806,22 +26745,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "03-777-1712",
+    "officialUrl": "",
+    "phone": "",
     "city": "북구"
   },
   {
     "id": "여수경도골프앤리조트cc",
     "name": "여수경도골프앤리조트CC",
     "region": "전라",
-    "address": "전라남도 여수시",
+    "address": "전라남도 여수시 경도해안단지길 22 (경호동)",
     "coordinates": {
       "lat": 34.71485,
       "lng": 127.7251
     },
     "drivingTimeFromSeoul": 380,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -26868,12 +26807,12 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.sagewood.co.kr",
-    "phone": "04-777-1713",
+    "phone": "061-660-1000",
     "city": "여수시"
   },
   {
     "id": "베르힐cc함평cc",
-    "name": "베르힐CC 함평CC",
+    "name": "베르힐CC 함평",
     "region": "전라",
     "address": "전라남도 함평군",
     "coordinates": {
@@ -26882,7 +26821,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     },
     "drivingTimeFromSeoul": 330,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -26929,22 +26868,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.verthill.co.kr",
-    "phone": "08-777-1717",
+    "officialUrl": "http://www.verthillcc.co.kr/",
+    "phone": "",
     "city": "함평군"
   },
   {
     "id": "골프존카운티사천",
     "name": "골프존카운티 사천",
     "region": "경상",
-    "address": "경상남도 사천시",
+    "address": "경상남도 사천시 서포면",
     "coordinates": {
       "lat": 35.00973,
       "lng": 127.95335
     },
     "drivingTimeFromSeoul": 349,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -26993,7 +26932,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "08-777-1726",
+    "phone": "",
     "city": "사천시"
   },
   {
@@ -27054,7 +26993,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.theoceanresort.co.kr",
-    "phone": "09-777-1727",
+    "phone": "",
     "city": "여수시"
   },
   {
@@ -27115,7 +27054,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.ophelgolf.com",
-    "phone": "010-777-1728",
+    "phone": "",
     "city": "고령군"
   },
   {
@@ -27175,8 +27114,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1729",
+    "officialUrl": "",
+    "phone": "",
     "city": "칠곡군"
   },
   {
@@ -27235,8 +27174,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "04-777-1731",
+    "officialUrl": "",
+    "phone": "",
     "city": "군위군"
   },
   {
@@ -27296,15 +27235,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "05-777-1732",
+    "officialUrl": "",
+    "phone": "",
     "city": "밀양시"
   },
   {
     "id": "오르비스gc",
     "name": "오르비스GC",
     "region": "경상",
-    "address": "울산광역시 울주군",
+    "address": "울산광역시 울주군 온양읍 남창로 813-70",
     "coordinates": {
       "lat": 35.4498,
       "lng": 129.27507
@@ -27356,15 +27295,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경상",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "06-777-1733",
+    "officialUrl": "https://orvis.club",
+    "phone": "052-939-2000",
     "city": "울주군"
   },
   {
     "id": "베르힐cc영종cc",
     "name": "오렌지듄스 영종GC",
     "region": "인천",
-    "address": "인천광역시 중구",
+    "address": "인천광역시 영종구",
     "coordinates": {
       "lat": 37.52783,
       "lng": 126.56342
@@ -27419,22 +27358,22 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "초보추천구장",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.verthill.co.kr",
-    "phone": "08-777-1735",
-    "city": "중구"
+    "officialUrl": "",
+    "phone": "",
+    "city": "영종구"
   },
   {
     "id": "서경타니cc",
     "name": "서경타니CC",
     "region": "경상",
-    "address": "경상남도 사천시 흥신로",
+    "address": "경상남도 사천시 곤양면 흥신로 210 (가화리, 타니골프앤리조트)",
     "coordinates": {
       "lat": 35.09881,
       "lng": 128.01997
     },
     "drivingTimeFromSeoul": 340,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -27480,14 +27419,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.tanicc.co.kr",
-    "phone": "03-777-1748",
+    "phone": "055-831-7000",
     "city": "사천시"
   },
   {
     "id": "골프존카운티선운",
     "name": "골프존카운티 선운",
     "region": "전라",
-    "address": "전북특별자치도 전라북도 고창군 아산면 운곡로 418",
+    "address": "전북특별자치도 고창군 아산면 운곡로 418",
     "coordinates": {
       "lat": 35.493,
       "lng": 126.64587
@@ -27543,21 +27482,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.golfzoncounty.com",
-    "phone": "(063)560-2000",
+    "phone": "063-560-2000",
     "city": "고창군"
   },
   {
     "id": "용평cc",
     "name": "용평CC",
     "region": "강원",
-    "address": "강원특별자치도 평창군",
+    "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
     "coordinates": {
       "lat": 37.64841,
       "lng": 128.70431
     },
     "drivingTimeFromSeoul": 187,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -27605,21 +27544,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.yongpyong.co.kr",
-    "phone": "05-777-1750",
+    "phone": "033-335-5757",
     "city": "평창군"
   },
   {
     "id": "용평나인gc",
     "name": "용평나인GC",
     "region": "강원",
-    "address": "강원특별자치도 평창군",
+    "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
     "coordinates": {
       "lat": 37.64461,
       "lng": 128.68955
     },
     "drivingTimeFromSeoul": 185,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 9,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -27665,14 +27604,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.yongpyong.co.kr",
-    "phone": "06-777-1751",
+    "phone": "033-330-7471",
     "city": "평창군"
   },
   {
     "id": "알펜시아700gc",
     "name": "알펜시아700GC",
     "region": "강원",
-    "address": "강원특별자치도 평창군",
+    "address": "강원특별자치도 평창군 대관령면 솔봉로 325",
     "coordinates": {
       "lat": 37.66285,
       "lng": 128.68835
@@ -27725,7 +27664,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.alpensia.com",
-    "phone": "07-777-1752",
+    "phone": "",
     "city": "평창군"
   },
   {
@@ -27785,21 +27724,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "양잔디"
     ],
     "officialUrl": "https://www.benestgolf.com",
-    "phone": "(031)460-3301",
+    "phone": "031-460-3301",
     "city": "군포시"
   },
   {
     "id": "어등산cc",
     "name": "어등산CC",
     "region": "전라",
-    "address": "광주광역시 광산구",
+    "address": "광주광역시 광산구 무진대로 31 (운수동)",
     "coordinates": {
       "lat": 35.16671,
       "lng": 126.77252
     },
     "drivingTimeFromSeoul": 316,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -27846,7 +27785,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.eodeungsancc.com",
-    "phone": "09-777-1754",
+    "phone": "062-605-3000",
     "city": "광산구"
   },
   {
@@ -27907,7 +27846,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.geojeview.co.kr",
-    "phone": "010-777-1755",
+    "phone": "",
     "city": "거제시"
   },
   {
@@ -27968,15 +27907,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "노캐디가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "02-777-1756",
+    "officialUrl": "",
+    "phone": "",
     "city": "안동시"
   },
   {
     "id": "아난티남해골프클럽",
     "name": "아난티 남해 골프클럽",
     "region": "경상",
-    "address": "경상남도 남해군 남서대로1179번길",
+    "address": "경상남도 남해군 남면 남서대로1179번길 40-109",
     "coordinates": {
       "lat": 34.77662,
       "lng": 127.85271
@@ -28031,21 +27970,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "상급자도전코스"
     ],
     "officialUrl": "https://www.ananti.kr",
-    "phone": "03-777-1757",
+    "phone": "",
     "city": "남해군"
   },
   {
     "id": "파인리즈cc",
     "name": "파인리즈CC",
     "region": "강원",
-    "address": "강원특별자치도 고성군",
+    "address": "강원특별자치도 고성군 토성면 잼버리동로 267",
     "coordinates": {
       "lat": 38.24862,
       "lng": 128.54254
     },
     "drivingTimeFromSeoul": 196,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -28091,14 +28030,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.pineridge.co.kr",
-    "phone": "04-777-1758",
+    "phone": "033-630-6350",
     "city": "고성군"
   },
   {
     "id": "아크로cc",
     "name": "아크로CC",
     "region": "전라",
-    "address": "전라남도 영암군",
+    "address": "전라남도 영암군 금정면 안적동길 403",
     "coordinates": {
       "lat": 34.86741,
       "lng": 126.79035
@@ -28153,21 +28092,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.acrogolf.co.kr",
-    "phone": "05-777-1759",
+    "phone": "061-470-7700",
     "city": "영암군"
   },
   {
     "id": "경주신라cc",
     "name": "경주신라CC",
     "region": "경상",
-    "address": "경상북도 경주시 보문로",
+    "address": "경상북도 경주시 보문로 319 (신평동, 경주신라컨트리클럽)",
     "coordinates": {
       "lat": 35.85563,
       "lng": 129.28574
     },
     "drivingTimeFromSeoul": 329,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -28213,21 +28152,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.gyeongjucc.co.kr",
-    "phone": "07-777-1761",
+    "phone": "054-740-7114",
     "city": "경주시"
   },
   {
     "id": "핀크스gc",
     "name": "핀크스 GC",
     "region": "제주",
-    "address": "제주특별자치도 서귀포시",
+    "address": "제주특별자치도 서귀포시 안덕면 산록남로 863 (상천리)",
     "coordinates": {
       "lat": 33.31147,
       "lng": 126.38913
     },
     "drivingTimeFromSeoul": 70,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -28276,7 +28215,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.thepinx.co.kr",
-    "phone": "08-777-1762",
+    "phone": "064-792-5200",
     "city": "서귀포시",
     "blogReviews": [
       {
@@ -28306,7 +28245,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "id": "블루원상주cc",
     "name": "블루원상주CC",
     "region": "경상",
-    "address": "경상북도 상주시",
+    "address": "경상북도 상주시 모서면 화현3길 127",
     "coordinates": {
       "lat": 36.33544,
       "lng": 127.93964
@@ -28360,7 +28299,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.blueone.com",
-    "phone": "09-777-1763",
+    "phone": "1899-1888",
     "city": "상주시"
   },
   {
@@ -28422,14 +28361,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.gayacc.com",
-    "phone": "02-777-1765",
+    "phone": "",
     "city": "고령군"
   },
   {
     "id": "기장동원로얄cc",
     "name": "기장동원로얄CC",
     "region": "경상",
-    "address": "부산광역시 기장군",
+    "address": "부산광역시 기장군 기장읍 만화리 산104-5",
     "coordinates": {
       "lat": 35.2574,
       "lng": 129.1894
@@ -28482,21 +28421,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.dongwonroyal.co.kr",
-    "phone": "03-777-1766",
+    "phone": "",
     "city": "기장군"
   },
   {
     "id": "한성cc",
     "name": "한성CC",
     "region": "경기남부",
-    "address": "경기도 용인시 기흥구",
+    "address": "경기도 용인시 기흥구 구교동로 151 (마북동, 한성컨트리클럽)",
     "coordinates": {
       "lat": 37.3103,
       "lng": 127.11774
     },
     "drivingTimeFromSeoul": 40,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -28544,21 +28483,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.hansung-cc.co.kr",
-    "phone": "05-777-1768",
+    "phone": "031-284-3831",
     "city": "용인시"
   },
   {
     "id": "인서울27골프클럽",
     "name": "인서울27골프클럽",
-    "region": "인천",
-    "address": "서울특별시 강서구",
+    "region": "경기북부",
+    "address": "서울특별시 강서구 오쇠동 1-2",
     "coordinates": {
       "lat": 37.54856,
       "lng": 126.79316
     },
     "drivingTimeFromSeoul": 39,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -28603,8 +28542,8 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "경기남부",
       "대중제퍼블릭"
     ],
-    "officialUrl": "https://www.seoulcc.co.kr",
-    "phone": "06-777-1769",
+    "officialUrl": "https://inseoul27.co.kr",
+    "phone": "02-6395-8000",
     "city": "강서구"
   },
   {
@@ -28666,21 +28605,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.changwoncc.co.kr",
-    "phone": "(055)288-4112",
+    "phone": "055-288-4112",
     "city": "창원시"
   },
   {
     "id": "웰리힐리cc",
     "name": "웰리힐리CC",
     "region": "강원",
-    "address": "강원특별자치도 횡성군",
+    "address": "강원특별자치도 횡성군 둔내면 조항로 360",
     "coordinates": {
       "lat": 37.48084,
       "lng": 128.23635
     },
     "drivingTimeFromSeoul": 138,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -28727,21 +28666,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.wellihillipark.com",
-    "phone": "08-777-1771",
+    "phone": "033-340-1400",
     "city": "횡성군"
   },
   {
     "id": "자유cc",
     "name": "자유CC",
     "region": "경기남부",
-    "address": "경기도 여주시",
+    "address": "경기도 여주시 가남면 삼군리 산 44",
     "coordinates": {
       "lat": 37.20857,
       "lng": 127.56786
     },
     "drivingTimeFromSeoul": 81,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 36,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -28788,21 +28727,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.jayu.co.kr",
-    "phone": "09-777-1772",
+    "phone": "031-880-9900",
     "city": "여주시"
   },
   {
     "id": "비에이비스타cc",
     "name": "비에이비스타CC",
     "region": "경기남부",
-    "address": "경기도 이천시",
+    "address": "경기도 이천시 모가면 어농리 386-1",
     "coordinates": {
       "lat": 37.17919,
       "lng": 127.41768
     },
     "drivingTimeFromSeoul": 72,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 54,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -28848,21 +28787,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.bavista.co.kr",
-    "phone": "010-777-1773",
+    "phone": "031-636-3577",
     "city": "이천시"
   },
   {
     "id": "필로스cc",
     "name": "필로스CC",
     "region": "경기북부",
-    "address": "경기도 포천시",
+    "address": "경기도 포천시 일동면 운악청계로",
     "coordinates": {
       "lat": 37.93823,
       "lng": 127.33119
     },
     "drivingTimeFromSeoul": 79,
     "courseType": "대중제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -28910,21 +28849,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "야간3부"
     ],
     "officialUrl": "https://www.philoscc.com",
-    "phone": "02-777-1774",
+    "phone": "",
     "city": "포천시"
   },
   {
     "id": "오크밸리cc",
     "name": "오크밸리CC",
     "region": "강원",
-    "address": "강원특별자치도 원주시",
+    "address": "강원특별자치도 원주시 지정면 오크밸리1길 66 (월송리, 오크밸리 리조트)",
     "coordinates": {
       "lat": 37.4268,
       "lng": 127.82105
     },
     "drivingTimeFromSeoul": 96,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 90,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -28971,20 +28910,20 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "2인플레이가능"
     ],
     "officialUrl": "https://www.oakvalley.co.kr",
-    "phone": "03-777-1775",
+    "phone": "033-730-3770",
     "city": "원주시"
   },
   {
     "id": "버치힐cc",
-    "name": "버치힐CC",
+    "name": "용평 버치힐GC",
     "region": "강원",
-    "address": "강원특별자치도 평창군",
+    "address": "강원특별자치도 평창군 대관령면 올림픽로 715",
     "coordinates": {
       "lat": 37.65563,
       "lng": 128.70594
     },
     "drivingTimeFromSeoul": 187,
-    "courseType": "대중제",
+    "courseType": "회원제",
     "holes": 18,
     "grass": {
       "fairway": "조선잔디",
@@ -29031,21 +28970,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.yongpyong.co.kr",
-    "phone": "04-777-1776",
+    "phone": "",
     "city": "평창군"
   },
   {
     "id": "휘슬링락cc",
     "name": "휘슬링락CC",
     "region": "강원",
-    "address": "강원특별자치도 춘천시",
+    "address": "강원특별자치도 춘천시 남산면 동촌로 501",
     "coordinates": {
       "lat": 37.76649,
       "lng": 127.67445
     },
     "drivingTimeFromSeoul": 89,
     "courseType": "회원제",
-    "holes": 18,
+    "holes": 27,
     "grass": {
       "fairway": "양잔디",
       "green": "벤트그라스"
@@ -29093,7 +29032,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "노캐디가능"
     ],
     "officialUrl": "https://www.whistlingrockcc.com",
-    "phone": "05-777-1777",
+    "phone": "070-8121-0028",
     "city": "춘천시"
   },
   {
@@ -29153,14 +29092,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.beaconhills.co.kr",
-    "phone": "06-777-1778",
+    "phone": "",
     "city": "홍천군"
   },
   {
     "id": "군위오펠gc",
     "name": "군위오펠GC",
     "region": "경상",
-    "address": "경상북도 군위군",
+    "address": "경상북도 군위군 산성면 부흥로 227",
     "coordinates": {
       "lat": 36.11492,
       "lng": 128.68226
@@ -29213,7 +29152,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.ophelgolf.com",
-    "phone": "07-777-1779",
+    "phone": "054-380-8000",
     "city": "군위군"
   },
   {
@@ -29274,15 +29213,15 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
-    "phone": "08-777-1780",
+    "officialUrl": "",
+    "phone": "",
     "city": "사천시"
   },
   {
     "id": "아일랜드cc",
     "name": "아일랜드CC",
     "region": "경기남부",
-    "address": "경기도 안산시 단원구",
+    "address": "경기도 안산시 단원구 대선로 466",
     "coordinates": {
       "lat": 37.23075,
       "lng": 126.56279
@@ -29335,14 +29274,14 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.islandresort.co.kr",
-    "phone": "09-777-1781",
+    "phone": "032-884-1004",
     "city": "안산시"
   },
   {
     "id": "소노펠리체cc델피노cc",
     "name": "소노펠리체CC 델피노",
     "region": "강원",
-    "address": "강원특별자치도 고성군",
+    "address": "강원특별자치도 고성군 토성면 미시령옛길 1153",
     "coordinates": {
       "lat": 38.21026,
       "lng": 128.49246
@@ -29395,21 +29334,21 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭"
     ],
     "officialUrl": "https://www.sonofelicecc.com",
-    "phone": "010-777-1782",
+    "phone": "",
     "city": "고성군"
   },
   {
     "id": "서원밸리cc",
     "name": "서원밸리CC",
     "region": "경기북부",
-    "address": "경기도 파주시 광탄면 서원길 333",
+    "address": "경기도 파주시 광탄면 서원길 333 (발랑리, 서원밸리G.C클럽)",
     "coordinates": {
       "lat": 37.8012,
       "lng": 126.8835
     },
     "drivingTimeFromSeoul": 45,
     "courseType": "대중제+회원제",
-    "holes": 18,
+    "holes": 45,
     "grass": {
       "fairway": "조선잔디",
       "green": "벤트그라스"
@@ -29573,7 +29512,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
     "id": "소노펠리체cc비발디파크",
     "name": "소노펠리체CC 비발디파크",
     "region": "강원",
-    "address": "강원특별자치도 강원도 홍천군 서면 한치골길 262",
+    "address": "강원특별자치도 홍천군 서면 한치골길 200",
     "coordinates": {
       "lat": 37.6482,
       "lng": 127.6835
@@ -29629,7 +29568,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "100%잔디티"
     ],
     "officialUrl": "https://www.sonofelicecc.com",
-    "phone": "1588-4888",
+    "phone": "1644-0063",
     "city": "홍천군"
   },
   {
@@ -29689,7 +29628,7 @@ export const GOLF_CLUBS_DATA: GolfClub[] = [
       "대중제퍼블릭",
       "2인플레이가능"
     ],
-    "officialUrl": "https://www.kgba.co.kr",
+    "officialUrl": "",
     "phone": "064-780-0001",
     "city": "서귀포시"
   }
@@ -29727,7 +29666,7 @@ export const THEME_PRESETS = [
   {
     id: 'tournament',
     title: '토너먼트 챔피언십 고난도 코스',
-    description: '유리알 그린(3.0m+)과 전략적 해저드/벙커가 배치된 샷밸류 극상의 도전형 코스',
+    description: 'KGA 슬로프레이팅 135 이상으로 측정된 전략적 해저드·벙커 배치의 도전형 코스',
     badge: '슬로프 135+ 상급',
     filter: (c: GolfClub) => (c.difficultyIndex?.slopeRating != null && c.difficultyIndex.slopeRating >= 135) || c.difficultyIndex?.relativeDifficulty === '지옥(상급자전용)'
   },

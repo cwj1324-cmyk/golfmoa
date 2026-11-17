@@ -19,7 +19,7 @@ import {
   Trash2,
 } from 'lucide-react';
 import type { GolfClub, GrassType, CourseStyle, CourseType, GolferReview, WikiEditRecord } from '../types/golf';
-import { calculateCostPerPerson, formatPrice, predictFieldScore, getOfficialClubUrl } from '../utils/calculator';
+import { calculateCostPerPerson, formatPrice, predictFieldScore, getOfficialClubUrl, hasOfficialClubUrl } from '../utils/calculator';
 import { BLOG_REVIEWS_MAP } from '../data/blogReviewsData';
 import {
   getWikiEdits,
@@ -108,6 +108,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
 
   // Safe official URL fallback
   const officialUrl = getOfficialClubUrl(club);
+  const hasOfficialUrl = hasOfficialClubUrl(club);
 
   // Handle Wiki Save
   const handleSaveWiki = (e: React.FormEvent) => {
@@ -347,10 +348,10 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               target="_blank"
               rel="noopener noreferrer"
               className="px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold bg-emerald-700 hover:bg-emerald-800 text-white flex items-center gap-1 transition-all shadow-2xs"
-              title="공식 홈페이지 바로가기"
+              title={hasOfficialUrl ? '공식 홈페이지 바로가기' : '네이버에서 골프장 검색'}
             >
-              <span className="hidden sm:inline">공홈 바로가기</span>
-              <span className="sm:hidden text-[11px]">공홈</span>
+              <span className="hidden sm:inline">{hasOfficialUrl ? '공홈 바로가기' : '네이버 검색'}</span>
+              <span className="sm:hidden text-[11px]">{hasOfficialUrl ? '공홈' : '검색'}</span>
               <ExternalLink className="w-3 h-3" />
             </a>
 
@@ -730,10 +731,12 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 <MapPin className="w-3.5 h-3.5 text-slate-400 shrink-0" />
                 <span>{club.address}</span>
               </span>
-              <span className="flex items-center gap-1.5 font-medium text-slate-800">
-                <Phone className="w-3.5 h-3.5 text-slate-400 shrink-0" />
-                <span>{club.phone}</span>
-              </span>
+              {club.phone && (
+                <span className="flex items-center gap-1.5 font-medium text-slate-800">
+                  <Phone className="w-3.5 h-3.5 text-slate-400 shrink-0" />
+                  <span>{club.phone}</span>
+                </span>
+              )}
             </div>
             {club.facilities.drivingRangeNote && (
               <p className="text-[11px] text-emerald-800 bg-emerald-50 p-2 rounded-lg border border-emerald-100">

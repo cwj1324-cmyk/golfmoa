@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import type { GolfClub } from '../types/golf';
-import { calculateDateSpecificCost, formatPrice } from '../utils/calculator';
+import { calculateDateSpecificCost, formatPrice, getOfficialClubUrl } from '../utils/calculator';
 import type { TimeSlot } from '../utils/calculator';
 import { Calendar as CalendarIcon, Users, Shield, Tag, ExternalLink, Sparkles, AlertCircle } from 'lucide-react';
 
@@ -326,7 +326,7 @@ export const DateRateSimulator: React.FC<DateRateSimulatorProps> = ({ club }) =>
 
             {/* Official Website Outlink */}
             <a
-              href={club.officialUrl}
+              href={getOfficialClubUrl(club)}
               target="_blank"
               rel="noopener noreferrer"
               className="p-3 bg-slate-50 hover:bg-slate-100 border border-slate-200 text-slate-800 rounded-xl text-xs font-bold flex items-center justify-between transition-all group"

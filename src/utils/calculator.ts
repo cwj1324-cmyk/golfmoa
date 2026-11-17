@@ -257,11 +257,17 @@ export function predictFieldScore(
 /**
  * 골프장 공식 홈페이지 직통 주소 반환
  */
+export function hasOfficialClubUrl(club: GolfClub): boolean {
+  // kgba.co.kr 는 한국골프장경영협회 사이트라 개별 골프장 홈페이지가 아니다.
+  return !!club.officialUrl && club.officialUrl.startsWith('http') && !club.officialUrl.includes('kgba.co.kr');
+}
+
 export function getOfficialClubUrl(club: GolfClub): string {
-  if (club.officialUrl && club.officialUrl.startsWith('http')) {
+  if (hasOfficialClubUrl(club)) {
     return club.officialUrl;
   }
-  return 'https://www.namyeoju.co.kr';
+  // 확인된 공식 홈페이지가 없으면 엉뚱한 골프장으로 보내지 않고 이름으로 검색한다.
+  return `https://search.naver.com/search.naver?query=${encodeURIComponent(club.name)}`;
 }
 
 
