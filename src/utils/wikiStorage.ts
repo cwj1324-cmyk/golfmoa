@@ -1,16 +1,46 @@
 import type { GolfClub, GolferReview, WikiEditRecord } from '../types/golf';
+import { BUNDLED_REVIEWS, BUNDLED_WIKI_EDITS } from '../data/contributions';
 
 const WIKI_STORAGE_KEY = 'GOLFMOA_WIKI_EDITS';
 const REVIEWS_STORAGE_KEY = 'GOLFMOA_GOLFER_REVIEWS';
 const MY_REVIEWS_STORAGE_KEY = 'GOLFMOA_MY_REVIEWS';
+/** 이 기기에서 지운 '사이트에 실린 후기' id (사이트 데이터는 지울 수 없으므로 숨김 처리) */
+const HIDDEN_REVIEWS_STORAGE_KEY = 'GOLFMOA_HIDDEN_REVIEWS';
+
+const readStoredReviews = (): Record<string, GolferReview[]> => {
+  try {
+    const raw = localStorage.getItem(REVIEWS_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : {};
+  } catch {
+    return {};
+  }
+};
+
+const readHiddenReviewIds = (): string[] => {
+  try {
+    const raw = localStorage.getItem(HIDDEN_REVIEWS_STORAGE_KEY);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+};
+
+/** 이 브라우저에 저장된 후기 + 사이트에 실린 후기 (같은 id면 브라우저 쪽이 우선, 최신순) */
+const getMergedReviews = (clubId: string): GolferReview[] => {
+  const stored = (readStoredReviews()[clubId] || []).filter((r) => !r.id.startsWith('default-'));
+  const storedIds = new Set(stored.map((r) => r.id));
+  const hidden = new Set(readHiddenReviewIds());
+  const bundled = (BUNDLED_REVIEWS[clubId] || []).filter((r) => !storedIds.has(r.id) && !hidden.has(r.id));
+  return [...stored, ...bundled].sort((a, b) => (a.createdAt < b.createdAt ? 1 : a.createdAt > b.createdAt ? -1 : 0));
+};
 
 // 1. WIKI EDITS
 export const getWikiEdits = (): Record<string, WikiEditRecord> => {
   try {
     const data = localStorage.getItem(WIKI_STORAGE_KEY);
-    return data ? JSON.parse(data) : {};
+    return { ...BUNDLED_WIKI_EDITS, ...(data ? JSON.parse(data) : {}) };
   } catch {
-    return {};
+    return { ...BUNDLED_WIKI_EDITS };
   }
 };
 
@@ -85,15 +115,7 @@ export interface RatingStats {
 }
 
 export const getClubRatingStats = (clubId: string): RatingStats => {
-  let stored: Record<string, GolferReview[]> = {};
-  try {
-    const raw = localStorage.getItem(REVIEWS_STORAGE_KEY);
-    stored = raw ? JSON.parse(raw) : {};
-  } catch {
-    stored = {};
-  }
-
-  const reviews = (stored[clubId] || []).filter((r) => !r.id.startsWith('default-'));
+  const reviews = getMergedReviews(clubId);
   if (reviews.length === 0) {
     return { rating: null, reviewCount: 0 };
   }
@@ -105,17 +127,8 @@ export const getClubRatingStats = (clubId: string): RatingStats => {
 };
 
 export const getGolferReviews = (club: GolfClub): GolferReview[] => {
-  let stored: Record<string, GolferReview[]> = {};
-  try {
-    const raw = localStorage.getItem(REVIEWS_STORAGE_KEY);
-    stored = raw ? JSON.parse(raw) : {};
-  } catch {
-    stored = {};
-  }
-
-  const customReviews = stored[club.id] || [];
-  // AI 생성 및 기본 시드 후기 엄격 제외 (실제 사용자가 직접 작성한 후기만 반환)
-  return customReviews.filter((r) => !r.id.startsWith('default-'));
+  // 실제 사용자가 직접 작성한 후기만 (AI 생성·기본 시드 제외)
+  return getMergedReviews(club.id);
 };
 
 export const getMyReviewIds = (): string[] => {
@@ -210,8 +223,14 @@ export const updateGolferReview = (
   }
 
   const list = stored[clubId] || [];
-  const index = list.findIndex((r) => r.id === reviewId);
-  if (index === -1) return null;
+  let index = list.findIndex((r) => r.id === reviewId);
+  if (index === -1) {
+    // 사이트에 실린 후기를 고치면 이 브라우저에 사본을 만들어 덮어쓴다
+    const bundled = (BUNDLED_REVIEWS[clubId] || []).find((r) => r.id === reviewId);
+    if (!bundled) return null;
+    list.unshift({ ...bundled });
+    index = 0;
+  }
 
   const oldScores = list[index].scores;
   const newScores = updatedFields.scores;
@@ -258,6 +277,15 @@ export const deleteGolferReview = (clubId: string, reviewId: string): boolean =>
     localStorage.setItem(REVIEWS_STORAGE_KEY, JSON.stringify(stored));
   } catch (e) {
     console.error('Failed to delete review from localStorage', e);
+  }
+
+  // 사이트에 실린 후기는 지울 수 없으므로 이 기기에서 숨긴다
+  if ((BUNDLED_REVIEWS[clubId] || []).some((r) => r.id === reviewId)) {
+    try {
+      localStorage.setItem(HIDDEN_REVIEWS_STORAGE_KEY, JSON.stringify([...readHiddenReviewIds(), reviewId]));
+    } catch (e) {
+      console.error('Failed to hide bundled review', e);
+    }
   }
 
   // Remove from myReviewIds
