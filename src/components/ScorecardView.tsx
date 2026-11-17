@@ -14,7 +14,6 @@ interface ScorecardViewProps {
   comparedIds: Set<string>;
   onToggleCompare: (club: GolfClub) => void;
   onSelectClub: (club: GolfClub) => void;
-  onOpenCompare: () => void;
   userAvgScore: number;
   sortBy: string;
   setSortBy: (sort: string) => void;
@@ -27,7 +26,6 @@ export const ScorecardView: React.FC<ScorecardViewProps> = ({
   comparedIds,
   onToggleCompare,
   onSelectClub,
-  onOpenCompare,
   userAvgScore,
   sortBy,
   setSortBy,
@@ -134,11 +132,7 @@ export const ScorecardView: React.FC<ScorecardViewProps> = ({
               {PAGE}곳 더 보기
             </button>
           )}
-          {comparedIds.size > 0 && (
-            <button type="button" onClick={onOpenCompare} className="font-bold text-emerald-800 hover:underline">
-              {comparedIds.size}곳 선택됨 · 비교하기 →
-            </button>
-          )}
+
         </div>
       </div>
     </div>

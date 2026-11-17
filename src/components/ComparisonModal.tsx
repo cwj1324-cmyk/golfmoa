@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import type { GolfClub } from '../types/golf';
 import { calculateCostPerPerson, formatPrice, predictFieldScore, getOfficialClubUrl } from '../utils/calculator';
-import { X, ExternalLink, Gauge, MapPin, Share2, Copy, ThumbsUp, Sparkles, Moon } from 'lucide-react';
+import { X, ExternalLink, MapPin, Share2, Copy, ThumbsUp } from 'lucide-react';
 
 interface ComparisonModalProps {
   isOpen: boolean;
@@ -80,7 +80,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
   const handleCopyKakaoText = () => {
     const dayText = isWeekend ? '주말' : '주중';
     const lines = [
-      `⛳ [골프모아] 골프장 코스 조건 1:1 대조표 (${comparedClubs.length}곳 비교)`,
+      `[골프모아] 골프장 코스 조건 1:1 대조표 (${comparedClubs.length}곳 비교)`,
       `기준: ${dayText} / ${playerCount}인 라운드 (내 평균 ${userAvgScore}타 기준)`,
       '--------------------------------',
     ];
@@ -88,8 +88,8 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
     comparedClubs.forEach((club, idx) => {
       const cost = calculateCostPerPerson(club, isWeekend, playerCount, true);
       const prediction = predictFieldScore(club.difficultyIndex?.slopeRating, club.difficultyIndex?.courseRating, userAvgScore);
-      const isNoMat = club.teeBoxMatRatio?.includes('매트 없음') ? '🌱 100% 잔디티' : club.teeBoxMatRatio?.includes('매트') ? '매트 혼용' : '티박스 -';
-      const isNight = club.playOptions.nightPlay ? `🌙 ${club.playOptions.lightingType}` : '야간 미운영';
+      const isNoMat = club.teeBoxMatRatio?.includes('매트 없음') ? '100% 잔디 티' : club.teeBoxMatRatio?.includes('매트') ? '매트 혼용' : '티박스 -';
+      const isNight = club.playOptions.nightPlay ? club.playOptions.lightingType : '야간 미운영';
       const greenText = club.greenSpeedAvg ? `그린 ${club.greenSpeedAvg}m` : '그린 스피드 -';
       const slopeText = prediction.isUnrated ? '공인 레이팅 미측정' : `${prediction.expectedScore}타 (슬로프 ${club.difficultyIndex?.slopeRating})`;
 
@@ -173,7 +173,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
               onClick={onClose}
               className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-200/60 transition-all ml-1"
             >
-              <X className="w-5 h-5" />
+              <X className="w-4 h-4" />
             </button>
           </div>
         </div>
@@ -196,14 +196,14 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                 onClick={handleCopyLink}
                 className="px-2.5 py-1 bg-white/10 hover:bg-white/20 text-white rounded-lg font-bold flex items-center gap-1 transition-all text-xs"
               >
-                <Copy className="w-3 h-3" />
+                <Copy className="w-3.5 h-3.5" />
                 <span>링크 복사</span>
               </button>
               <button
                 onClick={handleCopyKakaoText}
                 className="px-3 py-1 bg-[#FEE500] hover:bg-[#FADA0A] text-slate-900 rounded-lg font-black flex items-center gap-1 transition-all shadow-xs text-xs"
               >
-                <Share2 className="w-3 h-3 text-slate-900" />
+                <Share2 className="w-3.5 h-3.5 text-slate-900" />
                 <span className="hidden sm:inline">카톡 단톡방 공유 텍스트 복사</span>
                 <span className="sm:hidden">카톡 공유 복사</span>
               </button>
@@ -222,12 +222,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
             <div className="min-w-[640px]">
               {/* Header Cards Row with Live Vote Buttons */}
               <div className="grid grid-cols-4 gap-4 pb-4 border-b border-slate-200">
-                <div className="flex flex-col justify-end text-xs font-bold text-slate-400 uppercase tracking-wider pb-2">
-                  <span>조건 대조 항목</span>
-                  <span className="text-[10px] text-slate-500 font-normal">
-                    (클럽별 코스 조건 1:1 비교)
-                  </span>
-                </div>
+                <div aria-hidden="true" />
 
                 {comparedClubs.map((club) => {
                   const voteCount = votes[club.id] || 0;
@@ -250,11 +245,11 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                         <div className="text-[11px] font-semibold text-slate-500 mb-0.5">
                           {club.courseType} {club.holes}홀
                         </div>
-                        <h4 className="font-bold text-base text-emerald-800 line-clamp-1 hover:text-emerald-600">
+                        <h4 className="font-bold text-base text-slate-900 line-clamp-1 hover:underline">
                           {club.name}
                         </h4>
                         <p className="text-[11px] text-slate-500 flex items-center gap-1 mt-0.5">
-                          <MapPin className="w-3 h-3 text-emerald-700" />
+                          <MapPin className="w-3.5 h-3.5 text-slate-400" />
                           {club.region} · {club.city || club.address.split(' ')[1] || club.region}
                         </p>
                       </div>
@@ -279,7 +274,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                         className="mt-1.5 py-1.5 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg font-bold flex items-center justify-center gap-1 text-[11px] transition-all shadow-2xs"
                       >
                         <span>공식 홈페이지 바로가기</span>
-                        <ExternalLink className="w-2.5 h-2.5" />
+                        <ExternalLink className="w-3.5 h-3.5" />
                       </a>
                     </div>
                   );
@@ -289,25 +284,16 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
               {/* Table Rows: Front-loading Course Conditions */}
               <div className="divide-y divide-slate-100 text-xs sm:text-sm">
                 {/* 1. 티박스 매트 유무 */}
-                <div className="grid grid-cols-4 gap-4 py-3 items-center bg-emerald-50/40 -mx-4 px-4 font-bold">
-                  <div className="text-emerald-950">
-                    🌱 티박스 매트 여부
-                    <span className="block text-[10px] text-emerald-700 font-normal">티샷 환경</span>
-                  </div>
+                <div className="grid grid-cols-4 gap-4 py-3 items-center">
+                  <div className="text-slate-600 font-medium">티박스</div>
                   {comparedClubs.map((club) => (
                     <div key={club.id}>
                       {club.teeBoxMatRatio?.includes('매트 없음') ? (
-                        <span className="px-2 py-0.5 rounded text-xs font-bold bg-emerald-100 text-emerald-900 border border-emerald-200">
-                          100% 잔디 티박스
-                        </span>
+                        <span className="text-xs font-semibold text-slate-800">100% 잔디 티</span>
                       ) : club.teeBoxMatRatio?.includes('매트') ? (
-                        <span className="px-2 py-0.5 rounded text-xs font-medium bg-slate-100 text-slate-600">
-                          인조 매트 혼용
-                        </span>
+                        <span className="text-xs font-semibold text-slate-800">일부 매트</span>
                       ) : (
-                        <span className="px-2 py-0.5 rounded text-xs text-slate-400">
-                          미확인
-                        </span>
+                        <span className="text-xs text-slate-400">–</span>
                       )}
                     </div>
                   ))}
@@ -315,40 +301,26 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
                 {/* 2. 페어웨이 잔디 종류 */}
                 <div className="grid grid-cols-4 gap-4 py-3 items-center">
-                  <div className="text-slate-600 font-medium">
-                    🌿 페어웨이 잔디
-                    <span className="block text-[10px] text-slate-400">손맛 & 난이도</span>
-                  </div>
+                  <div className="text-slate-600 font-medium">페어웨이 잔디</div>
                   {comparedClubs.map((club) => {
                     const isYang = club.grass.fairway.includes('양잔디');
                     return (
                       <div key={club.id}>
-                        <span
-                          className={`inline-block px-2 py-0.5 rounded text-xs font-semibold border ${isYang
-                            ? 'bg-teal-50 text-teal-800 border-teal-200'
-                            : 'bg-amber-50 text-amber-900 border-amber-200'
-                            }`}
-                        >
-                          {isYang ? '양잔디' : '조선잔디'}
-                        </span>
+                        <span className="text-xs font-semibold text-slate-800">{isYang ? '양잔디' : '조선잔디'}</span>
                       </div>
                     );
                   })}
                 </div>
 
                 {/* 3. 코스 지형 & 시야 */}
-                <div className="grid grid-cols-4 gap-4 py-3 items-center bg-slate-50/50 -mx-4 px-4">
-                  <div className="text-slate-600 font-medium">
-                    ⛰️ 코스 지형 & 시야
-                    <span className="block text-[10px] text-slate-400">고저차 / 블라인드</span>
-                  </div>
+                <div className="grid grid-cols-4 gap-4 py-3 items-center">
+                  <div className="text-slate-600 font-medium">코스 지형</div>
                   {comparedClubs.map((club) => {
-                    const isFlat = club.courseStyle.includes('구릉') || club.courseStyle.includes('링크스') || club.courseStyle.includes('평지');
                     return (
                       <div key={club.id} className="text-xs">
-                        <span className={`font-semibold ${isFlat ? 'text-sky-800' : 'text-slate-700'}`}>
+                        <span className="font-semibold text-slate-800">
                           {club.courseStyle}
-                        </span>
+                                                  </span>
                         <span className="block text-[11px] text-slate-500">
                           언듈레이션 {club.undulation}
                         </span>
@@ -359,34 +331,23 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
                 {/* 4. 야간 3부 라운드 & 조명 */}
                 <div className="grid grid-cols-4 gap-4 py-3 items-center">
-                  <div className="text-slate-600 font-medium">
-                    🌙 야간 라운드 (3부)
-                    <span className="block text-[10px] text-slate-400">조명 품질</span>
-                  </div>
+                  <div className="text-slate-600 font-medium">야간 3부</div>
                   {comparedClubs.map((club) => (
                     <div key={club.id} className="text-xs">
                       {club.playOptions.nightPlay ? (
-                        <span className={`inline-flex items-center gap-1 font-bold ${club.playOptions.lightingType.includes('LED') ? 'text-indigo-800' : 'text-slate-700'
-                          }`}>
-                          <Moon className="w-3.5 h-3.5 text-indigo-600" />
-                          {club.playOptions.lightingType}
-                        </span>
+                        <span className="font-semibold text-slate-800">{club.playOptions.lightingType}</span>
                       ) : (
-                        <span className="text-slate-400">야간 미운영</span>
+                        <span className="text-slate-400">운영 안 함</span>
                       )}
                     </div>
                   ))}
                 </div>
 
                 {/* 5. 그린 스피드 & 관리도 */}
-                <div className="grid grid-cols-4 gap-4 py-3 items-center bg-slate-50/50 -mx-4 px-4">
-                  <div className="text-slate-600 font-medium">
-                    ⛳ 평균 그린 스피드
-                    <span className="block text-[10px] text-slate-400">퍼팅 퀄리티</span>
-                  </div>
+                <div className="grid grid-cols-4 gap-4 py-3 items-center">
+                  <div className="text-slate-600 font-medium">그린 스피드</div>
                   {comparedClubs.map((club) => (
-                    <div key={club.id} className="font-bold text-slate-800 flex items-center gap-1">
-                      <Gauge className="w-3.5 h-3.5 text-purple-600" />
+                    <div key={club.id} className="text-xs font-semibold text-slate-800 flex items-center gap-1">
                       {club.greenSpeedAvg ? (
                         <>
                           <span>{club.greenSpeedAvg.toFixed(1)}m</span>
@@ -395,7 +356,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                           </span>
                         </>
                       ) : (
-                        <span className="text-slate-400 font-normal text-xs">미확인</span>
+                        <span className="text-slate-400 font-normal">–</span>
                       )}
                     </div>
                   ))}
@@ -403,10 +364,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
 
                 {/* 6. 페어웨이 폭 & 전장 */}
                 <div className="grid grid-cols-4 gap-4 py-3 items-center">
-                  <div className="text-slate-600 font-medium">
-                    📏 페어웨이 & 전장
-                    <span className="block text-[10px] text-slate-400">OB 부담도</span>
-                  </div>
+                  <div className="text-slate-600 font-medium">페어웨이 폭 · 전장</div>
                   {comparedClubs.map((club) => (
                     <div key={club.id} className="text-xs text-slate-800">
                       <span className="font-bold">{club.fairwayWidth} 폭</span>
@@ -416,7 +374,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                 </div>
 
                 {/* 7. 플레이 옵션 (노캐디/2인/연습장) */}
-                <div className="grid grid-cols-4 gap-4 py-3 items-center bg-slate-50/50 -mx-4 px-4">
+                <div className="grid grid-cols-4 gap-4 py-3 items-center">
                   <div className="text-slate-600 font-medium">편의 옵션</div>
                   {comparedClubs.map((club) => (
                     <div key={club.id} className="text-xs space-y-0.5">
@@ -437,13 +395,10 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                 </div>
 
                 {/* 8. 내 타수 기준 예상 스코어 (Score Predictor) */}
-                <div className="grid grid-cols-4 gap-4 py-3.5 bg-blue-50/70 -mx-4 px-4 items-center">
+                <div className="grid grid-cols-4 gap-4 py-3.5 items-center">
                   <div>
-                    <div className="flex items-center gap-1 text-blue-950 font-extrabold">
-                      <Sparkles className="w-3.5 h-3.5 text-blue-700" />
-                      <span>내 예상 타수</span>
-                    </div>
-                    <span className="text-[10px] text-blue-700">
+                    <div className="text-slate-900 font-bold">내 예상 타수</div>
+                    <span className="text-[10px] text-slate-500">
                       평균 {userAvgScore}타 골퍼 기준
                     </span>
                   </div>
@@ -459,7 +414,7 @@ export const ComparisonModal: React.FC<ComparisonModalProps> = ({
                     return (
                       <div key={club.id} className="space-y-0.5">
                         <div className="flex items-baseline space-x-1">
-                          <span className="text-base font-black text-blue-900">
+                          <span className="text-base font-black text-slate-900">
                             {pred.expectedScore}타
                           </span>
                           <span className={`text-[11px] font-bold ${diff > 0 ? 'text-rose-600' : 'text-emerald-700'}`}>

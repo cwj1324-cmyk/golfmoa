@@ -26,9 +26,6 @@ export const Navbar: React.FC<NavbarProps> = ({ variant, onChangeVariant }) => {
           <div>
             <div className="flex items-center space-x-1 sm:space-x-1.5">
               <span className="text-base sm:text-lg font-black tracking-tight text-slate-900">골프모아</span>
-              <span className="hidden sm:inline text-[10px] px-1.5 py-0.5 rounded bg-slate-100 text-slate-600 font-bold tracking-wider">
-                GOLFMOA
-              </span>
             </div>
             <p className="text-[11px] text-slate-400 hidden md:block">전국 골프장 스펙 비교 & 참여형 코스 정보</p>
           </div>

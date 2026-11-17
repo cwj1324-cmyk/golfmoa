@@ -2,11 +2,9 @@ import { useState, useMemo, useEffect } from 'react';
 import { GOLF_CLUBS_DATA, THEME_PRESETS } from './data/golfClubs';
 import type { GolfClub, FilterState } from './types/golf';
 import { calculateCostPerPerson, predictFieldScore } from './utils/calculator';
-import { Navbar, type ViewMode, type UiVariant } from './components/Navbar';
+import { Navbar, type UiVariant } from './components/Navbar';
 import { FilterBar } from './components/FilterBar';
 import { GolfCard } from './components/GolfCard';
-import { GolfListView } from './components/GolfListView';
-import { MapView } from './components/MapView';
 import { ScorecardView } from './components/ScorecardView';
 import { SplitMapView } from './components/SplitMapView';
 import { MatchView } from './components/MatchView';
@@ -47,8 +45,6 @@ export function App() {
     }
   };
 
-  // Navigation / View State
-  const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [displayCount, setDisplayCount] = useState<number>(24);
 
   // Wiki-Overlaid Master Club Data
@@ -272,11 +268,7 @@ export function App() {
       {/* 2. Main Container */}
       <main className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 flex-1 w-full pb-28">
         {/* Page Header (Minimal) */}
-        <div className="mb-2.5 sm:mb-3">
-          <h1 className="text-base sm:text-lg font-bold text-slate-800 tracking-tight">
-            전국 골프장 코스 조건 정보
-          </h1>
-        </div>
+        <h1 className="sr-only">전국 골프장 코스 조건 비교</h1>
 
         {/* Multi-Condition Filter Bar (안 C는 조건 문장이 필터를 대신함) */}
         {uiVariant !== 'c' && (
@@ -287,10 +279,6 @@ export function App() {
           filteredCount={filteredClubs.length}
           sortBy={sortBy}
           setSortBy={setSortBy}
-          viewMode={viewMode}
-          setViewMode={uiVariant === 'basic' ? setViewMode : undefined}
-          compareCount={comparedClubs.length}
-          onOpenCompare={() => setIsCompareModalOpen(true)}
         />
         )}
 
@@ -313,13 +301,6 @@ export function App() {
             onSelectClub={setSelectedClub}
             userAvgScore={filter.userAvgScore}
             fitKey={JSON.stringify({ ...filter, userAvgScore: 0 })}
-          />
-        ) : uiVariant === 'basic' && viewMode === 'map' ? (
-          <MapView
-            clubs={filteredClubs}
-            onSelectClub={setSelectedClub}
-            comparedIds={comparedIds}
-            onToggleCompare={handleToggleCompare}
           />
         ) : filteredClubs.length === 0 ? (
           <div className="bg-white rounded-2xl p-8 sm:p-12 text-center border border-slate-200">
@@ -365,22 +346,10 @@ export function App() {
             comparedIds={comparedIds}
             onToggleCompare={handleToggleCompare}
             onSelectClub={setSelectedClub}
-            onOpenCompare={() => setIsCompareModalOpen(true)}
             userAvgScore={filter.userAvgScore}
             sortBy={sortBy}
             setSortBy={setSortBy}
           />
-        ) : viewMode === 'list' ? (
-          /* Table / Compact List View */
-          <div>
-            <GolfListView
-              clubs={filteredClubs}
-              onSelectClub={setSelectedClub}
-              comparedIds={comparedIds}
-              onToggleCompare={handleToggleCompare}
-              userAvgScore={filter.userAvgScore}
-            />
-          </div>
         ) : (
           /* Card Grid View */
           <div>
@@ -454,32 +423,15 @@ export function App() {
       )}
 
       {/* Footer */}
-      <footer className="bg-emerald-950 border-t border-emerald-900 py-6 text-emerald-200/70 text-xs">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
-          <div className="text-center sm:text-left">
-            <div className="flex items-center space-x-2 text-white font-extrabold text-sm mb-1">
-              <span className="text-emerald-400 font-black">GOLFMOA</span>
-              <span className="text-white">골프모아</span>
-              <span className="text-[11px] text-slate-400 font-normal">
-                | KGA·KGBA 공인 데이터 & 골퍼 참여형 코스 정보
-              </span>
-            </div>
-            <p className="text-[11px] text-slate-500">
-              대한골프협회(KGA) 공식 코스레이팅, 한국골프장경영협회(KGBA) 인허가 현황 및 골퍼들의 정보 수정과 기여로 운영됩니다.
-            </p>
-          </div>
-
-          <div className="flex items-center space-x-4 text-[11px]">
-            <button
-              onClick={scrollToTop}
-              className="flex items-center gap-1 hover:text-white transition-all"
-            >
-              <ArrowUp className="w-3.5 h-3.5" />
-              <span>맨 위로</span>
-            </button>
-            <span>•</span>
-            <span className="text-slate-500">버전 2.0 (Wiki & List)</span>
-          </div>
+      <footer className="bg-white border-t border-slate-200 py-5 text-xs text-slate-500">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-3">
+          <p className="text-center sm:text-left">
+            <b className="text-slate-800">골프모아</b> · 대한골프협회(KGA) 코스 레이팅, 한국골프장경영협회(KGBA) 현황과 골퍼들의 정보 기여로 운영됩니다.
+          </p>
+          <button onClick={scrollToTop} className="inline-flex items-center gap-1 hover:text-slate-900 shrink-0">
+            <ArrowUp className="w-3.5 h-3.5" />
+            <span>맨 위로</span>
+          </button>
         </div>
       </footer>
     </div>

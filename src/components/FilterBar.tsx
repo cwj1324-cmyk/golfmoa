@@ -8,17 +8,12 @@ import {
   ChevronUp,
   DollarSign,
   Moon,
-  LayoutGrid,
-  List,
-  MapPin,
   Sprout,
   Leaf,
   Mountain,
   Flag,
   Footprints,
-  Layers,
 } from 'lucide-react';
-import type { ViewMode } from './Navbar';
 
 interface FilterBarProps {
   filter: FilterState;
@@ -27,10 +22,6 @@ interface FilterBarProps {
   filteredCount: number;
   sortBy: string;
   setSortBy: (sort: string) => void;
-  viewMode?: ViewMode;
-  setViewMode?: (mode: ViewMode) => void;
-  compareCount?: number;
-  onOpenCompare?: () => void;
 }
 
 const REGIONS: Region[] = ['전체', '경기남부', '경기북부', '인천', '강원', '충청', '전라', '경상', '제주'];
@@ -42,10 +33,6 @@ export const FilterBar: React.FC<FilterBarProps> = ({
   filteredCount,
   sortBy,
   setSortBy,
-  viewMode,
-  setViewMode,
-  compareCount = 0,
-  onOpenCompare,
 }) => {
   const [isDetailOpen, setIsDetailOpen] = useState(false);
 
@@ -120,7 +107,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               key={reg}
               onClick={() => setFilter((prev) => ({ ...prev, region: reg }))}
               className={`h-9 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center justify-center transition-all shrink-0 ${filter.region === reg
-                ? 'bg-emerald-700 text-white shadow-2xs font-bold'
+                ? 'bg-slate-900 text-white font-bold'
                 : 'bg-slate-100 text-slate-600 hover:bg-slate-200'
                 }`}
             >
@@ -154,11 +141,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <button
             onClick={() => setFilter((prev) => ({ ...prev, noMatOnly: !prev.noMatOnly }))}
             className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.noMatOnly
-              ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
+              ? 'bg-slate-900 text-white border-slate-900'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            <Sprout className={`w-3.5 h-3.5 shrink-0 ${filter.noMatOnly ? 'text-white' : 'text-emerald-600'}`} />
+            <Sprout className={`w-3.5 h-3.5 shrink-0 ${filter.noMatOnly ? 'text-white' : 'text-slate-500'}`} />
             <span>잔디티만</span>
           </button>
 
@@ -171,11 +158,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
               }))
             }
             className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.fairwayGrass === '양잔디'
-              ? 'bg-teal-700 text-white border-teal-700 shadow-2xs'
+              ? 'bg-slate-900 text-white border-slate-900'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            <Leaf className={`w-3.5 h-3.5 shrink-0 ${filter.fairwayGrass === '양잔디' ? 'text-white' : 'text-teal-600'}`} />
+            <Leaf className={`w-3.5 h-3.5 shrink-0 ${filter.fairwayGrass === '양잔디' ? 'text-white' : 'text-slate-500'}`} />
             <span>양잔디</span>
           </button>
 
@@ -183,11 +170,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <button
             onClick={() => setFilter((prev) => ({ ...prev, flatTerrainOnly: !prev.flatTerrainOnly }))}
             className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.flatTerrainOnly
-              ? 'bg-sky-700 text-white border-sky-700 shadow-2xs'
+              ? 'bg-slate-900 text-white border-slate-900'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            <Mountain className={`w-3.5 h-3.5 shrink-0 ${filter.flatTerrainOnly ? 'text-white' : 'text-sky-600'}`} />
+            <Mountain className={`w-3.5 h-3.5 shrink-0 ${filter.flatTerrainOnly ? 'text-white' : 'text-slate-500'}`} />
             <span>평지형</span>
           </button>
 
@@ -195,11 +182,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <button
             onClick={() => setFilter((prev) => ({ ...prev, nightPlayOnly: !prev.nightPlayOnly }))}
             className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.nightPlayOnly
-              ? 'bg-indigo-700 text-white border-indigo-700 shadow-2xs'
+              ? 'bg-slate-900 text-white border-slate-900'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            <Moon className={`w-3.5 h-3.5 shrink-0 ${filter.nightPlayOnly ? 'text-white' : 'text-indigo-500'}`} />
+            <Moon className={`w-3.5 h-3.5 shrink-0 ${filter.nightPlayOnly ? 'text-white' : 'text-slate-500'}`} />
             <span>야간 3부</span>
           </button>
 
@@ -207,11 +194,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <button
             onClick={() => setFilter((prev) => ({ ...prev, fastGreenOnly: !prev.fastGreenOnly }))}
             className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.fastGreenOnly
-              ? 'bg-purple-700 text-white border-purple-700 shadow-2xs'
+              ? 'bg-slate-900 text-white border-slate-900'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            <Flag className={`w-3.5 h-3.5 shrink-0 ${filter.fastGreenOnly ? 'text-white' : 'text-purple-600'}`} />
+            <Flag className={`w-3.5 h-3.5 shrink-0 ${filter.fastGreenOnly ? 'text-white' : 'text-slate-500'}`} />
             <span>빠른 그린</span>
           </button>
 
@@ -219,11 +206,11 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <button
             onClick={() => setFilter((prev) => ({ ...prev, noCaddieOnly: !prev.noCaddieOnly }))}
             className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${filter.noCaddieOnly
-              ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
+              ? 'bg-slate-900 text-white border-slate-900'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
-            <Footprints className={`w-3.5 h-3.5 shrink-0 ${filter.noCaddieOnly ? 'text-white' : 'text-emerald-600'}`} />
+            <Footprints className={`w-3.5 h-3.5 shrink-0 ${filter.noCaddieOnly ? 'text-white' : 'text-slate-500'}`} />
             <span>노캐디</span>
           </button>
 
@@ -231,14 +218,14 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <button
             onClick={() => setIsDetailOpen(!isDetailOpen)}
             className={`h-8 px-2.5 rounded-lg text-xs font-semibold whitespace-nowrap inline-flex items-center gap-1.5 transition-all border ${isDetailOpen || advancedCount > 0
-              ? 'bg-emerald-700 text-white border-emerald-700 font-bold shadow-2xs'
+              ? 'bg-slate-900 text-white border-slate-900 font-bold'
               : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
           >
             <SlidersHorizontal className="w-3.5 h-3.5 shrink-0" />
             <span>상세 조건</span>
             {advancedCount > 0 && (
-              <span className="w-4 h-4 rounded-full bg-white text-emerald-800 text-[10px] font-black inline-flex items-center justify-center">
+              <span className="w-4 h-4 rounded-full bg-white text-slate-900 text-[10px] font-black inline-flex items-center justify-center">
                 {advancedCount}
               </span>
             )}
@@ -265,10 +252,10 @@ export const FilterBar: React.FC<FilterBarProps> = ({
           <div className="space-y-1">
             <div className="flex items-center justify-between">
               <span className="font-semibold text-slate-700 flex items-center gap-1">
-                <DollarSign className="w-3 h-3 text-emerald-700" />
+                <DollarSign className="w-3.5 h-3.5 text-slate-500" />
                 1인 총비용 상한선
               </span>
-              <span className="font-bold text-emerald-800">
+              <span className="font-bold text-slate-900">
                 {filter.maxTotalCostPerPerson >= 400000 ? '전체 (무제한)' : `${Math.round(filter.maxTotalCostPerPerson / 10000)}만원 이하`}
               </span>
             </div>
@@ -301,7 +288,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
         </div>
       )}
 
-      {/* Row 4: Results Count, View Switcher & Sort Dropdown */}
+      {/* Row 4: Results Count & Sort Dropdown */}
       <div className="flex flex-wrap items-center justify-between pt-2 text-xs text-slate-500 border-t border-slate-100 gap-2">
         <div className="flex flex-wrap items-center gap-2">
           <span className="whitespace-nowrap">
@@ -309,72 +296,6 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <span className="text-slate-400">/{totalCount}곳</span>
           </span>
 
-          {/* Unified 3-Way View Switcher: 카드 / 리스트 / 지도 */}
-          {setViewMode && (
-            <div className="inline-flex items-center bg-slate-100 p-0.5 rounded-lg h-8">
-              <button
-                type="button"
-                onClick={() => setViewMode('cards')}
-                className={`h-7 px-2 rounded-md inline-flex items-center gap-1 text-[11px] transition-all ${
-                  viewMode === 'cards'
-                    ? 'bg-white text-emerald-800 shadow-2xs font-bold'
-                    : 'text-slate-500 hover:text-slate-800 font-medium'
-                }`}
-                title="카드형 그리드 뷰"
-              >
-                <LayoutGrid className="w-3.5 h-3.5 shrink-0" />
-                <span>카드</span>
-              </button>
-              <button
-                type="button"
-                onClick={() => setViewMode('list')}
-                className={`h-7 px-2 rounded-md inline-flex items-center gap-1 text-[11px] transition-all ${
-                  viewMode === 'list'
-                    ? 'bg-white text-emerald-800 shadow-2xs font-bold'
-                    : 'text-slate-500 hover:text-slate-800 font-medium'
-                }`}
-                title="리스트(표)형 뷰"
-              >
-                <List className="w-3.5 h-3.5 shrink-0" />
-                <span>리스트</span>
-              </button>
-              <button
-                type="button"
-                onClick={() => setViewMode('map')}
-                className={`h-7 px-2 rounded-md inline-flex items-center gap-1 text-[11px] transition-all ${
-                  viewMode === 'map'
-                    ? 'bg-white text-emerald-800 shadow-2xs font-bold'
-                    : 'text-slate-500 hover:text-slate-800 font-medium'
-                }`}
-                title="지도형 뷰"
-              >
-                <MapPin className="w-3.5 h-3.5 shrink-0" />
-                <span>지도</span>
-              </button>
-            </div>
-          )}
-
-          {/* Spec Compare Button */}
-          {onOpenCompare && (
-            <button
-              type="button"
-              onClick={onOpenCompare}
-              className={`h-8 px-2.5 rounded-lg text-[11px] font-bold inline-flex items-center gap-1.5 transition-all shrink-0 ${
-                compareCount > 0
-                  ? 'bg-emerald-700 text-white hover:bg-emerald-800 shadow-xs'
-                  : 'bg-slate-100 text-slate-600 hover:bg-slate-200 hover:text-slate-900'
-              }`}
-              title="선택한 골프장 스펙 비교"
-            >
-              <Layers className="w-3.5 h-3.5 shrink-0" />
-              <span>스펙 비교</span>
-              {compareCount > 0 && (
-                <span className="px-1.5 py-0.5 text-[10px] leading-none rounded-full bg-white text-emerald-800 font-extrabold">
-                  {compareCount}
-                </span>
-              )}
-            </button>
-          )}
         </div>
 
         <div className="h-8 inline-flex items-center space-x-1 shrink-0">

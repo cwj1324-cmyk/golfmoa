@@ -287,7 +287,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               className="px-2 py-0.5 rounded text-[11px] font-bold text-amber-800 hover:bg-amber-100 flex items-center gap-1 shrink-0"
               title="공식 기본 데이터로 복원"
             >
-              <RotateCcw className="w-3 h-3" />
+              <RotateCcw className="w-3.5 h-3.5" />
               <span>원문 복원</span>
             </button>
           </div>
@@ -301,12 +301,12 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 {club.courseType} {club.holes}홀
               </span>
               <span className="text-[11px] sm:text-xs text-slate-500 flex items-center gap-1 font-medium truncate">
-                <MapPin className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-slate-400 shrink-0" />
+                <MapPin className="w-3.5 h-3.5 text-slate-400 shrink-0" />
                 {club.region} · {club.city || club.address.split(' ')[1] || club.region}
               </span>
             </div>
 
-            <h2 className="text-lg sm:text-2xl font-bold text-emerald-800 tracking-tight truncate">
+            <h2 className="text-lg sm:text-2xl font-bold text-slate-900 tracking-tight truncate">
               {club.name}
             </h2>
           </div>
@@ -333,9 +333,10 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
               onClick={() => onToggleCompare(club)}
               className={`px-2 py-1.5 sm:px-3 sm:py-1.5 rounded-lg text-xs font-bold flex items-center gap-1 border transition-all ${
                 isCompared
-                  ? 'bg-emerald-700 text-white border-emerald-700 shadow-2xs'
+                  ? 'bg-emerald-50 text-emerald-800 border-emerald-600'
                   : 'bg-white text-slate-700 border-slate-200 hover:bg-slate-50'
               }`}
+              aria-pressed={isCompared}
             >
               {isCompared ? <Check className="w-3.5 h-3.5 stroke-[3]" /> : <Plus className="w-3.5 h-3.5" />}
               <span className="hidden sm:inline">{isCompared ? '비교중' : '조건 비교'}</span>
@@ -352,15 +353,17 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             >
               <span className="hidden sm:inline">{hasOfficialUrl ? '공홈 바로가기' : '네이버 검색'}</span>
               <span className="sm:hidden text-[11px]">{hasOfficialUrl ? '공홈' : '검색'}</span>
-              <ExternalLink className="w-3 h-3" />
+              <ExternalLink className="w-3.5 h-3.5" />
             </a>
 
             {/* Close Button */}
             <button
               onClick={onClose}
-              className="p-1 sm:p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all ml-0.5"
+              className="p-1.5 rounded-lg text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-all ml-0.5"
+              aria-label="닫기"
+              title="닫기"
             >
-              <X className="w-5 h-5" />
+              <X className="w-4 h-4" />
             </button>
           </div>
         </div>
@@ -582,7 +585,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
           {/* Section 1: 코스 핵심 조건 4대 스펙 스트립 */}
           <div>
             <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
-              골퍼 필수 확인 코스 컨디션 4대 조건
+              코스 조건
             </h3>
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-2 sm:gap-3">
               {/* 1. 페어웨이 잔디 (조선잔디 vs 양잔디) */}
@@ -598,40 +601,37 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
 
               {/* 2. 티잉구역 매트 */}
               <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/70 text-xs">
-                <span className="text-[11px] text-slate-500 block mb-1">티박스 매트 유무</span>
-                <span
-                  className={`font-black block truncate text-xs sm:text-sm ${
-                    club.teeBoxMatRatio === '매트 없음(100% 잔디)' ? 'text-emerald-800' : 'text-slate-900'
-                  }`}
-                >
-                  {club.teeBoxMatRatio ?? '공인 데이터 미측정'}
-                </span>
-                <span className="text-[10px] text-slate-500 mt-1 block">
-                  {club.teeBoxMatRatio === '매트 없음(100% 잔디)' ? '100% 자연잔디 티샷' : '주말/파3 일부 매트'}
+                <span className="text-[11px] text-slate-500 block mb-1">티박스</span>
+                <span className={`font-black block truncate text-xs sm:text-sm ${club.teeBoxMatRatio ? 'text-slate-900' : 'text-slate-400'}`}>
+                  {club.teeBoxMatRatio === '매트 없음(100% 잔디)'
+                    ? '100% 잔디 티'
+                    : club.teeBoxMatRatio && club.teeBoxMatRatio !== '미확인'
+                      ? club.teeBoxMatRatio
+                      : '확인 안 됨'}
                 </span>
               </div>
 
               {/* 3. 야간 라운드 & 조명 */}
               <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/70 text-xs">
-                <span className="text-[11px] text-slate-500 block mb-1">야간 3부 라운드</span>
-                <span className="font-black text-slate-900 block truncate text-xs sm:text-sm flex items-center gap-1">
+                <span className="text-[11px] text-slate-500 block mb-1">야간 3부</span>
+                <span className="font-black text-slate-900 truncate text-xs sm:text-sm flex items-center gap-1">
                   {club.playOptions.nightPlay ? (
                     <>
-                      <Moon className="w-3.5 h-3.5 text-indigo-600 shrink-0" />
-                      <span className="text-indigo-900">운영</span>
+                      <Moon className="w-3.5 h-3.5 text-slate-500 shrink-0" />
+                      <span>운영</span>
                     </>
                   ) : (
-                    <span className="text-slate-400">야간 미운영</span>
+                    <span className="text-slate-400">운영 안 함</span>
                   )}
                 </span>
-                <span className="text-[10px] text-slate-500 mt-1 block truncate">
-                  {club.playOptions.lightingType}
-                </span>
+                {club.playOptions.nightPlay && (
+                  <span className="text-[10px] text-slate-500 mt-1 block truncate">{club.playOptions.lightingType}</span>
+                )}
               </div>
 
               {/* 4. 코스 지형 */}
               <div className="p-3 rounded-xl border border-slate-200 bg-slate-50/70 text-xs">
-                <span className="text-[11px] text-slate-500 block mb-1">코스 지형 스타일</span>
+                <span className="text-[11px] text-slate-500 block mb-1">코스 지형</span>
                 <span className="font-black text-slate-900 block truncate text-xs sm:text-sm">
                   {club.courseStyle}
                 </span>
@@ -646,14 +646,19 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
           <div className="rounded-xl border border-slate-200 p-3.5 sm:p-4 bg-slate-50/50">
             <div className="flex items-center justify-between mb-2">
               <span className="text-xs font-bold text-slate-700 flex items-center gap-1.5">
-                <ShieldCheck className="w-4 h-4 text-emerald-800" />
-                USGA / KGA 공인 코스 난이도 분석
+                <ShieldCheck className="w-4 h-4 text-slate-500" />
+                KGA 공인 코스 난이도
               </span>
-              <span className="text-[11px] text-slate-500">
-                골퍼 평균 <strong>{userAvgScore}타</strong> 기준 예측
-              </span>
+              {!pred.isUnrated && (
+                <span className="text-[11px] text-slate-500">
+                  평균 <strong>{userAvgScore}타</strong> 기준 예측
+                </span>
+              )}
             </div>
 
+            {pred.isUnrated ? (
+              <p className="text-xs text-slate-500">이 골프장은 KGA 공인 슬로프·코스 레이팅이 아직 없어 예상 타수를 계산할 수 없습니다.</p>
+            ) : (
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 text-xs">
               <div className="bg-white p-2.5 rounded-lg border border-slate-200">
                 <span className="text-[11px] text-slate-500">슬로프 레이팅 (Slope)</span>
@@ -681,16 +686,17 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                   {pred.isUnrated ? '공인 미측정' : `약 ${pred.expectedScore}타`}
                 </div>
                 <span className="text-[10px] text-emerald-800">
-                  {pred.isUnrated ? '평소 타수 참고' : `평소보다 ${pred.diffFromAverage > 0 ? `+${pred.diffFromAverage}타` : `${pred.diffFromAverage}타`}`}
+                  {`평소보다 ${pred.diffFromAverage > 0 ? `+${pred.diffFromAverage}타` : `${pred.diffFromAverage}타`}`}
                 </span>
               </div>
             </div>
+            )}
           </div>
 
           {/* Section 3: 비용 체계 */}
           <div>
             <h3 className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-2">
-              상세 요금 체계 및 1인 실부담액
+              요금과 1인 실부담
             </h3>
             <div className="border border-slate-200 rounded-xl overflow-hidden bg-white">
               <div className="grid grid-cols-4 bg-slate-50 p-2 sm:p-2.5 text-center text-[10px] sm:text-xs font-bold text-slate-500 border-b border-slate-200">
@@ -760,33 +766,35 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                 <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-1.5">
                   <div>
                     <h3 className="text-sm font-black text-slate-900 flex items-center gap-1.5">
-                      <BookOpen className="w-4 h-4 text-emerald-700" />
+                      <BookOpen className="w-4 h-4 text-slate-500" />
                       <span>네이버 블로그 실 라운드 후기</span>
                       {blogReviews.length > 0 && (
                         <span className="text-emerald-700 font-extrabold text-xs">({blogReviews.length}건)</span>
                       )}
                     </h3>
-                    <p className="text-[11px] text-slate-500">
-                      최근 1~2년 이내(2024~2026년) 실제 골퍼가 작성한 솔직한 코스 컨디션 및 라운드 기록입니다.
-                    </p>
+                    {blogReviews.length > 0 && (
+                      <p className="text-[11px] text-slate-500">최근 1~2년 안에 실제 골퍼가 쓴 라운드 기록입니다.</p>
+                    )}
                   </div>
 
                   <div className="flex items-center gap-2">
                     {blogReviews.length > 0 && (
                       <span className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md text-[10px] font-bold bg-emerald-50 text-emerald-800 border border-emerald-200">
-                        <ShieldCheck className="w-3 h-3 text-emerald-600" />
+                        <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
                         <span>골프장 전수 검수 완료</span>
                       </span>
                     )}
-                    <a
-                      href={naverSearchUrl}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors"
-                    >
-                      <span>네이버 전체 검색</span>
-                      <ExternalLink className="w-3 h-3" />
-                    </a>
+                    {blogReviews.length > 0 && (
+                      <a
+                        href={naverSearchUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-100 hover:bg-slate-200 text-slate-700 transition-colors"
+                      >
+                        <span>후기 더 찾기</span>
+                        <ExternalLink className="w-3.5 h-3.5" />
+                      </a>
+                    )}
                   </div>
                 </div>
 
@@ -804,9 +812,6 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                             rel="noopener noreferrer"
                             className="font-bold text-slate-900 hover:text-emerald-800 transition-colors flex items-center gap-1.5 group-hover:underline leading-snug"
                           >
-                            <span className="text-[11px] px-1.5 py-0.5 rounded bg-emerald-100/70 text-emerald-800 font-bold shrink-0">
-                              블로그
-                            </span>
                             <span>{rev.title}</span>
                             <ExternalLink className="w-3.5 h-3.5 text-slate-400 group-hover:text-emerald-700 shrink-0" />
                           </a>
@@ -816,7 +821,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                           <span className="font-bold text-slate-700">{rev.blogName}</span>
                           <span>·</span>
                           <span className="flex items-center gap-1 text-slate-400">
-                            <Calendar className="w-3 h-3" />
+                            <Calendar className="w-3.5 h-3.5" />
                             <span>{rev.date}</span>
                           </span>
                         </div>
@@ -825,18 +830,6 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                           {rev.snippet}
                         </p>
 
-                        <div className="pt-1 flex items-center justify-between border-t border-slate-100 text-[11px]">
-                          <span className="text-slate-400 text-[10px]">네이버 블로그 출처</span>
-                          <a
-                            href={rev.url}
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            className="inline-flex items-center gap-1 font-bold text-emerald-700 hover:text-emerald-800"
-                          >
-                            <span>블로그 원문 읽기</span>
-                            <ExternalLink className="w-3 h-3" />
-                          </a>
-                        </div>
                       </div>
                     ))}
                   </div>
@@ -858,7 +851,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                     >
                       <span className="font-black text-xs">N</span>
                       <span>네이버 블로그 후기 보기</span>
-                      <ExternalLink className="w-3 h-3" />
+                      <ExternalLink className="w-3.5 h-3.5" />
                     </a>
                   </div>
                 )}
@@ -873,21 +866,20 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
             <div className="flex items-center justify-between">
               <div>
                 <h3 className="text-sm font-black text-slate-900 flex items-center gap-1.5">
-                  <MessageSquare className="w-4 h-4 text-emerald-700" />
-                  골퍼 실제 라운드 전체 평 ({reviews.length}개)
+                  <MessageSquare className="w-4 h-4 text-slate-500" />
+                  골퍼 후기 {reviews.length > 0 && `(${reviews.length}개)`}
                 </h3>
-                <p className="text-[11px] text-slate-500">
-                  직접 라운드를 다녀온 골퍼들의 솔직한 코스 관리 상태 및 체감 리뷰입니다.
-                </p>
               </div>
 
+              {(reviews.length > 0 || isWritingReview) && (
               <button
                 onClick={() => setIsWritingReview(!isWritingReview)}
                 className="px-3 py-1.5 rounded-lg text-xs font-bold bg-emerald-700 hover:bg-emerald-800 text-white flex items-center gap-1 shadow-2xs transition-all"
               >
                 <Edit3 className="w-3.5 h-3.5" />
-                <span>{isWritingReview ? '작성 닫기' : '전체 평 남기기'}</span>
+                <span>{isWritingReview ? '작성 닫기' : '후기 남기기'}</span>
               </button>
+              )}
             </div>
 
             {/* Review Input Form */}
@@ -1032,13 +1024,14 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
 
             {/* Reviews List */}
             {reviews.length === 0 ? (
+              isWritingReview ? null : (
               <div className="p-8 text-center bg-slate-50 rounded-xl border border-dashed border-slate-300 space-y-2">
                 <MessageSquare className="w-8 h-8 text-slate-300 mx-auto" />
                 <p className="text-sm font-bold text-slate-700">
-                  아직 등록된 골퍼 후기가 없습니다
+                  아직 골퍼 후기가 없습니다
                 </p>
                 <p className="text-xs text-slate-500">
-                  직접 라운드를 다녀오셨나요? 첫 번째 솔직한 전체 평을 남겨보세요!
+                  다녀오셨다면 첫 후기를 남겨 주세요.
                 </p>
                 {!isWritingReview && (
                   <button
@@ -1046,10 +1039,11 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                     className="mt-2 px-3.5 py-1.5 rounded-lg text-xs font-bold bg-emerald-700 hover:bg-emerald-800 text-white inline-flex items-center gap-1 shadow-2xs"
                   >
                     <Edit3 className="w-3.5 h-3.5" />
-                    <span>첫 전체 평 남기기</span>
+                    <span>첫 후기 남기기</span>
                   </button>
                 )}
               </div>
+              )
             ) : (
               <div className="space-y-2.5">
                 {reviews.map((rev) => {
@@ -1087,7 +1081,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                               {Array.from({ length: 5 }).map((_, i) => (
                                 <Star
                                   key={i}
-                                  className={`w-3 h-3 ${
+                                  className={`w-3.5 h-3.5 ${
                                     i < rev.rating
                                       ? 'fill-amber-400 text-amber-400'
                                       : 'text-slate-300'
@@ -1109,7 +1103,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                                 className="px-2 py-1 text-slate-600 hover:text-emerald-800 hover:bg-emerald-100 rounded text-[11px] font-bold inline-flex items-center gap-1 transition-colors"
                                 title="수정하기"
                               >
-                                <Edit3 className="w-3 h-3 text-emerald-700" />
+                                <Edit3 className="w-3.5 h-3.5 text-emerald-700" />
                                 <span>수정</span>
                               </button>
                               <button
@@ -1118,7 +1112,7 @@ export const GolfDetailModal: React.FC<GolfDetailModalProps> = ({
                                 className="px-2 py-1 text-slate-500 hover:text-rose-700 hover:bg-rose-100 rounded text-[11px] font-bold inline-flex items-center gap-1 transition-colors"
                                 title="삭제하기"
                               >
-                                <Trash2 className="w-3 h-3 text-rose-600" />
+                                <Trash2 className="w-3.5 h-3.5 text-rose-600" />
                                 <span>삭제</span>
                               </button>
                             </div>

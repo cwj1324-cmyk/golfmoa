@@ -41,7 +41,7 @@ export const FloatingComparisonBar: React.FC<FloatingComparisonBarProps> = ({
                   className="absolute right-1 sm:right-1.5 top-1/2 -translate-y-1/2 text-slate-400 hover:text-rose-400 p-0.5 rounded transition-all"
                   title="제거"
                 >
-                  <X className="w-3 h-3 sm:w-3.5 sm:h-3.5" />
+                  <X className="w-3.5 h-3.5 sm:w-3.5 sm:h-3.5" />
                 </button>
               </div>
             ))}

@@ -99,7 +99,7 @@ export const GolfCard: React.FC<GolfCardProps> = ({
             {getClubMetaLine(club)}
             {ratingStats.rating !== null && (
               <span className="ml-1.5 inline-flex items-center gap-0.5 text-slate-700 font-semibold">
-                <Star className="w-3 h-3 fill-amber-400 text-amber-400" />
+                <Star className="w-3.5 h-3.5 fill-amber-400 text-amber-400" />
                 {ratingStats.rating}
                 <span className="text-slate-400 font-normal">({ratingStats.reviewCount})</span>
               </span>
