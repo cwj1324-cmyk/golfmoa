@@ -1,16 +1,16 @@
 import React, { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { MapContainer, TileLayer, Marker, useMap, useMapEvents } from 'react-leaflet';
+import { MapContainer, TileLayer, Marker, Tooltip, useMap, useMapEvents } from 'react-leaflet';
 import L from 'leaflet';
 import type { GolfClub } from '../types/golf';
-import { calculateCostPerPerson } from '../utils/calculator';
-import { formatManwon } from '../utils/clubDisplay';
+import { calculateCostPerPerson, predictFieldScore } from '../utils/calculator';
+import { getClubMetaLine, getClubTraits } from '../utils/clubDisplay';
 import { GolfCard } from './GolfCard';
 import { LocateFixed } from 'lucide-react';
 
 /**
  * 안 B · 지도·목록 분할
- * 왼쪽 목록은 지도에 보이는 범위의 골프장만 보여 주고, 지도 핀에는 1인 비용을 표시한다.
- * 카드에 마우스를 올리면 핀이, 핀을 누르면 카드가 강조된다.
+ * 왼쪽 목록은 지도에 보이는 범위의 골프장만 보여 주고, 지도 핀에는 골프장 이름을 표시한다.
+ * 핀에 마우스를 올리면 주요 정보 팝업이 뜨고, 카드에 마우스를 올리면 핀이, 핀을 누르면 카드가 강조된다.
  */
 interface SplitMapViewProps {
   clubs: GolfClub[];
@@ -27,13 +27,19 @@ const iconCache = new Map<string, L.DivIcon>();
 
 type PinState = 'normal' | 'hl' | 'cmp' | 'dot';
 
-function priceIcon(label: string, state: PinState): L.DivIcon {
+const escapeHtml = (t: string) =>
+  t.replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[ch] ?? ch);
+
+function nameIcon(label: string, state: PinState): L.DivIcon {
   const key = state === 'dot' ? 'dot' : `${label}|${state}`;
   let icon = iconCache.get(key);
   if (!icon) {
     icon = L.divIcon({
       className: 'price-pin-wrap',
-      html: state === 'dot' ? '<span class="price-dot"></span>' : `<span class="price-pin price-pin--${state}">${label}</span>`,
+      html:
+        state === 'dot'
+          ? '<span class="price-dot"></span>'
+          : `<span class="price-pin price-pin--${state}"><span class="pin-text">${escapeHtml(label)}</span></span>`,
       iconSize: [0, 0],
       iconAnchor: [0, 0],
     });
@@ -54,6 +60,64 @@ const BoundsWatcher: React.FC<{ onChange: (b: L.LatLngBounds, zoom: number) => v
 };
 
 /** 필터 결과가 바뀌면 그 골프장들이 모두 보이게 맞춘다 */
+/** 핀에 마우스를 올렸을 때 보이는 주요 정보 */
+const PinInfo: React.FC<{ club: GolfClub; userAvgScore: number }> = ({ club, userAvgScore }) => {
+  const cost = calculateCostPerPerson(club, false, 4, true).totalPerPerson;
+  const weekendGap = club.pricing.weekendGreenFee - club.pricing.weekdayGreenFee;
+  const slope = club.difficultyIndex?.slopeRating;
+  const pred = predictFieldScore(slope, club.difficultyIndex?.courseRating, userAvgScore);
+  const traits = getClubTraits(club);
+  return (
+    <div className="w-[240px] text-slate-700">
+      <div className="text-sm font-bold text-slate-900 leading-snug whitespace-normal">{club.name}</div>
+      <div className="mt-0.5 text-[11.5px] text-slate-500 whitespace-normal">{getClubMetaLine(club)}</div>
+      <dl className="mt-2 grid grid-cols-[auto_1fr] gap-x-3 gap-y-1 text-[12px]">
+        <dt className="text-slate-500">1인 비용</dt>
+        <dd className="text-right font-bold text-slate-900 tabular-nums">
+          {cost.toLocaleString('ko-KR')}원
+          {weekendGap > 0 && (
+            <span className="ml-1 font-normal text-slate-500">주말 +{(weekendGap / 10000).toLocaleString('ko-KR')}만</span>
+          )}
+        </dd>
+        <dt className="text-slate-500">내 예상 타수</dt>
+        <dd className="text-right font-bold text-slate-900 tabular-nums">
+          {pred.isUnrated ? (
+            <span className="font-normal text-slate-400">레이팅 없음</span>
+          ) : (
+            <>
+              {pred.expectedScore}타
+              <span className="ml-1 font-normal text-slate-500">
+                ({pred.diffFromAverage > 0 ? `+${pred.diffFromAverage}` : pred.diffFromAverage})
+              </span>
+            </>
+          )}
+        </dd>
+        {slope ? (
+          <>
+            <dt className="text-slate-500">슬로프</dt>
+            <dd className="text-right tabular-nums">{slope}</dd>
+          </>
+        ) : null}
+      </dl>
+      {traits.length > 0 && (
+        <div className="mt-2 flex flex-wrap gap-1">
+          {traits.map((t) => (
+            <span
+              key={t.label}
+              className={`px-1.5 py-0.5 rounded text-[10.5px] font-semibold border ${
+                t.tone === 'save' ? 'bg-emerald-50 border-emerald-200 text-emerald-800' : 'bg-slate-50 border-slate-200 text-slate-700'
+              }`}
+            >
+              {t.label}
+            </span>
+          ))}
+        </div>
+      )}
+      <div className="mt-2 text-[10.5px] text-slate-400">1인 비용은 4인·주중·캐디 포함 · 누르면 목록에서 강조</div>
+    </div>
+  );
+};
+
 const FitToClubs: React.FC<{ clubs: GolfClub[]; fitKey: string }> = ({ clubs, fitKey }) => {
   const map = useMap();
   const lastKey = useRef<string | null>(null);
@@ -90,15 +154,9 @@ export const SplitMapView: React.FC<SplitMapViewProps> = ({
     [clubs, bounds],
   );
 
-  const prices = useMemo(() => {
-    const m = new Map<string, string>();
-    clubs.forEach((c) => m.set(c.id, formatManwon(calculateCostPerPerson(c, false, 4, true).totalPerPerson)));
-    return m;
-  }, [clubs]);
-
   const activeId = hoverId ?? pinnedId;
-  // 전국 단위로 보면 가격 글자가 겹치므로, 확대했거나 범위 안이 적을 때만 가격을 보여 준다.
-  const showLabels = zoom >= 10 || visible.length <= 40;
+  // 전국 단위로 보면 이름이 겹치므로, 확대했거나 범위 안이 적을 때만 이름을 보여 준다.
+  const showLabels = zoom >= 11 || visible.length <= 30;
 
   const handlePinClick = (club: GolfClub) => {
     setPinnedId(club.id);
@@ -124,20 +182,23 @@ export const SplitMapView: React.FC<SplitMapViewProps> = ({
               <Marker
                 key={club.id}
                 position={[club.coordinates.lat, club.coordinates.lng]}
-                icon={priceIcon(prices.get(club.id) ?? '', state)}
+                icon={nameIcon(club.name, state)}
                 zIndexOffset={state === 'hl' ? 1000 : state === 'cmp' ? 500 : 0}
-                title={club.name}
                 eventHandlers={{
                   click: () => handlePinClick(club),
                   mouseover: () => setHoverId(club.id),
                   mouseout: () => setHoverId(null),
                 }}
-              />
+              >
+                <Tooltip direction="top" offset={[0, state === 'dot' ? -10 : -40]} opacity={1} className="club-tip">
+                  <PinInfo club={club} userAvgScore={userAvgScore} />
+                </Tooltip>
+              </Marker>
             );
           })}
         </MapContainer>
         <div className="absolute left-3 bottom-3 z-20 bg-white/90 rounded-md px-2 py-1 text-[11px] text-slate-600 border border-slate-200">
-          {showLabels ? '핀 = 1인 비용(4인·주중)' : '확대하면 1인 비용이 보입니다'} · 지도를 움직이면 목록이 바뀝니다
+          {showLabels ? '핀에 마우스를 올리면 주요 정보' : '확대하면 골프장 이름이 보입니다'} · 지도를 움직이면 목록이 바뀝니다
         </div>
       </div>
 
