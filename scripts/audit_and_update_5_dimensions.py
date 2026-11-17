@@ -1,3 +1,19 @@
+"""
+[사용 중지] 5개 항목(운영형태·티박스·잔디·지형·야간) 일괄 추정 스크립트
+=====================================================================
+골프장 이름에 들어간 글자와 지역만 보고 값을 정해 src/data/golfClubs.ts 를 덮어씁니다.
+확인되지 않은 값을 만들어 내고, 앱 타입에 없는 잔디 값('양잔디(켄터키블루)' 등)을 써서
+빌드를 깨뜨리므로 정기 파이프라인에서 뺐습니다(2026-11).
+정말 실행하려면 `--force` 를 붙이세요.
+"""
+import sys
+
+if hasattr(sys.stdout, 'reconfigure'):
+    sys.stdout.reconfigure(encoding='utf-8')
+if '--force' not in sys.argv:
+    print("이 스크립트는 사용 중지되었습니다. 검증된 데이터를 덮어쓰므로 실행하지 않습니다. (--force 로 강제 실행)")
+    sys.exit(0)
+
 import json
 import re
 

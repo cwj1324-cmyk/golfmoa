@@ -1,4 +1,4 @@
-name: Scheduled Golf Data Sync Pipeline
+name: Scheduled Golf Data Check
 
 on:
   schedule:
@@ -19,12 +19,7 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          pip install pypdf
-
-      - name: Run Master Sync Pipeline
+      - name: Run data check (KGA change detection + validation)
         run: |
           python scripts/pipeline/sync_golf_data.py
 
@@ -39,15 +34,12 @@ jobs:
       - name: Verify build with updated data
         run: npm run build
 
-      - name: Commit and push changes if updated
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GolfMoa Data Sync Bot"
-          if [[ -n $(git status -s) ]]; then
-            git add src/data/golfClubs.ts scripts/pipeline/.last_kga_hash
-            git commit -m "chore(data): 정기 골프장 공식 데이터 자동 갱신 및 무결성 검증 통과 [skip ci]"
-            git push
-          else
-            echo "No data changes detected. Database is up to date."
-          fi
+      - name: Upload changed KGA rating PDF (for manual review)
+        if: hashFiles('AllRatings_latest.pdf') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: kga-allratings-latest
+          path: AllRatings_latest.pdf
 
+      # 이 작업은 데이터를 자동으로 고치지 않으므로 커밋·푸시 단계가 없습니다.
+      # (2026-11 검증한 데이터를 추정 규칙으로 덮어쓰지 않기 위함)

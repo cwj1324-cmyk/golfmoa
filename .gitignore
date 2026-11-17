@@ -22,3 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# KGA 레이팅 PDF 변경 감지 결과물(수동 검토용)
+AllRatings_latest.pdf
