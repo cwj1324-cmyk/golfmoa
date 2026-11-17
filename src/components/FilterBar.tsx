@@ -387,6 +387,7 @@ export const FilterBar: React.FC<FilterBarProps> = ({
             <option value="recommended">추천순</option>
             <option value="name">이름순 (가나다)</option>
             <option value="rating">평점 높은순</option>
+            <option value="scoreLow">내 예상 타수 낮은순</option>
             <option value="slopeLow">난이도 쉬운순</option>
             <option value="slopeHigh">난이도 높은순</option>
             <option value="costLow">비용 낮은순</option>

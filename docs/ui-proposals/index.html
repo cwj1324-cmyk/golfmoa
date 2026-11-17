@@ -1,0 +1,340 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>골프모아 화면 개선안</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+<style>
+  :root{
+    --ink:#0f172a; --ink2:#334155; --mute:#64748b; --line:#e2e8f0; --soft:#f8fafc;
+    --green:#047857; --green-d:#065f46; --green-bg:#ecfdf5;
+    --warn:#b45309; --warn-bg:#fffbeb; --bad:#be123c;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:#fff;color:var(--ink);font-family:Pretendard,-apple-system,"Segoe UI",sans-serif;line-height:1.65;-webkit-font-smoothing:antialiased}
+  .doc{max-width:860px;margin:0 auto;padding:56px 20px 96px}
+  h1{font-size:30px;line-height:1.3;margin:0 0 6px;letter-spacing:-.02em;text-wrap:balance}
+  h2{font-size:22px;margin:64px 0 12px;letter-spacing:-.01em;padding-top:20px;border-top:1px solid var(--line)}
+  h3{font-size:17px;margin:28px 0 8px}
+  p,li{font-size:15.5px;color:var(--ink2)}
+  .meta{color:var(--mute);font-size:14px;margin:0 0 32px}
+  .verdict{border:1.5px solid var(--ink);border-radius:10px;padding:20px 22px;margin:8px 0 8px}
+  .verdict b{color:var(--ink)}
+  .verdict ol{margin:8px 0 0;padding-left:20px}
+  table{width:100%;border-collapse:collapse;font-size:14px;margin:12px 0}
+  th,td{text-align:left;padding:9px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-size:12.5px;color:var(--mute);font-weight:600;background:var(--soft)}
+  .num{font-variant-numeric:tabular-nums}
+  figure{margin:20px 0}
+  figcaption{font-size:13px;color:var(--mute);margin-top:8px}
+  .shot{width:100%;border:1px solid var(--line);border-radius:8px;display:block}
+  .crop{height:420px;overflow:hidden;border:1px solid var(--line);border-radius:8px}
+  .crop img{width:100%;display:block}
+  .tag{display:inline-block;font-size:12px;font-weight:700;padding:2px 8px;border-radius:999px;background:var(--green-bg);color:var(--green-d);margin-right:6px}
+  .tag.gray{background:#f1f5f9;color:var(--ink2)}
+  .pill-list{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 0;padding:0;list-style:none}
+
+  /* ---------- 시안 공통 프레임 ---------- */
+  .frame{border:1px solid #cbd5e1;border-radius:10px;overflow:hidden;margin:18px 0 6px;background:#fff;box-shadow:0 1px 2px rgba(15,23,42,.04)}
+  .frame-bar{height:28px;background:#f1f5f9;border-bottom:1px solid #e2e8f0;display:flex;align-items:center;gap:6px;padding:0 10px}
+  .frame-bar i{width:9px;height:9px;border-radius:50%;background:#cbd5e1;display:block}
+  .frame-bar span{margin-left:10px;font-size:11px;color:var(--mute)}
+  .ui{font-size:13px;color:var(--ink);line-height:1.4}
+  .ui .top{display:flex;align-items:center;gap:10px;padding:10px 16px;border-bottom:1px solid var(--line)}
+  .logo{width:22px;height:22px;border-radius:6px;background:var(--green);display:grid;place-items:center;color:#fff;font-size:12px;font-weight:800}
+  .brand{font-weight:800;font-size:14px}
+  .search{flex:1;height:32px;border:1px solid var(--line);border-radius:8px;display:flex;align-items:center;padding:0 10px;color:#94a3b8;font-size:12px}
+  .chip{display:inline-flex;align-items:center;gap:4px;height:28px;padding:0 10px;border:1px solid var(--line);border-radius:999px;font-size:12px;font-weight:600;color:var(--ink2);background:#fff;white-space:nowrap}
+  .chip.on{background:var(--ink);border-color:var(--ink);color:#fff}
+  .chip.drop::after{content:"▾";font-size:10px;color:var(--mute)}
+  .chips{display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+  .muted{color:var(--mute)}
+  .t-num{font-variant-numeric:tabular-nums;letter-spacing:-.01em}
+  .badge{font-size:10.5px;font-weight:700;padding:1px 6px;border-radius:4px;background:#f1f5f9;color:var(--ink2)}
+  .trait{font-size:11px;font-weight:600;padding:2px 7px;border-radius:4px;background:var(--soft);border:1px solid var(--line);color:var(--ink2)}
+  .trait.g{background:var(--green-bg);border-color:#a7f3d0;color:var(--green-d)}
+  .cmp{width:16px;height:16px;border:1.5px solid #94a3b8;border-radius:4px;display:inline-block;flex:none}
+  .cmp.on{background:var(--green);border-color:var(--green);position:relative}
+  .cmp.on::after{content:"";position:absolute;left:4px;top:1px;width:4px;height:8px;border:solid #fff;border-width:0 2px 2px 0;transform:rotate(45deg)}
+  .up{color:var(--bad)} .down{color:var(--green)}
+
+  /* ---------- 안 A: 스코어카드 행 ---------- */
+  .a-filter{display:flex;gap:8px;padding:10px 16px;border-bottom:1px solid var(--line);align-items:center;flex-wrap:wrap}
+  .a-head,.a-row{display:grid;grid-template-columns:28px minmax(170px,1.5fr) minmax(200px,1.6fr) 110px 120px 18px;gap:12px;align-items:center;padding:0 16px}
+  .a-head{height:34px;background:var(--soft);border-bottom:1px solid var(--line);font-size:11.5px;color:var(--mute);font-weight:600}
+  .a-head .sort{color:var(--ink)} .a-head .sort::after{content:" ↓"}
+  .a-row{min-height:62px;border-bottom:1px solid var(--line)}
+  .a-row:hover{background:#fafafa}
+  .a-name b{font-size:14px} .a-name div{font-size:11.5px;color:var(--mute);margin-top:2px}
+  .a-spec{display:flex;gap:4px;flex-wrap:wrap}
+  .a-score{text-align:right} .a-score b{font-size:16px} .a-score div{font-size:11px;color:var(--mute)}
+  .a-price{text-align:right} .a-price b{font-size:16px} .a-price div{font-size:11px;color:var(--mute)}
+  .a-foot{display:flex;justify-content:space-between;padding:10px 16px;font-size:12px;color:var(--mute)}
+
+  /* ---------- 안 B: 지도·목록 분할 ---------- */
+  .b-filter{display:flex;gap:6px;padding:10px 16px;border-bottom:1px solid var(--line);align-items:center;overflow:hidden}
+  .b-split{display:grid;grid-template-columns:430px 1fr;height:520px}
+  .b-list{overflow:hidden;border-right:1px solid var(--line);padding:12px 14px;display:flex;flex-direction:column;gap:10px}
+  .b-count{font-size:12px;color:var(--mute);display:flex;justify-content:space-between}
+  .b-card{border:1px solid var(--line);border-radius:10px;padding:12px 14px;display:grid;grid-template-columns:1fr auto;gap:4px 12px}
+  .b-card.hl{border-color:var(--ink);box-shadow:0 0 0 1px var(--ink)}
+  .b-card h4{margin:0;font-size:14.5px}
+  .b-card .sub{font-size:11.5px;color:var(--mute)}
+  .b-card .traits{grid-column:1/2;display:flex;gap:4px;flex-wrap:wrap;margin-top:4px}
+  .b-card .score{grid-row:1/3;grid-column:2;text-align:right}
+  .b-card .score b{font-size:20px;display:block;line-height:1.1}
+  .b-card .score span{font-size:10.5px;color:var(--mute)}
+  .b-card .price{grid-column:1/3;display:flex;justify-content:space-between;align-items:center;border-top:1px dashed var(--line);margin-top:8px;padding-top:8px;font-size:12px}
+  .b-card .price b{font-size:14px}
+  .b-map{position:relative;background:#eef2ee;overflow:hidden}
+  .b-map svg{position:absolute;inset:0;width:100%;height:100%}
+  .pin{position:absolute;transform:translate(-50%,-100%);background:#fff;border:1px solid #94a3b8;border-radius:999px;padding:3px 8px;font-size:11px;font-weight:700;white-space:nowrap;box-shadow:0 1px 3px rgba(0,0,0,.12)}
+  .pin.hl{background:var(--ink);color:#fff;border-color:var(--ink);z-index:2}
+  .pin::after{content:"";position:absolute;left:50%;bottom:-5px;width:8px;height:8px;background:inherit;border-right:1px solid #94a3b8;border-bottom:1px solid #94a3b8;transform:translateX(-50%) rotate(45deg)}
+  .pin.hl::after{border-color:var(--ink)}
+  .map-note{position:absolute;left:12px;bottom:10px;font-size:11px;color:var(--mute);background:rgba(255,255,255,.85);padding:3px 8px;border-radius:6px}
+  .map-btn{position:absolute;top:12px;left:50%;transform:translateX(-50%);background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:12px;font-weight:700;box-shadow:0 1px 3px rgba(0,0,0,.08)}
+  .phone{width:300px;border:1px solid #cbd5e1;border-radius:26px;overflow:hidden;background:#fff;margin:0 auto}
+  .phone .map{height:250px;position:relative;background:#eef2ee}
+  .sheet{border-radius:16px 16px 0 0;margin-top:-14px;position:relative;background:#fff;box-shadow:0 -4px 12px rgba(0,0,0,.08);padding:8px 12px 14px}
+  .grab{width:36px;height:4px;background:#cbd5e1;border-radius:4px;margin:0 auto 8px}
+  .two{display:grid;grid-template-columns:1fr 320px;gap:24px;align-items:start}
+
+  /* ---------- 안 C: 내 조건 맞춤 ---------- */
+  .c-cond{margin:14px 16px;border:1px solid var(--line);border-radius:12px;padding:14px 16px;background:var(--soft)}
+  .c-sentence{font-size:17px;font-weight:600;line-height:1.9}
+  .c-sentence u{text-decoration:none;border-bottom:2px solid var(--green);color:var(--green-d);padding:0 2px;cursor:pointer}
+  .c-sub{font-size:12px;color:var(--mute);margin-top:4px}
+  .c-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;padding:0 16px 16px}
+  .c-card{border:1px solid var(--line);border-radius:12px;padding:14px}
+  .c-top{display:flex;justify-content:space-between;align-items:flex-start;gap:8px}
+  .c-card h4{margin:0;font-size:14.5px}
+  .fit{font-size:11px;font-weight:800;border-radius:999px;padding:3px 8px;white-space:nowrap}
+  .fit.hi{background:var(--green);color:#fff}
+  .fit.mid{background:#e2e8f0;color:var(--ink)}
+  .reasons{list-style:none;padding:0;margin:10px 0;display:flex;flex-direction:column;gap:4px;font-size:12px}
+  .reasons li{font-size:12px;color:var(--ink2);display:flex;gap:6px}
+  .ok::before{content:"✓";color:var(--green);font-weight:800}
+  .no::before{content:"!";color:var(--warn);font-weight:900;width:8px;text-align:center}
+  .c-num{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:10px}
+  .c-num b{font-size:16px;display:block}
+  .c-num span{font-size:10.5px;color:var(--mute)}
+
+  /* 공통 개선 비교 */
+  .ba{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  .mini{border:1px solid var(--line);border-radius:10px;padding:12px;font-size:12px}
+  .mini .lbl{font-size:11px;font-weight:700;color:var(--mute);margin-bottom:6px;display:block}
+  .strip{display:grid;grid-template-columns:repeat(4,1fr);text-align:center;background:var(--soft);border:1px solid var(--line);border-radius:6px;padding:6px 0;margin:8px 0}
+  .strip span{font-size:10px;color:var(--mute);display:block}
+  .strip b{font-size:11px}
+  .gray{color:#94a3b8}
+  @media (max-width:760px){
+    .two,.ba{grid-template-columns:1fr}
+    .scroll-x{overflow-x:auto}
+    .scroll-x>.frame{min-width:760px}
+  }
+</style>
+</head>
+<body>
+<main class="doc">
+
+<h1>골프모아 화면 개선안</h1>
+<p class="meta">현재 화면 진단 · 참고 서비스 4곳 · 개선안 3가지 · 2026-11-17 · 아직 코드에는 반영하지 않음</p>
+
+<div class="verdict">
+  <b>결론: 먼저 '공통 개선'을 반영하고, 큰 구조 변경은 안 B(지도·목록 분할)를 권합니다.</b>
+  <ol>
+    <li><b>공통 개선</b>(모든 안에 해당): 빈 값("미확인", "그린 -", "후기 0개")을 숨기고, 카드 정보를 5단계에서 3단계로 줄입니다. 초록색은 '선택·비교' 표시에만 씁니다. 코드 변경량이 작고 바로 효과가 납니다.</li>
+    <li><b>안 B 지도·목록 분할</b>: 골프장은 결국 "어디에 있느냐"로 고르게 됩니다. 해외 골프장 검색(Leading Courses)과 캠핑장 검색(Hipcamp)도 이 구조를 씁니다. 지금은 지도가 별도 탭에 숨어 있습니다.</li>
+    <li>안 A(스코어카드 행)는 비교·정렬을 많이 하는 사용자에게, 안 C(내 조건 맞춤)는 이 서비스만의 차별점을 키우고 싶을 때 맞습니다. 안 C는 나중에 안 B 위에 더할 수도 있습니다.</li>
+  </ol>
+</div>
+
+<h2>1. 지금 화면에서 걸리는 점</h2>
+<figure>
+  <div class="crop"><img src="current-desktop.png" alt="현재 골프모아 카드 목록 화면 (1440px 데스크톱)"></div>
+  <figcaption>현재 화면(1440px). 카드 478개가 똑같은 모양으로 3열 반복됩니다.</figcaption>
+</figure>
+<table>
+  <tr><th style="width:30%">문제</th><th>근거(현재 화면)</th></tr>
+  <tr><td><b>카드 한 장에 정보 층이 5개</b></td><td>이름·태그 → 4칸 스펙 상자 → 한 줄 스펙 → 예상 스코어 → 1인 비용. 크기와 굵기가 비슷해 어디부터 봐야 할지 모릅니다.</td></tr>
+  <tr><td><b>빈 값이 정보처럼 보임</b></td><td>"티박스 미확인", "그린 -", "후기 0개"가 거의 모든 카드에 나옵니다. 데이터 검증 뒤 빈 칸이 더 많아져 노이즈가 커졌습니다.</td></tr>
+  <tr><td><b>강조색이 흩어짐</b></td><td>이름(초록), 노캐디(초록), 예상 타수 차이(빨강/초록), LED 야간(남색), 잔디(청록/갈색)가 동시에 색을 씁니다. 정작 '비교 중' 상태가 눈에 덜 띕니다.</td></tr>
+  <tr><td><b>위치 정보가 약함</b></td><td>지역은 "경기남부 · 여주시" 작은 글씨뿐이고, 지도는 탭을 바꿔야 보입니다.</td></tr>
+  <tr><td><b>'내 조건'이 흩어짐</b></td><td>내 타수 선택이 필터 칩과 같은 줄에 섞여 있습니다. 예상 스코어·1인 비용 계산의 기준이라는 점이 드러나지 않습니다.</td></tr>
+</table>
+
+<h2>2. 참고한 서비스</h2>
+<table>
+  <tr><th style="width:22%">서비스</th><th>가져올 점</th><th style="width:22%">적용 안</th></tr>
+  <tr><td><b>Leading Courses</b><br><span class="muted">유럽 골프장 검색·후기</span></td><td>카드에 <b>평점(큰 숫자) · 홀 수 · 특징 2~3개 · "from €52"</b>만 둡니다. 정보가 없는 구장은 그 칸을 아예 빼서 카드가 짧아집니다. 왼쪽 필터는 평점·홀 수(&lt;18 / ≥18 / ≥36)·가격 범위 슬라이더 순입니다.</td><td>공통 개선, 안 B</td></tr>
+  <tr><td><b>Hipcamp</b><br><span class="muted">캠핑장 검색</span></td><td>상단의 <b>짧은 시설 칩</b>(RV·Pets·Fire·Toilet…)을 한 줄로 두고, 카드 위치 줄은 "도시 · 사이트 수 · 유형"처럼 점으로 이어 씁니다.</td><td>안 B 필터 칩</td></tr>
+  <tr><td><b>XGOLF</b><br><span class="muted">국내 골프 예약</span></td><td>이름은 짧게(블루헤런, 해솔리아), 개명은 "더시에나(구 제주)"처럼 괄호로 붙입니다. 가격은 <b>"120,000원~"</b>, 평점은 <b>10점 만점 숫자</b>입니다. 국내 골퍼에게 익숙한 표기입니다.</td><td>모든 안의 표기</td></tr>
+  <tr><td><b>다나와</b><br><span class="muted">가격 비교(README의 "다나와식")</span></td><td>한 줄짜리 상품 행, 체크박스 비교, 스펙을 '/'로 이은 요약, 가격 오른쪽 정렬입니다.</td><td>안 A</td></tr>
+</table>
+<p class="muted" style="font-size:13px">인스포·A1 갤러리 검색도 했지만, 두 곳은 마케팅 랜딩 페이지 위주라 '목록·필터·비교' 화면에는 맞는 사례가 없었습니다. 그래서 실제 서비스 화면을 직접 열어 구조를 읽었습니다.</p>
+
+<h2>3. 공통 개선 — 어느 안을 고르든 먼저</h2>
+<div class="ba">
+  <div class="mini">
+    <span class="lbl">지금</span>
+    <b style="color:var(--green)">360도CC</b> <span class="badge">대중제 18홀</span>
+    <div class="muted" style="font-size:11px">경기남부 · 여주시 · 후기 0개</div>
+    <div class="strip"><div><span>티박스</span><b class="gray">미확인</b></div><div><span>페어웨이</span><b>양잔디</b></div><div><span>코스 지형</span><b>평지형</b></div><div><span>야간 3부</span><b>LED 야간</b></div></div>
+    <div style="font-size:11px">그린 - · 넓음 페어웨이 · 전장 6,700m · <b style="color:var(--green)">노캐디</b></div>
+    <div style="display:flex;justify-content:space-between;margin-top:8px;border-top:1px solid var(--line);padding-top:6px"><span><b>94.1타</b> <span class="up">(+4.1)</span></span><b>222,500원~</b></div>
+  </div>
+  <div class="mini">
+    <span class="lbl">바꾼 뒤</span>
+    <div style="display:flex;justify-content:space-between;align-items:flex-start">
+      <div><b style="font-size:14px">360도CC</b> <span class="cmp" style="vertical-align:-3px;margin-left:4px"></span>
+      <div class="muted" style="font-size:11px">여주 · 대중제 18홀 · 6,700m</div></div>
+      <div style="text-align:right"><b class="t-num" style="font-size:18px">94.1</b><div class="muted" style="font-size:10px">내 예상 타수</div></div>
+    </div>
+    <div class="chips" style="margin:8px 0"><span class="trait">양잔디</span><span class="trait">평지형</span><span class="trait">LED 야간</span><span class="trait g">노캐디</span></div>
+    <div style="display:flex;justify-content:space-between;border-top:1px solid var(--line);padding-top:6px"><span class="muted">1인 · 4인 주중</span><b class="t-num">222,500원~</b></div>
+  </div>
+</div>
+<ul>
+  <li><b>빈 값 숨기기</b>: 모르는 값은 칸째 빼고, 아는 특징만 칩으로 보여 줍니다(Leading Courses 방식). "후기 0개"는 후기가 생길 때만 표시합니다.</li>
+  <li><b>정보 층 3개</b>: ① 이름+지역·유형 ② 특징 칩 ③ 숫자 2개(예상 타수, 1인 비용). 4칸 스펙 상자와 한 줄 스펙을 칩 한 줄로 합칩니다.</li>
+  <li><b>색 규칙</b>: 이름과 숫자는 검정입니다. 초록은 '비교 선택'과 '노캐디처럼 비용을 줄이는 조건'에만 씁니다. 타수 차이의 빨강/초록은 상세 화면으로 옮깁니다.</li>
+  <li><b>숫자 표기</b>: 가격·타수는 고정폭 숫자(tabular-nums)로 줄을 맞춥니다. "~"가 무슨 뜻인지 "1인 · 4인 주중" 같은 기준을 함께 적습니다.</li>
+  <li><b>비교 버튼</b>: 큰 "+ 조건 비교" 버튼을 이름 옆 체크박스로 줄입니다(다나와 방식).</li>
+</ul>
+
+<h2>4. 개선안 3가지</h2>
+
+<h3><span class="tag">안 A</span>스코어카드 행 — 촘촘히 훑고 정렬하는 목록</h3>
+<p>골프 스코어카드처럼 얇은 선으로 나뉜 행 목록입니다. 한 화면에 12~15곳이 보이고, 열 머리글을 눌러 예상 타수·비용으로 바로 정렬합니다. 다나와 상품 목록 구조를 골프장 스펙에 맞춘 안입니다.</p>
+<div class="scroll-x"><div class="frame">
+  <div class="frame-bar"><i></i><i></i><i></i><span>안 A · 데스크톱 1280px</span></div>
+  <div class="ui">
+    <div class="top"><div class="logo">⚑</div><div class="brand">골프모아</div><div class="search">골프장 이름, 지역 검색</div></div>
+    <div class="a-filter">
+      <span class="chip on">경기남부</span><span class="chip drop">1인 25만원 이하</span><span class="chip">양잔디</span><span class="chip">평지형</span><span class="chip">야간 3부</span><span class="chip">노캐디</span><span class="chip drop">상세 조건</span>
+      <span class="muted" style="margin-left:auto;font-size:12px">내 타수 <b style="color:var(--ink)">90타</b> · 4인 · 주중 기준</span>
+    </div>
+    <div class="a-head"><span></span><span>골프장</span><span>코스 특징</span><span style="text-align:right" class="sort">내 예상 타수</span><span style="text-align:right">1인 비용</span><span></span></div>
+    <div class="a-row"><span class="cmp on"></span><div class="a-name"><b>골프존카운티 안성H</b><div>안성 · 대중제 18홀 · 슬로프 137</div></div><div class="a-spec"><span class="trait">양잔디</span><span class="trait">평지형</span><span class="trait">LED 야간</span><span class="trait g">노캐디</span></div><div class="a-score t-num"><b>93.1</b><div>+3.1타</div></div><div class="a-price t-num"><b>182,500원</b><div>주말 +5만원</div></div><span class="muted">›</span></div>
+    <div class="a-row"><span class="cmp"></span><div class="a-name"><b>360도CC</b><div>여주 · 대중제 18홀 · 슬로프 142</div></div><div class="a-spec"><span class="trait">양잔디</span><span class="trait">평지형</span><span class="trait">LED 야간</span><span class="trait g">노캐디</span></div><div class="a-score t-num"><b>94.1</b><div>+4.1타</div></div><div class="a-price t-num"><b>222,500원</b><div>주말 +5만원</div></div><span class="muted">›</span></div>
+    <div class="a-row"><span class="cmp"></span><div class="a-name"><b>곤지암GC</b><div>광주 · 회원제 18홀 · 슬로프 135</div></div><div class="a-spec"><span class="trait">100% 잔디 티</span><span class="trait">양잔디</span><span class="trait">산악형</span></div><div class="a-score t-num"><b>91.8</b><div>+1.8타</div></div><div class="a-price t-num"><b>252,500원</b><div>주말 +5만원</div></div><span class="muted">›</span></div>
+    <div class="a-row"><span class="cmp on"></span><div class="a-name"><b>남서울CC</b><div>성남 · 회원제 18홀 · 슬로프 140</div></div><div class="a-spec"><span class="trait">100% 잔디 티</span><span class="trait">양잔디</span><span class="trait">평지형</span></div><div class="a-score t-num"><b>95.4</b><div>+5.4타</div></div><div class="a-price t-num"><b>302,500원</b><div>주말 +5만원</div></div><span class="muted">›</span></div>
+    <div class="a-foot"><span>경기남부 · 조건 일치 <b style="color:var(--ink)">38곳</b></span><span><b style="color:var(--green-d)">2곳 선택됨 · 비교하기 →</b></span></div>
+  </div>
+</div></div>
+<table>
+  <tr><th style="width:18%">좋은 점</th><td>가장 많이 보이고 정렬이 빠릅니다. README의 "다나와식 비교" 콘셉트와 가장 잘 맞습니다. 지금 카드 컴포넌트를 행 하나로 바꾸는 작업이라 범위가 좁습니다.</td></tr>
+  <tr><th>아쉬운 점</th><td>모바일에서는 행이 2줄 카드로 바뀌어야 합니다. 위치 감각은 여전히 약합니다.</td></tr>
+  <tr><th>작업량</th><td>중간 — <code>GolfListView</code>를 기본 보기로 다듬고 열 정렬을 붙입니다.</td></tr>
+</table>
+
+<h3><span class="tag">안 B · 권장</span>지도·목록 분할 — 위치로 고르고 조건으로 좁히기</h3>
+<p>왼쪽은 짧아진 카드 목록, 오른쪽은 지도입니다. 지도 핀에는 1인 비용을 바로 보여 주고, 카드에 마우스를 올리면 해당 핀이 강조됩니다. 지도를 움직이면 목록이 그 범위로 바뀝니다. Leading Courses와 Hipcamp가 쓰는 구조이고, 이미 있는 Leaflet 지도를 다시 씁니다.</p>
+<div class="scroll-x"><div class="frame">
+  <div class="frame-bar"><i></i><i></i><i></i><span>안 B · 데스크톱 1280px</span></div>
+  <div class="ui">
+    <div class="top"><div class="logo">⚑</div><div class="brand">골프모아</div><div class="search">골프장 이름, 지역 검색</div><span class="chip drop" style="margin-left:4px">내 타수 90타</span></div>
+    <div class="b-filter"><span class="chip drop">1인 비용</span><span class="chip drop">홀 수</span><span class="chip on">양잔디</span><span class="chip">평지형</span><span class="chip">야간 3부</span><span class="chip">노캐디</span><span class="chip">2인 가능</span><span class="chip">잔디 티</span><span class="chip drop">더보기</span></div>
+    <div class="b-split">
+      <div class="b-list">
+        <div class="b-count"><span>지도 범위 안 <b style="color:var(--ink)">24곳</b></span><span>추천순 ▾</span></div>
+        <div class="b-card hl"><div><h4>골프존카운티 안성H</h4><div class="sub">안성 · 대중제 18홀 · 슬로프 137</div></div><div class="score t-num"><b>93.1</b><span>내 예상 타수</span></div><div class="traits"><span class="trait">양잔디</span><span class="trait">평지형</span><span class="trait">LED 야간</span><span class="trait g">노캐디</span></div><div class="price"><span class="muted">1인 · 4인 주중</span><b class="t-num">182,500원~</b></div></div>
+        <div class="b-card"><div><h4>360도CC</h4><div class="sub">여주 · 대중제 18홀 · 슬로프 142</div></div><div class="score t-num"><b>94.1</b><span>내 예상 타수</span></div><div class="traits"><span class="trait">양잔디</span><span class="trait">평지형</span><span class="trait">LED 야간</span><span class="trait g">노캐디</span></div><div class="price"><span class="muted">1인 · 4인 주중</span><b class="t-num">222,500원~</b></div></div>
+        <div class="b-card"><div><h4>곤지암GC</h4><div class="sub">광주 · 회원제 18홀 · 슬로프 135</div></div><div class="score t-num"><b>91.8</b><span>내 예상 타수</span></div><div class="traits"><span class="trait">100% 잔디 티</span><span class="trait">양잔디</span></div><div class="price"><span class="muted">1인 · 4인 주중</span><b class="t-num">252,500원~</b></div></div>
+      </div>
+      <div class="b-map">
+        <svg viewBox="0 0 600 520" preserveAspectRatio="none" aria-hidden="true">
+          <path d="M0 330 C120 300 180 360 300 320 S480 250 600 280" stroke="#cdd9cd" stroke-width="14" fill="none"/>
+          <path d="M40 0 L120 520 M260 0 L230 520 M470 0 L520 520" stroke="#fff" stroke-width="3" fill="none"/>
+          <path d="M0 140 L600 190 M0 430 L600 400" stroke="#fff" stroke-width="3" fill="none"/>
+        </svg>
+        <div class="map-btn">이 지역에서 다시 찾기</div>
+        <div class="pin hl" style="left:30%;top:68%">18.2만</div>
+        <div class="pin" style="left:62%;top:42%">22.2만</div>
+        <div class="pin" style="left:44%;top:30%">25.2만</div>
+        <div class="pin" style="left:20%;top:38%">30.2만</div>
+        <div class="pin" style="left:76%;top:70%">21.2만</div>
+        <div class="pin" style="left:52%;top:84%">19.2만</div>
+        <div class="map-note">실제 화면은 지금 쓰는 Leaflet·OpenStreetMap 지도</div>
+      </div>
+    </div>
+  </div>
+</div></div>
+<div class="two">
+  <table>
+    <tr><th style="width:24%">좋은 점</th><td>"어디까지 갈 수 있나"를 지도로 바로 판단합니다. 핀 가격으로 지역별 시세가 한눈에 보입니다. 지도 탭과 목록 탭이 하나로 합쳐집니다.</td></tr>
+    <tr><th>아쉬운 점</th><td>한 화면에 보이는 카드는 3~5개로 줄어듭니다. 지도 범위와 목록을 맞추는 작업이 필요합니다.</td></tr>
+    <tr><th>모바일</th><td>지도 위에 끌어올리는 목록 시트를 둡니다(오른쪽). 기본은 목록을 반쯤 펼친 상태입니다.</td></tr>
+    <tr><th>작업량</th><td>큼 — <code>App</code> 배치, <code>MapView</code> 연동(핀 가격·강조), 카드 축소.</td></tr>
+  </table>
+  <div class="phone">
+    <div class="frame-bar"><span>모바일 375px</span></div>
+    <div class="map">
+      <div class="pin hl" style="left:35%;top:55%">18.2만</div>
+      <div class="pin" style="left:68%;top:35%">22.2만</div>
+      <div class="pin" style="left:55%;top:80%">25.2만</div>
+    </div>
+    <div class="sheet ui">
+      <div class="grab"></div>
+      <div class="b-count" style="margin-bottom:8px"><span><b style="color:var(--ink)">24곳</b> · 경기남부</span><span>필터 3</span></div>
+      <div class="b-card hl" style="padding:10px 12px"><div><h4 style="font-size:13.5px">골프존카운티 안성H</h4><div class="sub">안성 · 대중제 18홀</div></div><div class="score t-num"><b style="font-size:18px">93.1</b><span>예상 타수</span></div><div class="price"><span class="muted">1인 · 4인 주중</span><b class="t-num">182,500원~</b></div></div>
+    </div>
+  </div>
+</div>
+
+<h3><span class="tag">안 C</span>내 조건 맞춤 — 골프장마다 "왜 맞는지"를 보여 주기</h3>
+<p>맨 위에서 라운드 조건을 문장으로 고릅니다. 각 카드는 그 조건과 얼마나 맞는지, 그리고 맞는 이유와 걸리는 점을 보여 줍니다. 이미 있는 "내 타수로 예상 스코어 계산"과 "1인 실부담 계산"을 앞으로 끌어내는 안으로, 다른 예약 사이트에는 없는 골프모아만의 강점입니다.</p>
+<div class="scroll-x"><div class="frame">
+  <div class="frame-bar"><i></i><i></i><i></i><span>안 C · 데스크톱 1280px</span></div>
+  <div class="ui">
+    <div class="top"><div class="logo">⚑</div><div class="brand">골프모아</div><div class="search">골프장 이름, 지역 검색</div></div>
+    <div class="c-cond">
+      <div class="c-sentence"><u>90타</u> 골퍼 <u>4명</u>이 <u>주말</u>에 <u>경기남부</u>에서, 1인 <u>25만원</u> 이하로, <u>평지형</u> 코스를 찾아요</div>
+      <div class="c-sub">밑줄을 누르면 바뀝니다 · 조건에 맞는 곳 41곳 · 맞춤도 높은 순</div>
+    </div>
+    <div class="c-grid">
+      <div class="c-card"><div class="c-top"><div><h4>골프존카운티 안성H</h4><div class="muted" style="font-size:11.5px">안성 · 대중제 18홀</div></div><span class="fit hi">조건 5/5</span></div>
+        <ul class="reasons"><li class="ok">주말 1인 232,500원 — 예산 안</li><li class="ok">평지형 · 양잔디</li><li class="ok">노캐디 가능 — 캐디피를 아낄 수 있음</li></ul>
+        <div class="c-num"><div><b class="t-num">93.1타</b><span>내 예상 타수</span></div><div style="text-align:right"><b class="t-num">232,500원</b><span>1인 · 4인 주말</span></div></div></div>
+      <div class="c-card"><div class="c-top"><div><h4>360도CC</h4><div class="muted" style="font-size:11.5px">여주 · 대중제 18홀</div></div><span class="fit hi">조건 4/5</span></div>
+        <ul class="reasons"><li class="ok">평지형 · LED 야간 3부</li><li class="ok">노캐디 가능</li><li class="no">예산보다 22,500원 높음</li></ul>
+        <div class="c-num"><div><b class="t-num">94.1타</b><span>내 예상 타수</span></div><div style="text-align:right"><b class="t-num">272,500원</b><span>1인 · 4인 주말</span></div></div></div>
+      <div class="c-card"><div class="c-top"><div><h4>곤지암GC</h4><div class="muted" style="font-size:11.5px">광주 · 회원제 18홀</div></div><span class="fit mid">조건 3/5</span></div>
+        <ul class="reasons"><li class="ok">100% 잔디 티 · 양잔디</li><li class="no">산악형 — 평지 조건과 다름</li><li class="no">회원제 — 주말 비회원 예약 제한 가능</li></ul>
+        <div class="c-num"><div><b class="t-num">91.8타</b><span>내 예상 타수</span></div><div style="text-align:right"><b class="t-num">302,500원</b><span>1인 · 4인 주말</span></div></div></div>
+    </div>
+  </div>
+</div></div>
+<table>
+  <tr><th style="width:18%">좋은 점</th><td>필터를 몰라도 문장 하나로 조건을 정합니다. "왜 이 골프장인지"가 카드에 적혀 있어 비교 부담이 줄어듭니다. 서비스의 성격(조건 우선 비교)이 가장 분명해집니다.</td></tr>
+  <tr><th>아쉬운 점</th><td>맞춤도 계산 규칙을 새로 정해야 하고, 데이터가 빈 구장(약 절반)은 이유가 적게 나옵니다. "회원제 예약 제한" 같은 문구는 근거 데이터가 있어야 씁니다.</td></tr>
+  <tr><th>작업량</th><td>중간~큼 — 조건 문장 컴포넌트, 맞춤도 계산 함수(<code>calculator.ts</code>), 카드 이유 목록.</td></tr>
+</table>
+
+<h2>5. 한눈에 비교</h2>
+<table>
+  <tr><th></th><th>안 A 스코어카드 행</th><th>안 B 지도·목록 분할</th><th>안 C 내 조건 맞춤</th></tr>
+  <tr><td><b>한 화면 구장 수</b></td><td class="num">12~15곳</td><td class="num">3~5곳 + 지도</td><td class="num">6~9곳</td></tr>
+  <tr><td><b>잘 맞는 사용자</b></td><td>여러 곳을 숫자로 비교하는 사람</td><td>가까운 곳부터 찾는 사람</td><td>조건은 분명하지만 필터가 귀찮은 사람</td></tr>
+  <tr><td><b>모바일</b></td><td>2줄 카드로 바꿔야 함</td><td>지도 + 목록 시트(익숙한 패턴)</td><td>조건 문장이 2~3줄로 길어짐</td></tr>
+  <tr><td><b>차별성</b></td><td>보통</td><td>보통(익숙함이 강점)</td><td>높음</td></tr>
+  <tr><td><b>작업량</b></td><td>중간</td><td>큼</td><td>중간~큼</td></tr>
+</table>
+
+<h2>6. 결정 기록</h2>
+<table>
+  <tr><th style="width:26%">결정</th><th style="width:26%">근거</th><th>이유</th></tr>
+  <tr><td>빈 값은 칸째 숨김</td><td>Leading Courses 카드</td><td>정보 없는 구장은 짧은 카드가 되어 오히려 정직하고 덜 어지럽습니다.</td></tr>
+  <tr><td>숫자 2개만 크게(예상 타수, 1인 비용)</td><td>Leading Courses(평점·가격), XGOLF(그린피~)</td><td>골퍼가 실제로 고르는 기준이자 이 서비스만 계산해 주는 값입니다.</td></tr>
+  <tr><td>초록은 선택·절약 조건에만</td><td>현재 브랜드색 + 색 남용 진단</td><td>강조색이 한 가지 뜻만 가져야 '비교 중' 상태가 눈에 띕니다.</td></tr>
+  <tr><td>"~원~"에 기준 병기</td><td>XGOLF 표기 + 현재 계산 방식</td><td>"1인 · 4인 주중"을 붙여야 다른 곳과 비교할 수 있습니다.</td></tr>
+  <tr><td>짧은 이름 + (구 OO)</td><td>XGOLF 표기, 이번 데이터 정비</td><td>개명된 구장이 많아 옛 이름으로 찾는 사람을 놓치지 않습니다.</td></tr>
+  <tr><td>지도 핀에 가격</td><td>Hipcamp·Leading Courses 지도 검색</td><td>지역별 비용 차이가 가장 빨리 읽힙니다.</td></tr>
+</table>
+
+<p class="muted" style="font-size:13px;margin-top:40px">시안 속 가격·타수는 현재 앱이 계산한 값(90타 기준)을 옮긴 것입니다. 안 A의 "주말 +5만원"과 안 C의 주말 가격은 주중 값에 5만원을 더한 예시입니다. 지도는 실제 지도가 아닌 자리 표시입니다.</p>
+</main>
+</body>
+</html>

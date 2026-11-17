@@ -1,19 +1,52 @@
 import { useState, useMemo, useEffect } from 'react';
 import { GOLF_CLUBS_DATA, THEME_PRESETS } from './data/golfClubs';
 import type { GolfClub, FilterState } from './types/golf';
-import { calculateCostPerPerson } from './utils/calculator';
-import { Navbar, type ViewMode } from './components/Navbar';
+import { calculateCostPerPerson, predictFieldScore } from './utils/calculator';
+import { Navbar, type ViewMode, type UiVariant } from './components/Navbar';
 import { FilterBar } from './components/FilterBar';
 import { GolfCard } from './components/GolfCard';
 import { GolfListView } from './components/GolfListView';
 import { MapView } from './components/MapView';
+import { ScorecardView } from './components/ScorecardView';
+import { SplitMapView } from './components/SplitMapView';
+import { MatchView } from './components/MatchView';
 import { ComparisonModal } from './components/ComparisonModal';
 import { GolfDetailModal } from './components/GolfDetailModal';
 import { FloatingComparisonBar } from './components/FloatingComparisonBar';
 import { applyWikiEditsToClubs, getClubRatingStats } from './utils/wikiStorage';
 import { Info, ArrowUp } from 'lucide-react';
 
+const UI_KEY = 'golfmoa_ui_variant';
+const VARIANT_IDS: UiVariant[] = ['basic', 'a', 'b', 'c'];
+
+function readInitialVariant(): UiVariant {
+  try {
+    const fromUrl = new URLSearchParams(window.location.search).get('ui');
+    if (fromUrl && VARIANT_IDS.includes(fromUrl as UiVariant)) return fromUrl as UiVariant;
+    const saved = localStorage.getItem(UI_KEY);
+    if (saved && VARIANT_IDS.includes(saved as UiVariant)) return saved as UiVariant;
+  } catch {
+    // 저장소를 못 쓰는 환경이면 기본 화면
+  }
+  return 'basic';
+}
+
 export function App() {
+  // 화면 안 (기본 / A / B / C)
+  const [uiVariant, setUiVariant] = useState<UiVariant>(readInitialVariant);
+  const changeVariant = (v: UiVariant) => {
+    setUiVariant(v);
+    try {
+      localStorage.setItem(UI_KEY, v);
+      const url = new URL(window.location.href);
+      if (v === 'basic') url.searchParams.delete('ui');
+      else url.searchParams.set('ui', v);
+      window.history.replaceState(null, '', url.toString());
+    } catch {
+      // 무시
+    }
+  };
+
   // Navigation / View State
   const [viewMode, setViewMode] = useState<ViewMode>('cards');
   const [displayCount, setDisplayCount] = useState<number>(24);
@@ -206,6 +239,12 @@ export function App() {
       if (sortBy === 'slopeLow') {
         return (a.difficultyIndex?.slopeRating ?? 999) - (b.difficultyIndex?.slopeRating ?? 999);
       }
+      if (sortBy === 'scoreLow') {
+        const pa = predictFieldScore(a.difficultyIndex?.slopeRating, a.difficultyIndex?.courseRating, filter.userAvgScore);
+        const pb = predictFieldScore(b.difficultyIndex?.slopeRating, b.difficultyIndex?.courseRating, filter.userAvgScore);
+        if (pa.isUnrated !== pb.isUnrated) return pa.isUnrated ? 1 : -1;
+        return pa.expectedScore - pb.expectedScore || a.name.localeCompare(b.name, 'ko');
+      }
       if (sortBy === 'costLow') {
         const costA = calculateCostPerPerson(a, false, 4, true).totalPerPerson;
         const costB = calculateCostPerPerson(b, false, 4, true).totalPerPerson;
@@ -228,7 +267,7 @@ export function App() {
   return (
     <div className="min-h-screen bg-slate-50 flex flex-col font-sans">
       {/* 1. Header Navbar */}
-      <Navbar />
+      <Navbar variant={uiVariant} onChangeVariant={changeVariant} />
 
       {/* 2. Main Container */}
       <main className="max-w-7xl mx-auto px-3 sm:px-6 lg:px-8 py-4 sm:py-6 flex-1 w-full pb-28">
@@ -239,7 +278,8 @@ export function App() {
           </h1>
         </div>
 
-        {/* Multi-Condition Filter Bar */}
+        {/* Multi-Condition Filter Bar (안 C는 조건 문장이 필터를 대신함) */}
+        {uiVariant !== 'c' && (
         <FilterBar
           filter={filter}
           setFilter={setFilter}
@@ -248,13 +288,33 @@ export function App() {
           sortBy={sortBy}
           setSortBy={setSortBy}
           viewMode={viewMode}
-          setViewMode={setViewMode}
+          setViewMode={uiVariant === 'basic' ? setViewMode : undefined}
           compareCount={comparedClubs.length}
           onOpenCompare={() => setIsCompareModalOpen(true)}
         />
+        )}
 
-        {/* View Mode Content (Cards vs Table List vs Map) */}
-        {viewMode === 'map' ? (
+        {/* 안 C · 내 조건 맞춤 */}
+        {uiVariant === 'c' ? (
+          <MatchView
+            clubs={allClubs}
+            comparedIds={comparedIds}
+            onToggleCompare={handleToggleCompare}
+            onSelectClub={setSelectedClub}
+            userAvgScore={filter.userAvgScore}
+            setUserAvgScore={(score) => setFilter((prev) => ({ ...prev, userAvgScore: score }))}
+          />
+        ) : uiVariant === 'b' ? (
+          /* 안 B · 지도·목록 분할 (결과 0곳이어도 지도는 보여 줌) */
+          <SplitMapView
+            clubs={filteredClubs}
+            comparedIds={comparedIds}
+            onToggleCompare={handleToggleCompare}
+            onSelectClub={setSelectedClub}
+            userAvgScore={filter.userAvgScore}
+            fitKey={JSON.stringify({ ...filter, userAvgScore: 0 })}
+          />
+        ) : uiVariant === 'basic' && viewMode === 'map' ? (
           <MapView
             clubs={filteredClubs}
             onSelectClub={setSelectedClub}
@@ -298,6 +358,18 @@ export function App() {
               필터 전체 초기화
             </button>
           </div>
+        ) : uiVariant === 'a' ? (
+          /* 안 A · 스코어카드 행 */
+          <ScorecardView
+            clubs={filteredClubs}
+            comparedIds={comparedIds}
+            onToggleCompare={handleToggleCompare}
+            onSelectClub={setSelectedClub}
+            onOpenCompare={() => setIsCompareModalOpen(true)}
+            userAvgScore={filter.userAvgScore}
+            sortBy={sortBy}
+            setSortBy={setSortBy}
+          />
         ) : viewMode === 'list' ? (
           /* Table / Compact List View */
           <div>

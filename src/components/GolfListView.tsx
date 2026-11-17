@@ -69,7 +69,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                   </span>
                 </div>
 
-                <h3 className="text-sm sm:text-base font-bold text-emerald-800 group-hover:text-emerald-600 transition-colors truncate">
+                <h3 className="text-sm sm:text-base font-bold text-slate-900 group-hover:underline underline-offset-2 truncate">
                   {club.name}
                 </h3>
 
@@ -79,9 +79,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                       <Star className="w-3 h-3 fill-amber-400 text-amber-400 mr-0.5" />
                       {ratingStats.rating} (후기 {ratingStats.reviewCount})
                     </span>
-                  ) : (
-                    <span className="text-slate-400 text-[11px]">후기 0</span>
-                  )}
+                  ) : null}
                 </div>
               </div>
 
@@ -126,7 +124,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                   className={`text-[11px] font-medium ${isNoMat ? 'text-emerald-700 font-bold' : club.teeBoxMatRatio ? 'text-slate-600' : 'text-slate-400'
                     }`}
                 >
-                  {club.teeBoxMatRatio || '티박스 미확인'}
+                  {club.teeBoxMatRatio || ''}
                 </span>
               </div>
 
@@ -156,9 +154,7 @@ export const GolfListView: React.FC<GolfListViewProps> = ({
                       예상 {pred.expectedScore}타
                     </span>
                   </>
-                ) : (
-                  <span className="text-[11px] text-slate-400">미공인</span>
-                )}
+                ) : null}
               </div>
 
               {/* 5. 예상 비용 */}

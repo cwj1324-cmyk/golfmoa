@@ -54,3 +54,66 @@
 .leaflet-popup-content {
   margin: 10px;
 }
+
+/* 안 B · 지도 가격 핀 */
+.price-pin-wrap {
+  background: none;
+  border: none;
+}
+.price-pin {
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: translate(-50%, calc(-100% - 6px));
+  display: inline-block;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: #fff;
+  border: 1px solid #94a3b8;
+  color: #0f172a;
+  font: 700 11px/1.4 Pretendard, -apple-system, "Segoe UI", sans-serif;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+  box-shadow: 0 1px 3px rgba(15, 23, 42, 0.15);
+  cursor: pointer;
+}
+.price-pin::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -4px;
+  width: 7px;
+  height: 7px;
+  background: inherit;
+  border-right: 1px solid #94a3b8;
+  border-bottom: 1px solid #94a3b8;
+  transform: translateX(-50%) rotate(45deg);
+}
+.price-pin--hl {
+  background: #0f172a;
+  border-color: #0f172a;
+  color: #fff;
+}
+.price-pin--hl::after {
+  border-color: #0f172a;
+}
+.price-pin--cmp {
+  background: #047857;
+  border-color: #047857;
+  color: #fff;
+}
+.price-pin--cmp::after {
+  border-color: #047857;
+}
+.price-dot {
+  position: absolute;
+  left: -5px;
+  top: -5px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #0f172a;
+  border: 2px solid #fff;
+  box-shadow: 0 0 0 1px rgba(15, 23, 42, 0.25);
+  cursor: pointer;
+}

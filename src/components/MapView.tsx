@@ -67,13 +67,11 @@ export const MapView: React.FC<MapViewProps> = ({
                         <span className="text-[10px] text-amber-500 font-bold flex items-center gap-0.5">
                           <Star className="w-2.5 h-2.5 fill-amber-400 text-amber-400" /> {stats.rating}
                         </span>
-                      ) : (
-                        <span className="text-[10px] text-slate-400">후기 0</span>
-                      );
+                      ) : null;
                     })()}
                   </div>
 
-                  <h4 className="font-bold text-sm text-emerald-800 mb-1">
+                  <h4 className="font-bold text-sm text-slate-900 mb-1">
                     {club.name}
                   </h4>
 
